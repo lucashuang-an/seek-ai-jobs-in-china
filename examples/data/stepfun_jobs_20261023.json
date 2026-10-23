@@ -1,0 +1,22 @@
+[
+  {"id": "stepfun-campus-pm-voice", "company_id": "stepfun",
+   "title": "27届Stepstar-语音大模型产品经理", "job_type": "campus",
+   "city": "上海", "experience": "2027届应届", "education": "本科及以上",
+   "jd": "阶跃星辰 2027届校招 StepStar 计划：语音大模型方向产品经理，面向27届毕业生（正职）。发布于浙大就业网官方岗位列表。",
+   "source": "浙大就业网（校招）", "source_url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwList.zf?dwxxid=JG1452305",
+   "evidence": [{"source_type": "community", "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwList.zf?dwxxid=JG1452305", "publisher": "浙江大学就业网", "title": "27届Stepstar-语音大模型产品经理", "snippet": "校招正职岗位，上海"}]},
+
+  {"id": "stepfun-intern-llmdata", "company_id": "stepfun",
+   "title": "Stepstar实习-LLM预训练数据算法工程师", "job_type": "intern",
+   "city": "上海", "education": "在校生（2026年9月及以后毕业）",
+   "jd": "阶跃星辰 StepStar 实习生招聘：LLM 预训练数据方向算法工程师，面向2026年9月及以后毕业的学生。",
+   "source": "浙大就业网（实习）", "source_url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwList.zf?dwxxid=JG1452305",
+   "evidence": [{"source_type": "community", "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwList.zf?dwxxid=JG1452305", "publisher": "浙江大学就业网", "title": "Stepstar实习-LLM预训练数据算法工程师", "snippet": "实习岗位，上海"}]},
+
+  {"id": "stepfun-intern-edge-llm", "company_id": "stepfun",
+   "title": "Stepstar实习-端侧LLM/VLM算法工程师", "job_type": "intern",
+   "city": "上海", "education": "在校生（2026年9月及以后毕业）",
+   "jd": "阶跃星辰 StepStar 实习生招聘：端侧 LLM/VLM 方向算法工程师，面向2026年9月及以后毕业的学生。",
+   "source": "浙大就业网（实习）", "source_url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwList.zf?dwxxid=JG1452305",
+   "evidence": [{"source_type": "community", "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwList.zf?dwxxid=JG1452305", "publisher": "浙江大学就业网", "title": "Stepstar实习-端侧LLM/VLM算法工程师", "snippet": "实习岗位，上海"}]}
+]

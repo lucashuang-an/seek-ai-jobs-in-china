@@ -136,6 +136,57 @@ def test_remote_pending_jobs_kept_and_flagged(tmp_path):
     assert got.status == JobStatus.UNKNOWN
 
 
+def test_job_type_field_and_filter(tmp_path):
+    """job_type (实习/校招/社招正职) round-trips and filters."""
+    from ai_job_radar.models import JobType
+    conn = _conn(tmp_path)
+    repo.upsert_company(conn, Company(id="c", name="公司", city="北京"))
+    for jid, jt in [("j-intern", "intern"), ("j-campus", "campus"),
+                    ("j-full", "full_time"), ("j-none", None)]:
+        repo.upsert_job(conn, Job(id=jid, company_id="c", title=f"岗{jid}",
+                                  city="北京", source="官网", job_type=jt))
+    conn.commit()
+    got = repo.get_job(conn, "j-intern")
+    assert got.job_type == JobType.INTERN
+    assert repo.get_job(conn, "j-none").job_type is None
+    assert len(repo.list_jobs(conn, job_type="intern")) == 1
+    assert len(repo.list_jobs(conn, job_type="campus")) == 1
+    assert len(repo.list_jobs(conn, city="北京")) == 4
+
+
+def test_job_type_migration_from_old_schema(tmp_path):
+    """Old databases (pre-job_type) are upgraded in place on connect."""
+    import sqlite3 as sq
+    db = tmp_path / "old.db"
+    raw = sq.connect(db)
+    raw.executescript("""
+        CREATE TABLE companies (id TEXT PRIMARY KEY, name TEXT NOT NULL,
+            aliases TEXT DEFAULT '[]', english_name TEXT, website TEXT,
+            city TEXT NOT NULL, hq_location TEXT, company_type TEXT DEFAULT 'startup',
+            tracks TEXT DEFAULT '[]', description TEXT, funding_stage TEXT,
+            team_size_min INTEGER, team_size_max INTEGER, hiring_signals TEXT DEFAULT '[]',
+            created_at TEXT, updated_at TEXT, last_verified_at TEXT);
+        CREATE TABLE jobs (id TEXT PRIMARY KEY, company_id TEXT NOT NULL,
+            title TEXT NOT NULL, city TEXT NOT NULL, location_detail TEXT,
+            salary_min INTEGER, salary_max INTEGER, salary_months INTEGER,
+            experience TEXT, education TEXT, jd TEXT, source TEXT, source_url TEXT,
+            source_job_id TEXT, posted_at TEXT, first_seen_at TEXT,
+            last_verified_at TEXT, status TEXT DEFAULT 'Recently Seen');
+        INSERT INTO jobs (id, company_id, title, city, source)
+            VALUES ('legacy-1', 'c', '旧岗位', '北京', '官网');
+    """)
+    raw.commit()
+    raw.close()
+    conn = database.get_connection(db)          # triggers _migrate
+    assert repo.get_job(conn, "legacy-1").job_type is None   # 旧数据不丢
+    repo.upsert_job(conn, Job(id="new-1", company_id="c", title="新实习岗",
+                              city="北京", source="官网",
+                              job_type="intern"))
+    conn.commit()
+    assert repo.get_job(conn, "new-1").job_type is not None
+    assert len(repo.list_jobs(conn, job_type="intern")) == 1
+
+
 def test_md_table_escapes_pipes_and_newlines():
     table = _md_table([["a|b", "x\ny"]], ["h|1", "h2"])
     assert "a\\|b" in table and "x y" in table and "h\\|1" in table

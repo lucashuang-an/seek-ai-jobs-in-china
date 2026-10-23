@@ -35,6 +35,7 @@ CREATE TABLE IF NOT EXISTS jobs (
     title TEXT NOT NULL,
     city TEXT NOT NULL,
     location_detail TEXT,
+    job_type TEXT,
     salary_min INTEGER,
     salary_max INTEGER,
     salary_months INTEGER,
@@ -133,12 +134,21 @@ CREATE TABLE IF NOT EXISTS company_aliases (
 """
 
 
+def _migrate(conn: sqlite3.Connection) -> None:
+    """In-place schema upgrades for databases created by older versions."""
+    cols = {r["name"] for r in conn.execute("PRAGMA table_info(jobs)")}
+    if "job_type" not in cols:
+        conn.execute("ALTER TABLE jobs ADD COLUMN job_type TEXT")
+    conn.commit()
+
+
 def get_connection(db_path: Path | str | None = None) -> sqlite3.Connection:
     path = Path(db_path) if db_path else DEFAULT_DB_PATH
     path.parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(path)
     conn.row_factory = sqlite3.Row
     conn.executescript(SCHEMA)
+    _migrate(conn)
     return conn
 
 

@@ -8,7 +8,13 @@ import sqlite3
 from datetime import datetime
 from pathlib import Path
 
-from .models import Company, CompanyScore, Job, JobStatus
+from .models import (
+    JOB_TYPE_LABELS,
+    Company,
+    CompanyScore,
+    Job,
+    JobStatus,
+)
 from .research.report import build_research_report
 from .scoring.scorer import DIMENSION_LABELS
 from .storage import repository as repo
@@ -30,6 +36,10 @@ def in_scope(job: Job) -> bool:
     if job.city in SUPPORTED_CITIES:
         return True
     return remote_pending(job)
+
+
+def _job_type_label(job: Job) -> str:
+    return JOB_TYPE_LABELS.get(job.job_type, "-") if job.job_type else "-"
 
 
 def _display_status(job: Job) -> str:
@@ -63,8 +73,8 @@ def export_json(conn: sqlite3.Connection, out_path: Path,
 def export_jobs_csv(conn: sqlite3.Connection, out_path: Path,
                     city: str | None = None) -> None:
     jobs = [j for j in repo.list_jobs(conn, city=city) if in_scope(j)]
-    fields = ["id", "company_id", "title", "city", "salary_min", "salary_max",
-              "salary_months", "experience", "education", "source",
+    fields = ["id", "company_id", "title", "city", "job_type", "salary_min",
+              "salary_max", "salary_months", "experience", "education", "source",
               "source_url", "posted_at", "status"]
     with open(out_path, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.DictWriter(f, fieldnames=fields)
@@ -72,6 +82,7 @@ def export_jobs_csv(conn: sqlite3.Connection, out_path: Path,
         for j in jobs:
             d = j.model_dump()
             d["posted_at"] = str(d.get("posted_at") or "")
+            d["job_type"] = _job_type_label(j)
             d["status"] = _display_status(j)
             writer.writerow({k: d.get(k) for k in fields})
 
@@ -172,9 +183,10 @@ def _company_lines(conn: sqlite3.Connection, c: Company,
     if jobs:
         lines += ["### 在招岗位", ""]
         lines.append(_md_table(
-            [[j.title, j.city, j.salary_min or "?", j.salary_max or "?",
-              j.experience or "-", _display_status(j)] for j in jobs],
-            ["岗位", "城市", "薪资下限K", "薪资上限K", "经验", "状态"]))
+            [[j.title, j.city, _job_type_label(j), j.salary_min or "?",
+              j.salary_max or "?", j.experience or "-", _display_status(j)]
+             for j in jobs],
+            ["岗位", "城市", "性质", "薪资下限K", "薪资上限K", "经验", "状态"]))
         lines.append("")
 
     ev = research["evidence"]

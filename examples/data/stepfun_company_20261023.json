@@ -1,0 +1,5 @@
+[
+  {"company": {"id": "stepfun", "name": "阶跃星辰", "aliases": ["StepFun", "阶跃", "上海阶跃星辰"], "english_name": "StepFun", "website": "https://www.stepfun.com", "city": "上海", "company_type": "startup", "tracks": ["Foundation Models", "AI Agents"], "funding_stage": "未披露（公开报道估值领先的基础大模型公司）", "description": "基础大模型公司（2023年4月成立，上海），方向覆盖大语言模型、多模态、Agent、语音、端侧；2027届校招与实习生招聘进行中。", "hiring_signals": ["2027届校招 & 实习生招聘进行中（StepStar 顶尖人才计划，南开就业网 2026-09）", "浙大就业网在招：27届语音大模型产品经理、Code Agent 算法研究员、LLM 预训练数据/端侧算法实习等"]},
+   "evidence": [{"source_type": "media", "url": "https://career.nankai.edu.cn/correcruit/content/id/119440.html", "publisher": "南开大学就业网", "title": "阶跃StepFun2027届校招&实习生招聘火热进行中", "snippet": "实习岗位面向2026年9月及以后毕业的学生；含StepStar顶尖人才计划"},
+                 {"source_type": "community", "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwList.zf?dwxxid=JG1452305", "publisher": "浙江大学就业网", "title": "上海阶跃星辰岗位列表（27届校招/实习）", "snippet": "27届Stepstar-语音大模型产品经理；Stepstar实习-LLM预训练数据算法工程师、端侧LLM/VLM算法工程师"}]}
+]

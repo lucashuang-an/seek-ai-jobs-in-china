@@ -97,19 +97,21 @@ def _company_from_row(r: sqlite3.Row) -> Company:
 
 def upsert_job(conn: sqlite3.Connection, j: Job) -> None:
     conn.execute(
-        """INSERT INTO jobs (id, company_id, title, city, location_detail,
+        """INSERT INTO jobs (id, company_id, title, city, location_detail, job_type,
                salary_min, salary_max, salary_months, experience, education, jd,
                source, source_url, source_job_id, posted_at, first_seen_at,
                last_verified_at, status)
-           VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+           VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
            ON CONFLICT(id) DO UPDATE SET
                title=excluded.title, city=excluded.city,
                location_detail=excluded.location_detail,
+               job_type=excluded.job_type,
                salary_min=excluded.salary_min, salary_max=excluded.salary_max,
                salary_months=excluded.salary_months, experience=excluded.experience,
                education=excluded.education, jd=excluded.jd, status=excluded.status,
                last_verified_at=excluded.last_verified_at""",
         (j.id, j.company_id, j.title, j.city, j.location_detail,
+         j.job_type.value if j.job_type else None,
          j.salary_min, j.salary_max, j.salary_months, j.experience, j.education, j.jd,
          j.source, j.source_url, j.source_job_id,
          j.posted_at.isoformat() if j.posted_at else None,
@@ -126,13 +128,16 @@ def get_job(conn: sqlite3.Connection, job_id: str) -> Job | None:
 
 def list_jobs(conn: sqlite3.Connection, city: str | None = None,
               keyword: str | None = None,
-              company_id: str | None = None) -> list[Job]:
+              company_id: str | None = None,
+              job_type: str | None = None) -> list[Job]:
     rows = conn.execute("SELECT * FROM jobs ORDER BY first_seen_at DESC").fetchall()
     out = [_job_from_row(r) for r in rows]
     if city:
         out = [j for j in out if j.city == city]
     if company_id:
         out = [j for j in out if j.company_id == company_id]
+    if job_type:
+        out = [j for j in out if j.job_type and j.job_type.value == job_type]
     if keyword:
         kw = keyword.lower()
         out = [j for j in out if kw in (j.title + (j.jd or "")).lower()]
@@ -152,11 +157,13 @@ def update_job_status(conn: sqlite3.Connection, job_id: str, status: str,
 
 
 def _job_from_row(r: sqlite3.Row) -> Job:
-    from ..models import JobStatus
+    from ..models import JobStatus, JobType
     from datetime import date
     return Job(
         id=r["id"], company_id=r["company_id"], title=r["title"], city=r["city"],
-        location_detail=r["location_detail"], salary_min=r["salary_min"],
+        location_detail=r["location_detail"],
+        job_type=JobType(r["job_type"]) if r["job_type"] else None,
+        salary_min=r["salary_min"],
         salary_max=r["salary_max"], salary_months=r["salary_months"],
         experience=r["experience"], education=r["education"], jd=r["jd"],
         source=r["source"], source_url=r["source_url"],

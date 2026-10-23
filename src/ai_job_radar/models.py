@@ -31,6 +31,19 @@ class JobStatus(str, Enum):
     UNKNOWN = "Unknown"
 
 
+class JobType(str, Enum):
+    FULL_TIME = "full_time"  # 社招正职
+    INTERN = "intern"        # 实习（日常/暑期）
+    CAMPUS = "campus"        # 校招（应届正职）
+
+
+JOB_TYPE_LABELS = {
+    JobType.FULL_TIME: "社招正职",
+    JobType.INTERN: "实习",
+    JobType.CAMPUS: "校招",
+}
+
+
 class SourceType(str, Enum):
     OFFICIAL = "official"          # 企业官方一手信息
     INVESTOR = "investor"          # 投资机构披露
@@ -108,7 +121,8 @@ class Job(BaseModel):
     title: str
     city: str
     location_detail: str | None = None
-    salary_min: int | None = None  # 月薪下限（K）
+    job_type: JobType | None = None  # 实习/校招/社招正职；None=未标注
+    salary_min: int | None = None  # 月薪下限（K）；实习为日薪换算或不填
     salary_max: int | None = None  # 月薪上限（K）
     salary_months: int | None = None  # 薪月数，如 14 薪
     experience: str | None = None

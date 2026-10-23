@@ -236,16 +236,33 @@ def jobs(
     city: Optional[str] = typer.Option(None, "--city"),
     keyword: Optional[str] = typer.Option(None, "--keyword"),
     company: Optional[str] = typer.Option(None, "--company"),
+    job_type: Optional[str] = typer.Option(
+        None, "--type", help="岗位性质：实习 / 校招 / 社招（或 intern/campus/full_time）"),
     db: Optional[str] = DB_OPTION,
 ):
-    """检索中国境内 AI 岗位。"""
+    """检索中国境内 AI 岗位（--type 区分实习/校招/社招正职）。"""
     conn = _conn(db)
     cid = None
     if company:
         cid = CompanyResolver(conn).resolve(company) or company
-    matched = repo.list_jobs(conn, city=city, keyword=keyword, company_id=cid)
+    from .models import JOB_TYPE_LABELS, JobType
+    type_value = None
+    if job_type:
+        mapping = {"实习": "intern", "intern": "intern",
+                   "校招": "campus", "campus": "campus", "应届": "campus",
+                   "社招": "full_time", "正职": "full_time",
+                   "full_time": "full_time"}
+        type_value = mapping.get(job_type.strip().lower(), job_type)
+        try:
+            JobType(type_value)
+        except ValueError:
+            valid = "实习 / 校招 / 社招"
+            raise typer.BadParameter(f"未知岗位性质 {job_type!r}，可选：{valid}")
+    matched = repo.list_jobs(conn, city=city, keyword=keyword, company_id=cid,
+                             job_type=type_value)
     for j in matched:
-        typer.echo(f"{j.id}\t{j.title}\t{j.city}\t{j.status.value}\t{j.source}")
+        label = JOB_TYPE_LABELS.get(j.job_type, "未标注") if j.job_type else "未标注"
+        typer.echo(f"{j.id}\t{j.title}\t{j.city}\t{label}\t{j.status.value}\t{j.source}")
     typer.echo(f"共 {len(matched)} 条岗位", err=True)
 
 
