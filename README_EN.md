@@ -8,6 +8,17 @@ An open-source AI job-intelligence agent. Discover AI companies hiring in mainla
 
 > Discover AI Jobs. Research Companies. Make Informed Career Decisions.
 
+## 🔍 Differentiator: Xiaohongshu (RED) as a first-class source
+
+**Many AI startups never post on job boards — they recruit on Xiaohongshu.** This project is the first job-intelligence tool to treat Xiaohongshu as a primary source (verified working, Oct 2026):
+
+- **Login-wall collaboration**: when a login wall appears, the agent pops the page for the user to scan the QR code (zero credential storage), then continues collecting inside the user's own session;
+- **Exclusive signal**: postings you can't find elsewhere — a Tsinghua-incubated startup offering ¥800/day internships, early teams offering founding-member tracks, "my intern successor wanted" referrals — captured within 28 minutes of posting;
+- **Evidence-graded**: official-account posts vs. personal referrals are labeled with different trust levels; when anonymous verification is blocked, the job is honestly marked `Unknown (access blocked)`, never misclassified as closed;
+- **Compliance**: no bypassing logins, captchas or anti-bot systems — only public content inside the user's own authenticated session.
+
+See the [feasibility assessment](docs/数据源评估_小红书.md) (Chinese) and [captured samples](examples/data/xhs_jobs_20261023.json).
+
 ## Why
 
 AI job postings in China are scattered across job boards, career pages, funding news and investor portfolios. Finding an "AI Product Manager" JD is easy; knowing whether the company is truly AI-first, well-funded, led by a credible founding team, and actually still hiring — that takes hours of cross-checking. This project lets your personal AI agent do it for you.
