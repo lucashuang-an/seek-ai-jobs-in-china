@@ -1,0 +1,50 @@
+[
+  {"id": "omnimind-intern-agent-sys", "company_id": "omnimind",
+   "title": "智能体系统方向实习生", "job_type": "intern",
+   "city": "北京", "education": "在校生（清华/北大/上海交大背景团队）",
+   "jd": "万象智维（清华 THU OmniLab 孵化，端侧 AI 基础设施，累计近亿元融资）智能体系统方向实习生：与创始及核心团队紧密协作参与真实产品开发；接触端侧推理、模型部署与智能体系统、多类终端/芯片/多卡服务器。实习薪资最高 800 元/天+项目奖金，有机会参与论文研究并获推荐信；优秀实习生有留用机会，表现优秀者可获早期期权。投递：官网招聘入口（帖图1），邮件标题：岗位名称+姓名+预计到岗时间。",
+   "source": "小红书（万象智维官方账号）", "source_url": "https://www.xiaohongshu.com/search_result/6ad1f3fb000000001b02fcfe?xsec_token=ABhV8zsTOqXnt3Lvmogxayj1YjliPI5s8eZSj9SMd65kw=&xsec_source=",
+   "evidence": [{"source_type": "community", "url": "https://www.xiaohongshu.com/search_result/6ad1f3fb000000001b02fcfe?xsec_token=ABhV8zsTOqXnt3Lvmogxayj1YjliPI5s8eZSj9SMd65kw=&xsec_source=", "publisher": "小红书·万象智维OmniMind", "title": "招聘｜清华系 AI Infra 团队等你加入", "snippet": "发布于 7 天内；北京；最高 800/天+期权机会"}]},
+
+  {"id": "omnimind-intern-edge-infer", "company_id": "omnimind",
+   "title": "端侧推理方向实习生", "job_type": "intern",
+   "city": "北京", "education": "在校生",
+   "jd": "万象智维端侧推理方向实习生：大模型在手机/PC 等设备高效运行方向；待遇同上（最高 800 元/天+项目奖金+论文/推荐信+留用/期权机会）。投递：官网招聘入口。",
+   "source": "小红书（万象智维官方账号）", "source_url": "https://www.xiaohongshu.com/search_result/6ad1f3fb000000001b02fcfe?xsec_token=ABhV8zsTOqXnt3Lvmogxayj1YjliPI5s8eZSj9SMd65kw=&xsec_source=",
+   "evidence": [{"source_type": "community", "url": "https://www.xiaohongshu.com/search_result/6ad1f3fb000000001b02fcfe?xsec_token=ABhV8zsTOqXnt3Lvmogxayj1YjliPI5s8eZSj9SMd65kw=&xsec_source=", "publisher": "小红书·万象智维OmniMind", "title": "招聘｜清华系 AI Infra 团队等你加入", "snippet": "端侧推理方向；北京"}]},
+
+  {"id": "nextwave-intern-ai-pe", "company_id": "nextwave-studio",
+   "title": "AI Product Engineering Intern（产品研发）", "job_type": "intern",
+   "city": "上海", "location_detail": "上海线下 / 远程均可",
+   "jd": "NextWave（出海 AI SaaS 工作室，腾讯系核心成员+剑桥/清华）产品研发实习：深度使用 Codex、Claude Code 等 AI Coding 工具（AI 代码率>95%），具备独立开发能力，有 0 到 1 构建 Side Project/开源项目经验；不局限技术栈，重工程思维。薪资 100-150 元/天；投递截止 2026-10-25，简历发 leon023488@gmail.com（帖内公开邮箱）。",
+   "source": "小红书", "source_url": "https://www.xiaohongshu.com/search_result/6ad8606100000000310267e4?xsec_token=ABWjiJyKFn8kXJUb6ikQPLapxNDTKX2VdOA8N9CSEZWkI=&xsec_source=",
+   "evidence": [{"source_type": "community", "url": "https://www.xiaohongshu.com/search_result/6ad8606100000000310267e4?xsec_token=ABWjiJyKFn8kXJUb6ikQPLapxNDTKX2VdOA8N9CSEZWkI=&xsec_source=", "publisher": "小红书·天生小朋友", "title": "出海 AI 团队招实习 100-150/天＋线上/上海", "snippet": "发布 2 天内；截止 2026-10-25；公开投递邮箱"}]},
+
+  {"id": "nextwave-intern-growth", "company_id": "nextwave-studio",
+   "title": "Growth & Marketing Intern（海外增长）", "job_type": "intern",
+   "city": "上海", "location_detail": "上海线下 / 远程均可",
+   "jd": "NextWave 海外增长实习：熟悉 X/Reddit/YouTube/TikTok 至少一个平台且深度使用；具备 Product Sense，参与用户研究、内容策略、社区运营及 Growth Experiments。薪资 100-150 元/天；截止 2026-10-25。不要求名校/光鲜实习经历，重 Curiosity/Ownership/Execution。",
+   "source": "小红书", "source_url": "https://www.xiaohongshu.com/search_result/6ad8606100000000310267e4?xsec_token=ABWjiJyKFn8kXJUb6ikQPLapxNDTKX2VdOA8N9CSEZWkI=&xsec_source=",
+   "evidence": [{"source_type": "community", "url": "https://www.xiaohongshu.com/search_result/6ad8606100000000310267e4?xsec_token=ABWjiJyKFn8kXJUb6ikQPLapxNDTKX2VdOA8N9CSEZWkI=&xsec_source=", "publisher": "小红书·天生小朋友", "title": "出海 AI 团队招实习（Growth 岗）", "snippet": "海外平台增长；100-150/天"}]},
+
+  {"id": "hidream-intern-aigc-video", "company_id": "hidream",
+   "title": "AIGC创意视频制作实习生", "job_type": "intern",
+   "city": "上海", "location_detail": "上海（国际传媒港/西岸梦中心之间），线下一周五天",
+   "jd": "智象未来 HiDream.ai（梅涛博士创立，视觉多模态基础模型，HiDream-I1 曾登顶 Artificial Analysis 全球第一）AIGC 创意视频制作实习：用 AI 生成工具制作国内外广告创意素材（图/视频），独立完成剪辑/字幕/音乐/节奏等后期；要求对 AI 视频/图像生成热情+持续关注动态，理解信息流广告成片逻辑，有审美与沟通力，有 AI 创作经验优先。薪资 200 元/天+1000 元住房补贴；资深同事带教，扁平团队（985/211+QS Top50 背景）。",
+   "source": "小红书（内推帖）", "source_url": "https://www.xiaohongshu.com/search_result/6adb2fc8000000002b002639?xsec_token=ABgwhmiNmV9llqWmHk9lHRp6kUbqeuXyyDpFnF4amfwes=&xsec_source=",
+   "evidence": [{"source_type": "community", "url": "https://www.xiaohongshu.com/search_result/6adb2fc8000000002b002639?xsec_token=ABgwhmiNmV9llqWmHk9lHRp6kUbqeuXyyDpFnF4amfwes=&xsec_source=", "publisher": "小红书·玻色", "title": "上海AI独角兽公司实习（智象未来 HiDream.ai）", "snippet": "编辑于 2026-10-23（5 小时前）；200/天+1000 房补；上海线下"}]},
+
+  {"id": "otlume-intern-pm-ops", "company_id": "otlume",
+   "title": "产品运营实习生（AI搜索/GEO）", "job_type": "intern",
+   "city": "北京", "location_detail": "远程为主，人需在北京",
+   "jd": "Otlume（早期团队，「Agent 时代官网」/AI 搜索 GEO 方向）产品运营实习：一半内容、一半增长与商务；直接对接负责人参与决策；跑通产品早期增长（内容、数据复盘、博主拓展、商务合作）。200 元/天（8 小时计 1 天）周结；每周约 16 小时可不连续；最短 3 个月预期 6 个月+；在校大学生优先。成果超预期有额外现金奖励，累计 60 个工作日且超预期有机会成为早期创始成员。投递：评论区留言「想报名」或私信（附学校/专业/年级/是否在京/可投入时间/作品）。",
+   "source": "小红书", "source_url": "https://www.xiaohongshu.com/search_result/6ad59756000000002a00c1a2?xsec_token=AB6U5jfsbTq265jpHYikT4BriZrYbX_qnW9WvcE-i-_xE=&xsec_source=",
+   "evidence": [{"source_type": "community", "url": "https://www.xiaohongshu.com/search_result/6ad59756000000002a00c1a2?xsec_token=AB6U5jfsbTq265jpHYikT4BriZrYbX_qnW9WvcE-i-_xE=&xsec_source=", "publisher": "小红书·Solvar", "title": "招个会用AI的实习运营搭子｜200/天 周结", "snippet": "发布 4 天前；远程+北京；创始成员通道"}]},
+
+  {"id": "minimax-intern-growth-ops", "company_id": "minimax",
+   "title": "增长运营实习生（招继任，前实习生内推）", "job_type": "intern",
+   "city": "上海", "education": "在校生",
+   "jd": "MiniMax（已上市，上海）增长运营实习，前实习生发帖招继任：薪资 200 元/天（发帖人称其在职时标准），包三餐，房补 1500 元，内部 token 额度近乎无限；组内氛围好，方向可与 mentor 沟通自选。具体要求见帖图 2。投递：小红书私信发帖人。",
+   "source": "小红书（前实习生内推）", "source_url": "https://www.xiaohongshu.com/search_result/6adb7412000000003103b2b8?xsec_token=ABgwhmiNmV9llqWmHk9lHRp-Y1hxHVdleI14gpk14j7j4=&xsec_source=",
+   "evidence": [{"source_type": "community", "url": "https://www.xiaohongshu.com/search_result/6adb7412000000003103b2b8?xsec_token=ABgwhmiNmV9llqWmHk9lHRp-Y1hxHVdleI14gpk14j7j4=&xsec_source=", "publisher": "小红书·最近爱喝乌龙茶", "title": "AI实习｜给世界上最好mentor招个继任（MiniMax 增长运营）", "snippet": "编辑于 2026-10-23（28 分钟前）；200/天+三餐+房补1500；上海", "trust_note": "非官方帖，待遇为前实习生口述，投递以官方渠道确认为准"}]}
+]
