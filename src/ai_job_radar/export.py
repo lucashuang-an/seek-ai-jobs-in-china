@@ -56,10 +56,18 @@ def export_json(conn: sqlite3.Connection, out_path: Path,
     payload = []
     for c in companies:
         score = repo.get_latest_score(conn, c.id)
+        jobs_payload = []
+        for j in repo.list_jobs(conn, company_id=c.id):
+            if not in_scope(j):
+                continue
+            jobs_payload.append({
+                "job": j.model_dump(),
+                "evidence": [e.model_dump() for e in
+                             repo.list_evidence(conn, "job", j.id)],
+            })
         payload.append({
             "company": c.model_dump(),
-            "jobs": [j.model_dump() for j in repo.list_jobs(conn, company_id=c.id)
-                     if in_scope(j)],
+            "jobs": jobs_payload,
             "research": build_research_report(conn, c.id),
             "score": score.model_dump() if score else None,
         })
@@ -188,6 +196,22 @@ def _company_lines(conn: sqlite3.Connection, c: Company,
              for j in jobs],
             ["岗位", "城市", "性质", "薪资下限K", "薪资上限K", "经验", "状态"]))
         lines.append("")
+        # 岗位级证据：来源、检索时间与可信度随报告一起导出
+        job_ev_lines = []
+        for j in jobs:
+            evs = repo.list_evidence(conn, "job", j.id)
+            if not evs:
+                continue
+            items = []
+            for e in evs[:3]:
+                label = e.title or e.publisher or e.url or "来源"
+                link = f"[{label}]({e.url})" if e.url else label
+                items.append(f"{link}（{e.source_type.value}，"
+                             f"检索于 {e.retrieved_at:%Y-%m-%d}）")
+            job_ev_lines.append(f"- **{j.title}**：" + "；".join(items)
+                                + (f" 等共 {len(evs)} 条" if len(evs) > 3 else ""))
+        if job_ev_lines:
+            lines += ["#### 岗位来源", *job_ev_lines, ""]
 
     ev = research["evidence"]
     if ev:

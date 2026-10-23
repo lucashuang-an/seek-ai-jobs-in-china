@@ -158,7 +158,14 @@ def update_job_status(conn: sqlite3.Connection, job_id: str, status: str,
 
 def _job_from_row(r: sqlite3.Row) -> Job:
     from ..models import JobStatus, JobType
-    from datetime import date
+    from datetime import date, datetime
+
+    def _dt(value):
+        try:
+            return datetime.fromisoformat(value) if value else None
+        except ValueError:
+            return None
+
     return Job(
         id=r["id"], company_id=r["company_id"], title=r["title"], city=r["city"],
         location_detail=r["location_detail"],
@@ -169,6 +176,8 @@ def _job_from_row(r: sqlite3.Row) -> Job:
         source=r["source"], source_url=r["source_url"],
         source_job_id=r["source_job_id"],
         posted_at=date.fromisoformat(r["posted_at"]) if r["posted_at"] else None,
+        first_seen_at=_dt(r["first_seen_at"]) or datetime.now(),
+        last_verified_at=_dt(r["last_verified_at"]),
         status=JobStatus(r["status"]),
     )
 

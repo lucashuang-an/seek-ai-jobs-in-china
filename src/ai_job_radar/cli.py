@@ -87,7 +87,10 @@ def import_companies(
         dup = resolver.resolve(company.name)
         if dup and dup != company.id:
             typer.echo(f"合并到已有实体 {dup}: {company.name}", err=True)
+            old_id = company.id
             company.id = dup
+            # 旧 ID 注册为别名：后续引用旧 ID 的岗位/研究仍能解析到合并后实体
+            resolver.register_alias(old_id, dup)
         repo.upsert_company(conn, company)
         for alias in item.get("aliases", []):
             resolver.register_alias(alias, company.id)
@@ -122,13 +125,24 @@ def import_jobs(
         return value
 
     existing = repo.list_jobs(conn)
-    n, merged, filtered, pending, rekeyed = 0, 0, 0, 0, 0
+    resolver = CompanyResolver(conn)
+    n, merged, filtered, pending, rekeyed, orphan = 0, 0, 0, 0, 0, 0
     for item in data:
         try:
             job = Job(**item)
         except Exception as exc:
             typer.echo(f"跳过非法岗位记录: {exc}", err=True)
             filtered += 1
+            continue
+        # 公司 ID 统一经别名解析；无法关联到已存在公司的记录拒绝入库，
+        # 否则该岗位在所有按公司聚合的视图（报告/导出）中会静默丢失。
+        resolved_cid = resolver.resolve(job.company_id) or job.company_id
+        if resolved_cid != job.company_id:
+            job.company_id = resolved_cid
+        if not repo.get_company(conn, job.company_id):
+            typer.echo(f"跳过岗位（公司不存在）: {job.id} -> {job.company_id}",
+                       err=True)
+            orphan += 1
             continue
         if remote_pending(job):
             job.status = JobStatus.UNKNOWN  # 待核验：实际地点未知
@@ -145,7 +159,23 @@ def import_jobs(
         dup = find_duplicate(job, existing)
         if dup:
             merged += 1
-            continue  # 保留既有记录与来源
+            # 合并而非跳过：新证据入库、缺失字段补全、状态变化记录历史
+            for ev in item.get("evidence", []):
+                ev = dict(ev)
+                ev["published_at"] = _norm_evidence_date(ev.get("published_at"))
+                repo.add_evidence(conn, Evidence(entity_type="job",
+                                                 entity_id=dup.id, **ev))
+            filled = dup.model_copy()
+            for f in ("location_detail", "job_type", "salary_min", "salary_max",
+                      "salary_months", "experience", "education", "jd",
+                      "source_url", "source_job_id"):
+                if getattr(filled, f) is None and getattr(job, f) is not None:
+                    setattr(filled, f, getattr(job, f))
+            repo.upsert_job(conn, filled)
+            if job.status != dup.status and job.status != JobStatus.RECENTLY_SEEN:
+                repo.update_job_status(conn, dup.id, job.status.value,
+                                       "重复导入记录携带状态更新")
+            continue
         repo.upsert_job(conn, job)
         for ev in item.get("evidence", []):
             ev = dict(ev)
@@ -155,7 +185,12 @@ def import_jobs(
         existing.append(job)
         n += 1
     conn.commit()
-    note = f"，id 冲突改写 {rekeyed}" if rekeyed else ""
+    notes = []
+    if rekeyed:
+        notes.append(f"id 冲突改写 {rekeyed}")
+    if orphan:
+        notes.append(f"公司缺失跳过 {orphan}")
+    note = ("，" + "，".join(notes)) if notes else ""
     typer.echo(f"新增 {n}，去重合并 {merged}，地域过滤 {filtered}，"
                f"地点待核验 {pending}{note}")
 
@@ -181,8 +216,14 @@ def import_research(
 
     conn = _conn(db)
     data = json.loads(file.read_text(encoding="utf-8"))
+    resolver = CompanyResolver(conn)
+    ok_research = 0
     for item in data:
-        cid = item["company_id"]
+        cid = resolver.resolve(item["company_id"]) or item["company_id"]
+        if not repo.get_company(conn, cid):
+            typer.echo(f"跳过研究（公司不存在）: {item['company_id']}", err=True)
+            continue
+        ok_research += 1
         for f in item.get("funding", []):
             f = dict(f)
             f["date"] = _date(f.get("date"))
@@ -210,7 +251,7 @@ def import_research(
             c.last_verified_at = datetime.now()
             repo.upsert_company(conn, c)
         conn.commit()
-    typer.echo(f"已导入 {len(data)} 份研究")
+    typer.echo(f"已导入 {ok_research}/{len(data)} 份研究")
 
 
 @app.command("import-scores")

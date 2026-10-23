@@ -42,6 +42,13 @@ def run(args: list[str], db: str) -> str:
 
 
 def main() -> int:
+    # Windows 默认 GBK 控制台打印 ✅/中文会 UnicodeEncodeError，统一切 UTF-8
+    for stream in (sys.stdout, sys.stderr):
+        if stream and hasattr(stream, "reconfigure"):
+            try:
+                stream.reconfigure(encoding="utf-8")
+            except Exception:
+                pass
     keep = "--keep" in sys.argv
     out_dir = ROOT / "examples" / "acceptance_output"
     tmp = tempfile.mkdtemp(prefix="ai_job_radar_acc_")

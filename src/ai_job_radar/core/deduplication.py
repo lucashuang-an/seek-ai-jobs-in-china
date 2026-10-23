@@ -40,6 +40,15 @@ def find_duplicate(job: Job, existing: list[Job], threshold: float = 0.6) -> Job
     for e in existing:
         if e.company_id != job.company_id or e.city != job.city:
             continue
+        # Definite duplicate: same source and same platform job id.
+        if (job.source_job_id and e.source_job_id
+                and job.source == e.source
+                and job.source_job_id == e.source_job_id):
+            return e
+        # Intern / campus / full-time postings sharing a title are distinct
+        # jobs — job_type conflict blocks the merge entirely.
+        if job.job_type and e.job_type and job.job_type != e.job_type:
+            continue
         if _norm(e.title) == _norm(job.title):
             return e
         if (min(len(_norm(e.jd)), len(_norm(job.jd))) >= min_jd_chars

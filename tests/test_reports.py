@@ -255,7 +255,12 @@ def test_job_id_conflict_both_kept(tmp_path):
 
     conn = _conn(tmp_path)
     repo.upsert_company(conn, Company(id="mb", name="面壁", city="北京"))
-    conn.commit()
+    conn.close()
+    # CLI 走同一个库文件，孤儿岗位守卫要求公司先存在
+    db = database.get_connection(tmp_path / "t.db")
+    repo.upsert_company(db, Company(id="mb", name="面壁", city="北京"))
+    db.commit()
+    db.close()
     runner = CliRunner()
     first = [{"id": "mb-j1", "company_id": "mb", "title": "岗位A",
               "city": "北京", "source": "官网"}]

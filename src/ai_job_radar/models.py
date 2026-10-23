@@ -201,7 +201,9 @@ DEFAULT_WEIGHTS = {
 
 class DimensionScore(BaseModel):
     dimension: str
-    score: float | None = None  # 0-10; None when evidence insufficient
+    # 0-10; None when evidence insufficient. Bounds enforced so a bad
+    # agent-produced score fails at parse time instead of polluting totals.
+    score: float | None = Field(None, ge=0, le=10)
     # Optional: compute_score() fills it from configs/scoring.yaml when absent,
     # so agent-produced score JSON only needs dimension + score.
     weight: float | None = None

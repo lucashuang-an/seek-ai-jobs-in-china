@@ -8,7 +8,7 @@ from __future__ import annotations
 
 import sqlite3
 
-from ..models import Company, Track
+from ..models import Company, JobStatus, Track
 from ..storage import repository as repo
 
 
@@ -37,7 +37,10 @@ def filter_companies(
             continue
         if team_size_max is not None and (c.team_size_min or 10**9) > team_size_max:
             continue
-        if hiring_only and not repo.list_jobs(conn, company_id=c.id):
-            continue
+        if hiring_only:
+            # 招聘线索 = 存在非 Closed 岗位；Closed 不算，Unknown/待核验计入。
+            jobs = repo.list_jobs(conn, company_id=c.id)
+            if not any(j.status != JobStatus.CLOSED for j in jobs):
+                continue
         out.append(c)
     return out

@@ -50,13 +50,25 @@ def load_weights(path: str | None = None) -> dict[str, float]:
 def compute_score(company_id: str, dimensions: list[DimensionScore],
                   weights: dict[str, float] | None = None,
                   note: str | None = None) -> CompanyScore:
-    """Re-normalize weights over scored dimensions; report coverage."""
+    """Re-normalize weights over scored dimensions; report coverage.
+
+    Raises ValueError on duplicate dimensions and on invalid weights
+    (every dimension must carry a positive weight, else coverage math
+    is meaningless).
+    """
     weights = weights or dict(DEFAULT_WEIGHTS)
-    unknown = sorted({d.dimension for d in dimensions
-                      if d.dimension not in SCORE_DIMENSIONS})
+    seen: set[str] = set()
+    for d in dimensions:
+        if d.dimension in seen:
+            raise ValueError(f"重复评分维度: {d.dimension}（每个维度只允许一条）")
+        seen.add(d.dimension)
+    unknown = sorted(seen - set(SCORE_DIMENSIONS))
     if unknown:
         raise ValueError(
             f"未知评分维度: {unknown}，有效维度: {SCORE_DIMENSIONS}")
+    bad_w = [dim for dim in SCORE_DIMENSIONS if weights.get(dim, 0) <= 0]
+    if bad_w:
+        raise ValueError(f"评分权重配置无效（须全为正数）: {bad_w}")
     for d in dimensions:
         d.weight = weights.get(d.dimension, 0)
     total_w = sum(weights.values())
