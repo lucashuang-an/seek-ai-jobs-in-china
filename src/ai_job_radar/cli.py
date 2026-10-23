@@ -114,6 +114,13 @@ def import_jobs(
     from .core.deduplication import find_duplicate, job_fingerprint
     from .export import in_scope, remote_pending
     from .models import JobStatus
+
+    def _norm_evidence_date(value):
+        # 与 import-research 一致：'2026' → '2026-01-01'，'2026-03' → '2026-03-01'
+        if isinstance(value, str) and len(value) in (4, 7):
+            return value + ("-01-01" if len(value) == 4 else "-01")
+        return value
+
     existing = repo.list_jobs(conn)
     n, merged, filtered, pending, rekeyed = 0, 0, 0, 0, 0
     for item in data:
@@ -141,6 +148,8 @@ def import_jobs(
             continue  # 保留既有记录与来源
         repo.upsert_job(conn, job)
         for ev in item.get("evidence", []):
+            ev = dict(ev)
+            ev["published_at"] = _norm_evidence_date(ev.get("published_at"))
             repo.add_evidence(conn, Evidence(entity_type="job",
                                              entity_id=job.id, **ev))
         existing.append(job)

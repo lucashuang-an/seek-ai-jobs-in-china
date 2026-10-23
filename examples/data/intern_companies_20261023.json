@@ -1,0 +1,7 @@
+[
+  {"company": {"id": "xiaohongshu", "name": "小红书", "aliases": ["Xiaohongshu", "REDnote"], "city": "上海", "hq_location": "上海/北京双办公", "company_type": "bigtech_ai_team", "tracks": ["AI Applications", "AI Agents"], "funding_stage": "未上市", "description": "内容社区平台，企业智能部 Intelligence Lab 应用大模型与 Agent 技术提升内部决策与协同效率。", "hiring_signals": ["实习僧曾发布 AI Agent 算法实习生（企业智能，北京，400-800/天），2026-10-10 投递截止（2026-10-23 核验已下线）"]},
+   "evidence": [{"source_type": "job_platform", "url": "https://www.shixiseng.com/intern/inn_8s2zkxqufl9u", "publisher": "实习僧", "title": "小红书 AI Agent 算法实习生（企业智能）", "snippet": "北京亚运村；本科及以上在读；每周4天连续3个月+；400-800元/天；已下线（截止2026-10-10）"}]},
+
+  {"company": {"id": "xiangsu-intelligent", "name": "北京数据项素智能科技", "city": "北京", "company_type": "startup", "tracks": ["AI Applications"], "funding_stage": "未披露", "description": "北京 AI 创业公司，BOSS直聘在招大模型产品经理实习生（2026届）。", "hiring_signals": ["BOSS直聘在招：大模型产品经理实习生（2026届），北京（2026-10-23 搜索快照，页面 JS 渲染未能自动核验）"]},
+   "evidence": [{"source_type": "job_platform", "url": "https://www.zhipin.com/job_detail/a99e7283cedef3ec03Rz0tm8FlJV.html", "publisher": "BOSS直聘", "title": "大模型产品经理实习生（2026届）", "snippet": "北京数据项素智能科技；BOSS 页面需 JS 渲染，自动核验受限", "trust_note": "在招状态未核验，以平台页面为准"}]}
+]
