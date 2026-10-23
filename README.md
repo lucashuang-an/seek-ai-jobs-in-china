@@ -16,11 +16,22 @@
 
 ## 快速开始
 
+**方式一：npm（推荐，命令行一键安装）**
+
+```bash
+npm install -g ai-job-radar     # 发布后可用；首次运行自动创建独立 Python 虚拟环境
+ai-job-radar discover --city 北京 --hiring-only
+```
+
+只需本机装有 Python ≥ 3.11（自动探测，无需配置 PATH）；详见 [npm/README.md](npm/README.md)。
+发布前的本地测试：`cd npm && npm pack && npm install -g ./ai-job-radar-0.1.0.tgz`。
+
+**方式二：pip**
+
 ```bash
 pip install -e ".[dev]"
 pytest                          # 运行测试
 python scripts/acceptance_run.py --keep   # 一键场景验收（示例数据端到端）
-ai-job-radar discover --city 北京 --hiring-only
 ai-job-radar jobs --city 北京 --keyword "AI产品经理"
 ai-job-radar export --format markdown --out report
 ```
@@ -90,6 +101,7 @@ seek-ai-jobs-in-china/
 │   ├── sources/                #   官网 / 公开岗位 / BOSS 手动导入适配
 │   ├── research/ scoring/      #   研究报告组装、评分计算（权重归一化）
 │   └── storage/                #   SQLite（schema + repository）
+├── npm/                        # npm 发行壳（npm install -g ai-job-radar）
 ├── configs/scoring.yaml        # 评分权重配置
 ├── scripts/acceptance_run.py   # 一键场景验收脚本
 ├── examples/data/              # 示例数据（3 赛道组 + 真实发现样例）

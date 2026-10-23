@@ -1,0 +1,30 @@
+{
+  "name": "ai-job-radar",
+  "version": "0.1.0",
+  "description": "Seek AI Jobs in China — open-source AI job intelligence agent (CLI). npm wrapper around the Python core: discovers AI companies hiring in mainland China, researches funding/founders/products, outputs evidence-backed scores. 开源 AI 招聘情报 Agent 命令行。",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucashuang-an/seek-ai-jobs-in-china"
+  },
+  "homepage": "https://github.com/lucashuang-an/seek-ai-jobs-in-china",
+  "bin": {
+    "ai-job-radar": "bin/ai-job-radar.js"
+  },
+  "files": [
+    "bin/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "ai",
+    "ai-agents",
+    "ai-jobs",
+    "career",
+    "china",
+    "hiring-intelligence",
+    "cli"
+  ]
+}

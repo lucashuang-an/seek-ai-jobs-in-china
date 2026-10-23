@@ -26,6 +26,9 @@ htmlcov/
 /jobs.csv
 /*_档案.md
 
+# npm wrapper build artifact
+npm/*.tgz
+
 # OS / editor
 .DS_Store
 Thumbs.db
