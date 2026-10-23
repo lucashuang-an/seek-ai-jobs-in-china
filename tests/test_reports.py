@@ -187,6 +187,37 @@ def test_job_type_migration_from_old_schema(tmp_path):
     assert len(repo.list_jobs(conn, job_type="intern")) == 1
 
 
+def test_access_block_not_closed():
+    """Regression: a 404 login-wall shell (e.g. Xiaohongshu error_code=300031)
+    means 'we cannot verify', never 'the job is closed'."""
+    from ai_job_radar.core.verification import check_job_url
+    from ai_job_radar.models import JobStatus
+
+    class FakeResp:
+        status_code = 404
+        text = "error_code=300031&error_msg=当前笔记暂时无法浏览"
+        url = "https://www.xiaohongshu.com/404"
+
+    import ai_job_radar.core.verification as v
+    orig = v.httpx.Client
+
+    class FakeClient:
+        def __init__(self, **kw): pass
+        def __enter__(self): return self
+        def __exit__(self, *a): return False
+        def get(self, url): return FakeResp()
+
+    v.httpx.Client = FakeClient
+    try:
+        job = Job(id="j", company_id="c", title="t", city="北京", source="小红书",
+                  source_url="https://www.xiaohongshu.com/explore/xxx")
+        status, note = check_job_url(job)
+        assert status == JobStatus.UNKNOWN
+        assert "access blocked" in note
+    finally:
+        v.httpx.Client = orig
+
+
 def test_md_table_escapes_pipes_and_newlines():
     table = _md_table([["a|b", "x\ny"]], ["h|1", "h2"])
     assert "a\\|b" in table and "x y" in table and "h\\|1" in table
