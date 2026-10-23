@@ -1,0 +1,984 @@
+[
+  {
+    "company_id": "deephlang",
+    "funding": [
+      {
+        "date": "2022-08-10",
+        "round": "天使轮",
+        "amount": "1000万人民币",
+        "currency": "CNY",
+        "investors": ["奇绩创坛", "英诺天使基金", "水木清华校友种子基金"],
+        "note": null
+      },
+      {
+        "date": "2023-01-13",
+        "round": "Pre-A轮",
+        "amount": null,
+        "currency": null,
+        "investors": null,
+        "note": "金额未披露"
+      },
+      {
+        "date": "2023-04-09",
+        "round": "A轮（工商登记为股权投资）",
+        "amount": null,
+        "currency": null,
+        "investors": ["英诺天使基金", "腾讯投资", "中关村资本", "好未来", "红杉中国", "Sigma香港西格玛"],
+        "note": "2023-05-31工商变更新增腾讯（广西腾讯创业投资有限公司）、好未来等股东；媒体报道该轮估值已达1亿美元"
+      },
+      {
+        "date": "2023-11-20",
+        "round": "A+轮",
+        "amount": null,
+        "currency": null,
+        "investors": null,
+        "note": "截至2023-12已完成4轮融资；累计投资机构还包括零一创投、红杉中国种子基金、中关村发展集团、三七互娱创投基金、春华资本、商汤国香资本等"
+      },
+      {
+        "date": "2025-05-21",
+        "round": "B轮",
+        "amount": null,
+        "currency": null,
+        "investors": ["清华资管"],
+        "note": "天眼查标注为B轮，企查查标注为A轮，口径不一；金额未披露"
+      }
+    ],
+    "founders": [
+      {
+        "name": "岂凡超",
+        "title": "创始人兼CEO",
+        "education": "清华大学电子工程系学士、经济管理学院工商管理第二学士、计算机科学与技术系博士（2013年考入清华）",
+        "career": "曾任北京智源人工智能研究院“基于大模型的文本处理创新中心”主任；攻读博士期间发表顶级论文30余篇、申请发明专利20余项",
+        "relevant_experience": "中国人工智能学会优秀博士论文奖（全国仅9篇）、全国研究生人工智能创新大赛总冠军、中国AI+创新创业大赛NLP大赛冠军；深度参与中国第一批大模型研发",
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "李潇翔",
+        "title": "联合创始人兼COO",
+        "education": "清华大学电子工程系2022届博士",
+        "career": "岂凡超的清华电子系本科同学，毕业后即以联合创始人身份加入深言科技",
+        "relevant_experience": null,
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "孙茂松",
+        "title": "首席科学家（非创始人，导师/顾问角色）",
+        "education": "清华大学教授、欧洲科学院院士",
+        "career": "岂凡超的博士生导师，担任深言科技首席科学家",
+        "relevant_experience": "清华大学自然语言处理实验室（THUNLP）负责人之一，深言科技由THUNLP与智源研究院共同孵化",
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      }
+    ],
+    "team": {
+      "size_min": 30,
+      "size_max": 50,
+      "stage_note": "企查查显示人员规模“少于50人”、参保36人（2025年报口径）；公司处于B轮阶段，注册地址为北京市海淀区东升大厦",
+      "expansion_signals": ["官方招聘页称已为超过600万用户提供智能文本信息处理服务", "与国家部委、行业龙头等标杆客户达成商业合作", "2026-04仍有“语鲸”相关商标注册动作"],
+      "source_fact_kind": "verified"
+    },
+    "products": [
+      {
+        "name": "语鲸",
+        "website": "https://www.lingowhale.com/home",
+        "positioning": "AI驱动的信息获取助手，面向长文本/信息过载场景",
+        "core_features": "信息收集、分发、消费全链路闭环；多层级大纲、原文精准定位、多内容聚合；AI生成个性化摘要",
+        "target_users": "知识工作者、研究及内容消费者",
+        "scenarios": "长文档/报告阅读、资讯聚合、知识管理",
+        "traction": "深言科技整体产品已有数百万用户（官方口径超600万用户）；2023-11联合清华NLP实验室开源语鲸-8B模型"
+      },
+      {
+        "name": "语鲸大模型",
+        "website": "https://deeplang.ai",
+        "positioning": "自研中文超大规模预训练语言模型",
+        "core_features": "中文语义理解与生成、代码理解与生成、逻辑推理；文本创作、数学计算、代码补全",
+        "target_users": "面向公众及企业客户的生成式AI服务",
+        "scenarios": "生成式AI服务（已通过生成式AI备案，2023-12-28起面向社会公众开放）",
+        "traction": "2023-12-28“语鲸大模型”正式通过《生成式人工智能服务管理暂行办法》备案"
+      },
+      {
+        "name": "深言达意",
+        "website": "https://deeplang.ai",
+        "positioning": "智能写作辅助工具",
+        "core_features": "根据模糊描述找词找句，基于语言理解和算法能力的措辞推荐",
+        "target_users": "写作者、办公人群",
+        "scenarios": "写作措辞、语句润色",
+        "traction": "团队称曾研发世界首个多模式可控文本生成模型（官方招聘页口径）"
+      }
+    ],
+    "evidence": [
+      {
+        "source_type": "official",
+        "url": "https://deeplang.ai",
+        "publisher": "深言科技官网",
+        "title": "深言科技 DeepLang | 用语言的地方就有深言",
+        "snippet": "成立于2022年3月，孵化自清华大学自然语言处理实验室（THUNLP）和北京智源人工智能研究院（BAAI）；创始人岂凡超，清华计算机系博士、电子系学士、工商管理第二学士，曾任智源“基于大模型的文本处理创新中心”主任；产品包括语鲸、深言达意",
+        "published_at": null
+      },
+      {
+        "source_type": "official",
+        "url": "https://deeplang.jobs.feishu.cn/index/",
+        "publisher": "深言科技招聘官网",
+        "title": "加入深言",
+        "snippet": "已为超过600万用户提供智能文本信息处理服务，与多家国央企合作；团队曾研发世界首个多模式可控文本生成模型",
+        "published_at": null
+      },
+      {
+        "source_type": "media",
+        "url": "https://m.qixin.com/financing/e54a5279-f225-42b8-bedd-c8a53e5def44",
+        "publisher": "启信宝",
+        "title": "北京深言科技有限责任公司融资信息",
+        "snippet": "2022-08-10天使轮1000万人民币（奇绩创坛、英诺天使基金、水木清华校友种子基金）；2023-01-13 Pre-A轮未披露；2023-04-09股权投资（英诺、腾讯投资、中关村资本、好未来、红杉中国、西格玛香港）",
+        "published_at": null
+      },
+      {
+        "source_type": "media",
+        "url": "https://m.tianyancha.com/brand/baf8f716695",
+        "publisher": "天眼查",
+        "title": "深言科技企业信息",
+        "snippet": "融资历程5：2025-05-21 B轮（投资方清华资管）、2023-11-20 A+轮，金额均未披露",
+        "published_at": null
+      },
+      {
+        "source_type": "media",
+        "url": "https://www.stcn.com/article/detail/1077470.html",
+        "publisher": "证券时报",
+        "title": "深言科技“语鲸大模型”通过备案，此前已有两批大模型产品通过备案",
+        "snippet": "2023-12-28语鲸大模型通过备案；公司已完成4轮融资，融资阶段A+轮，金额均未披露；投资机构包括英诺天使、奇绩创坛、水木清华校友基金、零一创投、红杉中国种子基金、腾讯投资、好未来、中关村发展集团、三七互娱创投基金、春华资本、商汤国香资本；产品已有数百万用户",
+        "published_at": "2023-12-28"
+      },
+      {
+        "source_type": "media",
+        "url": "https://m.36kr.com/p/2288241005191560",
+        "publisher": "36氪",
+        "title": "腾讯投资大模型，一周出手两次",
+        "snippet": "2023-05-31深言科技工商变更，股东新增腾讯旗下广西腾讯创业投资有限公司、好未来等；此前已低调完成两轮融资，投资方含奇绩创坛、英诺天使、红杉中国等，第二轮融资时估值已达1亿美元",
+        "published_at": "2023-06"
+      },
+      {
+        "source_type": "media",
+        "url": "https://www.qcc.com/ctenderlist/b3de74f7d242d814d40289a30c221480",
+        "publisher": "企查查",
+        "title": "北京深言科技有限责任公司信息",
+        "snippet": "A轮（后更新为B轮）高新技术企业；人员规模少于50人，参保36人；最新融资时间2025-05-21，金额未披露",
+        "published_at": null
+      },
+      {
+        "source_type": "official",
+        "url": "https://www.tsinghua.edu.cn/info/2908/96167.htm",
+        "publisher": "清华大学",
+        "title": "【毕业生故事】李潇翔：在清华找到人生无限可能",
+        "snippet": "清华大学电子工程系2022届博士毕业生李潇翔，深言科技联合创始人兼COO；岂凡超是其合伙人、深言科技联合创始人兼CEO，二人是电子工程系本科同学",
+        "published_at": "2022-06"
+      },
+      {
+        "source_type": "media",
+        "url": "https://startup.aliyun.com/city/zz/case/1669231578337734657.html",
+        "publisher": "阿里云创业家",
+        "title": "一周内连投三家公司，腾讯要吃定AI了?",
+        "snippet": "深言CEO岂凡超为清华计算机系博士、电子系与工商管理双学士；联合创始人兼COO李潇翔同为清华博士；红杉中国合伙人张涵任公司董事；岂凡超导师、清华教授、欧洲科学院院士孙茂松任首席科学家",
+        "published_at": "2023-06"
+      },
+      {
+        "source_type": "official",
+        "url": "https://www.ee.tsinghua.edu.cn/info/1076/4940.htm",
+        "publisher": "清华大学电子工程系",
+        "title": "AI时代的清华电子力量 | 深言科技岂凡超：技术理想主义与现实主义的深度交织",
+        "snippet": "岂凡超2013年考入清华电子工程系，获电子工程系学士、经管学院工商管理第二学士、计算机系博士学位，发表顶级论文30余篇、申请发明专利20余项",
+        "published_at": null
+      }
+    ]
+  },
+  {
+    "company_id": "paoding",
+    "funding": [
+      {
+        "date": "2017-08",
+        "round": "Pre-A轮",
+        "amount": null,
+        "currency": null,
+        "investors": ["当当网", "深圳深度冲击智能科技有限公司"],
+        "note": "工商数据平台披露金额约1523.6万元，未获官方或投资方确认，故金额记null"
+      },
+      {
+        "date": "2021-02-05",
+        "round": "股权投资（天眼查记为Pre-A+轮，媒体称获得曦域资本股权投资）",
+        "amount": null,
+        "currency": null,
+        "investors": ["曦域资本"],
+        "note": "金额未披露；工商数据平台显示的本轮对应金额数字更接近注册资本变动，未采信为融资额"
+      },
+      {
+        "date": "2025-02-11",
+        "round": "新一轮（企查查及21世纪经济报道称B轮，天眼查记为A轮）",
+        "amount": null,
+        "currency": null,
+        "investors": ["金山办公", "顺为资本"],
+        "note": "本轮融资于2024年下半年完成，2025-02-11官宣由金山办公与顺为资本联合领投；资金用于文档智能技术研发、市场拓展与核心人才引进"
+      }
+    ],
+    "founders": [
+      {
+        "name": "罗平",
+        "title": "创始人、首席科学家",
+        "education": null,
+        "career": "中科院计算技术研究所博士生导师、微信人工智能首席科学顾问；专注智能算法理论与应用研究，在AI、机器学习等领域顶级国际会议和期刊发表论文40多篇，被引过千次，多次获国际学术会议最佳论文奖及提名奖",
+        "relevant_experience": "2018年媒体以“将专注深植DNA的AI科学家”报道其创业故事；与林得苗为2007年同级毕业、同入惠普中国实验室的同事",
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "林得苗",
+        "title": "联合创始人、董事长（法定代表人）",
+        "education": null,
+        "career": "2007年毕业后加入惠普中国实验室（与罗平同事），工程师出身；移动互联网热潮时曾自主创业并成功创立公司，为连续创业者",
+        "relevant_experience": "长期负责庖丁科技经营管理，现任法定代表人、经理、董事长兼财务负责人",
+        "previous_startups": "此前曾成功创立一家移动互联网公司（媒体未披露名称）",
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "高大光",
+        "title": "合伙人（媒体称第三位合伙人，联合创始人口径）",
+        "education": null,
+        "career": "资深金融人士、“海归”，辞职创业阶段与罗平、林得苗一拍即合共同创立庖丁科技",
+        "relevant_experience": "带来金融业务场景资源，推动庖丁扎根金融行业监管科技",
+        "previous_startups": null,
+        "source_fact_kind": "inferred"
+      }
+    ],
+    "team": {
+      "size_min": null,
+      "size_max": 50,
+      "stage_note": "企查查标注人员规模“少于50人”；启信宝2025年报显示参保0人（数据口径异常，或未以该主体缴纳社保），结合2017年成立及100+机构客户的业务体量，规模上限按“少于50人”采信",
+      "expansion_signals": ["2025年获金山办公、顺为资本联合领投，官方称资金将用于核心人才引进", "服务港交所、深交所、中信证券、华泰联合证券、中国银行、易方达、普华永道等100多家大型机构"],
+      "source_fact_kind": "verified"
+    },
+    "products": [
+      {
+        "name": "PDFlux",
+        "website": "https://pdflux.com/",
+        "positioning": "AI文档数据提取工具（PDF/扫描件/图片），庖丁科技独立研发",
+        "core_features": "高精准识别并提取PDF、扫描件、图片中的表格（官方称有线框及复杂排版表格抽取准确率99%以上）、AI摘要/搜索/改写/翻译、SDK将PDF输出为JSON/HTML结构化内容",
+        "target_users": "金融从业者、高校科研人员、开发者及C端文档处理用户",
+        "scenarios": "金融文档处理、科研数据抽取、文档结构化",
+        "traction": "官方博客披露C端有付费用户（深夜仍有收款、单笔付费上千元）；通过百度智能云接入文心一言打造文档智能全系产品"
+      },
+      {
+        "name": "庖丁文档智能企业级方案（含文档解析基座、审核、撰写、问答）",
+        "website": "https://www.paodingai.com/",
+        "positioning": "文档智能（Document AI）全流程SaaS与企业级应用，扎根金融行业、专注监管科技",
+        "core_features": "文档解析、智能审核、智能比对、银行流水识别分析、智能撰写、智能问答",
+        "target_users": "金融监管、银行、券商、基金、会计师事务所等机构",
+        "scenarios": "金融风控与合规、信息披露质量管控、执业效率提升",
+        "traction": "已服务港交所、深交所、中信证券、华泰联合证券、中国银行、易方达、普华永道等100多家大型机构（官网口径）"
+      }
+    ],
+    "evidence": [
+      {
+        "source_type": "official",
+        "url": "https://www.paodingai.com/about-us/",
+        "publisher": "庖丁科技官网",
+        "title": "关于我们-庖丁科技-引领文档智能新基建",
+        "snippet": "成立于2017年，文档智能领域领航者，提供从基座、审核、撰写到开发工具的全流程文档处理SaaS服务和企业级应用；客户包括港交所、深交所、中信证券、华泰联合证券、中国银行等100多家大型机构",
+        "published_at": null
+      },
+      {
+        "source_type": "media",
+        "url": "https://news.cri.cn/zaker/20180316/15f0a0e9-a0a7-db4b-51ea-1bd677c362b0.html",
+        "publisher": "国际在线",
+        "title": "罗平：将“专注”深植于DNA的AI科学家",
+        "snippet": "罗平与林得苗均2007年毕业并一起加入惠普中国实验室；林得苗后在移动互联网热潮中创业并成功创立一家公司",
+        "published_at": "2018-03-16"
+      },
+      {
+        "source_type": "media",
+        "url": "https://china.huanqiu.com/article/9CaKrnK6pIx",
+        "publisher": "环球网科技",
+        "title": "庖丁解文：攻克世界科技难题后或成金融圈颠覆者",
+        "snippet": "林得苗为庖丁科技联合创始人兼董事长，工程师出身，与中科院计算所博导、微信人工智能首席科学顾问罗平及资深金融人士、“海归”高大光共同创立公司",
+        "published_at": null
+      },
+      {
+        "source_type": "media",
+        "url": "https://m.tianyancha.com/brand/b3ab6259507",
+        "publisher": "天眼查",
+        "title": "庖丁科技企业信息",
+        "snippet": "核心成员罗平：创始人&首席科学家；融资历程含2025-02-11（金山办公、顺为资本）、2021-02-05（曦域资本，记为Pre-A+轮）",
+        "published_at": null
+      },
+      {
+        "source_type": "media",
+        "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Ftech%2Froll%2F2025-02-11%2Fdoc-inekawwe2683174.shtml",
+        "publisher": "新浪财经",
+        "title": "庖丁科技宣布完成新一轮融资",
+        "snippet": "2025-02-11宣布完成最新一轮融资，由金山办公与顺为资本联合领投；资金用于文档智能技术研发、市场拓展及核心人才引进；成立于2017年",
+        "published_at": "2025-02-11"
+      },
+      {
+        "source_type": "media",
+        "url": "http://m.toutiao.com/group/7472707251459916307/",
+        "publisher": "21世纪经济报道",
+        "title": "14.4亿融资流向：AI赛道领跑",
+        "snippet": "庖丁科技完成最新B轮融资，由金山办公与顺为资本联合领投",
+        "published_at": "2025-02"
+      },
+      {
+        "source_type": "media",
+        "url": "http://ishare.ifeng.com/c/s/v002QSnd79UX59EsNW4ARSHoMgtX6onk0OfWMVDBZ1LikKU__",
+        "publisher": "凤凰网科技",
+        "title": "金山办公与顺为携手，投了一家清华系AI文档公司",
+        "snippet": "庖丁科技2017年获当当网投资Pre-A轮，2021年获曦域资本股权投资；已服务超过100家大型机构客户，包括港交所、深交所",
+        "published_at": "2025-02"
+      },
+      {
+        "source_type": "media",
+        "url": "https://www.paodingai.com/blog/%E4%B8%80%E5%AE%B6%E6%96%87%E6%A1%A3%E6%99%BA%E8%83%BD%E5%85%AC%E5%8F%B8%E7%9A%84%E9%95%BF%E6%9C%9F%E4%B8%BB%E4%B9%89/",
+        "publisher": "庖丁科技官方博客",
+        "title": "一家文档智能公司的长期主义",
+        "snippet": "PDFlux的基础能力帮助拿下更多行业客户；C端用户总量不大但深夜仍有收款提醒，有用户支付上千元",
+        "published_at": null
+      },
+      {
+        "source_type": "media",
+        "url": "https://shuidi.cn/company-ab71b961e7348e5fbdff6903c15acadc.html",
+        "publisher": "水滴信用",
+        "title": "北京庖丁科技有限公司",
+        "snippet": "融资记录：2021-02-04 A轮（曦域资本）、2017-08-01 Pre-A轮1523.6111万人民币（当当网、深圳深度冲击智能科技）",
+        "published_at": null
+      },
+      {
+        "source_type": "media",
+        "url": "https://www.qcc.com/creport/0d28e6450d87743bdc32d45ecef1830c.html",
+        "publisher": "企查查",
+        "title": "北京庖丁科技有限公司企业发展",
+        "snippet": "存续，B轮，高新技术企业、专精特新中小企业；法定代表人林得苗；成立日期2017年",
+        "published_at": null
+      }
+    ]
+  },
+  {
+    "company_id": "laiye",
+    "funding": [
+      {
+        "date": "2015-07",
+        "round": "天使轮",
+        "amount": "2546万人民币（约400万美元）",
+        "currency": "CNY",
+        "investors": ["光速中国", "红杉中国", "真格基金", "澎湃资本"],
+        "note": "官方口径为2546万元人民币；36氪报道为400万美元，微软、光速等一线机构首投"
+      },
+      {
+        "date": "2016-12-13",
+        "round": "A轮",
+        "amount": "数千万人民币",
+        "currency": "CNY",
+        "investors": ["微软（领投）", "红杉中国", "光速中国"],
+        "note": null
+      },
+      {
+        "date": "2017-12-21",
+        "round": "B轮",
+        "amount": "千万美元",
+        "currency": "USD",
+        "investors": ["双湖资本（领投）", "光速中国", "红杉中国"],
+        "note": null
+      },
+      {
+        "date": "2019-06-27",
+        "round": "B+轮",
+        "amount": "3500万美元",
+        "currency": "USD",
+        "investors": ["Cathay Innovation凯辉创新基金（领投）", "双湖资本", "光速中国"],
+        "note": "同期来也科技与奥森科技（按键精灵/UiBot团队）合并，进军RPA+AI市场"
+      },
+      {
+        "date": "2020-02",
+        "round": "C轮",
+        "amount": "4200万美元",
+        "currency": "USD",
+        "investors": ["Lightspeed Capital光速", "双湖资本", "凯辉基金", "光合创投"],
+        "note": "36氪报道2019年回款同比增长四倍"
+      },
+      {
+        "date": "2021-04-21",
+        "round": "C+轮",
+        "amount": "5000万美元",
+        "currency": "USD",
+        "investors": ["平安全球领航基金（联合领投）", "上海人工智能产业基金（联合领投）", "光速中国", "红杉中国", "双湖资本"],
+        "note": "36氪报道其RPA软件订阅收入同比增长9倍"
+      },
+      {
+        "date": "2022-04-19",
+        "round": "C++轮",
+        "amount": "7000万美元",
+        "currency": "USD",
+        "investors": ["厚朴投资（Magnolia成长基金，领投）", "优山资本（联合领投）", "鼎珮投资集团VMS（联合领投）", "远至资本", "光合创投", "Lightspeed Capital光速"],
+        "note": "C轮累计融资超1.6亿美元；主打全球化+一体化双轮驱动"
+      }
+    ],
+    "founders": [
+      {
+        "name": "汪冠春",
+        "title": "董事长兼CEO",
+        "education": "普林斯顿大学机器学习博士，上海交通大学电子工程本科",
+        "career": "曾任百度智能交互应用团队、小度机器人（度秘前身）和百度筷搜等项目负责人；视频个性化推荐平台“今晚看啥”联合创始人兼CEO（后被百度收购）",
+        "relevant_experience": "2015年创办“助理来也”，切入智能助理/NLP方向；2023年7月入选“中国40位40岁以下商界精英”类榜单（百度百科口径）",
+        "previous_startups": "“今晚看啥”（被百度收购）",
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "胡一川",
+        "title": "联合创始人兼CTO",
+        "education": "宾夕法尼亚大学机器学习博士，清华大学本科",
+        "career": "曾任百度视频技术负责人；“今晚看啥”联合创始人兼CTO（后被百度收购）",
+        "relevant_experience": "长期主导来也技术体系与RPA+AI平台研发，牵头来也CoE建设",
+        "previous_startups": "“今晚看啥”（被百度收购）",
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "李玮",
+        "title": "联席CEO兼总裁",
+        "education": null,
+        "career": "按键精灵创始人；2019年来也科技与奥森科技合并后出任联席CEO兼总裁",
+        "relevant_experience": "主导来也全球化扩张与AI技术研发资金管理（C+轮融资用途表态人）",
+        "previous_startups": "按键精灵（与奥森科技/UiBot同源）",
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "褚瑞",
+        "title": "高级副总裁（工商登记为执行董事、总经理）",
+        "education": "国防科技大学博士（第三方百科口径，未在官方页面确认）",
+        "career": "原按键精灵、靠谱助手联合创始人兼CTO，原UiBot/奥森科技总经理&CTO；国际数模竞赛相关背景",
+        "relevant_experience": "2019年随奥森科技并入来也，负责RPA产品线",
+        "previous_startups": "按键精灵、靠谱助手、奥森科技（UiBot）",
+        "source_fact_kind": "inferred"
+      }
+    ],
+    "team": {
+      "size_min": 100,
+      "size_max": 500,
+      "stage_note": "规模口径差异大：LeadIQ（2026-10）估计全球约464人（覆盖亚/北美/欧）；主要工商主体参保仅39人；公司在北上广深长及香港设有办公室，并有海外团队，实际规模取第三方估计与工商口径之间的保守区间",
+      "expansion_signals": ["与600多家机构建立合作生态（含神州数码、微软、德勤、KPMG、PwC等）", "来也RPA开发者社区注册近80万人", "2021-2022年连续完成C+、C++轮大额融资，用于全球化扩张"],
+      "source_fact_kind": "inferred"
+    },
+    "products": [
+      {
+        "name": "来也UiBot",
+        "website": "https://laiye.com",
+        "positioning": "RPA+AI机器人流程自动化平台",
+        "core_features": "RPA流程自动化、对话式AI、IDP文档理解、流程挖掘；社区版6.0起全线免费",
+        "target_users": "政企客户（银行、保险、电力等）及RPA开发者",
+        "scenarios": "智能自动化、政企数字化、数字员工",
+        "traction": "UiBot注册开发者社区超59万（官方2021年口径），英文站称开发者社区近80万；全国超200家合作伙伴（后扩展至600+生态）"
+      },
+      {
+        "name": "智能体数字员工平台（Laiye Intelligent Automation Platform）",
+        "website": "https://laiye.com",
+        "positioning": "智能自动化行业领导者，助力政企实现人机协同",
+        "core_features": "RPA+AI一体化平台、大模型驱动的智能体数字员工、CoE卓越中心建设",
+        "target_users": "大型政企客户",
+        "scenarios": "银行、保险、能源电力等行业流程自动化",
+        "traction": "官方称RPA+AI平台已广泛应用于银行、保险、电力等行业；C轮时2019年回款同比增长四倍"
+      },
+      {
+        "name": "助理来也（历史C端产品）",
+        "website": null,
+        "positioning": "C端智能助理App",
+        "core_features": "基于NLP与个性化推荐的个人智能助理服务",
+        "target_users": "C端用户",
+        "scenarios": "个人事务助理",
+        "traction": "2015年上线，为公司早期产品；后战略转向B端RPA+AI"
+      }
+    ],
+    "evidence": [
+      {
+        "source_type": "official",
+        "url": "https://laiye.com/about",
+        "publisher": "来也科技官网",
+        "title": "关于我们-智能自动化行业领导者",
+        "snippet": "发展历程：2015-07-01成立并获天使轮2546万元；2019获B+轮3500万美元并与奥森科技合并进军RPA+AI；2020获C轮4200万美元；2021获C+轮5000万美元；2022获C++轮7000万美元；创始人汪冠春（董事长兼CEO，普林斯顿博士、上海交大本科）、胡一川（CTO，宾大博士、清华本科）",
+        "published_at": null
+      },
+      {
+        "source_type": "official",
+        "url": "https://laiye.com/news/post/2428.html",
+        "publisher": "来也科技官网",
+        "title": "来也科技完成C++轮7000万美元融资，引领全球智能自动化创新",
+        "snippet": "2022-04-19宣布完成C++轮7000万美元，C轮累计融资超1.6亿美元，厚朴Magnolia成长基金领投，优山资本和VMS Group鼎珮集团联合领投",
+        "published_at": "2022-04-19"
+      },
+      {
+        "source_type": "official",
+        "url": "https://laiye.com/en/news/lightspeed-backed-ai-startup-laiye-launches-uibot-to-enter-rpa-market-closing-series-b-with-35m",
+        "publisher": "来也科技官网（英文）",
+        "title": "Lightspeed backed AI Startup Laiye Launches UiBot to Enter RPA Market, Closing Series B+ with $35M",
+        "snippet": "B+轮3500万美元由Cathay Innovation凯辉领投，双湖资本、光速中国跟投；此前与奥森科技合并推出UiBot进军RPA",
+        "published_at": "2019-06"
+      },
+      {
+        "source_type": "media",
+        "url": "https://www.36kr.com/p/1188514857107714",
+        "publisher": "36氪",
+        "title": "36氪首发 | 「来也科技」完成5000万美元C+轮融资，RPA 软件订阅收入同比增长9倍",
+        "snippet": "2021-04-21完成C+轮5000万美元，平安全球领航基金与上海人工智能产业基金联合领投，光速中国、红杉中国、双湖资本跟投",
+        "published_at": "2021-04-21"
+      },
+      {
+        "source_type": "media",
+        "url": "https://wx.qixin007.com/financing/1b325d29-f769-4a3e-8622-77611887988d",
+        "publisher": "启信宝",
+        "title": "北京来也网络科技有限公司融资信息",
+        "snippet": "2016-12-13 A轮数千万人民币（微软领投，红杉、光速中国跟投）；天使轮2546万元",
+        "published_at": null
+      },
+      {
+        "source_type": "media",
+        "url": "https://m.baike.com/wiki/%E5%8C%97%E4%BA%AC%E6%9D%A5%E4%B9%9F%E7%BD%91%E7%BB%9C%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/21339882",
+        "publisher": "快懂百科",
+        "title": "北京来也网络科技有限公司",
+        "snippet": "2017-12-21完成千万美元B轮，双湖资本领投，光速中国、红杉中国跟投；2019-06-27合并UiBot完成3500万美元B+轮；创始团队含汪冠春、李玮、胡一川、褚瑞",
+        "published_at": null
+      },
+      {
+        "source_type": "media",
+        "url": "https://www.36kr.com/p/1725137911809",
+        "publisher": "36氪",
+        "title": "36氪首发 | 2019年回款增长四倍，「来也科技」完成C轮4200万美元融资",
+        "snippet": "来也科技C轮4200万美元；此前2015年400万美元天使、2016年底数千万人民币A轮、2017年底千万美元B轮",
+        "published_at": "2020-02"
+      },
+      {
+        "source_type": "official",
+        "url": "https://laiye.com/news/post/1561.html",
+        "publisher": "来也科技官网",
+        "title": "UiBot百万奖金RPA机器人开发大赛",
+        "snippet": "评委阵容：汪冠春（董事长兼CEO）、李玮（联席CEO兼总裁、按键精灵创始人）、胡一川（联合创始人兼CTO）",
+        "published_at": null
+      },
+      {
+        "source_type": "official",
+        "url": "https://laiye.com/en/about",
+        "publisher": "来也科技官网（英文）",
+        "title": "About Us | Laiye",
+        "snippet": "与600多家机构合作（神州数码、微软、德勤、KPMG、EY、PwC等）；开发者社区近80万成员；北京、上海、深圳、长沙、香港办公室",
+        "published_at": null
+      },
+      {
+        "source_type": "media",
+        "url": "https://www.leadiq.com/c/laiye/5e39cc68626d3b6fe0e6de8d",
+        "publisher": "LeadIQ",
+        "title": "Laiye Company Overview",
+        "snippet": "As of October 2026, Laiye has approximately 464 employees across 6 continents, including Asia, North America and Europe",
+        "published_at": "2026-10"
+      },
+      {
+        "source_type": "media",
+        "url": "https://www.qixin.com/company/be7e1a5e-d468-4699-a17f-2640d34dd65a",
+        "publisher": "启信宝",
+        "title": "来也科技（北京）有限公司",
+        "snippet": "企业规模中型；企业员工39人（2025年工商年报口径）",
+        "published_at": null
+      }
+    ]
+  },
+  {
+    "company_id": "lingxin",
+    "funding": [
+      {
+        "date": "2022-02",
+        "round": "天使轮",
+        "amount": null,
+        "currency": null,
+        "investors": null,
+        "note": "投资界报道其成立约三个月内即完成天使轮（公司2021-11-19成立），投资方与金额未公开确认"
+      },
+      {
+        "date": "2022-12-05",
+        "round": "天使+轮",
+        "amount": "数千万元人民币",
+        "currency": "CNY",
+        "investors": ["连星资本（领投）", "图灵创投", "智谱AI"],
+        "note": "同期推出图灵世界首个产品“AI乌托邦”"
+      },
+      {
+        "date": "2023-02",
+        "round": "Pre-A轮",
+        "amount": null,
+        "currency": null,
+        "investors": ["SEE Fund无限基金（领投）", "连星资本", "图灵创投", "智谱AI"],
+        "note": "老股东超额跟投"
+      },
+      {
+        "date": "2023-12",
+        "round": "股权出售（智谱AI全资收购）",
+        "amount": null,
+        "currency": null,
+        "investors": ["智谱AI"],
+        "note": "2023年下半年36氪爆料智谱AI全资收购聆心智能；2023年底成为智谱旗下全资子公司；工商现显示智谱华章持股100%"
+      }
+    ],
+    "founders": [
+      {
+        "name": "黄民烈",
+        "title": "创始人、首席科学家",
+        "education": "清华大学工学学士（工程物理）、工学博士（计算机科学与技术，2006年）；清华大学计算机科学与技术系长聘教授、博士生导师，国家杰出青年科学基金获得者",
+        "career": "清华大学计算机系交互式人工智能课题组（CoAI）负责人；2021年11月脱胎于其实验室创立聆心智能；长期从事人机对话中的情感智能研究",
+        "relevant_experience": "研发国内首个心理大模型Emohaa与角色对话大模型CharacterGLM；2023年6月与刘知远一同受聘清华人工智能研究院基础模型研究中心；近年以“聆芯智语”名义再创业（2025年报道）",
+        "previous_startups": "聆芯智语（2025年报道的新创业公司，为聆心之后再次创业）",
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "刘德兵",
+        "title": "董事长、经理（工商登记）",
+        "education": null,
+        "career": "工商登记的法定代表人/董事长兼经理；智谱全资收购后公司治理权归入智谱体系（张鹏任董事，张鹏为智谱CEO）",
+        "relevant_experience": null,
+        "previous_startups": null,
+        "source_fact_kind": "inferred"
+      }
+    ],
+    "team": {
+      "size_min": 37,
+      "size_max": 100,
+      "stage_note": "企查查显示参保37人、人员规模少于50人（2025年报）；启信宝披露2025年营业收入3233.96万元（中小企业声明函口径）；BOSS直聘页面标100-499人（招聘平台口径，未经证实，未采信为精确值）",
+      "expansion_signals": ["2025年发布AI心理测评系统、AI双师互动心理课、聆心心育空间等多款产品（腾讯科技报道）", "基于GLM-4.5推出国内首个具备共情聊天能力的心理大模型Emohaa（新华网）"],
+      "source_fact_kind": "verified"
+    },
+    "products": [
+      {
+        "name": "Emohaa（及AI心理测评系统）",
+        "website": null,
+        "positioning": "国内首个心理/情感大模型对话系统，AI+心理健康",
+        "core_features": "结合大语言模型基座与Hill助人理论的三阶段情绪支持框架；覆盖心理创伤、亲子教育、情绪困扰、婚恋情感等九大类心理话题；基于GLM-4.5具备共情聊天能力",
+        "target_users": "大中学生、心理服务机构、学校（B端/G端为主）",
+        "scenarios": "心理测评、心理疏导、AI双师互动心理课、聆心心育空间，覆盖“评估-干预”完整服务链",
+        "traction": "清华大学官网报道其已进入多个落地场景；聆心现阶段主要面向机构而非纯C端"
+      },
+      {
+        "name": "CharacterGLM（超拟人大模型）",
+        "website": null,
+        "positioning": "可控、可配置、拟人的角色对话大模型",
+        "core_features": "角色扮演对话、情感陪伴、人格化交互",
+        "target_users": "游戏、营销、情感陪伴等赛道（公司2022年主要侧重方向）",
+        "scenarios": "游戏NPC、虚拟角色聊天、情感陪伴（“用AI让高启强在线陪聊”即源于此技术）",
+        "traction": "36氪2023年报道引发广泛关注；后接入智谱GLM大模型形成技术互补"
+      },
+      {
+        "name": "AI乌托邦",
+        "website": null,
+        "positioning": "C端AI角色聊天产品（图灵世界首个产品）",
+        "core_features": "AI角色互动聊天",
+        "target_users": "C端年轻用户",
+        "scenarios": "AI角色陪聊",
+        "traction": "2022年12月天使+轮官宣同期推出"
+      }
+    ],
+    "evidence": [
+      {
+        "source_type": "media",
+        "url": "https://m.36kr.com/p/2245969235063173",
+        "publisher": "36氪",
+        "title": "清华教授带队，用AI让高启强在线陪聊，获SEE Fund、图灵创投等投资",
+        "snippet": "2023年2月完成Pre-A轮（SEE Fund、连星资本、图灵创投、智谱AI）；2022年12月获数千万元天使+轮（连星资本领投，图灵创投、智谱AI跟投）",
+        "published_at": "2023-02"
+      },
+      {
+        "source_type": "media",
+        "url": "https://m.cyzone.cn/article/707315.html",
+        "publisher": "创业邦",
+        "title": "融资丨「聆心智能」完成数千万元天使+轮融资，连星资本领投",
+        "snippet": "完成数千万元天使+轮，连星资本领投，图灵创投和智谱AI跟投",
+        "published_at": "2022-12"
+      },
+      {
+        "source_type": "media",
+        "url": "https://m.cyzone.cn/article/715274.html",
+        "publisher": "创业邦",
+        "title": "融资丨「聆心智能」完成Pre-A轮融资，SEE Fund领投",
+        "snippet": "Pre-A轮由SEE Fund领投，老股东超额跟投；公司孵化自清华大学计算机系，主打超拟人大模型",
+        "published_at": "2023-02"
+      },
+      {
+        "source_type": "media",
+        "url": "https://m.36kr.com/p/2441035936682369",
+        "publisher": "36氪",
+        "title": "曝智谱AI全资收购清华系大模型公司聆心智能",
+        "snippet": "聆心智能孵化自清华人工智能学院交互式人工智能课题组（CoAI），创办者黄民烈为清华大学计算机系副教授，研究方向NLP、对话系统、自然语言生成、情感分析",
+        "published_at": "2023"
+      },
+      {
+        "source_type": "media",
+        "url": "https://m.pedaily.cn/99discoveries/131917",
+        "publisher": "投资界",
+        "title": "始于清华，立于智谱：聆芯智语黄民烈，怀揣梦想再出发，要做人机交互的“连接器”",
+        "snippet": "2021年聆心智能成立三个月即连续完成天使轮、天使+轮融资；2023年底成为智谱旗下全资子公司，接入GLM大模型",
+        "published_at": "2025"
+      },
+      {
+        "source_type": "media",
+        "url": "https://m.qcc.com/firm/c6038e27ba499277798b8030581c2628.html",
+        "publisher": "企查查",
+        "title": "北京聆心智能科技有限公司",
+        "snippet": "参保37人、人员规模少于50人；股东为北京智谱华章科技股份有限公司（100%）；董事长、经理刘德兵，董事张鹏",
+        "published_at": null
+      },
+      {
+        "source_type": "media",
+        "url": "https://www.qixin.com/company/731e4b71-f479-4c1f-b12a-ef916095f880",
+        "publisher": "启信宝",
+        "title": "北京聆心智能科技有限公司",
+        "snippet": "员工37人（2025）、营业收入3233.96万元（2025）；成立于2021年11月，清华大学计算机系知识成果转化公司，核心技术由黄民烈教授团队构建",
+        "published_at": null
+      },
+      {
+        "source_type": "official",
+        "url": "https://www.tsinghua.edu.cn/info/1182/121956.htm",
+        "publisher": "清华大学",
+        "title": "“AI+心理”细分赛道升温",
+        "snippet": "清华大学长聘教授、聆心智能创始人、首席科学家黄民烈；2021年脱胎于黄民烈实验室成立；Emohaa覆盖九大类心理话题",
+        "published_at": "2025"
+      },
+      {
+        "source_type": "official",
+        "url": "http://www.news.cn/tech/20250915/17ddb3339b20429bbe3cd355290b5805/c.html",
+        "publisher": "新华网",
+        "title": "心理学与算法“共舞” 情感计算开启人工智能新赛道",
+        "snippet": "聆心智能基于国产大模型GLM-4.5推出国内首个具备共情聊天能力的心理大模型Emohaa，及人工智能心理测评系统、AI双师互动心理课、聆心心育空间三类产品",
+        "published_at": "2025-09-15"
+      },
+      {
+        "source_type": "official",
+        "url": "https://ai.cs.tsinghua.edu.cn/info/1199/1104.htm",
+        "publisher": "清华大学计算机系",
+        "title": "黄民烈",
+        "snippet": "清华大学教授；工学学士（工程物理，清华）、工学博士（计算机科学与技术，清华，2006）",
+        "published_at": null
+      },
+      {
+        "source_type": "job_platform",
+        "url": "https://www.zhipin.com/job_detail/c0fd22fc1ae3caa503xz09y9ElNQ.html",
+        "publisher": "BOSS直聘",
+        "title": "聆心智能2026年大模型销售总监招聘",
+        "snippet": "公司页面标“A轮、100-499人”（招聘平台口径，与工商参保37人差异大，未采信）",
+        "published_at": "2026"
+      }
+    ]
+  },
+  {
+    "company_id": "galaxy-general",
+    "funding": [
+      {
+        "date": "2023-06",
+        "round": "种子轮",
+        "amount": "数千万人民币",
+        "currency": "CNY",
+        "investors": ["经纬创投", "蓝驰创投"],
+        "note": null
+      },
+      {
+        "date": "2024-06",
+        "round": "天使轮",
+        "amount": "7亿人民币",
+        "currency": "CNY",
+        "investors": ["IDG资本", "SEE Fund", "光源资本", "启明创投", "源码资本", "国香资本", "燕缘创投", "经纬创投", "蓝驰创投", "美团（战略投资）", "北汽产投"],
+        "note": "最终完成共计7亿元天使轮，含美团、北汽等战略及产业投资方；36氪称“身后几乎集结了市场上各类型投资机构”"
+      },
+      {
+        "date": "2024-11-18",
+        "round": "战略轮",
+        "amount": "5亿人民币",
+        "currency": "CNY",
+        "investors": ["上汽集团", "香港投资公司HKIC", "上海人工智能产业基金", "北京机器人产业基金", "北汽", "美团", "科大讯飞", "智源研究院"],
+        "note": "成立一年半累计融资12亿元；汇集北京、上海、深圳、香港四方政府背景基金"
+      },
+      {
+        "date": "2025-06-23",
+        "round": "新一轮",
+        "amount": "11亿人民币",
+        "currency": "CNY",
+        "investors": ["宁德时代（领投）", "溥泉资本", "国家开发银行国开科创", "北京机器人产业基金", "纪源资本"],
+        "note": "当时国内具身智能领域单笔最大融资"
+      },
+      {
+        "date": "2026-03-02",
+        "round": "B++轮（工商登记为股权投资）",
+        "amount": "25亿人民币",
+        "currency": "CNY",
+        "investors": ["国家人工智能产业投资基金", "中国石化", "中信集团", "中国银行", "上汽集团", "中芯聚源", "亦庄国投", "未来产业投资", "鲲鹏", "上海国盛集团"],
+        "note": "估值30亿美元（约210亿元人民币）；公司累计融资约70亿元；2025-11-27完成股份制改造"
+      }
+    ],
+    "founders": [
+      {
+        "name": "王鹤",
+        "title": "创始人（媒体称创始人兼CTO，亦为实际控制人/董事长角色）",
+        "education": "清华大学电子工程系（微纳电子学系）工学学士（2014，高中物理竞赛保送），斯坦福大学博士（2021）",
+        "career": "2021年9月回国加入北京大学，任前沿计算研究中心（CFCS）助理教授、博士生导师；创立并领导北大具身感知与交互实验室（EPIC Lab）；北大-银河通用具身智能联合实验室主任；北京智源人工智能研究院具身智能研究中心主任；入选国家海外高层次人才计划",
+        "relevant_experience": "研究具身智能、三维视觉、机器人学；获北京青年五四奖章（第三十六届）、蚂蚁Inspire等荣誉；2024年5月起任北大-银河通用联合实验室主任",
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "姚腾洲",
+        "title": "联合创始人",
+        "education": "北京航空航天大学机器人研究所硕士（师从机器人行业专家、中关村智友研究院院长王田苗）",
+        "career": "曾就职于ABB集团上海机器人研发中心多年，从事工业与服务机器人研发；拥有销量千万级智能硬件产品的量产经验；此前有过创业经历",
+        "relevant_experience": "负责银河通用机器人产品化、设计制造与量产落地",
+        "previous_startups": "曾有智能硬件创业经历（名称未公开）",
+        "source_fact_kind": "verified"
+      }
+    ],
+    "team": {
+      "size_min": 200,
+      "size_max": 500,
+      "stage_note": "新浪财经2026-04对话称“整个公司约有五百人，其中大部分拥有博士或顶尖高校背景”；工商口径：北京主体参保166人（2025年报）、深圳主体97人（2025）；口径差异源于多地主体与海外布局，取200-500保守区间",
+      "expansion_signals": ["成立不到三年估值突破210亿元，为国内估值最高的具身智能公司之一", "2026-03完成25亿元B++轮融资，股东含多家央企产业资本", "商业部署机器人超千台，银河太空舱落地全国40余城超170个点位"],
+      "source_fact_kind": "verified"
+    },
+    "products": [
+      {
+        "name": "Galbot G1",
+        "website": "https://www.galbot.com/g1/",
+        "positioning": "可泛化操作的具身大模型轮式人形机器人",
+        "core_features": "自研GraspVLA端到端抓取基础模型、TrackVLA导航模型、GroceryVLA零售智能；仿真合成动作数据训练",
+        "target_users": "零售、医药、仓储、工业制造、科研客户",
+        "scenarios": "商超取货交付与盘点、24小时无人药房、零部件分拣搬运、上下料",
+        "traction": "落地药店、零售店、仓库、医院及汽车产线（与宁德时代、博世、丰田、现代等合作）；获2025世界人形机器人运动会金牌；公司整体机器人商业部署超千台"
+      },
+      {
+        "name": "银河太空舱（无人零售商店）",
+        "website": "https://www.galbot.com",
+        "positioning": "机器人自主工作的无人零售解决方案",
+        "core_features": "Galbot机器人自主运营便利店，夹取、结算全流程无人化",
+        "target_users": "零售品牌与商业地产",
+        "scenarios": "无人便利店、智慧药房",
+        "traction": "官方称已在全国40余个城市落地超170个点位；2026年在上海老百姓大药房实现24小时常态化运营，并持有全球首张面向人形机器人药品零售场景的药品经营许可证"
+      },
+      {
+        "name": "Galbot S1（重载机器人）",
+        "website": "https://www.galbot.com",
+        "positioning": "面向工业制造的重载具身智能机器人",
+        "core_features": "模组与电池包生产环节物料转运，7×24小时零遥操全自主运行",
+        "target_users": "新能源制造等工业客户",
+        "scenarios": "宁德时代动力电池产线",
+        "traction": "在宁德时代产线连续作业超3个月，为全球首次人形机器人在新能源制造产线常态化自主作业；与博世、上汽、北汽、现代、长城、极氪等制造企业达成合作"
+      }
+    ],
+    "evidence": [
+      {
+        "source_type": "media",
+        "url": "https://www.galbot.com/about",
+        "publisher": "银河通用官网",
+        "title": "Galbot - About Us",
+        "snippet": "He Wang：斯坦福博士、北京大学CFCS助理教授/博导、PKU-Galbot联合实验室主任；TengZhou Yao：联合创始人，曾就职ABB上海机器人研发中心",
+        "published_at": null
+      },
+      {
+        "source_type": "media",
+        "url": "https://ad.36kr.com/p/3978672823417862",
+        "publisher": "36氪",
+        "title": "银河通用：成立34个月、6轮融资70亿——具身智能赛道「资金收割机」的底气与隐忧",
+        "snippet": "2023年6月种子轮数千万（经纬创投、蓝驰创投）；2024年6月天使轮7亿元（IDG、SEE Fund、光源、启明、国香、源码、燕缘等）",
+        "published_at": "2026"
+      },
+      {
+        "source_type": "media",
+        "url": "https://www.thepaper.cn/newsDetail_forward_29452839",
+        "publisher": "澎湃新闻（转智东西）",
+        "title": "人形机器人融资，爆爆爆!",
+        "snippet": "2024年11月18日获5亿元战略轮，成立一年半累计融资12亿元，投资方含北汽、美团、讯飞、智源及四方政府背景基金",
+        "published_at": "2024-11-25"
+      },
+      {
+        "source_type": "media",
+        "url": "https://m.36kr.com/p/3601826076394500",
+        "publisher": "36氪（转投资界）",
+        "title": "人形机器人最大融资诞生，估值200亿",
+        "snippet": "成立于2023年5月，北大90后教授王鹤带队；截至该轮累计融资约8亿美元，估值30亿美元（超200亿人民币）",
+        "published_at": "2026-03"
+      },
+      {
+        "source_type": "media",
+        "url": "https://m.cyzone.cn/article/801896",
+        "publisher": "创业邦",
+        "title": "11亿，具身智能单笔最大融资出现，我们独家对话了银河通用创始人王鹤",
+        "snippet": "6月23日宣布完成宁德时代领投的11亿元新一轮融资，为当时国内具身智能领域单笔最大融资；其他投资方包括溥泉资本、国开科创、北京机器人产业基金、纪源资本",
+        "published_at": "2025-06-23"
+      },
+      {
+        "source_type": "media",
+        "url": "https://www.news.cn/digital/20250623/00657ee2fbde4b4d8c005ea667b31737/c.html",
+        "publisher": "新华网",
+        "title": "银河通用完成新一轮11亿元融资",
+        "snippet": "创始人兼CTO王鹤出生于1992年，2014年毕业于清华大学电子系，2021年获斯坦福博士学位，后回国加入北京大学任教，任北大助理教授、博导、北大-银河通用联合实验室主任、智源具身智能研究中心主任",
+        "published_at": "2025-06-23"
+      },
+      {
+        "source_type": "media",
+        "url": "https://m.tianyancha.com/brand/bc5ad772286",
+        "publisher": "天眼查",
+        "title": "银河通用机器人融资历程",
+        "snippet": "2026-03-02 B++轮25亿人民币，估值30亿美元；投资方含国家人工智能产业投资基金、中国石化、中信集团、中国银行、上汽集团、中芯聚源、亦庄国投、未来产业投资、鲲鹏等",
+        "published_at": null
+      },
+      {
+        "source_type": "media",
+        "url": "https://finance.sina.com.cn/wm/2026-09-22/doc-inisspzf8904407.shtml.md",
+        "publisher": "新浪财经",
+        "title": "银河通用：目前机器人商业部署超千台",
+        "snippet": "成立三年累计融资约70亿元，2026年3月最新一轮融资完成后估值已超200亿元；投资方包括宁德时代、美团、博世资本等；2025年11月27日完成股份制改造",
+        "published_at": "2026-09-22"
+      },
+      {
+        "source_type": "media",
+        "url": "https://finance.sina.com.cn/stock/t/2026-04-13/doc-inhuihzn4869804.shtml",
+        "publisher": "新浪财经",
+        "title": "对话银河通用赵于莉：不做“花哨”的机器人",
+        "snippet": "成立不到三年估值突破210亿元；整个公司约有五百人，大部分拥有博士或顶尖高校背景",
+        "published_at": "2026-04-13"
+      },
+      {
+        "source_type": "media",
+        "url": "https://www.tianyancha.com/company/6185184171",
+        "publisher": "天眼查",
+        "title": "北京银河通用机器人股份有限公司",
+        "snippet": "员工人数166人（2025年）；2026年完成B++轮，交易金额25亿人民币",
+        "published_at": null
+      },
+      {
+        "source_type": "official",
+        "url": "http://www.galbot.com/g1/",
+        "publisher": "银河通用官网",
+        "title": "Galbot G1 - 可泛化操作的具身大模型机器人",
+        "snippet": "银河太空舱已在全国40余个城市落地超170个点位；场景覆盖商超零售、工业制造",
+        "published_at": null
+      },
+      {
+        "source_type": "media",
+        "url": "http://www.cnr.cn/shanghai/tt/20260930/t20260930_527830651.shtml",
+        "publisher": "央广网",
+        "title": "银河通用机器人落地上海老百姓大药房，人机协同开启智慧医药零售新范本",
+        "snippet": "2026年9月Galbot在老百姓大药房上海徐汇区虹漕路店常态化运行，提供24小时药品零售；已取得全球首张面向人形机器人药品零售场景的药品经营许可证",
+        "published_at": "2026-09-30"
+      },
+      {
+        "source_type": "media",
+        "url": "https://www.ncsti.gov.cn/kjdt/kjrd/rgzn_kjrd/202608/t20260803_252248.html",
+        "publisher": "北京市科委（国家科技信息平台）",
+        "title": "北京具身智能迈入全身协同新范式",
+        "snippet": "Galbot S1重载机器人在宁德时代动力电池产线模组与电池包生产环节承担物料转运，7×24小时连续作业超3个月，全程零遥操；与博世、上汽、北汽、现代、长城、极氪等达成合作",
+        "published_at": "2026-08-03"
+      },
+      {
+        "source_type": "media",
+        "url": "http://paper.people.com.cn/zgjjzk/pc/content/202604/30/content_30167718.html",
+        "publisher": "中国经济周刊",
+        "title": "智友孵化器：让科学家孵化科学家企业",
+        "snippet": "联合创始人姚腾洲毕业于北航机器人研究所，是王田苗的学生，曾就职ABB，之后有过创业经历；2023年5月与王鹤一起创立银河通用",
+        "published_at": "2026-04-30"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {"company": {"id": "minimax", "name": "MiniMax（稀宇科技）", "aliases": ["MiniMax", "稀宇科技", "MiniMax AI"], "english_name": "MiniMax", "website": "https://www.minimax.cn", "city": "上海", "company_type": "startup", "tracks": ["Foundation Models", "AI Applications"], "description": "通用大模型公司（MiniMax-Text/ abab、海螺 AI、Talkie 等产品），2026 年报道称市值超 2500 亿港元，上海核心办公。", "funding_stage": "战略投资/ IPO 筹备中（公开报道称市值超 2500 亿港元）", "hiring_signals": ["官方招聘页校招/社招/实习多通道开放（检索于 2026-10-23）", "BOSS 直聘约 136 个在招岗位（2026-10 搜索快照）"]},
+   "evidence": [{"source_type": "official", "url": "https://www.minimax.cn/careers", "publisher": "MiniMax 官网", "title": "MiniMax 官方招聘页：校招/社招/实习", "snippet": "「探索开放职位」入口与 Top Talent 人才计划，多形态智能体验方向（AI 应用与产品）招聘中"}]},
+
+  {"company": {"id": "aac-optics", "name": "瑞声光电", "aliases": ["AAC 光学", "瑞声科技"], "english_name": "AAC Optics", "city": "上海", "hq_location": "母公司瑞声科技 AAC Technologies（港股 02018.HK）", "company_type": "startup", "tracks": ["AI Applications", "AI Robotics"], "funding_stage": "已上市（母公司港股 02018.HK）", "team_size_min": 10000, "description": "瑞声科技旗下光学/感知业务主体，在上海七宝招聘 AI 产品经理（硕士，5-10 年）。", "hiring_signals": ["猎聘在招：AI产品经理，上海-七宝，26-40k（检索于 2026-10-23）"]},
+   "evidence": [{"source_type": "job_platform", "url": "https://www.liepin.com/zpaicpjl", "publisher": "猎聘", "title": "AI产品经理（上海-七宝）", "snippet": "瑞声光电：26-40k，5-10年，硕士，电子/半导体，10000人以上"}]},
+
+  {"company": {"id": "aiqi-info", "name": "上海艾麒信息科技股份有限公司", "aliases": ["艾麒信息"], "city": "上海", "company_type": "startup", "tracks": ["AI Applications"], "funding_stage": "已上市", "team_size_min": 100, "team_size_max": 499, "description": "上海互联网上市公司（漕河泾），在招 AI 产品经理（2 年以上，本科）。", "hiring_signals": ["猎聘在招：AI产品经理，上海-漕河泾，15-25k（检索于 2026-10-23）"]},
+   "evidence": [{"source_type": "job_platform", "url": "https://www.liepin.com/zpaicpjl", "publisher": "猎聘", "title": "AI产品经理（上海-漕河泾）", "snippet": "上海艾麒信息科技股份有限公司：15-25k，2年以上，本科，已上市，100-499人"}]},
+
+  {"company": {"id": "tensky-care", "name": "天与养老", "aliases": ["天与鹤年", "天与"], "city": "上海", "company_type": "startup", "tracks": ["AI Applications"], "funding_stage": "B轮", "team_size_min": 500, "team_size_max": 999, "description": "养老服务 + 互联网 + 智能硬件（上海真光），在招 AI 产品经理（3-5 年，20-35k·15薪）。", "hiring_signals": ["猎聘在招：AI产品经理，上海-真光，20-35k·15薪（检索于 2026-10-23）"]},
+   "evidence": [{"source_type": "job_platform", "url": "https://www.liepin.com/zpaicpjl", "publisher": "猎聘", "title": "AI产品经理（上海-真光）", "snippet": "天与养老：20-35k·15薪，3-5年，本科，B轮融资，500-999人"}]},
+
+  {"company": {"id": "qianxun-si", "name": "千寻位置", "aliases": ["千寻位置网络有限公司", "Qianxun SI"], "english_name": "Qianxun Spatial Intelligence", "website": "https://www.qxwz.com", "city": "上海", "company_type": "startup", "tracks": ["AI Applications", "AI Robotics"], "funding_stage": "B轮（阿里巴巴与中国兵器工业集团共同发起）", "team_size_min": 500, "team_size_max": 999, "description": "时空智能基础设施公司（上海江湾），在招 AI 产品经理——时空智能方向（2 年以上，硕士）。", "hiring_signals": ["猎聘在招：AI 产品经理（时空智能方向），上海-江湾，面议（检索于 2026-10-23）"]},
+   "evidence": [{"source_type": "job_platform", "url": "https://www.liepin.com/zpaicpjl", "publisher": "猎聘", "title": "AI 产品经理（时空智能方向）（上海-江湾）", "snippet": "千寻位置网络有限公司：面议，2年以上，硕士，云计算/大数据，B轮融资，500-999人"}]},
+
+  {"company": {"id": "samoyed-cloud", "name": "萨摩耶云", "aliases": ["萨摩耶云科技集团", "Samos Cloud"], "city": "上海", "hq_location": "集团总部深圳，岗位在上海三林", "company_type": "startup", "tracks": ["AI Applications", "AI Enterprise Software"], "funding_stage": "C轮", "team_size_min": 500, "team_size_max": 999, "description": "科技金融云服务商，在上海三林招聘 AI 产品经理（经验不限，本科）。", "hiring_signals": ["猎聘在招：AI产品经理，上海-三林，20-40k（检索于 2026-10-23）"]},
+   "evidence": [{"source_type": "job_platform", "url": "https://www.liepin.com/zpaicpjl", "publisher": "猎聘", "title": "AI产品经理（上海-三林）", "snippet": "萨摩耶云：20-40k，经验不限，本科，C轮融资，500-999人"}]},
+
+  {"company": {"id": "chunnan-info", "name": "上海淳南信息技术有限公司", "aliases": ["淳南信息"], "city": "上海", "company_type": "startup", "tracks": ["AI Applications"], "funding_stage": "未披露", "team_size_min": 50, "team_size_max": 99, "description": "计算机软件小团队（洋泾），在招 AI 产品经理——智慧航运/物流方向。", "hiring_signals": ["猎聘在招：AI产品经理（智慧航运/物流方向），上海-洋泾，12-18k（检索于 2026-10-23）"]},
+   "evidence": [{"source_type": "job_platform", "url": "https://www.liepin.com/zpaicpjl", "publisher": "猎聘", "title": "AI产品经理（智慧航运/物流方向）（上海-洋泾）", "snippet": "上海淳南信息技术有限公司：12-18k，3年以上，本科，50-99人"}]},
+
+  {"company": {"id": "undisclosed-ai-companion", "name": "未披露用人单位（AI 陪伴 C 端产品）", "city": "上海", "company_type": "startup", "tracks": ["AI Applications"], "funding_stage": "未披露", "description": "猎头代招岗位，用人单位未公开：AI 陪伴类 C 端产品，要求社交/陪伴类产品经验与大模型认知。", "hiring_signals": ["猎聘猎头岗在招：AI产品经理（上海），70-100k，更新于 2026-10-10"]},
+   "evidence": [{"source_type": "job_platform", "url": "https://www.liepin.com/a/80069285.shtml", "publisher": "猎聘（猎头：陕西卓麓人力资源）", "title": "AI产品经理（上海）70-100k", "snippet": "AI陪伴类C端产品，社交/陪伴产品经验+大模型认知，5-10年，招1人，用人单位未披露", "trust_note": "猎头代招，企业主体未知；投递前需与猎头确认用人单位"}]}
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "company": {
+      "id": "moonshot",
+      "name": "月之暗面",
+      "aliases": ["Kimi", "Moonshot AI", "北京月之暗面科技有限公司"],
+      "english_name": "Moonshot AI",
+      "website": "https://www.moonshot.cn",
+      "city": "北京",
+      "hq_location": "北京市海淀区",
+      "company_type": "startup",
+      "tracks": ["AI Agents", "AI Applications"],
+      "description": "月之暗面（Moonshot AI）成立于2023年，由杨植麟创立，产品为Kimi智能助手及Kimi Agent系列Agent产品（如OK Computer、Kimi Web体验等），并推进全球化与开放平台商业化。",
+      "funding_stage": "C轮",
+      "team_size_min": 300,
+      "team_size_max": 500,
+      "hiring_signals": [
+        "官网Moka社会招聘页2026-08至09密集发布产品类岗位（含Kimi Agent垂直领域业务负责人，标急）",
+        "BOSS直聘在招开放平台产品经理（30-60K·16薪，2026年仍在更新）",
+        "校园招聘页2026-09-02发布Product Engineer Intern（AI Agent方向）"
+      ]
+    },
+    "aliases": ["Kimi", "Moonshot AI"],
+    "evidence": [
+      {
+        "source_type": "official",
+        "url": "https://careers.kimi.com/",
+        "publisher": "Moonshot AI",
+        "title": "Moonshot · Kimi 招聘官网 | 月之暗面求职",
+        "snippet": "官网招聘站，社会招聘/校园招聘入口，产品、技术等岗位持续更新。",
+        "published_at": "2026-10-22",
+        "trust_note": "官网招聘页；页面无单篇发布日期，取检索日期"
+      },
+      {
+        "source_type": "investor",
+        "url": "https://www.stcn.com/article/detail/3948559.html",
+        "publisher": "证券时报·科创板日报",
+        "title": "Kimi估值飙升至300亿美元，已开启新一轮融资",
+        "snippet": "2025年末，月之暗面完成5亿美元C轮融资；估值此后一路攀升。",
+        "published_at": "2026-03-01",
+        "trust_note": "媒体报道C轮融资5亿美元，据此标funding_stage=C轮"
+      },
+      {
+        "source_type": "job_platform",
+        "url": "https://app.mokahr.com/m/social-recruitment/moonshot/150836",
+        "publisher": "Moka（月之暗面官方ATS）",
+        "title": "Kimi社会招聘",
+        "snippet": "AI Product Innovation Explorer（Beijing，Posted on 2026-08-26）；Vertical Domain Owner, Kimi Agent（垂直领域产品业务负责人，Beijing，Posted on 2026-09-02，急）。",
+        "published_at": "2026-09-02",
+        "trust_note": "公司官方Moka招聘页，岗位发布时间直接来自页面"
+      }
+    ]
+  },
+  {
+    "company": {
+      "id": "modelbest",
+      "name": "面壁智能",
+      "aliases": ["ModelBest", "北京面壁智能科技股份有限公司"],
+      "english_name": "ModelBest",
+      "website": "https://modelbest.cn",
+      "city": "北京",
+      "hq_location": "北京市海淀区",
+      "company_type": "startup",
+      "tracks": ["AI Agents", "AI Applications"],
+      "description": "面壁智能成立于2022年8月，源自清华大学NLP实验室，主打端侧大模型MiniCPM系列及ChatDev/Agentic Infra等智能体产品与解决方案，已通过上市辅导备案。",
+      "funding_stage": "D轮",
+      "team_size_min": 200,
+      "team_size_max": 299,
+      "hiring_signals": [
+        "官方飞书招聘页社招+2026校招并行，在招售前解决方案、Agentic Infra等",
+        "BOSS直聘多个在招岗位（开发者关系专家A155843、售前解决方案架构师A21775等）",
+        "企查查显示2026-05-28仍新发大模型应用算法工程师（30-55K）"
+      ]
+    },
+    "aliases": ["ModelBest"],
+    "evidence": [
+      {
+        "source_type": "official",
+        "url": "https://modelbest.jobs.feishu.cn/career/position",
+        "publisher": "面壁智能",
+        "title": "加入面壁智能",
+        "snippet": "在招：大模型售前解决方案专家（北京，社招，A80558）、Agentic Infra（2026校招）等。",
+        "published_at": "2026-10-22",
+        "trust_note": "官网飞书招聘页，检索时岗位列表在线"
+      },
+      {
+        "source_type": "investor",
+        "url": "https://news.qq.com/rain/a/20240411A0A5C300",
+        "publisher": "钛媒体AGI（腾讯新闻转载）",
+        "title": "华为哈勃领投面壁智能新一轮数亿元融资，全新MiniCPM2模型成本降60%",
+        "snippet": "华为哈勃领投面壁智能新一轮数亿元融资；科研团队100多人，清华北大背景占比80%。",
+        "published_at": "2024-04-11",
+        "trust_note": "融资报道；更新轮次见天眼查D++轮记录"
+      },
+      {
+        "source_type": "job_platform",
+        "url": "https://www.tianyancha.com/company/5656939571/gongsi",
+        "publisher": "天眼查",
+        "title": "北京面壁智能科技股份有限公司-信息查询",
+        "snippet": "员工人数205人(2025)；2026年完成D++轮，交易金额数亿人民币。",
+        "published_at": "2026-10-22",
+        "trust_note": "工商信息页；team_size与funding_stage依据此页及企查查（B+轮、上市辅导、参保205人）交叉确认"
+      }
+    ]
+  },
+  {
+    "company": {
+      "id": "langboat",
+      "name": "澜舟科技",
+      "aliases": ["Langboat", "北京澜舟科技有限公司", "孟子大模型"],
+      "english_name": "Langboat Technology",
+      "website": "https://www.langboat.com",
+      "city": "北京",
+      "hq_location": "北京市",
+      "company_type": "startup",
+      "tracks": ["AI Agents", "AI Applications"],
+      "description": "澜舟科技由NLP科学家周明博士（前微软亚洲研究院副院长）于2021年前后创立，孵化自创新工场，主打孟子大模型及面向金融等行业的企业级大模型应用与Agent产品。",
+      "funding_stage": "Pre-A+轮",
+      "team_size_min": 50,
+      "team_size_max": 200,
+      "hiring_signals": [
+        "官网jobs页在招大模型产品经理等岗位",
+        "猎聘公司页在招职位5个（北京）",
+        "企查查2025-12-09仍新发AI产品经理（20-30K，北京）"
+      ]
+    },
+    "aliases": ["Langboat", "孟子大模型"],
+    "evidence": [
+      {
+        "source_type": "official",
+        "url": "https://www.langboat.com/jobs",
+        "publisher": "澜舟科技",
+        "title": "关于我们-加入我们",
+        "snippet": "在招大模型产品经理：负责大模型应用相关产品的规划、设计和落地管理……三年以上ToB产品设计/管理/研发经验。",
+        "published_at": "2026-10-22",
+        "trust_note": "官网招聘页，检索时在招"
+      },
+      {
+        "source_type": "media",
+        "url": "https://m.thepaper.cn/detail/22294738",
+        "publisher": "澎湃新闻",
+        "title": "前微软亚洲研究院副院长创办企业推出\"孟子对话大模型\"",
+        "snippet": "澜舟科技正式完成Pre-A+轮融资，不到一年时间融资总额达到数亿元。",
+        "published_at": "2023-03-01",
+        "trust_note": "融资轮次以2023年Pre-A+轮报道为最新公开确认，此后未见更新轮次"
+      },
+      {
+        "source_type": "job_platform",
+        "url": "https://www.liepin.com/company/13173687/",
+        "publisher": "猎聘",
+        "title": "【澜舟科技招聘】-猎聘",
+        "snippet": "澜舟科技是一家认知智能公司……主要产品包括基于预训练模型的功能引擎和垂直行业SaaS产品。简介 职位(5)，北京。",
+        "published_at": "2026-10-22",
+        "trust_note": "招聘平台公司页，显示5个在招职位"
+      }
+    ]
+  },
+  {
+    "company": {
+      "id": "recurrent",
+      "name": "循环智能",
+      "aliases": ["Recurrent AI", "北京循环智能科技有限公司", "睿科伦"],
+      "english_name": "Recurrent AI",
+      "website": "https://www.rcrai.com",
+      "city": "北京",
+      "hq_location": "北京市西城区",
+      "company_type": "startup",
+      "tracks": ["AI Agents", "AI Applications"],
+      "description": "循环智能（Recurrent AI）由陈麒聪等联合创立，专注SalesTech会话智能与企业级大模型应用，为金融、汽车等行业提供AI销售助手/Agent及增强分析产品，客户覆盖多家头部金融机构与上万家汽车门店。",
+      "funding_stage": null,
+      "team_size_min": 100,
+      "team_size_max": 300,
+      "hiring_signals": [
+        "官网加入我们页在招算法平台研发、产品经理（北京/上海）等多个岗位",
+        "BOSS直聘在招AI数据分析产品经理（20-40K·13薪，北京西直门）",
+        "企查查在招AI定开产品经理（北京）"
+      ]
+    },
+    "aliases": ["Recurrent AI"],
+    "evidence": [
+      {
+        "source_type": "official",
+        "url": "https://www.rcrai.com/about-us/join-us",
+        "publisher": "循环智能",
+        "title": "加入我们-循环智能",
+        "snippet": "热招岗位：算法平台研发工程师（北京、上海、深圳）、产品经理（北京、上海）、内容运营（北京）等。",
+        "published_at": "2026-10-22",
+        "trust_note": "官网招聘页，检索时在招"
+      },
+      {
+        "source_type": "media",
+        "url": "https://m.cyzone.cn/article/707315.html",
+        "publisher": "创业邦",
+        "title": "融资丨「聆心智能」完成数千万元天使+轮融资，连星资本领投",
+        "snippet": "（用于区分同名企业）循环智能联合创始人&CEO陈麒聪，CMU计算机硕士，曾联合创立技能交易平台TalentJungle。",
+        "published_at": null,
+        "trust_note": "仅作创始人背景旁证；公司主体融资公开报道为2021年战略融资3800万美元（天眼查，北京睿科伦智能科技有限公司，法人陈麒聪）"
+      },
+      {
+        "source_type": "job_platform",
+        "url": "https://m.bosszhipin.com/zhaopin/a0158f3cc8f8b55d0nF62Nq9Fg~~/",
+        "publisher": "BOSS直聘",
+        "title": "循环智能 AI数据分析产品经理 等职位",
+        "snippet": "AI数据分析产品经理 20-40K·13薪，循环智能，北京西城区西直门，5-10年，本科。另有25-35K·13薪岗位。",
+        "published_at": "2026-10-22",
+        "trust_note": "BOSS职位聚合列表页快照；单职位直链见jobs文件"
+      }
+    ]
+  },
+  {
+    "company": {
+      "id": "shengshu",
+      "name": "生数科技",
+      "aliases": ["Shengshu Technology", "Vidu", "北京生数科技股份有限公司"],
+      "english_name": "Shengshu Technology",
+      "website": "https://www.shengshu.com",
+      "city": "北京",
+      "hq_location": "北京市海淀区",
+      "company_type": "startup",
+      "tracks": ["AI Applications"],
+      "description": "生数科技成立于2023年，源自清华大学人工智能研究院，研发通用世界模型/Vidu视频生成大模型及Vidu AI应用（iOS/Web），并向具身智能VLM Agent等方向延伸，是清华系多模态大模型代表公司。",
+      "funding_stage": "B轮",
+      "team_size_min": 100,
+      "team_size_max": 300,
+      "hiring_signals": [
+        "2026-04完成近20亿元B轮融资后持续扩张招聘",
+        "职友集显示北京在招高级产品经理（30-50K）、AI Product Manager（40-60K）、视频生成算法工程师/专家（60-90K，9天内新发）",
+        "BOSS直聘在招流式视频生成训练实习生（北京）"
+      ]
+    },
+    "aliases": ["Vidu", "Shengshu"],
+    "evidence": [
+      {
+        "source_type": "official",
+        "url": "https://www.shengshu.com/zh/news/series-b-funding/",
+        "publisher": "生数科技",
+        "title": "生数科技完成近20亿元B轮融资，以通用世界模型定义下一代数字与物理世界生产力底座",
+        "snippet": "2026年4月10日宣布完成近20亿元人民币B轮融资，阿里云领投，中网投、九安海棠、好未来、光合创投等战略投资，星连资本、达泰资本、BV百度风投等老股东追加。",
+        "published_at": "2026-04-10",
+        "trust_note": "公司官方融资公告"
+      },
+      {
+        "source_type": "job_platform",
+        "url": "https://www.jobui.com/company/26683783/jobs/all/beijing/",
+        "publisher": "职友集",
+        "title": "「北京生数科技招聘」北京生数科技股份有限公司",
+        "snippet": "视频生成算法工程师/专家（A246364）北京-海淀区 3-5年 本科以上 全职 ￥60000-90000，9天前发布。",
+        "published_at": "2026-10-13",
+        "trust_note": "聚合平台页面标注'9天前'，按检索日2026-10-22折算"
+      },
+      {
+        "source_type": "investor",
+        "url": "https://m.tianyancha.com/brand/b964f34210",
+        "publisher": "天眼查",
+        "title": "Vidu融资历程",
+        "snippet": "Vidu融资历程8条：2026-04-10 B轮近20亿人民币，估值120亿人民币，投资方含阿里云、中网投、北洋海棠基金、好未来、光合创投、百度风投、启明创投、星连资本、达泰资本等。",
+        "published_at": "2026-04-10",
+        "trust_note": "天眼查融资页与官方公告一致"
+      }
+    ]
+  },
+  {
+    "company": {
+      "id": "aisphere",
+      "name": "爱诗科技",
+      "aliases": ["AIsphere", "PixVerse", "拍我AI", "北京爱诗科技有限公司"],
+      "english_name": "AIsphere",
+      "website": "https://pixverse.ai",
+      "city": "北京",
+      "hq_location": "北京市海淀区",
+      "company_type": "startup",
+      "tracks": ["AI Applications"],
+      "description": "爱诗科技（AIsphere）成立于2023年左右，主打AI视频生成应用PixVerse（全球注册用户超1亿、MAU超1600万）及国内版拍我AI，发布实时交互PixVerse R2模型，入选联合国AI向善峰会案例。",
+      "funding_stage": "C+轮",
+      "team_size_min": 100,
+      "team_size_max": 499,
+      "hiring_signals": [
+        "BOSS直聘海外商业化产品经理2026-10-11更新、AI基础平台产品研发专家在招",
+        "官方飞书招聘官网多职位在招（含实习）",
+        "企查查公司页显示音频算法工程师（30-50K）等在招"
+      ]
+    },
+    "aliases": ["AIsphere", "PixVerse", "拍我AI"],
+    "evidence": [
+      {
+        "source_type": "official",
+        "url": "https://aisphere.jobs.feishu.cn/",
+        "publisher": "爱诗科技",
+        "title": "爱诗科技招聘官网",
+        "snippet": "官方飞书招聘站，AI出海应用开发工程师【实习】、AI内容生成设计师-实习等职位在招（北京）。",
+        "published_at": "2026-10-22",
+        "trust_note": "官网招聘站，检索时在招"
+      },
+      {
+        "source_type": "media",
+        "url": "https://www.ifanr.com/1657947",
+        "publisher": "爱范儿",
+        "title": "中国 AI 视频赛道最大单笔融资，为什么给了爱诗科技",
+        "snippet": "PixVerse全球注册用户突破1亿，MAU超过1600万；国内版拍我AI与PixVerse双轨并行；2025年联合国人工智能向善全球峰会上唯一入选的中国AI视频应用。",
+        "published_at": "2026-01-12",
+        "trust_note": "媒体报道C轮融资（公司官网披露鼎晖领投）；启信宝显示2026-07-14新增C+轮"
+      },
+      {
+        "source_type": "job_platform",
+        "url": "https://m.zhipin.com/job_detail/08d7dada88883ca503R709m8GVFS.html",
+        "publisher": "BOSS直聘",
+        "title": "海外商业化产品经理招聘工资_爱诗科技",
+        "snippet": "北京 3-5年 本科，C端产品/海外支付/AI产品；公司：互联网 C轮 100-499人；更新于2026-10-11；工作地址北京海淀区大恒科技大厦南座1102。",
+        "published_at": "2026-10-11",
+        "trust_note": "BOSS直聘职位页快照；公司规模标签来自该页"
+      }
+    ]
+  },
+  {
+    "company": {
+      "id": "deephlang",
+      "name": "深言科技",
+      "aliases": ["DeepLang AI", "语鲸", "北京深言科技有限责任公司"],
+      "english_name": "DeepLang AI",
+      "website": "https://deeplang.ai",
+      "city": "北京",
+      "hq_location": "北京市海淀区",
+      "company_type": "startup",
+      "tracks": ["AI Agents", "AI Applications"],
+      "description": "深言科技成立于2022年3月，孵化自清华大学NLP实验室（THUNLP）和北京智源研究院，打造基于大规模预训练模型的智能文本信息处理引擎，产品包括语鲸等AIGC文本生成/信息处理应用及AI Agent C端产品，服务超600万用户。",
+      "funding_stage": "A+轮",
+      "team_size_min": 50,
+      "team_size_max": 200,
+      "hiring_signals": [
+        "官网飞书招聘页在招AI Agent产品经理、AI产品运营经理（北京社招）",
+        "BOSS直聘在招数据产品经理（北京）",
+        "企查查显示在招职位36个"
+      ]
+    },
+    "aliases": ["DeepLang", "语鲸"],
+    "evidence": [
+      {
+        "source_type": "official",
+        "url": "https://deeplang.ai",
+        "publisher": "深言科技",
+        "title": "深言科技 DeepLang | 用语言的地方就有深言",
+        "snippet": "成立于2022年3月，孵化自清华大学自然语言处理实验室（THUNLP）和北京智源人工智能研究院（BAAI），涵盖AIGC文本生成、信息抽取聚合、语义检索等功能。",
+        "published_at": "2026-10-22",
+        "trust_note": "官网介绍页"
+      },
+      {
+        "source_type": "media",
+        "url": "https://www.aiww.com/aitool/yujing/jianjie",
+        "publisher": "AIWW",
+        "title": "语鲸详细介绍",
+        "snippet": "已为超过600万用户提供智能文本信息处理服务……公司已完成4轮融资，融资阶段处于A+轮，投资机构包括英诺天使基金、奇绩创坛等；2023年4月获腾讯投资、好未来、中关村资本等股权投资（启信宝）。",
+        "published_at": "2026-10-22",
+        "trust_note": "第三方产品库整理，融资细节与启信宝记录交叉一致"
+      },
+      {
+        "source_type": "job_platform",
+        "url": "https://deeplang.jobs.feishu.cn/index/position",
+        "publisher": "深言科技",
+        "title": "加入深言",
+        "snippet": "AI产品运营经理（北京 社招 全职 产品）：负责AI Agent C端产品社区0-1搭建；AI Agent产品经理（北京 社招）：负责AI内容类ToC产品的需求分析、产品设计和策略优化。",
+        "published_at": "2026-10-22",
+        "trust_note": "官网飞书招聘页，检索时在招"
+      }
+    ]
+  },
+  {
+    "company": {
+      "id": "paoding",
+      "name": "庖丁科技",
+      "aliases": ["Paoding Technology", "PDFlux", "北京庖丁科技有限公司"],
+      "english_name": "Paoding Technology",
+      "website": "https://www.paodingai.com",
+      "city": "北京",
+      "hq_location": "北京市",
+      "company_type": "startup",
+      "tracks": ["AI Applications", "AI Enterprise Software"],
+      "description": "庖丁科技成立于2017年，是文档智能领域公司，提供从基座、审核、撰写到开发工具的全流程文档处理SaaS与企业级应用（PDFlux、庖丁解文、Scriber等），扎根金融行业监管科技，服务100+机构客户。",
+      "funding_stage": "A轮",
+      "team_size_min": 100,
+      "team_size_max": 499,
+      "hiring_signals": [
+        "官网关于我们页热招岗位：金融产品经理、AI产品经理、售前工程师等",
+        "BOSS直聘在招国内产品市场经理、海外产品市场经理（北京）",
+        "企查查显示2026-01-09新发海外产品市场经理（13-15K·13薪，北京）"
+      ]
+    },
+    "aliases": ["Paoding", "PDFlux"],
+    "evidence": [
+      {
+        "source_type": "official",
+        "url": "https://www.paodingai.com/about-us/",
+        "publisher": "庖丁科技",
+        "title": "关于我们-庖丁科技-引领文档智能新基建",
+        "snippet": "庖丁科技成立于2017年，是文档智能领域的领航者……热招岗位：金融产品经理、AI产品经理、售前工程师、大客户代表、后端工程师、测试工程师。",
+        "published_at": "2026-10-22",
+        "trust_note": "官网介绍+热招岗位，检索时在招"
+      },
+      {
+        "source_type": "media",
+        "url": "https://m.qcc.com/firm/0d28e6450d87743bdc32d45ecef1830c.html",
+        "publisher": "企查查（转引虎嗅）",
+        "title": "北京庖丁科技有限公司",
+        "snippet": "新闻舆情：庖丁科技宣布完成新一轮融资（虎嗅网，2025-02-11，标签含金山办公、顺为）。",
+        "published_at": "2025-02-11",
+        "trust_note": "未披露轮次名称；BOSS直聘公司页标注A轮，据此采用"
+      },
+      {
+        "source_type": "job_platform",
+        "url": "https://www.zhipin.com/job_detail/c6b6cb87df4dcbb903R72Nm-GFdU.html",
+        "publisher": "BOSS直聘",
+        "title": "海外产品市场经理工作内容_庖丁科技",
+        "snippet": "北京 1-3年 本科；公司基本信息：庖丁科技 A轮 100-499人 计算机软件。",
+        "published_at": "2026-10-22",
+        "trust_note": "BOSS职位页快照；公司轮次/规模标签来自该页"
+      }
+    ]
+  },
+  {
+    "company": {
+      "id": "laiye",
+      "name": "来也科技",
+      "aliases": ["Laiye", "北京来也网络科技有限公司", "来也网络"],
+      "english_name": "Laiye",
+      "website": "https://laiye.com",
+      "city": "北京",
+      "hq_location": "北京市朝阳区",
+      "company_type": "startup",
+      "tracks": ["AI Agents", "AI Applications"],
+      "description": "来也科技成立于2015年，由汪冠春创立，定位智能自动化与AI Agents数字员工平台（AI Agents for Everyone），提供客服/营销等场景Agent数字员工产品及RPA+大模型解决方案，服务政企客户，曾全资收购法国对话式AI公司Mindsay。",
+      "funding_stage": "C++轮",
+      "team_size_min": 200,
+      "team_size_max": 500,
+      "hiring_signals": [
+        "职友集2026-02-02新发AI智能体开发工程师（客服智能体方向，20-30K，北京朝阳）",
+        "BOSS直聘在招智能体产品建造者（北京）",
+        "企查查在招AI产品经理；2024推出数字员工开发等三款AI Agent产品"
+      ]
+    },
+    "aliases": ["Laiye"],
+    "evidence": [
+      {
+        "source_type": "official",
+        "url": "https://laiye.com/en/about",
+        "publisher": "来也科技",
+        "title": "About Us | Laiye",
+        "snippet": "Our Vision: AI Agents for Everyone……2022 Close series C funding: Closes Series C at $160 Million；2021 Series C+ $50 million led by Ping An Global Voyager Fund。",
+        "published_at": "2026-10-22",
+        "trust_note": "官网介绍融资历程"
+      },
+      {
+        "source_type": "media",
+        "url": "https://laiye.com/news/post/2609.html",
+        "publisher": "来也科技（CEO公开信）",
+        "title": "未来可7 | 来也科技董事长兼CEO汪冠春全球公开信及最新任命!",
+        "snippet": "2022年4月完成由厚朴Magnolia成长基金领投，优山资本和VMS Group鼎珮集团联合领投的C++轮7000万美元融资，C轮累计融资金额超1.6亿美元。",
+        "published_at": "2022-07-01",
+        "trust_note": "官方新闻稿披露C++轮"
+      },
+      {
+        "source_type": "job_platform",
+        "url": "https://www.jobui.com/company/12645363/jobs/all/beijing/",
+        "publisher": "职友集",
+        "title": "「来也科技招聘」北京来也网络科技有限公司",
+        "snippet": "AI智能体开发工程师（客服智能体方向）￥20000-30000 北京-朝阳区 不限经验 本科以上 2026-02-02。",
+        "published_at": "2026-02-02",
+        "trust_note": "聚合平台标注明确发布日期"
+      }
+    ]
+  },
+  {
+    "company": {
+      "id": "lingxin",
+      "name": "聆心智能",
+      "aliases": ["Lingxin AI", "CharacterGLM", "Emohaa", "北京聆心智能科技有限公司"],
+      "english_name": "Lingxin AI",
+      "website": "https://lingxin-ai.com",
+      "city": "北京",
+      "hq_location": "北京市海淀区",
+      "company_type": "startup",
+      "tracks": ["AI Applications"],
+      "description": "聆心智能成立于2021年前后，孵化自清华大学/智谱AI生态（Z.AI集团成员企业），自研人格化AI物种引擎与心理大模型Emohaa、CharacterGLM，产品方向覆盖AI心理（智慧心育）、游戏、营销、情感等AI应用赛道。",
+      "funding_stage": "Pre-A轮",
+      "team_size_min": 50,
+      "team_size_max": 99,
+      "hiring_signals": [
+        "猎聘公司页显示在招web前端工程师（20-30K·14薪，近1个月新发，北京海淀）",
+        "企查查在招AI心理产品负责人（30-60K·16薪，北京）",
+        "理聘2026在招资深/高级产品经理（AI+心理方向，北京，硕士）"
+      ]
+    },
+    "aliases": ["CharacterGLM", "Lingxin"],
+    "evidence": [
+      {
+        "source_type": "media",
+        "url": "https://m.cyzone.cn/article/707315.html",
+        "publisher": "创业邦",
+        "title": "融资丨「聆心智能」完成数千万元天使+轮融资，连星资本领投",
+        "snippet": "近日，北京聆心智能科技有限公司完成数千万元天使+轮融资，由连星资本领投，图灵创投和智谱AI跟投；核心技术为人格化、个性化的AI物种（AI-being）创建引擎。",
+        "published_at": "2023-02-01",
+        "trust_note": "后续2023-02-17完成Pre-A轮（天眼查/启信宝），最新公开轮次按Pre-A轮计"
+      },
+      {
+        "source_type": "job_platform",
+        "url": "https://m.liepin.com/company/13049767/",
+        "publisher": "猎聘",
+        "title": "【北京聆心智能科技招聘】-猎聘",
+        "snippet": "人工智能 50-99人……在招：web前端工程师 20-30k·14薪 北京-海淀区 3-5年 本科 1个月前。",
+        "published_at": "2026-09-22",
+        "trust_note": "公司页标注'1个月前'，按检索日2026-10-22折算；规模标签50-99人来自该页"
+      },
+      {
+        "source_type": "official",
+        "url": "https://lingxin-ai.com/xinhu.html",
+        "publisher": "聆心（聆芯智语）",
+        "title": "聆心-智慧心育",
+        "snippet": "自研心理大模型Emohaa，基于清华大学心理学系研究积累，融合CBT、人本主义疗法等理论训练，具备深度情感理解、多轮共情对话、心理评估与危机干预能力。",
+        "published_at": "2026-10-22",
+        "trust_note": "产品官网佐证业务方向（AI+心理应用）；工商主体官网另见ai-role.cn（企查查）"
+      }
+    ]
+  }
+]

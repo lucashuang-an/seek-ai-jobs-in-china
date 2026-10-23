@@ -1,0 +1,451 @@
+[
+  {
+    "company_id": "shengshu",
+    "funding": [
+      {
+        "date": "2023-06",
+        "round": "天使轮",
+        "amount": "近亿元",
+        "currency": "CNY",
+        "investors": ["蚂蚁集团", "BV百度风投", "卓源资本"],
+        "note": "蚂蚁集团领投，BV百度风投、卓源资本跟投；投后估值约1亿美元。由瑞莱智慧RealAI、蚂蚁集团和BV百度风投联合孵化。"
+      },
+      {
+        "date": "2024-03-15",
+        "round": "A轮",
+        "amount": "数亿元",
+        "currency": "CNY",
+        "investors": ["顺禧基金", "百度风投", "中关村科学城", "启明创投", "卓源亚洲", "哈勃投资", "百度"],
+        "note": "Vidu官网英文站记为2024-03-15 Series A（数亿元）；部分工商数据库与媒体记为2024年5月Pre-A轮（顺禧基金、百度风投领投，中关村科学城、启明创投、卓源亚洲、哈勃投资、百度等跟投，华兴资本任FA）。"
+      },
+      {
+        "date": "2024-09-05",
+        "round": "A+轮",
+        "amount": "超6亿元",
+        "currency": "CNY",
+        "investors": [],
+        "note": "Vidu官方新闻：Raises ¥600M+ Series A+ Round；投资方名单未完整披露。",
+        "source_fact_kind": "verified"
+      },
+      {
+        "date": "2026-02",
+        "round": "A+轮",
+        "amount": "超6亿元",
+        "currency": "CNY",
+        "investors": ["启明创投"],
+        "note": "据36氪2026-08报道：2月完成超6亿元A+轮融资，4月B轮与本轮两个月累计募资超26亿元。",
+        "source_fact_kind": "media"
+      },
+      {
+        "date": "2026-04-10",
+        "round": "B轮",
+        "amount": "近20亿元",
+        "currency": "CNY",
+        "investors": ["阿里云", "中网投", "九安海棠", "好未来", "光合创投", "星连资本", "达泰资本", "建发新兴投资", "BV百度风投", "卓源亚洲"],
+        "note": "阿里云领投，中网投、九安海棠、好未来、光合创投等战略投资，星连资本、达泰资本、建发新兴投资、BV百度风投、卓源亚洲等老股东追加；投后估值超20亿美元（约120亿元人民币）。Vidu英文官网将本轮标注为2025-12-18（~¥2B Series B），与中文官方口径2026-04-10不一致。"
+      },
+      {
+        "date": "2026-07-06",
+        "round": "B+轮",
+        "amount": "5亿美元",
+        "currency": "USD",
+        "investors": ["阿里云", "惠远资本"],
+        "note": "阿里云领投，国家级基金、多家产业资本及一线创投机构跟投，老股东增持；创国内通用世界模型领域最大单笔融资纪录（据36氪）。"
+      }
+    ],
+    "founders": [
+      {
+        "name": "朱军",
+        "title": "创始人、首席科学家",
+        "education": "清华大学计算机系教授、IEEE Fellow，清华大学人工智能研究院副院长、智能技术与系统国家重点实验室主任；1983年生，安徽阜南人",
+        "career": "长期从事贝叶斯机器学习与深度概率生成模型（扩散模型）研究，团队提出的Analytic-DPM被OpenAI应用于DALL·E 2、DPM-Solver为全球最快图像生成算法之一；曾为瑞莱智慧RealAI创始人",
+        "relevant_experience": "国际上最早研究深度概率生成模型的团队带头人，生数科技核心团队来自其清华课题组",
+        "previous_startups": "瑞莱智慧RealAI（创始人）",
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "唐家渝",
+        "title": "联合创始人、总裁（公司早期任董事长兼CEO/法定代表人）",
+        "education": "清华大学计算机系本科、硕士（师从孙茂松教授，NLP与信息可视化方向）",
+        "career": "曾任腾讯优图实验室高级产品经理、瑞莱智慧副总裁；CCF大模型论坛常务委员，人工智能副高级职称，获发明专利授权20余项",
+        "relevant_experience": "多模态大模型产品化与产业落地经验",
+        "previous_startups": "瑞莱智慧RealAI（副总裁）",
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "鲍凡",
+        "title": "联合创始人、CTO",
+        "education": "清华大学计算机系2024届博士（朱军教授课题组成员）",
+        "career": "长期从事扩散模型研究，在ICML、NeurIPS等顶会发表十余篇论文，提出Analytic-DPM（获ICLR 2022杰出论文奖）、U-ViT（Vidu底层架构）",
+        "relevant_experience": "扩散概率模型底层创新与大规模训练",
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "骆怡航",
+        "title": "首席执行官（CEO，2025年3月起）",
+        "education": "博士",
+        "career": "2025年3月加入生数科技任CEO，全面负责研发、产品、商业化及团队管理；此前为字节跳动火山引擎AI解决方案负责人",
+        "relevant_experience": "字节跳动AI商业化与解决方案经验",
+        "previous_startups": null,
+        "source_fact_kind": "media"
+      }
+    ],
+    "team": {
+      "size_min": 100,
+      "size_max": 200,
+      "stage_note": "2024年3月员工超70人（近90%为研发，50%以上研究生学历）；2025年工商年报口径119人（企查查/启信宝）。2026年完成B/B+轮超30亿元融资并筹备港股IPO，处高速扩张期。",
+      "expansion_signals": ["2026-04 B轮近20亿元、2026-07 B+轮5亿美元大额融资", "2026年3月完成股改，筹备港股IPO（传与中金、中信证券合作）", "核心团队来自清华AI研究院及阿里、腾讯、字节等"],
+      "source_fact_kind": "verified"
+    },
+    "products": [
+      {
+        "name": "Vidu（世界生成模型）",
+        "website": "https://www.vidu.com",
+        "positioning": "以基座世界模型为核心的多模态AI视频生成平台，对标Sora的国产文生视频产品",
+        "core_features": "文生视频、图生视频、参考生视频（主体参照）；2025年4月Vidu Q1在VBench-1.0/2.0双榜超越Runway、Sora、可灵；2026年7月发布Vidu S1，支持实时视频通话与语音控制；1080P 5秒视频生成成本低至1.34元",
+        "target_users": "全球内容创作者及广告、电商、动漫、文旅、广电、教育等行业客户",
+        "scenarios": "广告营销、电商内容、动漫/短剧、文旅宣传、广电传媒、教育、企业级内容生产（与飞书深度合作）",
+        "traction": "上线8个月ARR突破2000万美元（约1.4亿元）；用户覆盖全球200多个国家和地区；2025年用户规模与收入均超10倍增长；与华策集团、阅文、万兴科技等达成战略合作"
+      },
+      {
+        "name": "Motus / Motubrain（通用基座世界模型）",
+        "website": "https://www.shengshu.com/zh/",
+        "positioning": "面向具身智能的真实世界基座世界模型（物理世界'大脑'）",
+        "core_features": "2025年12月联合清华大学发布Motus；2026年4月推出Motubrain，获WorldArena与RoboTwin 2.0双榜第一，平均成功率95.8%，具备跨机器人本体、跨任务泛化能力",
+        "target_users": "具身智能/机器人厂商与研究机构",
+        "scenarios": "机器人任务执行、物理世界建模与仿真",
+        "traction": "WorldArena、RoboTwin 2.0两大国际权威基准第一"
+      }
+    ],
+    "evidence": [
+      {"source_type": "official", "url": "https://www.shengshu.com/zh/news/series-b-funding/", "publisher": "生数科技官网", "title": "生数科技完成近20亿元B轮融资", "snippet": "4月10日宣布完成近20亿元B轮，阿里云领投，中网投、九安海棠、好未来、光合创投等战略投资，星连资本、达泰资本、建发新兴投资、BV百度风投、卓源亚洲等老股东追加", "published_at": "2026-04-10"},
+      {"source_type": "official", "url": "https://platform.vidu.com/news/company", "publisher": "Vidu官方", "title": "Company Updates / Funding News", "snippet": "Mar 15, 2024 Series A数亿元；Sep 5, 2024 Series A+超6亿元；Dec 18, 2025 Series B约20亿元（英文站口径）", "published_at": null},
+      {"source_type": "media", "url": "https://36kr.com/p/3947480095430272", "publisher": "36氪", "title": "清华系AI视频独角兽拟赴港IPO", "snippet": "2023年3月成立；2月超6亿元A+、4月近20亿元B轮（阿里云领投，投后估值超20亿美元）、7月5亿美元新一轮；蚂蚁2023年领投天使轮；Vidu上线8个月ARR破2000万美元，覆盖200+国家，2025年用户与收入超10倍增长", "published_at": "2026-08-20"},
+      {"source_type": "media", "url": "http://www.cnstock.com/commonDetail/35061", "publisher": "上海证券报·中国证券网", "title": "布局多模态大模型 生数科技完成近亿元天使轮融资", "snippet": "6月19日宣布近亿元天使轮，蚂蚁集团领投，BV百度风投、卓源资本跟投，估值1亿美元", "published_at": "2023-06-19"},
+      {"source_type": "media", "url": "https://cn.chinadaily.com.cn/a/202306/19/WS64900fa9a310ba94c56127f5.html", "publisher": "中国日报网", "title": "瑞莱智慧加速构建通用人工智能，联合蚂蚁、百度风投等成立多模态大模型公司", "snippet": "生数科技成立于2023年3月，专注可控多模态通用大模型；已完成近亿元天使轮，蚂蚁领投，估值1亿美元", "published_at": "2023-06-19"},
+      {"source_type": "investor", "url": "https://www.qimingvc.com/cn/news/启明周报-启明创投投资企业融资及动态速递-vol-35-2025", "publisher": "启明创投", "title": "启明周报 Vol.35 2025", "snippet": "生数科技A轮融资数亿元，启明创投持续投资；CEO骆怡航称多模态生成商业化加速", "published_at": "2025"},
+      {"source_type": "investor", "url": "https://irm.cninfo.com.cn/ircs/question/questionDetail?questionId=2311746991688368128", "publisher": "巨潮资讯（惠远资本投资者问答）", "title": "惠远资本参与生数科技2026年7月5亿美元融资", "snippet": "2026年7月6日生数科技完成新一轮5亿美元融资，惠远资本参与，阿里云领投，国家级基金、多家产业资本及一线创投跟投", "published_at": "2026-07-06"},
+      {"source_type": "media", "url": "https://m.tianyancha.com/brand/b1dd5758867", "publisher": "天眼查", "title": "生数科技融资历程", "snippet": "2026-07-06 B+轮5亿美元，创国内通用世界模型领域最大单笔融资纪录；2026-04-10 B轮近20亿元、估值120亿元", "published_at": "2026-10"},
+      {"source_type": "media", "url": "https://m.36kr.com/p/3707196201595265", "publisher": "36氪", "title": "3个清华兄弟，又融资6亿", "snippet": "生数科技2023年3月创立于北京，三位联合创始人朱军、唐家渝、鲍凡均为清华大学背景；唐家渝本科与硕士均就读清华计算机系，曾加入腾讯优图实验室任高级产品经理", "published_at": "2025"},
+      {"source_type": "media", "url": "https://m.toutiao.com/group/7603299644784804404/", "publisher": "36氪（今日头条转载）", "title": "清华系创企，拿下国内视频生成领域最大单笔融资", "snippet": "2025年3月原字节跳动火山引擎AI解决方案负责人骆怡航加入生数科技任CEO", "published_at": "2025"}
+    ]
+  },
+  {
+    "company_id": "aisphere",
+    "funding": [
+      {
+        "date": "2024-03-12",
+        "round": "A1轮",
+        "amount": "亿级人民币",
+        "currency": "CNY",
+        "investors": ["达晨财智"],
+        "note": "达晨财智领投，光源资本任独家财务顾问及产业孵化方。",
+        "source_fact_kind": "media"
+      },
+      {
+        "date": "2024-12",
+        "round": "A2至A4轮",
+        "amount": "近3亿元",
+        "currency": "CNY",
+        "investors": ["蚂蚁集团", "北京市人工智能产业投资基金", "国科投资", "光源资本"],
+        "note": "A2轮由蚂蚁集团投资；A3、A4轮由北京市人工智能产业投资基金、国科投资及光源资本投资，光源资本继续任独家财务顾问。媒体称2024至2025年间A1-A5轮累计超4亿元。"
+      },
+      {
+        "date": "2025-09",
+        "round": "B轮",
+        "amount": "6000万美元",
+        "currency": "USD",
+        "investors": ["阿里巴巴"],
+        "note": "阿里巴巴领投，为国内视频生成领域当时单次最大融资额。",
+        "source_fact_kind": "verified"
+      },
+      {
+        "date": "2025-10-17",
+        "round": "B+轮",
+        "amount": "1亿元",
+        "currency": "CNY",
+        "investors": ["复星锐正", "同创伟业", "顺禧基金"],
+        "note": null
+      },
+      {
+        "date": "2026-03-12",
+        "round": "C轮",
+        "amount": "3亿美元",
+        "currency": "USD",
+        "investors": ["鼎晖投资", "亦庄国投", "中国儒意", "三七互娱"],
+        "note": "鼎晖香港基金、鼎晖VGC、鼎晖百孚领投，产业投资人包括中国儒意、三七互娱，亦庄国投等约20家机构参与；创中国视频生成领域最大单笔融资纪录。"
+      },
+      {
+        "date": "2026-07-14",
+        "round": "C+轮",
+        "amount": "1.39亿美元",
+        "currency": "USD",
+        "investors": ["阿里巴巴", "Lollapalooza Capital", "上海常春藤资本", "惠远资本", "钟鼎资本", "韩国未来资产集团", "狮城资本", "蓝色光标", "iGlobe Partners", "CloudAlpha"],
+        "note": "Lollapalooza Capital为王慧文家办；狮城资本为OCBC生态Lion X基金。媒体称2026年7月C轮系列累计金额近30亿元。"
+      }
+    ],
+    "founders": [
+      {
+        "name": "王长虎",
+        "title": "创始人、首席执行官",
+        "education": "中国科学技术大学博士",
+        "career": "深耕计算机视觉与人工智能领域20年；曾任微软亚洲研究院主管研究员；2017年加入字节跳动，任人工智能实验室总监、集团视觉技术负责人，参与抖音和TikTok从0到1建设，搭建字节跳动视觉算法平台和业务中台；2021年加入龙湖集团负责数字化",
+        "relevant_experience": "字节跳动视觉技术团队带头人，解决多个视觉领域世界级难题；主导字节视觉算法平台",
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "谢旭璋",
+        "title": "联合创始人",
+        "education": "北京大学光华管理学院",
+        "career": "曾任光源资本执行董事，主导内容平台、AI、全球化等领域多个头部项目的融资和并购；光源资本为爱诗科技早期孵化方并任独家财务顾问",
+        "relevant_experience": "投融资与资本运作经验",
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      }
+    ],
+    "team": {
+      "size_min": 50,
+      "size_max": 150,
+      "stage_note": "2025年工商年报口径员工75人（企查查）。创始团队来自字节、快手、腾讯、微软研究院等核心技术团队（光源资本/36氪2024年报道），2026年C/C+轮后处于扩张期。",
+      "expansion_signals": ["2026-03 C轮3亿美元、2026-07 C+轮1.39亿美元", "2026年8月秘交招股书，有望成视频生成第一股", "发布PixVerse R2并开放游戏、互动影视、数字人场景体验间"],
+      "source_fact_kind": "verified"
+    },
+    "products": [
+      {
+        "name": "PixVerse（拍我AI）",
+        "website": "https://pixverse.ai",
+        "positioning": "AI视频生成大模型及应用（Diffusion+Transformer融合架构），全球领先的AI视频大模型公司",
+        "core_features": "海外版PixVerse 2024年1月上线，国内版2024年3月内测；2024年10月V3版本以'毒液变身'等特效出圈；2026年1月发布R1（最高1080P、即时响应）；2026年9月发布全球首个具备Scaling能力的通用实时世界模型PixVerse R2，开放游戏、互动影视、数字人场景体验；2025年初开放API生态",
+        "target_users": "全球C端创作者与B端企业客户（会员订阅+API）",
+        "scenarios": "创意视频生成、特效玩法、游戏、互动影视、数字人",
+        "traction": "2024年6月用户破百万、生成量破1000万次；2024年12月全球用户超1200万、月活近600万；2025年8月全球注册用户超1亿；2025年10月MAU超1600万、ARR超4000万美元（主要来自会员订阅）；入选2025胡润全球独角兽榜、国家级潜在独角兽"
+      }
+    ],
+    "evidence": [
+      {"source_type": "media", "url": "https://m.36kr.com/p/2686027316449926", "publisher": "36氪", "title": "「爱诗科技」完成亿级人民币 A1 轮融资，光源资本担任独家财务顾问及产业孵化方", "snippet": "2024年3月12日报道：达晨财智领投A1轮；公司2023年4月创立，PixVerse 2024年1月上线，国内版同日上线内测；团队成员来自清华、北大、中科院及字节、快手、腾讯、微软研究院", "published_at": "2024-03-12"},
+      {"source_type": "media", "url": "https://www.cls.cn/detail/1895959", "publisher": "科创板日报", "title": "北京国资再投人工智能！AI视频生成企业爱诗科技完成近3亿元A轮系列融资", "snippet": "12月20日报道：A2至A4轮总近3亿元，A2蚂蚁集团，A3/A4北京市AI产业基金、国科投资、光源资本", "published_at": "2024-12-20"},
+      {"source_type": "media", "url": "http://www.news.cn/digital/20251017/5724c9d72e524636836e198c95ab6769/c.html", "publisher": "新华网", "title": "爱诗科技完成1亿元B+轮融资，助推AI视频进入'实用时代'", "snippet": "2025年10月17日B+轮1亿元，复星锐正、同创伟业、顺禧基金投资；9月获阿里领投6000万美元B轮；全球用户破1亿、MAU超1600万、ARR超4000万美元", "published_at": "2025-10-17"},
+      {"source_type": "media", "url": "https://stcn.com/article/detail/1457454.html", "publisher": "证券时报", "title": "爱诗科技完成近3亿元 A+ 轮融资 持续推动AI视频生成技术普惠", "snippet": "王长虎曾任微软亚洲研究院主管研究员、字节跳动视觉技术负责人，参与抖音TikTok 0到1建设", "published_at": "2024"},
+      {"source_type": "media", "url": "https://kfqgw.beijing.gov.cn/ywdt/gdcyfzgd/zncx/202603/t20260316_4557889.html", "publisher": "北京经济技术开发区官网", "title": "国内视频生成领域最大单笔融资落地亦庄", "snippet": "爱诗科技宣布完成3亿美元C轮，鼎晖投资领投，亦庄国投等20家机构参与，创中国视频生成领域最大单笔纪录", "published_at": "2026-03-16"},
+      {"source_type": "investor", "url": "https://www.cdhfund.com/newslist", "publisher": "鼎晖投资", "title": "鼎晖领投「爱诗科技」C轮融资，全面开启'可玩现实'新纪元", "snippet": "3月12日宣布C轮，鼎晖香港基金、鼎晖VGC、鼎晖百孚领投，产业投资人中国儒意、三七互娱，另有数家海内外机构参与", "published_at": "2026-03-12"},
+      {"source_type": "media", "url": "https://finance.sina.com.cn/stock/t/2026-10-14/doc-inivevcf7730981.shtml.md", "publisher": "新浪财经", "title": "爱诗科技招股书相关报道", "snippet": "2026年7月完成C轮，累计金额近30亿元，投资方包括鼎晖、阿里巴巴、Lollapalooza Capital（王慧文家办）、常春藤资本、惠远资本、钟鼎资本、韩国未来资产、OCBC Lion X、蓝色光标、CloudAlpha、iGlobe Partners等", "published_at": "2026-10-14"},
+      {"source_type": "media", "url": "https://finance.sina.com.cn/roll/2026-08-26/doc-iniprytr6048860.shtml.md", "publisher": "新浪财经", "title": "爱诗科技已秘交招股书，有望成视频生成第一股", "snippet": "由字节跳动前视觉技术负责人王长虎、光源资本前执行董事谢旭璋共同创立；王长虎2017年加入字节，参与抖音TikTok从0到1", "published_at": "2026-08-26"},
+      {"source_type": "media", "url": "https://m.cyzone.cn/article/784981.html", "publisher": "创业邦", "title": "融资丨爱诗科技完成近3亿元A+轮融资", "snippet": "PixVerse全球用户超1200万、月活近600万；2024年10月V3'毒液变身'特效席卷海内外社交媒体", "published_at": "2024-12"},
+      {"source_type": "media", "url": "https://www.jiqizhixin.com/articles/2026-09-23-6", "publisher": "机器之心", "title": "爱诗科技PixVerse R2 破解Scaling难题：实时、交互、持续进化", "snippet": "2026年9月23日发布全球首个具备Scaling能力的通用实时世界模型PixVerse R2，开放游戏、互动影视及数字人场景体验", "published_at": "2026-09-23"}
+    ]
+  },
+  {
+    "company_id": "langboat",
+    "funding": [
+      {
+        "date": "2021",
+        "round": "种子轮",
+        "amount": null,
+        "currency": "CNY",
+        "investors": ["创新工场人工智能工程院"],
+        "note": "创新工场孵化，种子轮与天使轮均由创新工场主导。"
+      },
+      {
+        "date": "2021",
+        "round": "天使轮",
+        "amount": null,
+        "currency": "CNY",
+        "investors": ["创新工场前沿科技基金"],
+        "note": null
+      },
+      {
+        "date": "2022-02",
+        "round": "Pre-A轮",
+        "amount": "近亿元",
+        "currency": "CNY",
+        "investors": ["联想创投", "斯道资本", "创新工场"],
+        "note": null
+      },
+      {
+        "date": "2023-03-14",
+        "round": "Pre-A+轮",
+        "amount": "数亿元",
+        "currency": "CNY",
+        "investors": ["中关村科学城", "斯道资本", "创新工场"],
+        "note": "北京中关村科学城公司领投，斯道资本和创新工场继续跟投；至此不到一年融资总额达数亿元（官方口径）。"
+      }
+    ],
+    "founders": [
+      {
+        "name": "周明",
+        "title": "创始人、首席执行官",
+        "education": "1991年哈尔滨工业大学计算机系博士；清华大学博士后（1991-1999年任教）",
+        "career": "研发中国最早的中英机器翻译系统CEMT-I；1996-1999年在日本高电社领导中日机器翻译产品J-北京研发；1999年9月加入微软亚洲研究院领导NLP研究20余年，曾任微软亚洲研究院副院长、ACL主席、中国计算机学会副理事长；ACL Fellow，世界发表ACL论文最多的学者之一；领导微软输入法、对联、中英翻译、必应词典及UNILM等预训练模型",
+        "relevant_experience": "2020年底离开微软加入创新工场孵化团队，领导大模型创业；2021年创立澜舟科技，获HICOOL 2021创业大赛最高奖、2023中国年度创业家奖",
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "李京梅",
+        "title": "合伙人、联席CEO",
+        "education": "北京大学学士、美国纽约州立大学硕士、美国宾州州立大学MBA",
+        "career": "曾就职于微软美国和微软亚太研发集团、阿里云等，在云计算、大数据、人工智能、城市大脑等领域具有丰富产品和解决方案经验；现全面负责公司日常运营管理",
+        "relevant_experience": null,
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "曾一杰",
+        "title": "合伙人、首席技术官",
+        "education": "浙江大学计算机学士、清华大学计算机硕士",
+        "career": "曾任网易集团高级技术总监、资深技术专家，在分布式系统、账号系统、测试、运维、网络和安全等领域有丰富实战经验，有超过500人团队管理经验；现负责工程技术与算法研发",
+        "relevant_experience": null,
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      }
+    ],
+    "team": {
+      "size_min": 20,
+      "size_max": 100,
+      "stage_note": "2025年工商年报口径员工29人（企查查）；2023年职场媒体报道'规模不过百人'，走'轻量化'路线；曾一杰有超500人团队管理经验（在网易时期）。",
+      "expansion_signals": ["由创新工场孵化，股东含中关村科学城、联想创投、斯道资本", "获评国家级高新技术企业、北京市专精特新中小企业"],
+      "source_fact_kind": "verified"
+    },
+    "products": [
+      {
+        "name": "孟子大模型（Mengzi）",
+        "website": "https://www.langboat.com",
+        "positioning": "全栈自研的中文语言大模型，中国最早的大模型创业目标企业之一",
+        "core_features": "2023年2月孟子（Mengzi）系列模型迭代；2023年6月'孟子GPT'大模型开启邀测；面向金融、文创等行业的NLP能力（文本生成、理解、搜索增强等），部分模型开源",
+        "target_users": "企业级客户（金融、政务、文化等）与开发者",
+        "scenarios": "文本生成、智能问答、行业NLP任务",
+        "traction": null
+      },
+      {
+        "name": "LangClaw 企业智能体OS 及智库、智会、智搭产品体系",
+        "website": "https://www.langboat.com",
+        "positioning": "基于可信智能体核心技术体系的企业级智能体产品矩阵",
+        "core_features": "LangClaw企业级智能体操作系统；澜舟智会（软硬一体化智能会议解决方案：语音转录、声纹识别、会议纪要自动生成、多维分析）；智库（知识库）、智搭（应用搭建）",
+        "target_users": "企业客户（会议办公、知识管理、智能体应用）",
+        "scenarios": "智能会议、企业知识管理、智能体应用构建",
+        "traction": "获中国信通院可信AI评估证书、CMMI三级认证；入选2024大模型企业TOP50"
+      }
+    ],
+    "evidence": [
+      {"source_type": "official", "url": "https://www.langboat.com/about", "publisher": "澜舟科技官网", "title": "关于我们-核心团队", "snippet": "成立于2021年6月，孵化于创新工场，以全栈自研孟子大模型为核心，构建LangClaw企业智能体OS及智库、智会、智搭产品体系；核心成员周明、李京梅、曾一杰履历", "published_at": null},
+      {"source_type": "official", "url": "https://www.langboat.com/about/news/2023031401", "publisher": "澜舟科技官网", "title": "打造语言大模型的生成式AI，澜舟科技一年内完成数亿元融资", "snippet": "Pre-A+轮由北京中关村科学城公司领投，斯道资本和创新工场跟投；不到一年融资总额达数亿元", "published_at": "2023-03-14"},
+      {"source_type": "investor", "url": "https://www.chuangxin.com/blog/pre-a", "publisher": "创新工场", "title": "北京澜舟科技完成近亿元Pre-A轮融资", "snippet": "成立一年接连获3轮融资：此前由创新工场人工智能工程院和前沿科技基金主导种子轮和天使轮；Pre-A轮近亿元", "published_at": "2022-02"},
+      {"source_type": "media", "url": "https://pitchhub.36kr.com/project/1678555363865600", "publisher": "36氪PitchHub", "title": "澜舟科技项目信息", "snippet": "融资历史：2023-03 Pre-A+轮数亿元（中关村科学城、斯道资本、创新工场）；2022-02 Pre-A轮近亿元（联想创投、斯道资本、创新工场）；2021年种子/天使轮", "published_at": null},
+      {"source_type": "media", "url": "https://m.tianyancha.com/company/4987673548", "publisher": "天眼查", "title": "北京澜舟科技有限公司工商信息", "snippet": "成立于2021年，注册资本1000万，2023年完成Pre-A+轮（数亿元人民币），法定代表人周明", "published_at": "2026-09"},
+      {"source_type": "media", "url": "https://www.langboat.com/about/news/2023061001", "publisher": "澜舟科技官网", "title": "澜舟科技成立两周年｜'孟子GPT'大模型开启邀测", "snippet": "周明2020年底离开工作21年的微软加入创新工场孵化团队；2023年3月完成Pre-A+轮", "published_at": "2023-06-10"},
+      {"source_type": "media", "url": "https://m.36kr.com/p/2536286633322245", "publisher": "36氪", "title": "AIGC大佬创业版图，9家红利公司大盘点", "snippet": "澜舟科技规模不过百人，走'轻量化'路线；周明曾任微软亚洲研究院副院长、ACL主席", "published_at": "2023"},
+      {"source_type": "media", "url": "https://www.qcc.com/creport/fc2c96413f9dc107946fbba201c9916e.html", "publisher": "企查查", "title": "北京澜舟科技有限公司企业发展报告", "snippet": "员工人数29人（2025年）；国家级高新技术企业、专精特新中小企业", "published_at": "2026-09-26"},
+      {"source_type": "official", "url": "https://www.langboat.com/portal/minutes", "publisher": "澜舟科技官网", "title": "澜舟智会｜面向企业用户提供软硬一体化智能会议解决方案", "snippet": "依托语音与语言大模型实现会议转录、声纹识别、纪要生成与多维分析", "published_at": null}
+    ]
+  },
+  {
+    "company_id": "recurrent",
+    "funding": [
+      {
+        "date": "2019",
+        "round": "PreA轮",
+        "amount": null,
+        "currency": "USD",
+        "investors": ["金沙江创投", "靖亚资本", "华山资本"],
+        "note": "官方称PreA轮与2019年9月A轮半年融资总额达千万美元；PreA轮单轮金额未披露。",
+        "source_fact_kind": "verified"
+      },
+      {
+        "date": "2019-09-26",
+        "round": "A轮",
+        "amount": null,
+        "currency": "USD",
+        "investors": ["真格基金", "金沙江创投", "靖亚资本", "华山资本"],
+        "note": "真格基金领投，金沙江创投、靖亚资本和华山资本跟投；半年两轮共近千万美元。",
+        "source_fact_kind": "verified"
+      },
+      {
+        "date": "2021-12-20",
+        "round": "B轮",
+        "amount": "3800万美元",
+        "currency": "USD",
+        "investors": ["博裕投资", "红杉中国", "金沙江创投", "靖亚资本", "真格基金", "万物资本"],
+        "note": "博裕投资和红杉中国联合领投，老股东金沙江创投、靖亚资本、真格基金、万物资本跟投，义柏资本任独家财务顾问。",
+        "source_fact_kind": "verified"
+      }
+    ],
+    "founders": [
+      {
+        "name": "陈麒聪",
+        "title": "联合创始人、首席执行官（法定代表人）",
+        "education": "卡内基梅隆大学（CMU），发表过AI顶会论文",
+        "career": "经验丰富的连续创业者；主导循环智能战略与经营，2022年接受中国证券报采访谈金融行业客户经营场景，2023年在民生证券高峰论坛谈企业服务大模型多模型组合策略；2023年2月与杨植麟达成一致，杨植麟离开创办月之暗面、循环智能获月之暗面一定比例股份",
+        "relevant_experience": "企业服务与SaaS销售体系搭建管理经验",
+        "previous_startups": "连续创业者（具体项目未公开披露）",
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "杨植麟",
+        "title": "联合创始人、AI和产品负责人（已离开）",
+        "education": "卡内基梅隆大学（CMU）计算机博士（2019年毕业）；本科清华大学计算机系",
+        "career": "曾效力于谷歌大脑研究院和Facebook人工智能研究院（Meta AI），Transformer-XL和XLNet第一作者，XLNet获NeurIPS 2019 Oral；2023年离开循环智能创办月之暗面（Moonshot AI，Kimi）",
+        "relevant_experience": "大模型基础研究（预训练语言模型）",
+        "previous_startups": "循环智能为其首次创业；后创办月之暗面",
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "张宇韬",
+        "title": "联合创始人、CTO",
+        "education": "清华大学",
+        "career": "著名学术搜索引擎AMiner核心开发者",
+        "relevant_experience": "数据挖掘与系统研发",
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "揭发",
+        "title": "联合创始人、COO",
+        "education": null,
+        "career": "曾效力IBM全球咨询服务部、Cisco、Criteo和GrowingIO，有从0到9位数的业务拓展和产品市场打磨经验",
+        "relevant_experience": "企业服务和业务拓展",
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      }
+    ],
+    "team": {
+      "size_min": 50,
+      "size_max": 200,
+      "stage_note": "2019年9月官方新闻称'团队50余人'；此后无公开更新数字。2023年起在新加坡、印尼、马来西亚、巴西、泰国、日本等地设立海外公司，北京上海双总部。注：工商主体北京睿科伦智能科技有限公司2016-05-30注册（法定代表人陈麒聪），官网口径'自2018年成立以来'。",
+      "expansion_signals": ["2021年B轮3800万美元后加大产品研发和商业应用投入", "2023年起设立多家海外公司拓展全球业务", "2025/2026年持续与华为联合发布金融智能化方案（HiFS 2025、HiFS 2026）"],
+      "source_fact_kind": "inferred"
+    },
+    "products": [
+      {
+        "name": "会话智能/SalesTech产品矩阵",
+        "website": "https://www.rcrai.com",
+        "positioning": "企业级大模型应用及会话智能解决方案，AI+销售科技公司",
+        "core_features": "AI销售助手SalesMate、销售会话洞察Sales Insight、客户发现Discovery、智能坐席辅助Expert、智能工牌Smart Badge、智能质检Compliance；覆盖全渠道沟通数据采集、录音转写、内容挖掘、NLP语义建模、会话分析洞察与实时辅助，'AI能力+软件+硬件+服务'端到端",
+        "target_users": "银行、保险、证券、汽车、高端零售、房产、教育、消费金融、互联网科技等企业客户",
+        "scenarios": "销售转化提升、智能质检、坐席辅助、门店沟通数字化",
+        "traction": "日均处理上亿次对话、日均赋能近百万一线业务人员、积累超40TB中文沟通数据、累计生产10000+行业AI数据模型；服务58同城、猎聘、新东方在线等中大型企业（2019年口径）"
+      },
+      {
+        "name": "盘古NLP大模型",
+        "website": "https://www.rcrai.com",
+        "positioning": "与华为云联合研发的千亿参数中文预训练NLP大模型",
+        "core_features": "2020年6月与华为云启动超大规模中文预训练模型；零样本AI建模技术，刷新中文CLUE榜单三项纪录；2021世界人工智能大会SAIL之星；400万+小时语音标注数据",
+        "target_users": "金融等行业客户",
+        "scenarios": "金融AI建模、语义理解",
+        "traction": "2021 WAIC SAIL之星；两度与华为云合作（2020、2024），2025/2026年与华为在HiFS发布金融智能化联合方案"
+      }
+    ],
+    "evidence": [
+      {"source_type": "official", "url": "https://www.rcrai.com/about-us/news/company/data_93.html", "publisher": "循环智能官网", "title": "循环智能(Recurrent)连续完成两轮共近千万美金融资，用AI提升销售效率", "snippet": "2019-09-26 A轮真格领投，金沙江创投、靖亚资本、华山资本跟投；PreA轮由金沙江创投、靖亚资本、华山资本投资；创始团队：COO揭发、CTO张宇韬、CEO陈麒聪、AI和产品负责人杨植麟；团队50余人；陈麒聪毕业于CMU，杨植麟CMU博士、Transformer-XL/XLNet第一作者，张宇韬清华、AMiner核心开发者，揭发曾效力IBM/Cisco/Criteo/GrowingIO", "published_at": "2019-09-26"},
+      {"source_type": "official", "url": "https://www.rcrai.com/about-us/news/company/data_35.html", "publisher": "循环智能官网", "title": "循环智能完成3800万美元新一轮融资，博裕投资和红杉中国联合领投", "snippet": "2021年12月20日宣布B轮3800万美元，博裕投资和红杉中国联合领投，金沙江创投、靖亚资本、真格基金、万物资本跟投，义柏资本任独家FA", "published_at": "2021-12-20"},
+      {"source_type": "official", "url": "https://www.rcrai.com/about-us/about", "publisher": "循环智能官网", "title": "关于循环智能/公司简介", "snippet": "北京睿科伦智能科技有限公司（品牌名：循环智能）；自2018年成立以来获博裕投资、红杉中国、真格基金等支持；北京上海双总部；2023年在新加坡、印尼、马来西亚、巴西、泰国、日本设海外公司；日均处理上亿次对话、赋能超100万一线人员、40TB中文沟通数据", "published_at": null},
+      {"source_type": "official", "url": "https://www.rcrai.com/about-us/about?tp=1", "publisher": "循环智能官网", "title": "发展历程", "snippet": "2020-06与华为云启动超大规模中文预训练模型；2021-08与华为云、腾讯云战略合作；2021-12完成B轮（博裕投资和红杉中国联合领投）；2024-3与华为云二度合作", "published_at": null},
+      {"source_type": "media", "url": "https://www.tianyancha.com/company/2353682839", "publisher": "天眼查", "title": "北京睿科伦智能科技有限公司工商信息", "snippet": "成立日期2016-05-30，法定代表人陈麒聪，注册资本3000万元", "published_at": "2026-09-14"},
+      {"source_type": "media", "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202411/12/t20241112_39199700.shtml", "publisher": "中国经济网", "title": "擅自启动融资？Kimi创始人杨植麟被提起仲裁", "snippet": "天眼查披露：循环智能融资金额最高的一笔为2021年12月博裕投资和红杉中国联合领投的3800万美元", "published_at": "2024-11-12"},
+      {"source_type": "media", "url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivueuh0966046.shtml.md", "publisher": "新浪财经", "title": "月之暗面或面临数亿美元股权索赔 创始人杨植麟需妥善处理", "snippet": "杨植麟称2023年2月与循环智能CEO陈麒聪达成一致，月之暗面独立成立新公司，循环智能无偿取得一定比例股份；杨以零元价格放弃在循环智能的股份", "published_at": "2026-10-19"},
+      {"source_type": "official", "url": "https://www.rcrai.com/about-us/news/all_news_8", "publisher": "循环智能官网", "title": "全部新闻", "snippet": "循环智能亮相华为HiFS 2026，加速金融AI方案全球化落地；CEO陈麒聪2022年受访称重点深耕金融行业客户经营场景", "published_at": "2026"},
+      {"source_type": "official", "url": "https://www.rcrai.com/about-us/news/company_5", "publisher": "循环智能官网", "title": "公司动态", "snippet": "2025-03-11与华为在HiFS 2025发布金融智能化联合方案；加速国际化进程", "published_at": "2025-03-11"}
+    ]
+  }
+]

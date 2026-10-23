@@ -1,0 +1,55 @@
+[
+  {"id": "sh-liepin-aac-1", "company_id": "aac-optics", "title": "AI产品经理",
+   "city": "上海", "location_detail": "上海-七宝", "salary_min": 26, "salary_max": 40,
+   "experience": "5-10年", "education": "硕士", "jd": "瑞声光电（港股 02018.HK 旗下光学/感知业务）AI产品经理：要求电子/半导体背景，硕士，5-10年经验。",
+   "source": "猎聘", "source_url": "https://www.liepin.com/zpaicpjl",
+   "evidence": [{"source_type": "job_platform", "url": "https://www.liepin.com/zpaicpjl", "publisher": "猎聘", "title": "AI产品经理专场：瑞声光电 26-40k 上海-七宝", "snippet": "硕士，5-10年，电子/半导体，10000人以上"}]},
+
+  {"id": "sh-liepin-aiqi-1", "company_id": "aiqi-info", "title": "AI产品经理",
+   "city": "上海", "location_detail": "上海-漕河泾", "salary_min": 15, "salary_max": 25,
+   "experience": "2年以上", "education": "本科", "jd": "上海艾麒信息科技股份有限公司（已上市互联网，100-499人）AI产品经理：2年以上经验，本科。",
+   "source": "猎聘", "source_url": "https://www.liepin.com/zpaicpjl",
+   "evidence": [{"source_type": "job_platform", "url": "https://www.liepin.com/zpaicpjl", "publisher": "猎聘", "title": "AI产品经理专场：艾麒信息 15-25k 上海-漕河泾", "snippet": "2年以上，本科，已上市，100-499人"}]},
+
+  {"id": "sh-liepin-tensky-1", "company_id": "tensky-care", "title": "AI产品经理",
+   "city": "上海", "location_detail": "上海-真光", "salary_min": 20, "salary_max": 35, "salary_months": 15,
+   "experience": "3-5年", "education": "本科", "jd": "天与养老（养老服务/互联网/智能硬件，B轮，500-999人）AI产品经理：3-5年经验，本科，15薪。",
+   "source": "猎聘", "source_url": "https://www.liepin.com/zpaicpjl",
+   "evidence": [{"source_type": "job_platform", "url": "https://www.liepin.com/zpaicpjl", "publisher": "猎聘", "title": "AI产品经理专场：天与养老 20-35k·15薪 上海-真光", "snippet": "3-5年，本科，B轮融资，500-999人"}]},
+
+  {"id": "sh-liepin-meituan-1", "company_id": "meituan", "title": "AI产品经理（消费医疗方向）",
+   "city": "上海", "salary_min": 30, "salary_max": 60, "salary_months": 15,
+   "experience": "3-5年", "education": "本科", "jd": "美团 AI产品经理（消费医疗方向）：3-5年经验，本科，30-60k·15薪。",
+   "source": "猎聘", "source_url": "https://www.liepin.com/zpaicpjl",
+   "evidence": [{"source_type": "job_platform", "url": "https://www.liepin.com/zpaicpjl", "publisher": "猎聘", "title": "AI产品经理专场：美团 30-60k·15薪", "snippet": "消费医疗方向，3-5年，本科，已上市"}]},
+
+  {"id": "sh-liepin-qianxun-1", "company_id": "qianxun-si", "title": "AI 产品经理（时空智能方向）",
+   "city": "上海", "location_detail": "上海-江湾", "salary_min": null, "salary_max": null,
+   "experience": "2年以上", "education": "硕士", "jd": "千寻位置网络有限公司（时空智能，B轮，500-999人）AI 产品经理：2年以上经验，硕士，薪资面议。",
+   "source": "猎聘", "source_url": "https://www.liepin.com/zpaicpjl",
+   "evidence": [{"source_type": "job_platform", "url": "https://www.liepin.com/zpaicpjl", "publisher": "猎聘", "title": "AI产品经理专场：千寻位置 面议 上海-江湾", "snippet": "时空智能方向，2年以上，硕士，云计算/大数据"}]},
+
+  {"id": "sh-liepin-samoyed-1", "company_id": "samoyed-cloud", "title": "AI产品经理",
+   "city": "上海", "location_detail": "上海-三林", "salary_min": 20, "salary_max": 40,
+   "experience": "经验不限", "education": "本科", "jd": "萨摩耶云（科技金融，C轮，500-999人）AI产品经理：经验不限，本科。",
+   "source": "猎聘", "source_url": "https://www.liepin.com/zpaicpjl",
+   "evidence": [{"source_type": "job_platform", "url": "https://www.liepin.com/zpaicpjl", "publisher": "猎聘", "title": "AI产品经理专场：萨摩耶云 20-40k 上海-三林", "snippet": "经验不限，本科，C轮融资，500-999人"}]},
+
+  {"id": "sh-liepin-meituan-2", "company_id": "meituan", "title": "AI产品经理（大模型及商业策略算法方向）",
+   "city": "上海", "location_detail": "上海-长白新村", "salary_min": 40, "salary_max": 60, "salary_months": 15,
+   "experience": "3-5年", "education": "本科", "jd": "美团 AI产品经理（大模型及商业策略算法方向）：3-5年经验，本科，40-60k·15薪。",
+   "source": "猎聘", "source_url": "https://www.liepin.com/zpaicpjl",
+   "evidence": [{"source_type": "job_platform", "url": "https://www.liepin.com/zpaicpjl", "publisher": "猎聘", "title": "AI产品经理专场：美团 40-60k·15薪", "snippet": "大模型及商业策略算法方向，3-5年，本科，已上市"}]},
+
+  {"id": "sh-liepin-chunnan-1", "company_id": "chunnan-info", "title": "AI产品经理（智慧航运/物流方向）",
+   "city": "上海", "location_detail": "上海-洋泾", "salary_min": 12, "salary_max": 18,
+   "experience": "3年以上", "education": "本科", "jd": "上海淳南信息技术有限公司（50-99人）AI产品经理：智慧航运/物流方向，3年以上，本科。",
+   "source": "猎聘", "source_url": "https://www.liepin.com/zpaicpjl",
+   "evidence": [{"source_type": "job_platform", "url": "https://www.liepin.com/zpaicpjl", "publisher": "猎聘", "title": "AI产品经理专场：淳南信息 12-18k 上海-洋泾", "snippet": "智慧航运/物流方向，3年以上，本科，50-99人"}]},
+
+  {"id": "sh-liepin-headhunt-1", "company_id": "undisclosed-ai-companion", "title": "AI产品经理（AI陪伴类C端产品）",
+   "city": "上海", "salary_min": 70, "salary_max": 100,
+   "experience": "5-10年", "education": "学历不限", "jd": "猎头代招（用人单位未披露）：AI陪伴类C端产品产品经理，要求社交/陪伴类产品经验及大模型相关认知，招1人，更新于 2026-10-10。",
+   "source": "猎聘（猎头）", "source_url": "https://www.liepin.com/a/80069285.shtml",
+   "evidence": [{"source_type": "job_platform", "url": "https://www.liepin.com/a/80069285.shtml", "publisher": "猎聘（猎头：陕西卓麓人力资源）", "title": "AI产品经理（上海）70-100k", "snippet": "AI陪伴类C端产品，社交/陪伴产品经验+大模型认知，5-10年，招1人", "trust_note": "用人单位未披露，投递前需确认"}]}
+]

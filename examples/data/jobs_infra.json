@@ -1,0 +1,450 @@
+[
+  {
+    "id": "zhipu-j1",
+    "company_id": "zhipu",
+    "title": "高级产品经理(ToB Agent方向)-北京",
+    "city": "北京",
+    "location_detail": "北京-海淀区五道口（搜狐网络大厦）",
+    "salary_min": 25,
+    "salary_max": 45,
+    "salary_months": null,
+    "experience": "5-10年",
+    "education": "本科",
+    "jd": "负责企业级智能体（Agent）产品整体规划、版本路线图与长期战略，对商业结果负责；挖掘ToB/ToG客户需求并输出PRD；主导产品全生命周期项目管理；建立数据监控分析体系，参与定价与商业化策略；要求5年以上软件/互联网产品经验（至少2年ToB/ToG），深入理解NLP/LLM/Agent技术栈，有AI Agent产品完整生命周期管理经验优先。",
+    "source": "猎聘",
+    "source_url": "https://m.liepin.com/job/1978771943.shtml",
+    "source_job_id": "1978771943",
+    "posted_at": "2026-07-24",
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://m.liepin.com/job/1978771943.shtml",
+        "publisher": "猎聘",
+        "title": "高级产品经理(ToB Agent方向)-北京 - 智谱·AI",
+        "snippet": "北京-五道口 3年以上 统招本科 招1人 90天前更新 25-45k；职位描述：负责企业级智能体产品的整体规划、版本路线图设计及长期战略制定……HRBP-TA 徐女士 一周前在线 已认证",
+        "trust_note": "2026-10-22访问时职位页面正常打开（未显示已关闭），HR一周前在线；posted_at由'90天前更新'推算约为2026-07-24；列表卡标注3年以上，JD正文要求5年以上，experience按JD取5-10年；页面未标注几薪，salary_months置null"
+      }
+    ]
+  },
+  {
+    "id": "zhipu-j2",
+    "company_id": "zhipu",
+    "title": "大模型算法工程师-北京",
+    "city": "北京",
+    "location_detail": "北京-海淀区",
+    "salary_min": 30,
+    "salary_max": 55,
+    "salary_months": null,
+    "experience": "2-4年",
+    "education": "硕士",
+    "jd": "大模型算法工程师（北京-海淀区），2-4年经验，硕士学历；来自智谱猎聘公司职位列表，JD详情页未逐一展开。",
+    "source": "猎聘",
+    "source_url": "https://m.liepin.com/job/1978771375.shtml",
+    "source_job_id": "1978771375",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://m.liepin.com/company-jobs/10087865/",
+        "publisher": "猎聘",
+        "title": "智谱·AI 在招职位（公司页）",
+        "snippet": "大模型算法工程师-北京 30-55k；北京-海淀区 2-4年 硕士（列表显示'1个月前'）",
+        "trust_note": "来自智谱猎聘企业主页职位列表（2026-10-22访问），未展开该职位独立详情页，JD要点缺失；posted_at列表仅显示'1个月前'，无法确定精确日期故置null"
+      }
+    ]
+  },
+  {
+    "id": "zhipu-j3",
+    "company_id": "zhipu",
+    "title": "大模型应用后端工程师-北京",
+    "city": "北京",
+    "location_detail": "北京-海淀区",
+    "salary_min": 25,
+    "salary_max": 50,
+    "salary_months": null,
+    "experience": "3-5年",
+    "education": "本科",
+    "jd": "大模型应用后端工程师（北京-海淀区），3年以上经验，统招本科；来自智谱猎聘公司职位列表，JD详情页未逐一展开。",
+    "source": "猎聘",
+    "source_url": "https://m.liepin.com/job/1978771275.shtml",
+    "source_job_id": "1978771275",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://m.liepin.com/company-jobs/10087865/",
+        "publisher": "猎聘",
+        "title": "智谱·AI 在招职位（公司页）",
+        "snippet": "大模型应用后端工程师-北京 25-50k；北京-海淀区 3年以上 统招本科（列表显示'1个月前'）",
+        "trust_note": "来自智谱猎聘企业主页职位列表（2026-10-22访问），未展开该职位独立详情页，JD要点缺失；posted_at列表仅显示'1个月前'，无法确定精确日期故置null"
+      }
+    ]
+  },
+  {
+    "id": "moonshot-j1",
+    "company_id": "moonshot",
+    "title": "AI Product Innovation Explorer",
+    "city": "北京",
+    "location_detail": "Beijing（Product Team）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": null,
+    "education": null,
+    "jd": "负责 Kimi 核心体验与产品创新，从用户需求、模型能力和技术变化中发现机会并转化为可用、自然、有价值的产品体验；与产品、模型、工程、设计团队持续探索 Agent、智能工作流、多模态交互、AI Coding 及下一代人机交互；判断哪些模型能力值得产品化，推动方案从概念、原型、设计、研发到上线闭环。页面标注'急'。",
+    "source": "Moka",
+    "source_url": "https://app.mokahr.com/m/social-recruitment/moonshot/150836?locale=en-US#/job/5a9f34bc-7bad-4166-b256-b9b78cd3239e",
+    "source_job_id": "5a9f34bc-7bad-4166-b256-b9b78cd3239e",
+    "posted_at": "2026-08-26",
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://app.mokahr.com/m/social-recruitment/moonshot/150836?locale=en-US#/job/5a9f34bc-7bad-4166-b256-b9b78cd3239e",
+        "publisher": "月之暗面官方招聘（Moka）",
+        "title": "AI Product Innovation Explorer - Kimi社会招聘",
+        "snippet": "Full-time | 产品类/Product | Product Team | Work location Beijing | Posted on 2026-08-26；我们正在寻找一位 AI Product Innovation Explorer，一起探索下一代 AI 产品应该是什么样。",
+        "trust_note": "公司官方Moka社招页（2026-10-22访问可完整打开JD），标注'急'；官方页面未公布薪资、经验与学历要求，相关字段置null"
+      }
+    ]
+  },
+  {
+    "id": "baichuan-j1",
+    "company_id": "baichuan",
+    "title": "Agent高级产品经理",
+    "city": "北京",
+    "location_detail": "北京（社招 全职）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": "5-10年",
+    "education": null,
+    "jd": "负责医疗健康领域AI Agent产品规划、设计与落地，围绕儿童、孕产妇、减重、慢病管理、术后随访等场景打造AI医生与AI健康服务；设计Agent角色定位、服务边界、交互方式、Prompt、Skill、工具调用、数据连接与主动触达机制；规划标准化Agent共创与交付平台；建立多轮对话、工具调用、风险处置的测试评估体系。要求5年以上产品经理经验，有0到1 AI产品落地经验及平台化交付经验，医疗/健康相关B端经验优先。",
+    "source": "官网",
+    "source_url": "https://cq6qe6bvfr6.jobs.feishu.cn/baichuanzhaopin/m/position/detail/7683791956434979078",
+    "source_job_id": "7683791956434979078",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://cq6qe6bvfr6.jobs.feishu.cn/baichuanzhaopin/m/position/detail/7683791956434979078",
+        "publisher": "百川智能官方招聘（飞书招聘）",
+        "title": "Agent高级产品经理 - 百川智能 欢迎你的加入",
+        "snippet": "北京 社招 全职；负责医疗健康领域 AI Agent 产品的规划、设计与落地……要求5年以上产品经理经验……[17 职位在招]",
+        "trust_note": "公司官方飞书招聘页（2026-10-22访问可打开，页面显示17职位在招）；官方页未标注薪资与发布日期，相应字段置null"
+      }
+    ]
+  },
+  {
+    "id": "baichuan-j2",
+    "company_id": "baichuan",
+    "title": "医疗AI策略产品经理",
+    "city": "北京",
+    "location_detail": "北京（社招 全职）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": null,
+    "education": null,
+    "jd": "通过市场调研、竞品分析和用户洞察制定医疗AI产品战略与路线图；参与全病程、全生命周期健康管理的AI能力建设并独立负责具体方向；协同算法团队探索前沿大模型能力在医疗健康领域的应用上限并推进商用级落地。要求计算机相关背景、对大模型技术有充分了解和实操经验、有完整C端产品经验（医疗产品经验加分）、有创业精神。",
+    "source": "官网",
+    "source_url": "https://cq6qe6bvfr6.jobs.feishu.cn/baichuanzhaopin/m/position/detail/7579213799371344147",
+    "source_job_id": "7579213799371344147",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://cq6qe6bvfr6.jobs.feishu.cn/baichuanzhaopin/m/position/detail/7579213799371344147",
+        "publisher": "百川智能官方招聘（飞书招聘）",
+        "title": "医疗AI策略产品经理 - 百川智能 欢迎你的加入",
+        "snippet": "北京 社招 全职；产品战略与规划：通过市场调研、竞品分析和用户洞察……协同算法团队，不断探索前沿大模型能力在医疗健康领域的应用上限……",
+        "trust_note": "公司官方飞书招聘页（2026-10-22访问可打开）；官方页未标注薪资、经验年限与发布日期，相应字段置null"
+      }
+    ]
+  },
+  {
+    "id": "modelbest-infra-j1",
+    "company_id": "modelbest",
+    "title": "汽车行业产品经理",
+    "city": "北京",
+    "location_detail": "北京（社招 全职，职位ID A09877）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": "3-5年",
+    "education": null,
+    "jd": "专注端侧AI与大模型在智能座舱、车载Agent、多模态交互、智能车控场景落地；负责智能座舱内大模型应用（语音助手、场景化服务推荐、内容生成、个性化座舱）的产品规划、路线图与版本管理；将PRD转化为可执行开发任务并深度参与开发测试集成，推动产品从工程样件走向量产；协同AI研发、硬件、软件、设计、市场及供应商多团队。要求3年以上产品经理经验，AI产品（NLP/大模型）或智能座舱/车联网经验优先，有大模型应用（Prompt工程、Agent设计）项目经验。",
+    "source": "官网",
+    "source_url": "https://modelbest.jobs.feishu.cn/career/position/7681191575779150121/detail",
+    "source_job_id": "A09877",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://modelbest.jobs.feishu.cn/career/position/7681191575779150121/detail",
+        "publisher": "面壁智能官方招聘（飞书招聘）",
+        "title": "汽车行业产品经理 - 加入面壁智能",
+        "snippet": "北京 社招 全职 市场与销售 职位ID A09877；我们是一家专注于端侧 AI 与大模型技术的创新企业，致力于推动大模型在汽车智能座舱、车载 Agent、多模态交互、智能车控等场景的规模化落地……",
+        "trust_note": "公司官方飞书招聘页（2026-10-22访问可完整打开JD）；官方页未标注薪资与发布日期，相应字段置null"
+      }
+    ]
+  },
+  {
+    "id": "modelbest-infra-j2",
+    "company_id": "modelbest",
+    "title": "大模型项目经理（法律行业）",
+    "city": "北京",
+    "location_detail": "北京（社招 全职，职位ID A242058）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": null,
+    "education": null,
+    "jd": "负责法律行业大模型商业化项目全生命周期管理，统筹项目从启动、规划、执行到交付的全流程，确保按时间节点、质量标准及预算要求落地交付，保障客户满意度；制定详细项目计划并统筹资源。",
+    "source": "官网",
+    "source_url": "https://modelbest.jobs.feishu.cn/career/m/position/7564003397281335590/detail",
+    "source_job_id": "A242058",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://modelbest.jobs.feishu.cn/career/m/position/7564003397281335590/detail",
+        "publisher": "面壁智能官方招聘（飞书招聘）",
+        "title": "大模型项目经理(法律行业) - 加入面壁智能",
+        "snippet": "北京 社招 全职 产品与设计-项目管理 职位ID A242058；负责法律行业大模型商业化项目全生命周期管理，统筹项目从启动、规划、执行到交付的全流程……",
+        "trust_note": "公司官方飞书招聘页（2026-10-22检索结果可见JD摘要）；未标注薪资、经验与发布日期，相应字段置null"
+      }
+    ]
+  },
+  {
+    "id": "shengshu-infra-j1",
+    "company_id": "shengshu",
+    "title": "产品总监-B",
+    "city": "北京",
+    "location_detail": "北京（全职，产品/策划/项目-产品经理）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": "5-8年",
+    "education": "本科",
+    "jd": "制定AI产品战略，规划从技术到商业化落地的完整路径，主导B端产品矩阵设计；设计基于视频生成大模型、流式模型的B端产品方案（AI开放平台、API等），探索Agent等新一代产品，覆盖互动娱乐、影视制作、广告营销、文旅等行业；与算法团队协作推进模型生成效果优化；预判AI合规政策风险。要求5-8年B端产品经验（至少1-2年大模型/AI产品实战），对vibe coding熟练运用，对Agent、Harness有具体实战经验。",
+    "source": "官网",
+    "source_url": "https://shengshu.jobs.feishu.cn/index/position/detail/7654860445774481674",
+    "source_job_id": "7654860445774481674",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://shengshu.jobs.feishu.cn/index/position/detail/7654860445774481674",
+        "publisher": "生数科技官方招聘（飞书招聘）",
+        "title": "产品总监-B - 欢迎加入生数科技",
+        "snippet": "制定AI产品战略，规划从技术到商业化落地的完整路径，主导B端产品矩阵设计；设计基于视频生成大模型，流式模型的B端产品方案，包含AI开放平台，API等，探索Agent等新一代产品……",
+        "trust_note": "公司官方飞书招聘页（2026-10-22访问可完整打开JD）；官方页未标注薪资与发布日期，相应字段置null"
+      }
+    ]
+  },
+  {
+    "id": "shengshu-infra-j2",
+    "company_id": "shengshu",
+    "title": "Vidu 解决方案架构师",
+    "city": "北京",
+    "location_detail": "北京（全职）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": null,
+    "education": null,
+    "jd": "负责生数科技视频大模型在B端行业场景中的产品解决方案设计，重点面向互联网、广告、游戏、影视动漫等行业客户；深入理解客户业务流程与应用场景，结合AI视频生成模型能力设计可落地、可复制、可产品化的行业解决方案；负责端到端方案架构设计，包括业务场景拆解、产品能力映射、系统集成。",
+    "source": "官网",
+    "source_url": "https://shengshu.jobs.feishu.cn/index/m/position/detail/7641058811939342638",
+    "source_job_id": "7641058811939342638",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://shengshu.jobs.feishu.cn/index/m/position/detail/7641058811939342638",
+        "publisher": "生数科技官方招聘（飞书招聘）",
+        "title": "Vidu 解决方案架构师 - 欢迎加入生数科技",
+        "snippet": "负责生数科技视频大模型在 B 端行业场景中的产品解决方案设计，重点面向互联网、广告、游戏、影视动漫等行业客户……",
+        "trust_note": "公司官方飞书招聘页（2026-10-22检索结果可见JD摘要）；未标注薪资、经验与发布日期，相应字段置null"
+      }
+    ]
+  },
+  {
+    "id": "infinigence-j1",
+    "company_id": "infinigence",
+    "title": "AI Infra 产品经理（大模型训练/推理）",
+    "city": "北京",
+    "location_detail": "北京、上海（社招 全职，职位ID A19343，PAAS及云管产品部门）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": "3-5年",
+    "education": "硕士",
+    "jd": "跟踪模型/框架/推理引擎与云原生生态变化，将行业趋势转化为可落地的产品路线图与迭代节奏；围绕大模型开发、训练、推理核心场景定义产品能力并设计；跟进产品全生命周期；对平台资源利用率、任务成功率、训练/推理性能、用户转化与留存负责。要求3年以上产品经理经验，云计算/AI平台/算力平台/DevOps/MLOps背景优先，硕士及以上学历，熟悉容器/Kubernetes、云资源、云管等概念，有头部云厂商或AI Infra平台经历者加分。",
+    "source": "官网",
+    "source_url": "https://infinigence.jobs.feishu.cn/infinigence/position/detail/7610987908732324106",
+    "source_job_id": "A19343",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://infinigence.jobs.feishu.cn/infinigence/position/detail/7610987908732324106",
+        "publisher": "无问芯穹官方招聘（飞书招聘）",
+        "title": "AI Infra 产品经理（大模型训练/推理）- 加入无问芯穹",
+        "snippet": "北京、上海 社招 全职 职位ID A19343；跟踪模型/框架/推理引擎与云原生生态变化……具有3年以上产品经理经验，云计算/AI 平台/算力平台/DevOps/MLOps 相关背景优先……",
+        "trust_note": "公司官方飞书招聘页（2026-10-22访问可完整打开JD）；岗位同时覆盖北京/上海，北京为在招工作地之一；官方页未标注薪资与发布日期，相应字段置null"
+      }
+    ]
+  },
+  {
+    "id": "infinigence-j2",
+    "company_id": "infinigence",
+    "title": "强化学习训练框架研发工程师",
+    "city": "北京",
+    "location_detail": "北京、上海（社招 全职，职位ID A172150）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": null,
+    "education": null,
+    "jd": "负责设计和开发高性能强化学习训练框架，支持大规模并行、分布式训练任务；优化现有RL算法执行效率，包括异步执行、批量采样、分布式推理、并行训练等；与算法团队紧密合作。",
+    "source": "官网",
+    "source_url": "https://infinigence.jobs.feishu.cn/infinigence/m/position/detail/7512365036183193883",
+    "source_job_id": "A172150",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://infinigence.jobs.feishu.cn/infinigence/m/position/detail/7512365036183193883",
+        "publisher": "无问芯穹官方招聘（飞书招聘）",
+        "title": "强化学习训练框架研发工程师 - 加入无问芯穹",
+        "snippet": "北京、上海 社招 全职 职位ID A172150；负责设计和开发高性能的强化学习训练框架，支持大规模并行、分布式训练任务……",
+        "trust_note": "公司官方飞书招聘页（2026-10-22检索结果可见JD摘要）；岗位同时覆盖北京/上海；未标注薪资、经验与发布日期，相应字段置null"
+      }
+    ]
+  },
+  {
+    "id": "siliconflow-j1",
+    "company_id": "siliconflow",
+    "title": "大模型解决方案工程师",
+    "city": "北京",
+    "location_detail": "北京-海淀区",
+    "salary_min": 25,
+    "salary_max": 45,
+    "salary_months": 15,
+    "experience": "3-5年",
+    "education": "本科",
+    "jd": "负责大语言模型、多模态大模型、图像生成、视频生成、语音合成模型的云上迁移、部署和优化；持续推动推理系统稳定性与性能优化及产品化落地；进行推理系统端到端性能优化（网关、缓存、智能路由、异步并发）以满足多租户多场景SLA；搭建推理系统监控与数据分析平台；支持智能体开发平台及开源生态应用集成。要求熟悉Java/Python与分布式系统技术，掌握vLLM、SGLang等推理引擎，熟悉PD分离、KV Cache、MTP，具备大模型分布式推理系统开发部署经验，熟悉Kubernetes、Docker与GPU虚拟化。",
+    "source": "猎聘",
+    "source_url": "https://m.liepin.com/job/1976888907.shtml",
+    "source_job_id": "1976888907",
+    "posted_at": "2026-07-24",
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://m.liepin.com/job/1976888907.shtml",
+        "publisher": "猎聘",
+        "title": "大模型解决方案工程师 - 硅基流动",
+        "snippet": "北京-海淀区 3-5年 本科 招1人 90天前更新 25-45k·15薪；负责大语言模型、多模态大模型、图像生成、视频生成、语音合成模型的云上迁移、部署和优化……产品负责人 何先生 一周前在线 已认证",
+        "trust_note": "2026-10-22访问时职位页面正常打开（未显示已关闭），招聘人一周前在线；posted_at由'90天前更新'推算约为2026-07-24"
+      }
+    ]
+  },
+  {
+    "id": "siliconflow-j2",
+    "company_id": "siliconflow",
+    "title": "推理引擎研发工程师-LLM与AIGC方向",
+    "city": "北京",
+    "location_detail": "北京-海淀区",
+    "salary_min": 40,
+    "salary_max": 70,
+    "salary_months": 15,
+    "experience": "经验不限",
+    "education": "本科",
+    "jd": "推理引擎研发工程师（LLM与AIGC方向），北京-海淀区，统招本科，经验不限；来自硅基流动猎聘公司职位列表，负责大模型推理引擎研发方向。",
+    "source": "猎聘",
+    "source_url": "https://m.liepin.com/job/1981279403.shtml",
+    "source_job_id": "1981279403",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://m.liepin.com/company/21146791/",
+        "publisher": "猎聘",
+        "title": "硅基流动 公司主页（13个在招职位）",
+        "snippet": "推理引擎研发工程师-LLM与AIGC方向 40-70k·15薪；北京-海淀区 经验不限 统招本科；另有 推理引擎(LLM与AIGC方向)研发工程师 40-70k·15薪 同方向岗位在招",
+        "trust_note": "来自硅基流动猎聘企业主页职位列表（2026-10-22访问，共13个职位），未展开该职位独立详情页，JD要点缺失；posted_at无法确定故置null"
+      }
+    ]
+  },
+  {
+    "id": "aishi-j1",
+    "company_id": "aishi",
+    "title": "AI 解决方案工程师（视频生成与 Agent）",
+    "city": "北京",
+    "location_detail": "北京（全职）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": "3-5年",
+    "education": null,
+    "jd": "配合销售参与客户沟通，判断广告、电商、游戏、影视动漫、内容平台等客户场景的视频生成API/workflow需求；设计Demo、PoC范围、技术架构与验收标准；将视频生成能力接入Agent或自动化工作流（营销brief、脚本、分镜、素材生成到视频生成、质量判断、人工审核、发布），理解tool calling、workflow orchestration、状态管理等机制；完成产品演示与API调用支持，推动客户从技术验证进入商务签约与规模化调用。要求2-3年以上企业软件、云服务、AI产品、开发者平台或API产品经验，英文可作为工作语言。",
+    "source": "官网",
+    "source_url": "https://aisphere.jobs.feishu.cn/join/m/position/detail/7673026438232279306",
+    "source_job_id": "7673026438232279306",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://aisphere.jobs.feishu.cn/join/m/position/detail/7673026438232279306",
+        "publisher": "爱诗科技官方招聘（飞书招聘）",
+        "title": "AI 解决方案工程师(视频生成与 Agent) - 爱诗科技招聘官网",
+        "snippet": "北京 全职；主要职责：配合销售参与客户沟通，理解客户……视频生成解决方案设计：根据广告、电商、游戏、影视动漫、内容平台及 AI 应用等客户场景，设计视频生成 API 或 workflow 解决方案……",
+        "trust_note": "公司官方飞书招聘页（2026-10-22访问可完整打开JD，职位列表显示'29 职位在招'）；官方页未标注薪资与发布日期，相应字段置null"
+      }
+    ]
+  },
+  {
+    "id": "aishi-j2",
+    "company_id": "aishi",
+    "title": "模型压缩工程师（AI Infra）",
+    "city": "北京",
+    "location_detail": "北京（全职）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": null,
+    "education": null,
+    "jd": "负责大模型量化、剪枝、蒸馏等压缩方案的工程实现与性能优化；参与模型压缩训练，优化训练和推理成本；负责压缩模型的框架适配、性能测试与部署落地。",
+    "source": "官网",
+    "source_url": "https://aisphere.jobs.feishu.cn/join/position/7680107467699439915/detail",
+    "source_job_id": "7680107467699439915",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://aisphere.jobs.feishu.cn/join/position/7680107467699439915/detail",
+        "publisher": "爱诗科技官方招聘（飞书招聘）",
+        "title": "模型压缩工程师（AI Infra）- 爱诗科技招聘官网",
+        "snippet": "模型压缩工程师（AI Infra）北京 全职；1.负责大模型量化、剪枝、蒸馏等压缩方案的工程实现与性能优化；2.参与模型压缩训练，优化训练和推理成本；3.负责压缩模型的框架适配、性能测试与部署落地。",
+        "trust_note": "公司官方飞书招聘页（2026-10-22访问职位列表可见该职位及JD摘要）；未标注薪资、经验与发布日期，相应字段置null"
+      }
+    ]
+  }
+]

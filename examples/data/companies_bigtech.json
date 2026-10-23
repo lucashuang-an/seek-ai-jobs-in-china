@@ -1,0 +1,193 @@
+[
+  {
+    "company": {
+      "id": "bytedance",
+      "name": "字节跳动",
+      "aliases": ["字节", "豆包", "火山引擎", "火山方舟"],
+      "english_name": "ByteDance",
+      "website": "https://www.bytedance.com",
+      "city": "北京",
+      "hq_location": "北京市海淀区（字节跳动北京总部，岗位地址示例：海淀区鼎好DH3大厦）",
+      "company_type": "bigtech_ai_team",
+      "tracks": ["AI Applications", "AI Agents", "Foundation Models"],
+      "description": "字节跳动 AI 团队覆盖豆包大模型、豆包 App、扣子（Coze）Agent 平台、火山方舟 MaaS 等；在北京大规模招聘 Agent 安全、大模型评测等方向产品经理。",
+      "funding_stage": "未上市（BOSS直聘标注 D轮及以上）",
+      "team_size_min": 10000,
+      "team_size_max": null,
+      "hiring_signals": ["官网社招/校招在招 AI 产品经理（豆包爱学、火山方舟评测）", "BOSS直聘在招 Agent 安全产品经理（豆包App）", "猎聘在招豆包AI大模型产品经理（评测方向）"]
+    },
+    "aliases": ["字节", "豆包", "火山引擎"],
+    "evidence": [
+      {"source_type": "job_platform", "url": "https://m.zhipin.com/job_detail/8e2a89a209a394c80nF-2920F1BY.html", "publisher": "BOSS直聘", "title": "Agent 安全产品经理 - 豆包app - 字节跳动", "snippet": "北京 3-5年 本科；主导 Agent 全链路运行时安全体系的产品规划与落地；更新于2026-09-28", "published_at": "2026-09-28", "trust_note": "BOSS直聘移动版职位详情页，2026-10-22 抓取时页面正常（非关闭状态）"},
+      {"source_type": "job_platform", "url": "https://www.liepin.com/job/1983345247.shtml", "publisher": "猎聘", "title": "豆包AI大模型产品经理(评测方向)-火山方舟MaaS", "snippet": "35-60k·15薪 北京-海淀区 5-10年 本科，8月26日更新", "published_at": "2026-08-26", "trust_note": "猎聘职位页，招聘方为字节跳动（祝女士·人事专员·已认证）"},
+      {"source_type": "official", "url": "https://jobs.bytedance.com/campus/position/7449313662403971336/detail", "publisher": "字节跳动招聘官网", "title": "AI产品经理-豆包爱学", "snippet": "北京 正式 产品-产品经理 职位ID：A250498；面向家庭学习场景的教育Agent产品全生命周期管理", "published_at": null, "trust_note": "字节校招官网页面，社招/校招系统真实在招"}
+    ]
+  },
+  {
+    "company": {
+      "id": "baidu",
+      "name": "百度",
+      "aliases": ["文心一言", "文心", "百度搭子", "百度智能云"],
+      "english_name": "Baidu",
+      "website": "https://www.baidu.com",
+      "city": "北京",
+      "hq_location": "北京市海淀区百度科技园",
+      "company_type": "bigtech_ai_team",
+      "tracks": ["AI Applications", "Foundation Models", "AI Agents"],
+      "description": "百度 AI 团队覆盖文心大模型、文心一言/文心助手、百度搭子（Agent 方向）等；2026年10月在猎聘集中刷新一批北京 AI 产品经理岗位（AI增长/AI平台/AI策略/搭子套件等）。",
+      "funding_stage": "已上市（纳斯达克/港交所）",
+      "team_size_min": 10000,
+      "team_size_max": null,
+      "hiring_signals": ["猎聘百度公司页显示 353 个在招职位，含大量北京 AI 产品经理岗", "10月22日当天仍有新职位刷新（搭子金融行业套件产品经理等）"]
+    },
+    "aliases": ["文心一言", "百度"],
+    "evidence": [
+      {"source_type": "job_platform", "url": "https://m.liepin.com/company-jobs/884492/jc-N03/", "publisher": "猎聘", "title": "Baidu 招聘职位（产品类）", "snippet": "Token供应商增信评测平台产品经理25-50k·16薪（43分钟前）、百度搭子金融行业套件产品经理30-60k·16薪（50分钟前）、AI增长产品经理25-50k·16薪（昨天）等，均北京-海淀区", "published_at": "2026-10-22", "trust_note": "猎聘百度公司招聘页，2026-10-22 抓取，更新时间戳为当天"},
+      {"source_type": "job_platform", "url": "https://m.liepin.com/job/1971618711.shtml", "publisher": "猎聘", "title": "AI产品经理(办公软件方向) - Baidu", "snippet": "北京-西二旗 6年以上 本科 45-50k·16薪", "published_at": null, "trust_note": "佐证百度在北京长期招聘 AI 产品经理（90天前更新，未纳入岗位清单）"}
+    ]
+  },
+  {
+    "company": {
+      "id": "tencent",
+      "name": "腾讯",
+      "aliases": ["混元", "腾讯元宝", "元宝"],
+      "english_name": "Tencent",
+      "website": "https://www.tencent.com",
+      "city": "北京",
+      "hq_location": "总部深圳；北京设有腾讯北京总部大楼（海淀区西北旺/后厂村一带）",
+      "company_type": "bigtech_ai_team",
+      "tracks": ["AI Applications", "Foundation Models", "AI Agents"],
+      "description": "腾讯混元大模型团队及元宝（C端 AI 助手）在北京招聘大模型评估与数据策略产品经理、AIGC 模型产品经理、大模型应用平台产品经理等岗位。",
+      "funding_stage": "已上市（港交所）",
+      "team_size_min": 10000,
+      "team_size_max": null,
+      "hiring_signals": ["BOSS直聘在招混元大模型评估与数据策略产品经理（北京）", "腾讯招聘官网在招腾讯元宝-大模型应用平台产品经理（北京）", "BOSS列表显示混元AIGC模型产品经理（北上深）30-60K·16薪在招"]
+    },
+    "aliases": ["腾讯混元", "腾讯元宝"],
+    "evidence": [
+      {"source_type": "job_platform", "url": "https://www.zhipin.com/job_detail/fb4a6900895347830nR60tq5FlFX.html", "publisher": "BOSS直聘", "title": "混元大模型评估与数据策略产品经理-深/北", "snippet": "北京 3-5年 本科；招聘中；工作地址北京海淀区腾讯北京总部大楼；Chat Model体验标准制定与迭代", "published_at": "2026-09-02", "trust_note": "BOSS直聘职位页标注招聘中，页面更新时间2026-09-02，2026-10-22 抓取"},
+      {"source_type": "official", "url": "https://hr.tencent.com/jobdesc.html?postId=2052733034666573824", "publisher": "腾讯招聘官网", "title": "腾讯元宝-大模型应用平台产品经理（北京）", "snippet": "建设和完善大模型应用平台；本科及以上，3年以上B端或工具类产品经验，AI开放平台优先", "published_at": null, "trust_note": "腾讯官方招聘站职位详情页"},
+      {"source_type": "job_platform", "url": "https://m.zhipin.com/zhaopin/c192f455b3708c101nF40tW5FA~~/", "publisher": "BOSS直聘", "title": "混元AIGC模型产品经理（北京/上海/深圳）", "snippet": "40-70K·15薪 腾讯 北京朝阳区亚运村 3-5年 本科", "published_at": null, "trust_note": "BOSS直聘列表页证据，佐证混元AIGC产品方向在招"}
+    ]
+  },
+  {
+    "company": {
+      "id": "meituan",
+      "name": "美团",
+      "aliases": ["美团AI平台"],
+      "english_name": "Meituan",
+      "website": "https://www.meituan.com",
+      "city": "北京",
+      "hq_location": "北京市（朝阳区望京/来广营等）",
+      "company_type": "bigtech_ai_team",
+      "tracks": ["AI Applications", "AI Agents"],
+      "description": "美团在 B 端业务线推进 BA Agent（AI 驱动策略引擎）建设，并在到餐等业务线建设信息采集 AI 能力与商家端 Agent；官网社招持续更新北京 AI 产品经理岗位。",
+      "funding_stage": "已上市（港交所）",
+      "team_size_min": 10000,
+      "team_size_max": null,
+      "hiring_signals": ["美团招聘官网 2026-10-21 更新高级AI产品经理（B端）BA Agent 岗位", "官网在招 B端产品经理（到餐，含商家端Agent自助采集等AI产品功能）", "校招官网开放 AI产品经理岗（稀缺）"]
+    },
+    "aliases": ["美团"],
+    "evidence": [
+      {"source_type": "official", "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=social&jobUnionId=4642181048", "publisher": "美团招聘官网", "title": "高级AI产品经理（B端）社招-正式", "snippet": "更新时间2026/10/21 工作地点北京市 核心本地商业-美团平台；BA Agent 面向美团B端业务的AI驱动策略引擎", "published_at": "2026-10-21", "trust_note": "美团官方社招职位详情页，2026-10-22 抓取，JD完整"},
+      {"source_type": "official", "url": "https://zhaopin.meituan.com/m/position/detail?highlightType=social&jobUnionId=4278830656", "publisher": "美团招聘官网", "title": "B端产品经理（核心本地商业-到餐事业部）", "snippet": "更新于2026/07/22 北京市 3年经验；主导信息采集AI能力建设，含商家端Agent自助采集等核心AI产品功能", "published_at": "2026-07-22", "trust_note": "美团官方社招职位详情页"}
+    ]
+  },
+  {
+    "company": {
+      "id": "kuaishou",
+      "name": "快手",
+      "aliases": ["可灵", "可灵AI", "Kling AI"],
+      "english_name": "Kuaishou",
+      "website": "https://www.kuaishou.com",
+      "city": "北京",
+      "hq_location": "北京市海淀区上地（元中心）",
+      "company_type": "bigtech_ai_team",
+      "tracks": ["AI Applications", "Foundation Models"],
+      "description": "快手可灵 AI（视频生成大模型）团队在北京招聘视频模型产品经理；可灵AI 2025年收入超6.5亿元、同比增长超300%，商业化加速带来产品岗位需求。",
+      "funding_stage": "已上市（港交所，01024.HK）",
+      "team_size_min": 10000,
+      "team_size_max": null,
+      "hiring_signals": ["BOSS直聘在招视频模型产品经理（可灵AI专项），北京上地，30-60K·16薪", "快手IR披露可灵AI收入同比增长超300%"]
+    },
+    "aliases": ["可灵AI", "快手"],
+    "evidence": [
+      {"source_type": "job_platform", "url": "https://m.bosszhipin.com/job_detail/134ae048abdbb3840ndy39S-FlpV.html", "publisher": "BOSS直聘", "title": "视频模型产品经理（可灵AI专项）", "snippet": "30-60K·16薪 快手 北京海淀区上地 3-5年 本科；负责可灵视频模型的核心功能规划", "published_at": null, "trust_note": "BOSS直聘职位详情页，2026-10-22 抓取，多个BOSS列表页交叉出现该职位"},
+      {"source_type": "official", "url": "https://ir.kuaishou.com/zh-hans/node/9646/pdf", "publisher": "快手科技 IR", "title": "快手自研视频生成大模型‘可灵’开放测试", "snippet": "中国北京，2024年6月10日 - 快手推出视频生成大模型-可灵大模型", "published_at": "2024-06-10", "trust_note": "官方新闻稿佐证可灵AI为快手自研并 base 北京"},
+      {"source_type": "investor", "url": "https://ir.kuaishou.com/static-files/f366a227-eddf-4e56-9cfa-f544e9503303", "publisher": "快手科技", "title": "快手科技2026年第一季度演示材料", "snippet": "可灵AI营业收入超过人民币6.5亿元，同比增长超300%", "published_at": "2026-05-01", "trust_note": "财报材料佐证可灵业务规模（季度）"}
+    ]
+  },
+  {
+    "company": {
+      "id": "moonshot",
+      "name": "月之暗面",
+      "aliases": ["Kimi", "Moonshot AI", "Moonshot"],
+      "english_name": "Moonshot AI",
+      "website": "https://www.moonshot.cn",
+      "city": "北京",
+      "hq_location": "北京市（中关村/五道口一带，具体地址未在抓取页面披露）",
+      "company_type": "startup",
+      "tracks": ["AI Applications", "Foundation Models"],
+      "description": "月之暗面（Moonshot AI）是 Kimi 智能助手及 Kimi 系列大模型的开发公司，base 北京；2026年9月开启社招/校招/实习全球人才招募，产品团队在招 AI Product Innovation Explorer 等岗位。",
+      "funding_stage": null,
+      "team_size_min": null,
+      "team_size_max": null,
+      "hiring_signals": ["Moka 官方招聘页在招 AI Product Innovation Explorer（北京市，Product Team，2026-08-26发布）", "2026-09-09 官方发布全球人才招募（社招/校招/实习）"]
+    },
+    "aliases": ["Kimi", "Moonshot"],
+    "evidence": [
+      {"source_type": "official", "url": "https://app.mokahr.com/m/apply/moonshot/148506#/job/5a9f34bc-7bad-4166-b256-b9b78cd3239e", "publisher": "Moka（月之暗面官方招聘系统）", "title": "AI Product Innovation Explorer", "snippet": "全职 | 产品类/Product | Product Team | 北京市 | 发布日期 2026-08-26", "published_at": "2026-08-26", "trust_note": "月之暗面官方 Moka 招聘页"},
+      {"source_type": "official", "url": "https://www.kimi.com/news/kimi-global-hiring", "publisher": "Kimi 官网", "title": "Kimi 全球人才招募|社招、校招、实习岗位开启", "snippet": "Kimi 业务团队新一轮全球人才招募，现已全面开启。更新于：2026-09-09", "published_at": "2026-09-09", "trust_note": "官方招聘公告佐证扩招信号"},
+      {"source_type": "official", "url": "https://careers.kimi.com/", "publisher": "Moonshot · Kimi 招聘官网", "title": "Moonshot · Kimi 招聘官网", "snippet": "月之暗面，把光带进来", "published_at": null, "trust_note": "官方招聘门户"}
+    ]
+  },
+  {
+    "company": {
+      "id": "zhipu",
+      "name": "智谱（智谱华章）",
+      "aliases": ["智谱AI", "Zhipu AI", "智谱华章", "Z.ai"],
+      "english_name": "Zhipu AI",
+      "website": "https://www.zhipuai.cn",
+      "city": "北京",
+      "hq_location": "北京市海淀区中关村（搜狐网络大厦等）",
+      "company_type": "startup",
+      "tracks": ["Foundation Models", "AI Applications", "AI Developer Tools"],
+      "description": "智谱 AI 以 GLM 系列大模型为核心，运营 open.bigmodel.cn MaaS 开放平台及 ChatGLM、CodeGeeX、CogView 等产品矩阵；2026年1月8日在港交所主板上市，base 北京，Moka 官方招聘系统显示北京 46 个在招职位。",
+      "funding_stage": "已上市（港交所主板，2026-01-08）",
+      "team_size_min": 500,
+      "team_size_max": 999,
+      "hiring_signals": ["BOSS直聘在招 AI Native 技术产品经理（北京，Coding Agent/Cowork 方向）", "Moka 官方社招页显示北京市 46 个在招职位", "BOSS公司页规模 500-999 人"]
+    },
+    "aliases": ["智谱AI", "Zhipu", "智谱华章"],
+    "evidence": [
+      {"source_type": "job_platform", "url": "https://m.zhipin.com/job_detail/b5362673f91eaf950ndy3di0ElZW.html", "publisher": "BOSS直聘", "title": "AI Native 技术产品经理 - 智谱华章", "snippet": "30-50K·16薪 智谱华章 北京 经验不限 本科；深度参与AI产品（如 Coding Agent / Cowork 类）的设计与迭代", "published_at": null, "trust_note": "BOSS直聘职位详情页，2026-10-22 抓取自BOSS列表页"},
+      {"source_type": "official", "url": "https://app.mokahr.com/m/social-recruitment/zphz/148983", "publisher": "Moka（智谱官方招聘系统）", "title": "北京智谱华章科技股份有限公司 - 社会招聘", "snippet": "工作地点分布：北京市 46个职位、杭州市 7个、上海市 5个、深圳市 5个、厦门市 4个", "published_at": null, "trust_note": "官方 Moka 社招页佐证北京为最大招聘地"},
+      {"source_type": "official", "url": "https://www.zhipuai.cn/zh/joinus", "publisher": "智谱官网", "title": "Z.ai - 加入我们", "snippet": "工作地点北京、深圳；职位类别含产品经理/项目经理（社招）", "published_at": null, "trust_note": "官网招聘页"},
+      {"source_type": "investor", "url": "https://www.zhipuai.cn/investor_relations/2025-annual-report.pdf", "publisher": "智谱AI", "title": "北京智譜華章科技股份有限公司2025年年度報告", "snippet": "本公司於2026年1月8日在聯交所主板上市；注册地址北京市海淀区中关村东路1号院", "published_at": "2026-01-08", "trust_note": "官方年报佐证上市日期与北京注册地"}
+    ]
+  },
+  {
+    "company": {
+      "id": "galaxy-general",
+      "name": "银河通用",
+      "aliases": ["银河通用机器人", "Galbot", "Galaxy General"],
+      "english_name": "Galaxy General Robotics",
+      "website": null,
+      "city": "北京",
+      "hq_location": "北京市海淀区鼎好DH3大厦A座1701（注册地址：海淀大街3号1幢14层1401）",
+      "company_type": "startup",
+      "tracks": ["AI Robotics"],
+      "description": "银河通用机器人（Galbot）成立于2023年5月，研发具身大模型（机器人大脑）及 Galbot G1/S1 机器人，应用于商业、工业、医疗场景；在北京、深圳、苏州、香港设研发中心，BOSS直聘显示 137 个在招职位。",
+      "funding_stage": null,
+      "team_size_min": 100,
+      "team_size_max": 499,
+      "hiring_signals": ["BOSS直聘公司页显示 137 个在招职位（北京为主）", "职友集显示 173 个招聘岗位、8次融资记录", "在招产品经理（应用系统，A42168）与人机交互产品经理实习生"]
+    },
+    "aliases": ["Galbot", "银河通用机器人"],
+    "evidence": [
+      {"source_type": "job_platform", "url": "https://www.zhipin.com/gongsi/274adc549f8801231Xxy2Nq4GVY~.html", "publisher": "BOSS直聘", "title": "银河通用机器人 - 公司主页", "snippet": "天使轮 100-499人 智能硬件；137个在招职位；在北京、深圳、苏州、香港设有研发中心；公司地址北京海淀区鼎好DH3大厦A座1701", "published_at": null, "trust_note": "BOSS公司页工商信息：北京银河通用机器人股份有限公司，成立2023-05-19"},
+      {"source_type": "job_platform", "url": "https://m.jobui.com/company/25365730/", "publisher": "职友集", "title": "银河通用招聘 - 北京银河通用机器人股份有限公司", "snippet": "通用服务机器人研发商；173个招聘岗位、8次融资、人气5577", "published_at": null, "trust_note": "聚合平台佐证融资次数与招聘活跃度；BOSS标注天使轮，两者口径不一致，funding_stage 记 null"},
+      {"source_type": "job_platform", "url": "https://m.jobui.com/company/25365730/salary/j/chanpinjingli/beijing/", "publisher": "职友集", "title": "北京银河通用 产品经理 招聘（工资待遇要求）", "snippet": "产品经理（应用系统）(A42168) 20000-35000，负责机器人从基础技能到批量应用的相关软件系统设计", "published_at": null, "trust_note": "近一年岗位样本（截至2026-10-20），取自企业发布职位的聚合"}
+    ]
+  }
+]

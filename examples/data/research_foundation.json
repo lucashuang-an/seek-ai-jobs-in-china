@@ -1,0 +1,689 @@
+[
+  {
+    "company_id": "moonshot",
+    "funding": [
+      {
+        "date": "2023-06",
+        "round": "天使轮",
+        "amount": "超2亿美元（另有报道称近20亿元人民币）",
+        "currency": "USD",
+        "investors": ["红杉中国", "真格基金", "今日资本", "Monolith砺思资本"],
+        "note": "投后估值约3亿美元；成立仅两个月完成，当时被视为国内AI初创规模空前的天使轮"
+      },
+      {
+        "date": "2023-07",
+        "round": "A轮",
+        "amount": null,
+        "currency": null,
+        "investors": ["美团龙珠", "襄禾资本", "蓝驰创投"],
+        "note": "金额未披露"
+      },
+      {
+        "date": "2024-02",
+        "round": "A+轮",
+        "amount": "超10亿美元",
+        "currency": "USD",
+        "investors": ["阿里巴巴", "Monolith砺思资本", "红杉中国", "小红书", "美团", "招商局中国基金", "源码资本", "五源资本", "蓝驰创投", "襄禾资本", "趣加游戏", "九安医疗", "顺为资本"],
+        "note": "阿里巴巴、砺思资本领投；本轮后估值约25亿美元（据新浪财经2025年12月梳理）"
+      },
+      {
+        "date": "2024-08",
+        "round": "B轮",
+        "amount": "超3亿美元",
+        "currency": "USD",
+        "investors": ["腾讯投资", "高榕创投", "阿里巴巴", "三七互娱"],
+        "note": "本轮后估值约33亿美元"
+      },
+      {
+        "date": "2025-10",
+        "round": "C轮（前序）",
+        "amount": "数亿美元",
+        "currency": "USD",
+        "investors": ["腾讯（传闻领投，未完全披露）", "五源资本等"],
+        "note": "据新浪财经2025年12月梳理，本轮未完全披露"
+      },
+      {
+        "date": "2025-12",
+        "round": "C轮",
+        "amount": "5亿美元",
+        "currency": "USD",
+        "investors": ["真格基金", "今日资本", "三七互娱等（据新浪财经关键词）"],
+        "note": "以43亿美元估值完成"
+      },
+      {
+        "date": "2026-01",
+        "round": "新一轮（年内三轮之首）",
+        "amount": "5亿美元",
+        "currency": "USD",
+        "investors": ["未完整披露"],
+        "note": "2026年1-2月连续完成5亿、7亿、7亿美元三轮融资，估值从100亿美元升至180亿美元；具体各轮交割月份未逐一公开"
+      },
+      {
+        "date": "2026-02",
+        "round": "新一轮（年内三轮之二）",
+        "amount": "7亿美元",
+        "currency": "USD",
+        "investors": ["未完整披露"],
+        "note": "见2026-01条目说明"
+      },
+      {
+        "date": "2026-02",
+        "round": "新一轮（年内三轮之三）",
+        "amount": "7亿美元",
+        "currency": "USD",
+        "investors": ["未完整披露"],
+        "note": "见2026-01条目说明；三轮后估值180亿美元"
+      },
+      {
+        "date": "2026-05",
+        "round": "D轮",
+        "amount": "约20亿美元",
+        "currency": "USD",
+        "investors": ["未完整披露"],
+        "note": "本轮后估值突破200亿美元；2026年内累计融资超39亿美元（36氪）"
+      },
+      {
+        "date": "2026-09",
+        "round": null,
+        "amount": null,
+        "currency": null,
+        "investors": [],
+        "note": "已完成股份制改造，工商平台显示当前融资轮次为F轮，估值约350亿美元；据证券时报报道正冲刺500亿美元估值奔赴港股IPO，未检索到对应金额的新一轮融资披露"
+      }
+    ],
+    "founders": [
+      {
+        "name": "杨植麟",
+        "title": "创始人、CEO（2026年股改后任董事长）",
+        "education": "清华大学计算机系（2011年入读热能工程系，大二转入计算机系，师从唐杰教授）；卡内基梅隆大学博士（师从Ruslan Salakhutdinov）",
+        "career": "曾供职于Google Brain、Meta AI",
+        "relevant_experience": "Transformer-XL与XLNet一作，发表多篇顶级NLP论文",
+        "previous_startups": "2016年与陈麒聪、张宇韬共同创立循环智能（Recurrent AI），任首席科学家角色",
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "张宇韬",
+        "title": "联合创始人、CTO",
+        "education": "清华大学计算机系（师从唐杰教授）",
+        "career": "循环智能联合创始人、CTO；曾作为技术负责人参与AMiner研发，研究方向为异构数据融合与知识图谱构建（KDD、CIKM等顶会发文）",
+        "relevant_experience": "知识图谱与数据挖掘",
+        "previous_startups": "循环智能联合创始人",
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "周昕宇",
+        "title": "联合创始人、董事",
+        "education": "清华大学（据证券时报，四位创始人均为清华校友，核心团队出自清华计算机系）",
+        "career": null,
+        "relevant_experience": null,
+        "previous_startups": null,
+        "source_fact_kind": "inferred"
+      },
+      {
+        "name": "吴育昕",
+        "title": "联合创始人",
+        "education": "清华大学（据证券时报，创始团队均出自清华计算机系）",
+        "career": null,
+        "relevant_experience": null,
+        "previous_startups": null,
+        "source_fact_kind": "inferred"
+      },
+      {
+        "name": "张予彤",
+        "title": "总裁（2023年以联合创始人身份加入）",
+        "education": "清华大学（杨植麟清华校友）",
+        "career": "加入前为创投圈明星投资人（原金沙江创投合伙人），加入后成为公司融资核心人物",
+        "relevant_experience": "投融资与资本运作",
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      }
+    ],
+    "team": {
+      "size_min": 300,
+      "size_max": 400,
+      "stage_note": "团队精简、高人效；约300人、80%为研发人员，平均年龄28岁左右；未随融资扩张而显著扩编，正探索FDE（现场工程）模式",
+      "expansion_signals": ["中国经济网2026年6月报道：约300人的科研与工程团队，90后占一大半", "时代周报2026年4月报道：300多人团队，无职级、无明确OKR", "36氪报道：至今约300人、80%研发", "企查查工商口径参保人数233人（2025年报，仅供参考）"],
+      "source_fact_kind": "verified"
+    },
+    "products": [
+      {
+        "name": "Kimi 智能助手",
+        "website": "https://kimi.com",
+        "positioning": "通用AI助手/AGI应用",
+        "core_features": "长文本处理（2023年10月首发支持20万字，后升级至200万字）、搜索增强、多模态、Agent能力",
+        "target_users": "C端用户（办公、学习、创作场景）",
+        "scenarios": "办公学习、信息检索、内容创作",
+        "traction": "QuestMobile口径月活峰值约3600万，2025年末回落至约903万、2026年一季度约834万（连续四个季度下滑）；2026年3月公司ARR突破1亿美元（K2.5发布后一个月），海外收入反超国内"
+      },
+      {
+        "name": "Kimi K2 / K2.5 开源模型及开放平台",
+        "website": "https://kimi.ai",
+        "positioning": "开源权重Agent基座模型与API服务",
+        "core_features": "Agentic工具调用、代码能力、长上下文；API开放平台面向开发者",
+        "target_users": "全球开发者与企业客户",
+        "scenarios": "智能体开发、编码、企业级应用",
+        "traction": "Kimi K2以约5倍低于Claude 4 Sonnet的定价竞争；K2.5更新后2026年3月ARR破1亿美元，为'AI六小虎'中首个"
+      }
+    ],
+    "evidence": [
+      {"source_type": "media", "url": "https://finance.sina.cn/stock/jdts/2025-12-31/detail-inhesnwq3792262.d.html", "publisher": "新浪财经", "title": "月之暗面完成5亿美元C轮融资", "snippet": "月之暗面融资历史梳理：2023年6月天使轮近20亿人民币估值3亿美元（红杉中国、真格基金、今日资本、砺思）；2023年7月A轮美团龙珠、襄禾资本、蓝驰创投；2024年2月A+轮超10亿美元估值25亿美元；2024年8月B轮超3亿美元估值33亿美元；2025年10月C轮（前序）数亿美元传闻腾讯领投", "published_at": "2025-12-31"},
+      {"source_type": "media", "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202411/12/t20241112_39199700.shtml", "publisher": "中国经济网", "title": "擅自启动融资？Kimi创始人杨植麟被提起仲裁", "snippet": "天眼查显示，月之暗面在2023年6月获超2亿美元的天使轮融资，投资机构包括真格基金和红杉中国，彼时估值为3亿美元；同年7月，公司获美团龙珠、蓝驰创投等资方投资的A轮融资", "published_at": "2024-11-12"},
+      {"source_type": "media", "url": "https://m.qixin.com/financing/699e555e-238f-4f1e-82e4-9a40313fb761", "publisher": "启信宝", "title": "北京月之暗面科技股份有限公司融资信息", "snippet": "投资金额10.00亿美元，投资方：阿里巴巴、Monolith砺思资本领投，红杉中国、小红书、美团、招商局中国基金、源码资本、五源资本、蓝驰创投、襄禾资本、趣加游戏、九安医疗、顺为资本等", "published_at": null},
+      {"source_type": "media", "url": "https://www.stcn.com/article/detail/4036291.html", "publisher": "证券时报", "title": "Kimi时刻到来：冲刺500亿美元估值奔赴港股", "snippet": "成立仅两个月完成超2亿美元天使轮融资，投后估值3亿美元；2024年2月A+轮超10亿美元估值25亿美元；2024年8月B轮超3亿美元估值33亿美元；2026年1到2月连续完成5亿、7亿、7亿美元三轮融资，估值从100亿升至180亿美元；5月D轮约20亿美元，估值达200亿美元", "published_at": null},
+      {"source_type": "media", "url": "https://m.36kr.com/p/3800367842647299", "publisher": "36氪", "title": "月之暗面融资百亿，清华老板曾喊话不着急上市", "snippet": "去年12月以43亿美元估值完成5亿美元C轮融资；今年前两个月连续完成5亿美元、7亿美元、7亿美元三轮融资；今年已密集完成四轮融资，年内融资金额超39亿美元；K2.5后ARR今年3月突破1亿美金", "published_at": null},
+      {"source_type": "media", "url": "https://m.36kr.com/p/3828882955195013", "publisher": "36氪", "title": "月活腰斩的AI公司，半年融了267亿", "snippet": "据QuestMobile，Kimi月活从峰值3600万跌至约833.8万（2026年一季度），连续四个季度下滑", "published_at": null},
+      {"source_type": "media", "url": "https://finance.sina.com.cn/wm/2024-07-20/doc-inceummy4364480.shtml", "publisher": "新浪财经", "title": "清华出身，估值200亿：月之暗面科技的崛起之路", "snippet": "张宇韬——联合创始人兼CTO，循环智能联合创始人，毕业于清华大学计算机系，师从唐杰教授，参与AMiner研发", "published_at": "2024-07-20"},
+      {"source_type": "media", "url": "https://www.stcn.com/article/detail/4036291.html", "publisher": "证券时报", "title": "Kimi时刻到来：冲刺500亿美元估值奔赴港股", "snippet": "月之暗面成立于2023年4月，由杨植麟、张宇韬、周昕宇、吴育昕四位清华校友共同创立，核心创始人团队均出自清华大学计算机系。创始人兼CEO杨植麟本科就读清华大学计算机系，后赴CMU攻读博士，师从Ruslan Salakhutdinov，曾供职于Google Brain", "published_at": null},
+      {"source_type": "media", "url": "http://m.toutiao.com/group/7669841957497389619/", "publisher": "21世纪经济报道", "title": "月之暗面完成股改 杨植麟任董事长，估值350亿美元冲刺港股", "snippet": "张予彤是杨植麟的清华校友，2023年受邀以联合创始人身份加入月之暗面，目前担任公司总裁；此前是创投圈明星投资人，加入后成为公司融资战役的核心人物", "published_at": null},
+      {"source_type": "media", "url": "http://www.ce.cn/cysc/newmain/yc/jsxw/202606/t20260623_3045520.shtml", "publisher": "中国经济网", "title": "打造人人可用的通用智能助手", "snippet": "公司目前拥有约300人的科研与工程团队，其中90后员工占据一大半", "published_at": "2026-06-23"},
+      {"source_type": "media", "url": "https://finance.sina.com.cn/jjxw/2026-04-20/doc-inhvaist8972492.shtml", "publisher": "新浪财经（时代周报）", "title": "月之暗面IPO迷局", "snippet": "300多人的团队平均年龄仅28岁，公司无职级、无明确OKR，高阶员工对外称负责人，人效比特别高", "published_at": "2026-04-20"},
+      {"source_type": "media", "url": "https://www.tsinghua.edu.cn/info/1182/124486.htm", "publisher": "清华大学官网", "title": "领跑全国，AI企业的深耕与坚守", "snippet": "2023年4月，从事自然语言处理工作长达10年的杨植麟领衔创立月之暗面；2023年10月，Kimi智能助手上线，成为首个支持20万字长文本的产品", "published_at": null},
+      {"source_type": "official", "url": "https://www.kimi.ai/showcases/deep-research/kimi-k2-open-agent-model", "publisher": "Kimi官方", "title": "Kimi K2 Open-Weight Agent Model Field Guide", "snippet": "Kimi K2作为开源权重Agent模型，定价约为Claude 4 Sonnet的1/5", "published_at": null},
+      {"source_type": "media", "url": "https://finance.sina.com.cn/jjxw/2026-04-04/doc-inhthhar8500775.shtml", "publisher": "新浪财经（界面新闻）", "title": "三个月时间 月之暗面上市态度已变", "snippet": "K2.5发布仅一个月，月之暗面ARR即突破1亿美元，成为AI六小虎中首个达成该里程碑的企业；K2.5发布后Kimi海外收入已反超国内", "published_at": "2026-04-04"}
+    ]
+  },
+  {
+    "company_id": "zhipu",
+    "funding": [
+      {
+        "date": "2021",
+        "round": "A轮",
+        "amount": "过亿元人民币",
+        "currency": "CNY",
+        "investors": ["达晨财智", "华控基金", "将门创投"],
+        "note": "具体月份未披露"
+      },
+      {
+        "date": "2022-01",
+        "round": "B1轮",
+        "amount": "2.08亿元",
+        "currency": "CNY",
+        "investors": ["君联资本", "启明创投"],
+        "note": "投后估值约21亿元（据新浪财经2026年9月回顾）"
+      },
+      {
+        "date": "2023",
+        "round": "B轮（B2-B4等多轮）",
+        "amount": "2023年累计披露融资超25亿元人民币",
+        "currency": "CNY",
+        "investors": ["君联资本", "美团", "蚂蚁集团", "阿里巴巴"],
+        "note": "2023年内密集完成多轮融资，单轮金额未完整披露"
+      },
+      {
+        "date": "2024-09",
+        "round": "B6轮（新一轮）",
+        "amount": "43.77亿元（2024年9月官宣时媒体称'数十亿元'）",
+        "currency": "CNY",
+        "investors": ["中关村科学城公司（领投）"],
+        "note": "以投前200亿元估值领投；据新浪财经2026年回顾，B6轮最终募得43.77亿元"
+      },
+      {
+        "date": "2024-12",
+        "round": "D+轮（部分媒体称D轮）",
+        "amount": "30亿元",
+        "currency": "CNY",
+        "investors": ["中关村科学城公司（领投）"],
+        "note": "本轮后估值约260亿元人民币"
+      },
+      {
+        "date": "2025-03",
+        "round": "战略融资",
+        "amount": "超10亿元",
+        "currency": "CNY",
+        "investors": ["杭州国资（杭州城投产业基金、上城资本等）"],
+        "note": "杭州国资领投；2025年3月曾密集完成多轮融资（36氪），其余轮次细节未完整检索到"
+      },
+      {
+        "date": "2025-07",
+        "round": "战略投资",
+        "amount": "10亿元",
+        "currency": "CNY",
+        "investors": ["浦东创投集团", "张江集团"],
+        "note": "上海国资入局，时值IPO冲刺期；公司已于2025-04-14在中金公司开启IPO辅导备案"
+      },
+      {
+        "date": "2025-12-30",
+        "round": "基石投资轮",
+        "amount": "29.84亿港元",
+        "currency": "HKD",
+        "investors": ["北京金控集团", "进益资本", "Perseverance Asset Management", "中金公司", "WT Asset Management", "泰康人寿", "广发基金", "3W Fund Management", "雾凇资本", "中庸资本", "凌云光"],
+        "note": "上市前基石投资"
+      },
+      {
+        "date": "2026-01-08",
+        "round": "IPO上市（02513.HK）",
+        "amount": "募资约49亿港元",
+        "currency": "HKD",
+        "investors": ["公开发售及国际配售投资者"],
+        "note": "发行价116.2港元/股，登陆港交所主板，被称为'全球大模型第一股'"
+      },
+      {
+        "date": "2026-07",
+        "round": "上市后配售新H股（一般授权）",
+        "amount": "约40亿美元",
+        "currency": "USD",
+        "investors": ["机构配售投资者（未完整披露）"],
+        "note": "据上海证券报2026年9月报道：7月完成约40亿美元再融资后扩大算力布局，并重新全面开放Coding Plan销售"
+      },
+      {
+        "date": "2026-09",
+        "round": "股份配售+零息可换股债券",
+        "amount": "约50亿美元（约20亿美元股份配售+约30亿美元可转债，约合393亿港元）",
+        "currency": "USD",
+        "investors": ["海外长线基金及多策略机构（覆盖亚洲、欧洲、美洲）"],
+        "note": "2196.5万股新H股以714港元/股配售；人民币201.4亿元零息可转债在维也纳证券交易所MTF上市；上市后三轮募资合计约750亿港元"
+      }
+    ],
+    "founders": [
+      {
+        "name": "唐杰",
+        "title": "创始人、首席科学家",
+        "education": "清华大学计算机系教授，清华大学知识工程实验室（KEG）主任",
+        "career": "长期从事知识图谱、数据挖掘与NLP研究，创建学术搜索与科研情报平台AMiner",
+        "relevant_experience": "智谱大模型技术带头人，GLM架构源于其团队研究成果",
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "刘德兵",
+        "title": "联合创始人、董事长、执行董事",
+        "education": "博士",
+        "career": "2019年6月加入集团，计算技术行业近18年经验（2007年9月至2012年曾任技术职务，详见招股书），负责战略规划、业务方向及整体管理",
+        "relevant_experience": null,
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "张鹏",
+        "title": "联合创始人、首席执行官（CEO）、执行董事、总经理",
+        "education": "博士",
+        "career": "公司控股股东之一，2019年起参与公司创立与经营",
+        "relevant_experience": null,
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "李涓子",
+        "title": "核心创始团队成员（现任非执行董事）",
+        "education": "博士",
+        "career": "清华大学教授（知识工程实验室），公司非执行董事",
+        "relevant_experience": "知识图谱",
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "许斌、王绍兰",
+        "title": "核心创始团队成员",
+        "education": null,
+        "career": "2019年6月AMiner从清华实验室拆分、智谱成立时的六人核心创始团队成员之二",
+        "relevant_experience": null,
+        "previous_startups": null,
+        "source_fact_kind": "inferred"
+      }
+    ],
+    "team": {
+      "size_min": 883,
+      "size_max": 1000,
+      "stage_note": "已上市，员工规模稳定增长；2025年招股书披露883名员工，2026年财报披露981名员工，第三方估算约千人",
+      "expansion_signals": ["2025年上市招股书披露员工883人（ZAKER引述）", "2026年财报披露员工981名（中国经济网）", "官网持续招聘算法/研发/运营等社招与校招岗位", "2026年5月以不超过3.61亿元收购北京红钻科技（中关村软件园钻石大厦楼层）"],
+      "source_fact_kind": "verified"
+    },
+    "products": [
+      {
+        "name": "Z.ai / 智谱清言",
+        "website": "https://www.zhipuai.cn",
+        "positioning": "C端AI助手与AGI品牌门户",
+        "core_features": "GLM系列基座模型驱动的对话、搜索、Agent能力；多模态",
+        "target_users": "C端用户与开发者",
+        "scenarios": "日常助手、办公学习",
+        "traction": "GLM-5发布后24小时内获字节、阿里、腾讯等头部大厂官方接入；中国前10大互联网公司中多家接入（2025年报）"
+      },
+      {
+        "name": "BigModel.cn 开放平台（MaaS）",
+        "website": "https://bigmodel.cn",
+        "positioning": "大模型即服务开放平台",
+        "core_features": "GLM系列API、GLM Coding Plan（兼容Claude Code）、按token计费",
+        "target_users": "开发者与企业客户",
+        "scenarios": "应用开发、智能体、编程",
+        "traction": "业务覆盖218个国家和地区，连接超400万开发者和企业，付费开发者24.2万（2025年报）；2025年云端API收入1.904亿元、同比增长292.6%；管理层上调ARR目标至30亿美元；恢复销售后Coding Plan销量增长超15倍、两周新增用户超100万"
+      },
+      {
+        "name": "GLM 系列开源模型（GLM-4.5/GLM-5/GLM-5.2/GLM-5.3）",
+        "website": "https://docs.bigmodel.cn",
+        "positioning": "开源权重基座模型",
+        "core_features": "SOTA级Agent能力、Agentic Coding；GLM-5.2于HuggingFace/ModelScope以MIT License开源",
+        "target_users": "全球开发者、云厂商",
+        "scenarios": "模型微调、私有化部署、云端分发",
+        "traction": "GLM-5.3进入AWS Bedrock，探索开放权重大模型全球商业化"
+      },
+      {
+        "name": "AutoGLM",
+        "website": "https://www.zhipuai.cn",
+        "positioning": "手机/浏览器Agent（智能体）",
+        "core_features": "自动操作手机、自主执行任务；2025年8月20日发布AutoGLM 2.0，号称全球首个手机Agent",
+        "target_users": "C端用户",
+        "scenarios": "手机自动化操作、任务代办",
+        "traction": "全球首个手机Agent的发布引发广泛关注"
+      },
+      {
+        "name": "CodeGeeX / CogVideo 等",
+        "website": "https://bigmodel.cn",
+        "positioning": "代码生成与视频生成产品",
+        "core_features": "代码补全与生成、文本生成视频",
+        "target_users": "开发者、创作者",
+        "scenarios": "编程辅助、内容创作",
+        "traction": null
+      }
+    ],
+    "evidence": [
+      {"source_type": "media", "url": "http://www.jjckb.cn/20250328/ae61c61612ba4df4aa946c41f6b94371/c.html", "publisher": "经济参考网（新华社《经济参考报》）", "title": "国产AI大模型独角兽智谱完成股份制改造", "snippet": "2021年智谱披露完成A轮过亿元融资（达晨财智、华控基金、将门创投）；2022年获得数亿元B轮（君联资本、启明创投联合领投）；2023年累计获得超25亿元融资，资方包括君联、美团、蚂蚁、阿里", "published_at": "2025-03-28"},
+      {"source_type": "media", "url": "https://finance.sina.com.cn/roll/2026-09-14/doc-inirveas7218811.shtml", "publisher": "新浪财经", "title": "从清华大学到全球大模型第一股", "snippet": "2022年1月君联资本、启明创投注资的B1轮募资2.08亿元、投后估值约21亿元；2024年8月起中关村科学城以投前200亿元领投B6轮，公司最终募得43.77亿元", "published_at": "2026-09-14"},
+      {"source_type": "media", "url": "https://www.36kr.com/p/3250977077928196", "publisher": "36氪", "title": "大模型六小龙，第一个 IPO 要来了", "snippet": "2024年12月D轮融资30亿元人民币，领投方为中关村科学城公司，估值260亿元人民币；今年3月智谱密集完成三轮融资，加速IPO前资本储备", "published_at": null},
+      {"source_type": "media", "url": "https://finance.sina.com.cn/tech/roll/2025-03-03/doc-ineniuqm2630547.shtml", "publisher": "新浪科技（C114）", "title": "智谱宣布获得杭州国资领投10亿元战略融资", "snippet": "3月3日智谱宣布完成新一笔金额超10亿元人民币的战略融资，投资方包括杭州城投产业基金、上城资本等；去年12月完成中关村科学城公司领投D+轮的30亿元融资", "published_at": "2025-03-03"},
+      {"source_type": "media", "url": "http://www.caixin.com/2025-07-02/102337448.html", "publisher": "财新网", "title": "智谱再获上海国资10亿元投资 4月已启动上市辅导", "snippet": "7月2日智谱在上海举行生态大会，宣布获得浦东创投集团和张江集团10亿元战略投资；4月15日证监会网站显示北京智谱华章于4月14日开启IPO辅导备案，辅导机构为中金公司", "published_at": "2025-07-02"},
+      {"source_type": "media", "url": "https://m.qixin.com/financing/557362fb-27ab-43e1-8553-4af000c060e3", "publisher": "启信宝", "title": "北京智谱华章科技股份有限公司融资信息", "snippet": "基石投资轮29.84亿港元，投资方：北京金控集团、进益资本、Perseverance Asset Management、中金公司、WT Asset Management、泰康人寿、广发基金、3W Fund、雾凇资本、中庸资本、凌云光", "published_at": null},
+      {"source_type": "media", "url": "https://finance.sina.com.cn/roll/2026-09-14/doc-inirveas7218811.shtml.md", "publisher": "新浪财经", "title": "从清华大学到全球大模型第一股", "snippet": "2026年1月8日智谱以116.2港元发行价登陆港交所，募得约49亿港元，成为全球大模型第一股", "published_at": "2026-09-14"},
+      {"source_type": "media", "url": "https://m.21jingji.com/article/20260917/herald/2f9d38bfeb553c4d17c9341f31ac6fb0.html", "publisher": "21财经", "title": "02513，大举融资近400亿！", "snippet": "智谱拟配售新股募资约157亿港元，同时发行本金约30亿美元（约合236亿港元）的零息可换股债券，两项合计约50亿美元（约合393亿港元）", "published_at": "2026-09-17"},
+      {"source_type": "media", "url": "https://stock.stockstar.com/IG2026101200021988.shtml", "publisher": "证券之星", "title": "9个月三轮融资750亿港元 智谱补血竞速算力", "snippet": "9月18日智谱公告完成总额约50亿美元融资的全部交割：2196.5万股新H股以714港元/股配售到位，人民币201.4亿元（约30亿美元）零息可换股债券同步在维也纳证券交易所MTF市场上市", "published_at": "2026-10-12"},
+      {"source_type": "official", "url": "https://www.zhipuai.cn/investor_relations/2025-annual-report.pdf", "publisher": "智谱（港交所02513）", "title": "北京智譜華章科技股份有限公司2025年年度報告", "snippet": "执行董事：刘德兵博士（董事长）、张鹏博士、张笑涵女士；非执行董事：李涓子博士等；GLM-5发布后24小时内即获字节、阿里、腾讯等头部大厂官方接入", "published_at": null},
+      {"source_type": "media", "url": "https://36kr.com/p/3924625732221059", "publisher": "36氪", "title": "从免费学术搜索工具到顶尖大模型公司，智谱公司瞄准山顶", "snippet": "2019年6月AMiner从清华实验室正式拆分，智谱AI成立。唐杰、刘德兵、张鹏、李涓子、许斌和王绍兰六人成为核心创始团队", "published_at": null},
+      {"source_type": "media", "url": "https://36kr.com/p/3747664371495682", "publisher": "36氪", "title": "掌握定价权后，这家AI公司暴涨25%", "snippet": "云端API收入1.904亿元，同比增长292.6%；智谱业务覆盖218个国家和地区，连接超过400万开发者和企业，付费开发者规模达24.2万", "published_at": null},
+      {"source_type": "media", "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202609/t20260904_3192327.shtml", "publisher": "中国经济网", "title": "5500亿智谱，拒绝成为大厂'打工人'", "snippet": "根据财报，智谱员工规模为981名，比MiniMax多一倍；财报披露其收购北京红钻100%股权（不超过3.61亿元）", "published_at": "2026-09-04"},
+      {"source_type": "media", "url": "https://app.myzaker.com/news/article.php?pk=6aa00bf08e9f09731157164c", "publisher": "ZAKER新闻（白鲸实验室）", "title": "不止150人！曝DeepSeek团队规模今年将扩张至1000人", "snippet": "2025年智谱招股书显示智谱拥有员工883人，据第三方预估今年智谱团队人数大概在千人左右，这个规模将和智谱团队等同", "published_at": null}
+    ]
+  },
+  {
+    "company_id": "baichuan",
+    "funding": [
+      {
+        "date": "2023-04",
+        "round": "天使轮（启动资金）",
+        "amount": "5000万美元",
+        "currency": "USD",
+        "investors": ["王小川（个人启动资金）"],
+        "note": "2023年4月10日王小川官宣入场，公布启动资金5000万美元（与王慧文光年之外同额）"
+      },
+      {
+        "date": "2023-10",
+        "round": "A1轮（战略融资）",
+        "amount": "3亿美元",
+        "currency": "USD",
+        "investors": ["阿里巴巴", "腾讯", "小米", "深创投"],
+        "note": "2023年10月17日官宣完成；知情人士称实际7月份已交割"
+      },
+      {
+        "date": "2024-07",
+        "round": "A轮",
+        "amount": "总融资金额达50亿元人民币",
+        "currency": "CNY",
+        "investors": ["阿里巴巴", "小米", "腾讯等"],
+        "note": "2024年7月25日向媒体确认完成；将以200亿元估值开启B轮融资；工商平台显示累计融资3次，最新投后标注'A+轮'，未见对应公开报道，B轮亦未检索到官宣"
+      }
+    ],
+    "founders": [
+      {
+        "name": "王小川",
+        "title": "创始人、CEO（持股约76.43%）",
+        "education": "清华大学计算机系（成都七中保送）",
+        "career": "搜狗公司创始人，曾任搜狗CEO，带领搜狗登陆纽交所；2021年腾讯收购搜狗后卸任",
+        "relevant_experience": "搜索引擎与输入法产品、语音与AI技术积累（搜狗AI体系）",
+        "previous_startups": "搜狗创始人",
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "茹立云",
+        "title": "联合创始人（已离开，据36氪2026年报道）",
+        "education": "清华大学计算机系博士",
+        "career": "曾任搜狗公司COO、清华大学天工智能计算研究院副院长；2018年创立AI教育公司葡萄智学",
+        "relevant_experience": "搜狗搜索技术创新、AI教育创业",
+        "previous_startups": "葡萄智学创始人",
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "陈炜鹏",
+        "title": "联合创始人（已离开，据36氪2026年报道）",
+        "education": null,
+        "career": "前搜狗搜索总经理，2023年与王小川、茹立云共同创业",
+        "relevant_experience": "搜索引擎",
+        "previous_startups": null,
+        "source_fact_kind": "inferred"
+      },
+      {
+        "name": "洪涛",
+        "title": "早期核心高管（前搜狗CMO，已离开，据36氪2026年报道）",
+        "education": null,
+        "career": "前搜狗CMO，王小川搜狗时期'四大天王'之一，2023年回归加入百川智能",
+        "relevant_experience": "市场与商业化",
+        "previous_startups": null,
+        "source_fact_kind": "inferred"
+      },
+      {
+        "name": "焦可",
+        "title": "创始团队成员（已离开，据新浪财经报道）",
+        "education": null,
+        "career": "2023年7月首次持股，为公司创业元老之一",
+        "relevant_experience": null,
+        "previous_startups": null,
+        "source_fact_kind": "inferred"
+      }
+    ],
+    "team": {
+      "size_min": 150,
+      "size_max": 299,
+      "stage_note": "2025年起战略收缩、聚焦医疗AI：员工从高峰期约450人压缩至不足200人（王小川向虎嗅证实），管理层级从3.6级降至2.4级，直接向王小川汇报的高管不到10人；企查查工商口径人员规模为200-299人",
+      "expansion_signals": ["2023年10月员工已超170人（36氪）", "2024年报道员工280余人（钛媒体）", "2025年8月王小川证实从不足500人减员到不足200人（虎嗅/新浪财经）", "高薪聘请投资经理，公司以战投方式已投资三家公司（钛媒体）"],
+      "source_fact_kind": "verified"
+    },
+    "products": [
+      {
+        "name": "百川大模型系列（Baichuan-7B/13B、Baichuan4-Turbo/Air）",
+        "website": "https://www.baichuan-ai.com",
+        "positioning": "通用大语言模型（开源+企业级API）",
+        "core_features": "成立不到100天发布Baichuan-7B/13B两款开源可免费商用中文大模型；Baichuan4-Air首创PRI架构MoE，调用单价0.98厘/千token",
+        "target_users": "开发者、企业客户",
+        "scenarios": "通用对话、企业场景优化",
+        "traction": "开源模型在多个权威评测榜单名列前茅，下载量突破数百万（官网口径）；2024年7月A轮后跻身独角兽"
+      },
+      {
+        "name": "百小应",
+        "website": "https://www.baichuan-ai.com",
+        "positioning": "C端AI助手（2026年起转型医疗助手）",
+        "core_features": "AI对话与问答；2026年1月以医疗助手形式回归，接入Baichuan-M3，面向医生与患者开放问诊与诊疗思路推演能力",
+        "target_users": "C端用户（后转向医生、患者及家属）",
+        "scenarios": "日常助手 → 医疗问诊辅助",
+        "traction": "随M3发布重新回归公众视野"
+      },
+      {
+        "name": "Baichuan-M3 医疗大模型",
+        "website": "https://www.baichuan-ai.com",
+        "positioning": "开源医疗增强大模型",
+        "core_features": "2026年1月13日发布并开源；在OpenAI主导的HealthBench及困难子集取得全球最高综合成绩（超越GPT-5.2），医疗幻觉率纯模型评估达当前最低水平；SCAN-Bench全流程临床能力评测领先",
+        "target_users": "医疗机构、医生、开发者",
+        "scenarios": "问诊、辅助检查、诊断等临床流程",
+        "traction": "发布时宣称多项医疗评测全球第一"
+      },
+      {
+        "name": "Baichuan-M4 与 AI家庭医生'百小医'",
+        "website": "https://www.baichuan-ai.com",
+        "positioning": "新一代医疗大模型与C端AI家庭医生产品",
+        "core_features": "2026年5月26日在清华大学发布",
+        "target_users": "C端家庭用户、患者",
+        "scenarios": "家庭健康管理、AI问诊",
+        "traction": "标志着公司全面转向医疗AI赛道；王小川称百川智能有机会在2027年上市（经济观察报，2026年1月）"
+      }
+    ],
+    "evidence": [
+      {"source_type": "media", "url": "http://www.nbd.com.cn/rss/toutiao/articles/3057558.html", "publisher": "每日经济新闻", "title": "百川智能完成3亿美元A1轮融资 阿里等巨头参投", "snippet": "10月17日王小川旗下百川智能官宣完成A1轮战略融资，金额3亿美元，阿里、腾讯、小米、深创投等参投；知情人士称其实7月份就做完了", "published_at": "2023-10-17"},
+      {"source_type": "media", "url": "http://www.cnstock.com/commonDetail/220537", "publisher": "上海证券报·中国证券网", "title": "王小川，融了50亿元", "snippet": "7月25日百川智能确认已于近期完成A轮融资，总融资金额达50亿元人民币，将以200亿元估值开启B轮融资；A轮投资方有阿里、小米、腾讯等", "published_at": "2024-07-25"},
+      {"source_type": "media", "url": "https://m.36kr.com/p/2209294566419842", "publisher": "36氪", "title": "王小川携5000万美元，跑步入场'大模型'", "snippet": "王小川公布启动资金5000万美元，确定新公司名称——百川智能（工商注册主体为五季智能）", "published_at": "2023-04"},
+      {"source_type": "official", "url": "https://www.baichuan-ai.com/", "publisher": "百川智能官网", "title": "百川大模型-百川智能", "snippet": "百川智能成立于2023年3月24日，由前搜狗公司CEO王小川创立；核心团队来自搜狗、百度、华为、微软、字节、腾讯等公司；成立不到100天发布Baichuan-7B、Baichuan-13B两款开源可免费商用中文大模型", "published_at": null},
+      {"source_type": "media", "url": "https://finance.sina.cn/chanjing/gsxw/2025-08-13/detail-infkutxe7320100.d.html", "publisher": "新浪财经（虎嗅独家）", "title": "王小川证实：百川智能从不足500人减员到不足200人", "snippet": "两年半时间里公司完成战略性瘦身：员工规模从高峰期450人压缩至不足200人，管理层级从3.6级降至2.4级，直接向王小川汇报的高管不到10人", "published_at": "2025-08-13"},
+      {"source_type": "media", "url": "https://www.tmtpost.com/7448033.html", "publisher": "钛媒体", "title": "王小川下场做VC，百川智能已投资三家公司，并高薪聘请投资经理", "snippet": "百川智能成立于2023年4月10日，由搜狗公司创始人王小川创立；目前公司员工280余人，创立半年便已跻身AI独角兽行列", "published_at": null},
+      {"source_type": "media", "url": "https://m.baike.com/wiki/%E8%8C%B9%E7%AB%8B%E4%BA%91/21306733", "publisher": "百科（百科名汇）", "title": "茹立云", "snippet": "清华大学计算机系博士，曾任搜狗公司COO，清华大学天工智能计算研究院副院长；2018年创立葡萄智学，2023年4月10日与王小川联合创立百川智能", "published_at": null},
+      {"source_type": "media", "url": "http://m.toutiao.com/group/7484185230098645543/", "publisher": "新浪财经", "title": "200亿百川智能4大高管出走，王小川身边还剩谁？", "snippet": "天眼查信息显示王小川持股76.43%，联合创始人茹立云持股0.77%，焦可持股0.2%（2023年7月首次持股）；另一位联合创始人陈炜鹏……", "published_at": null},
+      {"source_type": "media", "url": "https://36kr.com/p/3909039058015368", "publisher": "36氪", "title": "最后一个联合创始人离开，王小川身后空无一人", "snippet": "联创全员出走：一场路线分歧的终局；前搜狗搜索总经理陈炜鹏、COO茹立云等联合创始人已全部离开", "published_at": null},
+      {"source_type": "media", "url": "https://finance.sina.com.cn/roll/2026-01-14/doc-inhhhnwm4974361.shtml", "publisher": "新浪财经", "title": "炮轰张文宏拒绝AI'屁股决定脑袋'后，王小川拿出了自己的AI医疗大模型", "snippet": "1月13日百川智能正式开源新一代医疗大模型Baichuan-M3；百小应以医疗助手形式重新回归并接入M3，面向医生与患者开放能力", "published_at": "2026-01-14"},
+      {"source_type": "media", "url": "https://36kr.com/p/3831204618477824", "publisher": "36氪", "title": "王小川和李开复，领着六小虎'AI的迫降'", "snippet": "2026年5月26日百川智能在清华大学发布新一代医疗大模型Baichuan-M4和AI家庭医生产品'百小医'", "published_at": null},
+      {"source_type": "media", "url": "http://m.toutiao.com/group/7594824977497555471/", "publisher": "经济观察报", "title": "王小川重整旗鼓：百川智能有机会在2027年上市", "snippet": "2025年至今王小川很少露面，百川智能不再密集发布模型和产品；1月13日他再次站出来接受采访；将把模型植入C端应用百小应并推出新的C端AI医疗产品", "published_at": null},
+      {"source_type": "media", "url": "http://www.nbhtz.gov.cn/art/2025/1/7/art_1229027732_58938240.html", "publisher": "南京高新区官网", "title": "百川智能大模型项目落地高新区", "snippet": "百川智能成立于2023年4月10日，由前搜狗CEO王小川创立；目前公司员工280余人；2024年7月完成A轮融资，总融资金额约50亿元", "published_at": "2025-01-07"}
+    ]
+  },
+  {
+    "company_id": "modelbest",
+    "funding": [
+      {
+        "date": "2023-04",
+        "round": "天使轮",
+        "amount": "数千万元",
+        "currency": "CNY",
+        "investors": ["知乎（领投）", "智谱（跟投）"],
+        "note": "公司孵化自清华大学NLP实验室，知乎'给钱给人'"
+      },
+      {
+        "date": "2024-04",
+        "round": "A轮（部分媒体称'新一轮'）",
+        "amount": "数亿元",
+        "currency": "CNY",
+        "investors": ["春华创投", "华为哈勃（联合领投）"],
+        "note": null
+      },
+      {
+        "date": "2024-12-11",
+        "round": "A+轮",
+        "amount": "数亿元",
+        "currency": "CNY",
+        "investors": ["龙芯创投", "鼎晖百孚", "中关村科学城基金", "赛富基金（联合领投）", "北京市人工智能产业投资基金", "清科创投"],
+        "note": null
+      },
+      {
+        "date": "2025-05-21",
+        "round": "B轮（报道称'新一轮'）",
+        "amount": "数亿元",
+        "currency": "CNY",
+        "investors": ["洪泰基金", "国中资本", "清控金信资本", "茅台基金"],
+        "note": "茅台基金由茅台集团与建信信托发起成立"
+      },
+      {
+        "date": "2025-12-23",
+        "round": "C轮",
+        "amount": "数亿元",
+        "currency": "CNY",
+        "investors": ["京国瑞投资", "国科投资", "中金保时捷基金", "米聚资本", "和基投资"],
+        "note": "资金主要用于加大端侧高效大模型研发投入、加速端侧AI商业化"
+      },
+      {
+        "date": "2026-02",
+        "round": "D轮",
+        "amount": "数亿元",
+        "currency": "CNY",
+        "investors": ["中国电信投资", "中信金石", "中信投资控股"],
+        "note": null
+      },
+      {
+        "date": "2026-04",
+        "round": "D+轮",
+        "amount": "数亿元",
+        "currency": "CNY",
+        "investors": ["深创投（深圳市创新投资集团）", "汇川产投（联合领投）", "道禾长期投资", "国泰君安创新投", "武岳峰科创", "清紫泽源资本"],
+        "note": "2026年4月6日天眼查公布；深创投官网新闻称'国家队与产业龙头携手布局面壁端侧大模型'"
+      },
+      {
+        "date": "2026-07",
+        "round": "D++轮",
+        "amount": "数亿元",
+        "currency": "CNY",
+        "investors": ["国家级基金", "央企", "汽车制造商（具体名单未完整披露）"],
+        "note": "2026年7月15日左右披露；至此2026年上半年累计融资超50亿元、投后估值超200亿元；公司已于2026年启动A股IPO辅导（估值超200亿元）"
+      }
+    ],
+    "founders": [
+      {
+        "name": "李大海",
+        "title": "联合创始人、CEO（董事长）",
+        "education": "北京大学数学科学学院基础数学专业硕士",
+        "career": "2006年大学毕业后加入Google成为Google中国创始员工之一；后联合创业做社会化搜索引擎'云云网'；曾就职于豌豆荚；2015年12月加入知乎，先后负责广告技术、数据、算法及全部技术中台，2018年5月起任知乎CTO兼执行董事（2024年卸任CTO）",
+        "relevant_experience": "大规模推荐与搜索系统、社区智能化",
+        "previous_startups": "云云网联合创始成员",
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "刘知远",
+        "title": "联合创始人、首席科学家",
+        "education": "清华大学计算机系博士（2011年）",
+        "career": "现任清华大学计算机系长聘副教授（教授）；清华大学知识工程实验室（KEG）成员，研究方向为表示学习、知识图谱与社会计算，在AAAI、IJCAI、ACL等顶会顶刊发表论文30余篇；悟道·文源中文预训练模型团队骨干",
+        "relevant_experience": "大模型预训练与知识计算（CPM系列共同作者）",
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      },
+      {
+        "name": "曾国洋",
+        "title": "联合创始人、CTO（现任法定代表人）",
+        "education": "清华大学计算机系（17岁凭NOI金牌保送清华）",
+        "career": "OpenBMB开源社区主要发起者，BMTrain、BMInf主要作者；悟道·文源中文预训练模型团队骨干成员；曾作为核心工程负责人在22岁时训练出中国第一个大语言模型CPM-1",
+        "relevant_experience": "高效训练与推理框架、端侧模型工程化",
+        "previous_startups": null,
+        "source_fact_kind": "verified"
+      }
+    ],
+    "team": {
+      "size_min": 200,
+      "size_max": 299,
+      "stage_note": "清华NLP实验室孵化（2022年8月成立），团队精干；工商信息平台口径人员规模200-299人、参保205人；2026年密集融资并启动A股IPO辅导，处于扩张与规范化并行期",
+      "expansion_signals": ["企查查：公司人员规模200-299人、参保205人（2026年）", "2026年已完成D++轮数亿元融资，上半年累计融资超50亿元", "2026年启动A股IPO辅导（上市辅导状态）", "官网展示SuperMate端侧智能座舱等商业化落地，与瑞芯微、三星等达成合作"],
+      "source_fact_kind": "verified"
+    },
+    "products": [
+      {
+        "name": "MiniCPM'面壁小钢炮'端侧大模型系列",
+        "website": "https://www.modelbest.cn",
+        "positioning": "旗舰端侧大模型（开源+商用授权）",
+        "core_features": "极致算力与内存效率；2024年首发2B参数初代MiniCPM，迭代至多模态MiniCPM-V 4.6；2026年WAIC发布MiniCPM5-2B并完成多款芯片适配",
+        "target_users": "手机/PC/汽车厂商、IoT与消费电子客户、开发者",
+        "scenarios": "端侧部署、离线推理、消费电子与车载智能",
+        "traction": "据AA-Index榜单，MiniCPM5-2B以2B参数量取得4B以下全球性能第一；已完成对瑞芯微、高通、联发科、英特尔等主流芯片平台适配"
+      },
+      {
+        "name": "OpenBMB 开源社区 / CPM 系列",
+        "website": "https://www.openbmb.cn",
+        "positioning": "开源大模型社区与模型谱系",
+        "core_features": "CPM系列中文预训练模型开源；BMTrain/BMInf高效训练推理工具链",
+        "target_users": "全球开源开发者",
+        "scenarios": "模型研究、二次开发",
+        "traction": "OpenBMB为主要发起者之一，社区源自清华NLP实验室与面壁团队"
+      },
+      {
+        "name": "SuperMate 端侧智能座舱",
+        "website": "https://www.modelbest.cn",
+        "positioning": "车载端侧智能解决方案",
+        "core_features": "端侧大模型驱动座舱智能升级，与瑞芯微达成'芯片+模型'战略合作",
+        "target_users": "汽车厂商、Tier1供应商",
+        "scenarios": "智能座舱交互",
+        "traction": "2026年5月与瑞芯微官宣战略合作；MiniCPM已在汽车、手机、PC等多类终端落地"
+      },
+      {
+        "name": "手机端侧合作（三星等）",
+        "website": "https://www.modelbest.cn",
+        "positioning": "旗舰手机端侧模型能力输出",
+        "core_features": "MiniCPM系列端侧模型预装/搭载于旗舰机型",
+        "target_users": "手机厂商及终端用户",
+        "scenarios": "手机端AI功能（写作、摘要、多模态理解等）",
+        "traction": "36氪《智能涌现》独家报道：面壁与三星手机达成合作，MiniCPM将搭载于三星数款旗舰机型上市"
+      }
+    ],
+    "evidence": [
+      {"source_type": "media", "url": "https://36kr.com/p/3937790222014345", "publisher": "36氪", "title": "四年估值突破200亿，端侧大模型第一股面壁智能提交 IPO 辅导", "snippet": "2023年天使轮数千万元融资，由知乎领投、智谱跟投；2024年春华创投与华为哈勃联合领投数亿元，A+轮引入龙芯创投、中关村科学城基金；2025年B轮、C轮连续完成，洪泰基金、国中资本、京国瑞、中金资本等相继进入", "published_at": null},
+      {"source_type": "media", "url": "https://m.21jingji.com/article/20260812/herald/e4fbfff32bc3843921c2646bc67c6d64.html", "publisher": "21财经", "title": "估值超200亿元，面壁智能启动A股IPO辅导", "snippet": "2023年4月天使轮；2024年4月数亿元（春华创投、华为哈勃领投）；2024年12月A+轮（龙芯创投、鼎晖百孚、中关村科学城）；2025年5月B轮（洪泰基金、国中资本、茅台基金）；2025年12月C轮（京国瑞投资）；2026年2月D轮（中国电信投资、中信金石、中信投资控股）；4月D+轮（深创投、汇川产投联合领投）；7月再完成一轮（国家级基金、央企、汽车制造商）；2026上半年累计融资超50亿元、投后估值超200亿元", "published_at": "2026-08-12"},
+      {"source_type": "media", "url": "http://kw.beijing.gov.cn/xwdt/kcyx/xwdtyqqy/202412/t20241212_3964461.html", "publisher": "北京市科委、中关村管委会（北京日报）", "title": "AI大模型京企获数亿元融资", "snippet": "12月11日面壁智能宣布完成新一轮数亿元融资，由龙芯创投、鼎晖百孚、中关村科学城基金和赛富基金联合领投，北京市人工智能产业投资基金与清科创投跟投", "published_at": "2024-12-12"},
+      {"source_type": "media", "url": "http://www.cnstock.com/commonDetail/444017", "publisher": "上海证券报·中国证券网", "title": "茅台基金，落子大模型企业", "snippet": "5月21日记者获悉面壁智能已于近日完成新一轮数亿元融资，由洪泰基金、国中资本、清控金信和茅台基金联合投资；茅台基金由茅台集团与建信信托发起成立", "published_at": "2025-05-21"},
+      {"source_type": "media", "url": "https://stcn.com/article/detail/3553818.html", "publisher": "证券时报", "title": "面壁智能完成数亿元融资 投资方阵容多元化", "snippet": "12月23日面壁智能宣布已于近期完成数亿元融资，由京国瑞、国科投资、中金保时捷基金、米聚资本与和基投资共同参与，用于加大端侧高效大模型研发投入、加速端侧AI商业化", "published_at": "2025-12-23"},
+      {"source_type": "media", "url": "https://4g.stockstar.com/detail/RB2026040700027044", "publisher": "证券之星（据天眼查）", "title": "面壁智能D+轮融资，融资额数亿人民币", "snippet": "根据天眼查APP于4月6日公布的信息，北京面壁智能D+轮融资数亿人民币，参与投资的机构包括深创投、汇川产投、道禾长期投资、国泰君安创投、武岳峰科创", "published_at": "2026-04-07"},
+      {"source_type": "media", "url": "https://www.tianyancha.com/company/5656939571/gongsi", "publisher": "天眼查", "title": "北京面壁智能科技股份有限公司", "snippet": "2026-10-11更新：已于2026年完成了D++轮，交易金额数亿人民币；人员规模200-299人，参保人数205人；上市辅导状态", "published_at": "2026-10-11"},
+      {"source_type": "media", "url": "https://m.36kr.com/p/3896830362601351", "publisher": "36氪（智能涌现）", "title": "独家｜面壁智能端侧大模型将搭载三星手机上市", "snippet": "面壁智能已与三星手机达成合作，MiniCPM系列端侧模型将搭载于三星手机上市、覆盖数款旗舰机型；2022年8月成立，孵化自清华大学NLP实验室；联合创始人CEO李大海曾任知乎合伙人、CTO；联创首席科学家刘知远现任清华大学计算机系教授；联创CTO曾国洋22岁时作为核心工程负责人训练中国第一个大语言模型CPM-1", "published_at": null},
+      {"source_type": "official", "url": "https://modelbest.cn/en/", "publisher": "面壁智能官网", "title": "ModelBest", "snippet": "深创投、汇川产投联合领投新一轮数亿元融资，国家队与产业龙头携手布局面壁端侧大模型", "published_at": null},
+      {"source_type": "media", "url": "http://tech.cnr.cn/techph/20230602/t20230602_526273321.shtml", "publisher": "央广网", "title": "知乎官宣：CTO李大海兼任面壁智能CEO", "snippet": "李大海是北京大学数学系硕士，曾就职于谷歌、豌豆荚，2015年加入知乎，先后负责广告技术、数据、算法业务以及全部技术中台", "published_at": "2023-06-02"},
+      {"source_type": "media", "url": "https://m.gelonghui.com/p/6107021", "publisher": "格隆汇", "title": "半年融资超50亿！17岁保送清华的90后，干出中国最大端侧独角兽", "snippet": "面壁智能背后有北大出身的董事长李大海、清华学霸联创兼CTO曾国洋；曾国洋1998年出生，17岁凭信息学奥赛金牌保送清华，22岁敲出中国第一个大语言模型CPM-1底层框架", "published_at": null},
+      {"source_type": "media", "url": "https://news.bjd.com.cn/2026/05/06/11728474.shtml", "publisher": "京报网", "title": "面壁智能与瑞芯微达成战略合作，端侧'芯片+模型'协同驱动座舱智能升级", "snippet": "MiniCPM面壁小钢炮系列已完成对瑞芯微、高通、联发科、英特尔等主流芯片平台广泛适配，在汽车、手机、PC等多类终端落地", "published_at": "2026-05-06"},
+      {"source_type": "media", "url": "https://modelbest.cn/en/", "publisher": "面壁智能官网", "title": "WAIC 2026｜MiniCPM5-2B亮相", "snippet": "面壁智能联合OpenBMB发布MiniCPM5-2B并完成多款芯片适配；据AA-Index榜单，MiniCPM5-2B以2B参数量取得4B以下全球性能第一", "published_at": null}
+    ]
+  }
+]

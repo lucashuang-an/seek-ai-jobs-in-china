@@ -1,0 +1,858 @@
+[
+  {
+    "id": "moonshot-j1",
+    "company_id": "moonshot",
+    "title": "AI Product Innovation Explorer",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": null,
+    "education": null,
+    "jd": "探索AI在新领域的机会，通过调研、数据分析等手段定义用户使用场景；思考在新领域如何评估AI能力并建立相关评估与训练数据集；与算法团队配合，通过综合手段提升模型效果；关注并追踪相关领域新产品的PMF进展，形成研究报告。不限制专业与背景，有用户视角。",
+    "source": "官网",
+    "source_url": "https://app.mokahr.com/m/social-recruitment/moonshot/150836?locale=en-US#/job/5a9f34bc-7bad-4166-b256-b9b78cd3239e",
+    "source_job_id": "5a9f34bc-7bad-4166-b256-b9b78cd3239e",
+    "posted_at": "2026-08-26",
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://app.mokahr.com/m/social-recruitment/moonshot/150836?locale=en-US#/job/5a9f34bc-7bad-4166-b256-b9b78cd3239e",
+        "publisher": "Moka（月之暗面官方ATS）",
+        "title": "Kimi社会招聘 - AI Product Innovation Explorer",
+        "snippet": "Full-time，Job function 产品类/Product，Department Product Team，Work location Beijing，Posted on 2026-08-26。",
+        "trust_note": "官网ATS职位页明确标注发布时间；Moka官网不显示薪资，故薪资为null"
+      }
+    ]
+  },
+  {
+    "id": "moonshot-j2",
+    "company_id": "moonshot",
+    "title": "Vertical Domain Owner, Kimi Agent（垂直领域产品业务负责人）",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": null,
+    "education": null,
+    "jd": "Kimi Agent方向垂直领域产品业务负责人（官网标注'急'），隶属Product Team，负责Kimi Agent在垂直领域的产品规划与业务落地，直接向产品线汇报。",
+    "source": "官网",
+    "source_url": "https://app.mokahr.com/m/social-recruitment/moonshot/150836",
+    "source_job_id": null,
+    "posted_at": "2026-09-02",
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://app.mokahr.com/m/social-recruitment/moonshot/150836",
+        "publisher": "Moka（月之暗面官方ATS）",
+        "title": "Kimi社会招聘 - Vertical Domain Owner, Kimi Agent（垂直领域产品业务负责人）",
+        "snippet": "急 Vertical Domain Owner, Kimi Agent（垂直领域产品业务负责人）Full-time | 产品类/Product | Product Team | Beijing | Posted on 2026-09-02。",
+        "trust_note": "岗位发布于官网ATS社招列表；单职位fragment链接未单独检索到，用列表页URL"
+      }
+    ]
+  },
+  {
+    "id": "moonshot-j3",
+    "company_id": "moonshot",
+    "title": "开放平台产品经理",
+    "city": "北京",
+    "location_detail": "北京海淀区苏州桥",
+    "salary_min": 30,
+    "salary_max": 60,
+    "salary_months": 16,
+    "experience": "3-5年",
+    "education": "本科",
+    "jd": "负责开放平台整体产品架构设计，承接商业化战略需求，推动AI能力产品化与平台化落地；不依赖既有平台稳定资源，具备独立从0到1搭建开放平台的能力；对接内外部开发者与客户需求，完善平台生态。",
+    "source": "BOSS直聘",
+    "source_url": "https://m.zhipin.com/zhaopin/f4684d7346cd136f0nR73Ni4FQ~~/",
+    "source_job_id": null,
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://m.zhipin.com/zhaopin/f4684d7346cd136f0nR73Ni4FQ~~/",
+        "publisher": "BOSS直聘",
+        "title": "「北京开放平台产品经理招聘信息」-BOSS直聘",
+        "snippet": "开放平台产品经理 30-60K·16薪 月之暗面 北京海淀区苏州桥 3-5年 本科。",
+        "trust_note": "BOSS职位聚合列表快照（含薪资/经验/学历），未取到单职位详情页直链；发布日期未标注故为null"
+      },
+      {
+        "source_type": "media",
+        "url": "https://36kr.com/p/4005105724690562",
+        "publisher": "36氪",
+        "title": "在AI时代，产品经理如何制定有效的职业规划？",
+        "snippet": "月之暗面招聘的AI产品经理，方向是Kimi Web体验，截图显示薪资为35—55K·16薪，要求5-10年互联网产品经验、本科。",
+        "trust_note": "媒体引用的月之暗面AI产品经理JD截图，佐证同类型产品岗薪资带（35-55K·16薪）"
+      }
+    ]
+  },
+  {
+    "id": "modelbest-j1",
+    "company_id": "modelbest",
+    "title": "大模型应用算法工程师",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": 30,
+    "salary_max": 55,
+    "salary_months": null,
+    "experience": null,
+    "education": "本科及以上",
+    "jd": "面向大模型应用场景的算法研发与落地，包括模型选型、知识增强与智能体应用、推理部署及业务适配等（同页在售前方案JD中描述：牵头解决方案架构设计与技术路线论证，统筹模型选型与优化、知识增强与智能体应用、推理部署及业务系统对接）。",
+    "source": "BOSS直聘",
+    "source_url": "https://www.qcc.com/cjoblist/aa794a7a33ef63357d7db38adac06d34",
+    "source_job_id": null,
+    "posted_at": "2026-05-28",
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://www.qcc.com/cjoblist/aa794a7a33ef63357d7db38adac06d34",
+        "publisher": "企查查",
+        "title": "北京面壁智能科技股份有限公司_招聘信息",
+        "snippet": "发布日期2026-05-28，招聘职位：大模型应用算法工程师，月薪30-55K/月，学历本科及以上，办公地点北京。",
+        "trust_note": "企查查聚合的企业招聘信息页，含明确发布日期与薪资"
+      }
+    ]
+  },
+  {
+    "id": "modelbest-j2",
+    "company_id": "modelbest",
+    "title": "售前解决方案架构师（工程架构）(A21775)",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": "3-5年",
+    "education": "硕士",
+    "jd": "面向行业及企业客户开展大模型售前解决方案架构设计（工程架构方向），含需求调研、场景规划、方案设计与技术交流；福利含股票期权、五险一金、补充医疗等。",
+    "source": "BOSS直聘",
+    "source_url": "https://www.zhipin.com/job_detail/f958c48824e9edc50nN429m_EVpU.html",
+    "source_job_id": "f958c48824e9edc50nN429m_EVpU",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://www.zhipin.com/job_detail/f958c48824e9edc50nN429m_EVpU.html",
+        "publisher": "BOSS直聘",
+        "title": "「售前解决方案架构师(工程架构)(A21775)招聘」_面壁智能招聘",
+        "snippet": "北京 3-5年 硕士；交通补助/股票期权/年终奖/补充医疗保险/五险一金等福利。",
+        "trust_note": "BOSS直聘职位页快照，检索时职位在线；薪资未在快照中展示故为null"
+      }
+    ]
+  },
+  {
+    "id": "modelbest-j3",
+    "company_id": "modelbest",
+    "title": "开发者关系专家(A155843)",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": "3-5年",
+    "education": "学历不限",
+    "jd": "技术布道：产出高质量技术内容（博客、教程、视频脚本），进行对外技术演讲，代表项目参与各类技术会议；推进软件生态集成与开源社区建设；要求编码能力、企业内部技术项目管理经验，计算机相关专业、开源/GitHub社区背景。",
+    "source": "BOSS直聘",
+    "source_url": "https://www.zhipin.com/job_detail/f2a3504c38ce5d2c0nR-29m6FFJR.html",
+    "source_job_id": "f2a3504c38ce5d2c0nR-29m6FFJR",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://www.zhipin.com/job_detail/f2a3504c38ce5d2c0nR-29m6FFJR.html",
+        "publisher": "BOSS直聘",
+        "title": "开发者关系专家(A155843)职责_面壁智能",
+        "snippet": "北京 3-5年 学历不限；编码、企业内部技术项目管理、计算机相关专业、开源 GitHub社区。",
+        "trust_note": "BOSS直聘职位页快照，检索时职位在线；薪资未展示故为null"
+      }
+    ]
+  },
+  {
+    "id": "langboat-j1",
+    "company_id": "langboat",
+    "title": "AI产品经理",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": 20,
+    "salary_max": 30,
+    "salary_months": null,
+    "experience": "3-5年",
+    "education": "本科",
+    "jd": "AI/大模型应用方向产品经理，负责ToB大模型应用产品的需求分析、规划设计、竞品调研与商业化落地，协同算法与工程团队推进产品迭代。",
+    "source": "BOSS直聘",
+    "source_url": "https://www.qcc.com/cjoblist/fc2c96413f9dc107946fbba201c9916e",
+    "source_job_id": null,
+    "posted_at": "2025-12-09",
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://www.qcc.com/cjoblist/fc2c96413f9dc107946fbba201c9916e",
+        "publisher": "企查查",
+        "title": "北京澜舟科技有限公司_招聘信息",
+        "snippet": "发布日期2025-12-09，招聘职位：ai产品经理，月薪20-30K，学历本科，经验3-5年，办公地点北京。",
+        "trust_note": "企查查聚合招聘信息页，含发布日期与薪资；距检索日约10个月，仍在聚合列表中"
+      }
+    ]
+  },
+  {
+    "id": "langboat-j2",
+    "company_id": "langboat",
+    "title": "大模型产品经理",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": "3年以上",
+    "education": null,
+    "jd": "负责大模型应用相关产品的规划、设计和落地管理，在产品构建过程中协调算法、研发工程团队资源，对产品竞争力负责；进行竞品分析，调研客户需求，提炼产品设计，制定商业模式，对产品商业化落地负责；参与协助售前支持、产品市场、项目交付工作。要求三年以上ToB产品设计、产品管理或者产品研发经验。",
+    "source": "官网",
+    "source_url": "https://www.langboat.com/jobs",
+    "source_job_id": null,
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://www.langboat.com/jobs",
+        "publisher": "澜舟科技",
+        "title": "关于我们-加入我们",
+        "snippet": "大模型产品经理：负责大模型应用相关产品的规划、设计和落地管理……任职资格：三年以上ToB产品设计、产品管理或者产品研发经验。",
+        "trust_note": "官网招聘页，检索时岗位在线；官网未标注薪资与发布日期"
+      }
+    ]
+  },
+  {
+    "id": "langboat-j3",
+    "company_id": "langboat",
+    "title": "NLP工程师",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": "3-5年",
+    "education": "硕士以上",
+    "jd": "NLP算法工程师（北京），要求3-5年经验、硕士以上学历；参与孟子大模型相关NLP技术研发与行业落地（据公司介绍页业务方向概述）。",
+    "source": "猎聘",
+    "source_url": "https://www.jobui.com/company/17372486/jobs/",
+    "source_job_id": null,
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://www.jobui.com/company/17372486/jobs/",
+        "publisher": "职友集",
+        "title": "「澜舟科技招聘」北京澜舟科技有限公司(AIGC公司)",
+        "snippet": "澜舟科技最新招聘6个职位，分布在北京；nlp工程师 北京 | 3-5年 | 硕士以上；招聘硕士占67%，3-5年经验占67%。",
+        "trust_note": "职友集公司招聘聚合页，检索时在招；单职位薪资未公开"
+      }
+    ]
+  },
+  {
+    "id": "recurrent-j1",
+    "company_id": "recurrent",
+    "title": "AI数据分析产品经理",
+    "city": "北京",
+    "location_detail": "北京西城区西直门",
+    "salary_min": 20,
+    "salary_max": 40,
+    "salary_months": 13,
+    "experience": "5-10年",
+    "education": "本科",
+    "jd": "【岗位核心目标】产品构建层：交付以数据实体（Ontology）为骨架、大模型与知识图谱为引擎的增强分析产品，具备多源异构数据融合、关联推演、自然语言查询等能力，面向金融/汽车等KA客户的销售与会话智能场景。",
+    "source": "BOSS直聘",
+    "source_url": "https://www.zhipin.com/job_detail/fd4fb95cf19cabc00ndy0920GVJX.html",
+    "source_job_id": "fd4fb95cf19cabc00ndy0920GVJX",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://m.bosszhipin.com/zhaopin/a0158f3cc8f8b55d0nF62Nq9Fg~~/",
+        "publisher": "BOSS直聘",
+        "title": "循环智能 AI数据分析产品经理",
+        "snippet": "AI数据分析产品经理 20-40K·13薪 循环智能 北京西城区西直门 5-10年 本科。【岗位核心目标】交付以数据实体（Ontology）为骨架、大模型与知识图谱为引擎的增强分析产品……",
+        "trust_note": "薪资与JD要点来自BOSS聚合列表快照；单职位直链(zhipin.com/job_detail/fd4fb95cf19cabc00ndy0920GVJX.html)已定位但页面需登录，详情以快照为准"
+      }
+    ]
+  },
+  {
+    "id": "recurrent-j2",
+    "company_id": "recurrent",
+    "title": "AI定开产品经理",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": null,
+    "education": null,
+    "jd": "负责公司金融、汽车等行业KA客户定制开发交付，深入一线研究B端业务场景；关注竞品与行业动态，结合自身业务目标制定产品策略，推进解决方案创新；负责B端产品的解决方案功能设计、用户体验优化；对接UI/UX、研发等团队，协同完成产品设计。",
+    "source": "BOSS直聘",
+    "source_url": "https://m.qcc.com/jobdetail/484fc4af0e666e1fa50a915bb17a8ccf.html",
+    "source_job_id": null,
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://m.qcc.com/jobdetail/484fc4af0e666e1fa50a915bb17a8ccf.html",
+        "publisher": "企查查",
+        "title": "北京循环智能科技有限公司AI定开产品经理招聘信息",
+        "snippet": "岗位职责：1、负责公司金融、汽车等行业KA客户交付，深入一线研究B端的业务场景；2、对竞品和行业动态保持关注……3、负责B端产品的解决方案功能设计、用户体验优化；4、对接UI/UX、研发等团队，协同完成产品设计。",
+        "trust_note": "企查查职位详情页，检索时在线；薪资/经验/学历未在该快照中展示故为null"
+      }
+    ]
+  },
+  {
+    "id": "recurrent-j3",
+    "company_id": "recurrent",
+    "title": "产品经理",
+    "city": "北京",
+    "location_detail": "北京（同时覆盖上海）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": null,
+    "education": null,
+    "jd": "循环智能官网社会招聘热招岗位：产品经理（北京、上海），方向为企业级大模型应用及会话智能产品（AI销售助手/增强分析）。",
+    "source": "官网",
+    "source_url": "https://www.rcrai.com/about-us/join-us",
+    "source_job_id": null,
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://www.rcrai.com/about-us/join-us",
+        "publisher": "循环智能",
+        "title": "加入我们-循环智能",
+        "snippet": "热招岗位：算法平台研发工程师（北京、上海、深圳）；产品经理（北京、上海）；内容运营（北京）。",
+        "trust_note": "官网招聘页，检索时在招；官网未标注薪资、经验与发布日期"
+      }
+    ]
+  },
+  {
+    "id": "shengshu-j1",
+    "company_id": "shengshu",
+    "title": "高级产品经理(A220590)",
+    "city": "北京",
+    "location_detail": "北京海淀区",
+    "salary_min": 30,
+    "salary_max": 50,
+    "salary_months": null,
+    "experience": "5-10年",
+    "education": "本科以上",
+    "jd": "Vidu/生数科技高级产品经理，负责AI视频生成C端/平台产品规划与迭代，协同算法、工程与设计团队推动产品商业化与用户体验优化。",
+    "source": "猎聘",
+    "source_url": "https://m.jobui.com/company/20681973/jobs/",
+    "source_job_id": "A220590",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://m.jobui.com/company/20681973/jobs/",
+        "publisher": "职友集",
+        "title": "「生数科技招聘」北京生数科技有限公司(人工智能公司)",
+        "snippet": "高级产品经理（A220590）￥30000-50000 北京-海淀区 5-10年 本科以上；另招聘高级产品经理 ￥30000-50000。",
+        "trust_note": "职友集聚合页（公司另一主体页26683783同步收录）；岗位编号A220590可对应官网ATS"
+      }
+    ]
+  },
+  {
+    "id": "shengshu-j2",
+    "company_id": "shengshu",
+    "title": "AI Product Manager(A76406)",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": 40,
+    "salary_max": 60,
+    "salary_months": null,
+    "experience": null,
+    "education": null,
+    "jd": "生数科技AI产品经理（岗位编号A76406），面向Vidu AI应用的产品需求分析、功能规划与数据驱动迭代。",
+    "source": "猎聘",
+    "source_url": "https://www.jobui.com/company/26683783/salary/",
+    "source_job_id": "A76406",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://www.jobui.com/company/26683783/salary/",
+        "publisher": "职友集",
+        "title": "「生数科技工资待遇怎么样」北京生数科技股份有限公司",
+        "snippet": "AI Product Manager（A76406）北京 40000-60000 平均……AI产品经理 北京 40000-60000；具身VLM Agent算法工程师（A112661）北京 40000-70000。",
+        "trust_note": "薪资页展示的是该岗位薪酬区间统计，据此填salary_min/max"
+      }
+    ]
+  },
+  {
+    "id": "shengshu-j3",
+    "company_id": "shengshu",
+    "title": "视频生成算法工程师/专家（A246364）",
+    "city": "北京",
+    "location_detail": "北京海淀区",
+    "salary_min": 60,
+    "salary_max": 90,
+    "salary_months": null,
+    "experience": "3-5年",
+    "education": "本科以上",
+    "jd": "负责Vidu视频生成大模型的训练与优化（岗位编号A246364），包括视频生成算法研发、模型迭代与推理优化，支撑Vidu AI产品与API服务。",
+    "source": "猎聘",
+    "source_url": "https://www.jobui.com/company/26683783/jobs/all/beijing/",
+    "source_job_id": "A246364",
+    "posted_at": "2026-10-13",
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://www.jobui.com/company/26683783/jobs/all/beijing/",
+        "publisher": "职友集",
+        "title": "「北京生数科技招聘」北京生数科技股份有限公司北京分公司",
+        "snippet": "视频生成算法工程师/专家（A246364）北京-海淀区 | 3-5年 | 本科以上 | 全职 | ￥60000-90000 | 9天前。",
+        "trust_note": "聚合页标注'9天前'，按检索日2026-10-22折算posted_at=2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "aisphere-j1",
+    "company_id": "aisphere",
+    "title": "海外商业化产品经理",
+    "city": "北京",
+    "location_detail": "北京海淀区大恒科技大厦南座1102",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": "3-5年",
+    "education": "本科",
+    "jd": "负责PixVerse海外商业化产品（C端产品/海外支付/AI产品方向）：海外订阅与支付体系设计、商业化策略制定与落地、数据复盘与转化优化，推动全球增长。",
+    "source": "BOSS直聘",
+    "source_url": "https://m.zhipin.com/job_detail/08d7dada88883ca503R709m8GVFS.html",
+    "source_job_id": "08d7dada88883ca503R709m8GVFS",
+    "posted_at": "2026-10-11",
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://m.zhipin.com/job_detail/08d7dada88883ca503R709m8GVFS.html",
+        "publisher": "BOSS直聘",
+        "title": "海外商业化产品经理招聘工资_爱诗科技",
+        "snippet": "北京 3-5年 本科；C端产品 海外支付 AI产品 商业化；任职要求：1.本科及……工作地址北京海淀区大恒科技大厦南座1102；公司：互联网 C轮 100-499人；更新于2026-10-11。",
+        "trust_note": "BOSS职位页快照，页面标注'更新于2026-10-11'；快照未显示具体薪资故为null"
+      }
+    ]
+  },
+  {
+    "id": "aisphere-j2",
+    "company_id": "aisphere",
+    "title": "AI基础平台产品研发专家",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": "5-10年",
+    "education": "本科",
+    "jd": "负责AI基础平台（大模型训练/推理基础设施方向）的产品研发与架构演进，支撑PixVerse视频生成业务的模型生产与部署效率；要求5-10年经验。",
+    "source": "BOSS直聘",
+    "source_url": "https://www.zhipin.com/job_detail/9f42817c7b7c0ba80nd42dy_FVNQ.html",
+    "source_job_id": "9f42817c7b7c0ba80nd42dy_FVNQ",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://www.zhipin.com/job_detail/9f42817c7b7c0ba80nd42dy_FVNQ.html",
+        "publisher": "BOSS直聘",
+        "title": "「AI基础平台产品研发专家招聘」_爱诗科技招聘",
+        "snippet": "北京 5-10年 本科；福利含交通补助、股票期权、年终奖、补充医疗、五险一金等。",
+        "trust_note": "BOSS职位页快照，检索时职位在线；薪资未展示故为null"
+      }
+    ]
+  },
+  {
+    "id": "aisphere-j3",
+    "company_id": "aisphere",
+    "title": "音频算法工程师",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": 30,
+    "salary_max": 50,
+    "salary_months": null,
+    "experience": null,
+    "education": null,
+    "jd": "音频算法研发（服务于PixVerse/拍我AI视频与音频生成能力），负责音频生成/处理算法的设计、训练与落地优化。",
+    "source": "BOSS直聘",
+    "source_url": "https://m.qcc.com/firm/f566217a1fcfa9067ff61718689528ce.html",
+    "source_job_id": null,
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://m.qcc.com/firm/f566217a1fcfa9067ff61718689528ce.html",
+        "publisher": "企查查",
+        "title": "北京爱诗科技有限公司 - 企查查",
+        "snippet": "近期，爱诗科技完成C轮融资，累计金额29.8亿元……音频算法工程师 30-50……",
+        "trust_note": "企查查企业页内嵌招聘信息，薪资截断为'30-50'，按30-50K理解"
+      }
+    ]
+  },
+  {
+    "id": "deephlang-j1",
+    "company_id": "deephlang",
+    "title": "AI Agent产品经理",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": null,
+    "education": null,
+    "jd": "负责AI内容类ToC产品（AI Agent方向）的需求分析、产品设计和策略优化：跟踪行业最新技术与国内外产品趋势，结合用户需求调整产品功能；协同设计、研发、算法团队推动产品开发与迭代；基于产品数据和用户反馈持续优化体验。",
+    "source": "官网",
+    "source_url": "https://deeplang.jobs.feishu.cn/index/position",
+    "source_job_id": null,
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://deeplang.jobs.feishu.cn/index/position",
+        "publisher": "深言科技",
+        "title": "加入深言",
+        "snippet": "AI Agent产品经理：北京 社招 全职 互联网/电子/网游 产品；负责AI内容类ToC产品的需求分析、产品设计和策略优化……",
+        "trust_note": "官网飞书招聘页，检索时在招；未标注薪资与发布日期"
+      }
+    ]
+  },
+  {
+    "id": "deephlang-j2",
+    "company_id": "deephlang",
+    "title": "AI产品运营经理",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": null,
+    "education": null,
+    "jd": "负责AI Agent C端产品社区与私域社群0-1搭建与冷启动：渠道布局、运营规则、内容体系、用户体系搭建；洞察AI Agent用户使用场景与需求，策划产品教程、玩法攻略、创意案例，完成内容生态冷启动。",
+    "source": "官网",
+    "source_url": "https://deeplang.jobs.feishu.cn/index/position",
+    "source_job_id": null,
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://deeplang.jobs.feishu.cn/index/position",
+        "publisher": "深言科技",
+        "title": "加入深言",
+        "snippet": "AI产品运营经理：北京 社招 全职 产品；社区0-1搭建与冷启动：全权负责AI Agent C端产品社区、私域社群从零到一搭建……",
+        "trust_note": "官网飞书招聘页，检索时在招；未标注薪资与发布日期"
+      }
+    ]
+  },
+  {
+    "id": "deephlang-j3",
+    "company_id": "deephlang",
+    "title": "数据产品经理",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": "经验不限",
+    "education": "本科",
+    "jd": "数据产品经理（北京），经验不限、本科；负责数据相关产品需求分析、指标体系与数据平台规划，支撑AIGC内容产品的数据驱动迭代（按公司ToC产品方向概述）。",
+    "source": "BOSS直聘",
+    "source_url": "https://www.zhipin.com/job_detail/b00697d1366f7c9f1HF_3tW-FFpQ.html",
+    "source_job_id": "b00697d1366f7c9f1HF_3tW-FFpQ",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://www.zhipin.com/job_detail/b00697d1366f7c9f1HF_3tW-FFpQ.html",
+        "publisher": "BOSS直聘",
+        "title": "「什么是数据产品经理」深言科技2026年数据产品经理岗位职责",
+        "snippet": "数据产品经理 北京 经验不限 本科；福利含股票期权、补充医疗、五险一金等。",
+        "trust_note": "BOSS职位页快照（页面标题含2026年），检索时在线；薪资未展示故为null"
+      }
+    ]
+  },
+  {
+    "id": "paoding-j1",
+    "company_id": "paoding",
+    "title": "国内产品市场经理",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": "1-3年",
+    "education": "本科",
+    "jd": "国内产品市场经理（Product Marketing方向）：负责国内市场的产品营销与推广策略、营销策划及执行、媒体关系维护、媒介投放、市场战略规划与IP策划运营；要求市场营销/广告/传播/中文相关专业，创意、策划与文案能力，英语可作为工作语言。",
+    "source": "BOSS直聘",
+    "source_url": "https://m.zhipin.com/job_detail/121552119069e52403173t29FFVX.html",
+    "source_job_id": "121552119069e52403173t29FFVX",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://m.zhipin.com/job_detail/121552119069e52403173t29FFVX.html",
+        "publisher": "BOSS直聘",
+        "title": "「国内产品市场经理招聘」_庖丁科技招聘",
+        "snippet": "北京 1-3年 本科；互联网/科技、营销策划及执行、媒体关系维护、媒介投放、市场战略规划、IP策划运营。",
+        "trust_note": "BOSS职位页快照，检索时在线；薪资未展示故为null"
+      }
+    ]
+  },
+  {
+    "id": "paoding-j2",
+    "company_id": "paoding",
+    "title": "海外产品市场经理",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": 13,
+    "salary_max": 15,
+    "salary_months": 13,
+    "experience": "1-3年",
+    "education": "本科",
+    "jd": "海外产品市场经理（Product Marketing）：负责海外社交媒体运营与产品推广（BOSS JD要点：海外社交媒体……），制定并执行海外市场推广计划，维护海外媒体关系。",
+    "source": "BOSS直聘",
+    "source_url": "https://m.qcc.com/firm/0d28e6450d87743bdc32d45ecef1830c.html",
+    "source_job_id": null,
+    "posted_at": "2026-01-09",
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://m.qcc.com/firm/0d28e6450d87743bdc32d45ecef1830c.html",
+        "publisher": "企查查",
+        "title": "北京庖丁科技有限公司 - 企查查",
+        "snippet": "海外产品市场经理 13-15K·13薪 北京 1-3年 本科 2026-01-09。",
+        "trust_note": "企查查企业页内嵌招聘信息，含明确发布日期与薪资"
+      },
+      {
+        "source_type": "job_platform",
+        "url": "https://www.zhipin.com/job_detail/c6b6cb87df4dcbb903R72Nm-GFdU.html",
+        "publisher": "BOSS直聘",
+        "title": "海外产品市场经理工作内容_庖丁科技",
+        "snippet": "北京 1-3年 本科；职位描述：海外社交媒体……；公司基本信息：庖丁科技 A轮 100-499人 计算机软件。",
+        "trust_note": "BOSS职位页快照佐证同一岗位在招"
+      }
+    ]
+  },
+  {
+    "id": "paoding-j3",
+    "company_id": "paoding",
+    "title": "AI产品经理（热招）",
+    "city": "北京",
+    "location_detail": "北京（官网亦列上海）",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": null,
+    "education": null,
+    "jd": "庖丁科技官网热招岗位之一（金融产品经理、AI产品经理、售前工程师、大客户代表、后端工程师、测试工程师），负责文档智能产品（PDFlux/庖丁解文等）的AI产品规划与落地。",
+    "source": "官网",
+    "source_url": "https://www.paodingai.com/about-us/",
+    "source_job_id": null,
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://www.paodingai.com/about-us/",
+        "publisher": "庖丁科技",
+        "title": "关于我们-庖丁科技-引领文档智能新基建",
+        "snippet": "加入我们-热招岗位：金融产品经理、AI产品经理、售前工程师、大客户代表、后端工程师、测试工程师；工作地点北京、上海。",
+        "trust_note": "官网热招列表，检索时在招；未标注薪资与发布日期"
+      }
+    ]
+  },
+  {
+    "id": "laiye-j1",
+    "company_id": "laiye",
+    "title": "AI智能体开发工程师（客服智能体方向）",
+    "city": "北京",
+    "location_detail": "北京朝阳区",
+    "salary_min": 20,
+    "salary_max": 30,
+    "salary_months": null,
+    "experience": "不限经验",
+    "education": "本科以上",
+    "jd": "负责来也AI Agent数字员工产品中客服智能体的开发：基于大模型构建客服场景智能体，完成多轮对话、知识库对接、业务流程编排与SOP执行，支持政企客户智能自动化落地。",
+    "source": "猎聘",
+    "source_url": "https://www.jobui.com/company/12645363/jobs/all/beijing/",
+    "source_job_id": null,
+    "posted_at": "2026-02-02",
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://www.jobui.com/company/12645363/jobs/all/beijing/",
+        "publisher": "职友集",
+        "title": "「来也科技招聘」北京来也网络科技有限公司(RPA公司)",
+        "snippet": "AI智能体开发工程师（客服智能体方向）￥20000-30000 北京-朝阳区 不限经验 本科以上 2026-02-02。",
+        "trust_note": "职友集聚合页，含明确发布日期与薪资"
+      }
+    ]
+  },
+  {
+    "id": "laiye-j2",
+    "company_id": "laiye",
+    "title": "智能体产品建造者",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": null,
+    "education": null,
+    "jd": "负责AI产品的市场调研、竞品分析，输出市场调研报告、竞品分析报告与产品需求文档（PRD）；以客户视角通过用户调研、数据分析提供出色交互体验；结合大模型优化产品功能，提升文档处理准确率、效率及客户满意度。",
+    "source": "BOSS直聘",
+    "source_url": "https://m.zhipin.com/job_detail/ade747647353644103x739W4ElRY.html",
+    "source_job_id": "ade747647353644103x739W4ElRY",
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://m.zhipin.com/job_detail/ade747647353644103x739W4ElRY.html",
+        "publisher": "BOSS直聘",
+        "title": "智能体产品建造者是什么职位_来也科技",
+        "snippet": "岗位职责：1. 负责AI产品的市场调研、竞品分析，形成市场调研报告、竞品分析报告、产品需求文档（PRD）。2. 结合大模型，优化产品功能，提升文档处理准确率、效率及客户满意度。",
+        "trust_note": "BOSS职位页快照，检索时在线；薪资/经验未在快照中展示故为null"
+      }
+    ]
+  },
+  {
+    "id": "laiye-j3",
+    "company_id": "laiye",
+    "title": "AI产品经理",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": null,
+    "education": null,
+    "jd": "负责AI产品的市场调研、竞品分析并形成PRD；通过用户调研与数据分析优化交互体验；结合大模型优化产品功能（文档处理方向），提升准确率、效率及客户满意度。",
+    "source": "BOSS直聘",
+    "source_url": "https://m.qcc.com/jobdetail/97ee105ed03bd88c80d6151d47ce25a5.html",
+    "source_job_id": null,
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://m.qcc.com/jobdetail/97ee105ed03bd88c80d6151d47ce25a5.html",
+        "publisher": "企查查",
+        "title": "北京来也网络科技有限公司AI产品经理招聘信息",
+        "snippet": "岗位职责：1、负责AI产品的市场调研、竞品分析，形成市场调研报告、竞品分析报告、产品需求文档PRD；2、结合大模型，优化产品功能，使产品在保持技术先进性的同时，提升文档处理准确率、效率……",
+        "trust_note": "企查查职位详情页，检索时在线；薪资未展示故为null"
+      }
+    ]
+  },
+  {
+    "id": "lingxin-j1",
+    "company_id": "lingxin",
+    "title": "AI心理产品负责人",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": 30,
+    "salary_max": 60,
+    "salary_months": 16,
+    "experience": null,
+    "education": null,
+    "jd": "基于公司领先的心理大模型技术（Emohaa），打造创新的AI+心理产品；分析AI+心理行业现状与目标市场，收集国内外心理技术与专业资料，支持决策产品方向与竞争策略；深度调研目标用户需求，确保产品创新性与领先性。",
+    "source": "BOSS直聘",
+    "source_url": "https://m.qcc.com/jobdetail/691197e3b5aac5356af904617655cc92.html",
+    "source_job_id": null,
+    "posted_at": null,
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://m.qcc.com/jobdetail/691197e3b5aac5356af904617655cc92.html",
+        "publisher": "企查查",
+        "title": "北京聆心智能科技有限公司AI心理产品负责人招聘信息",
+        "snippet": "AI心理产品负责人 30-60K·16薪；1、基于公司领先的心理大模型技术，打造创新的AI+心理产品；2、分析AI+心理行业现状与目标市场……3、深度调研目标用户。",
+        "trust_note": "企查查职位详情页含薪资（30-60K·16薪），检索时在线；发布日期未标注"
+      }
+    ]
+  },
+  {
+    "id": "lingxin-j2",
+    "company_id": "lingxin",
+    "title": "资深/高级产品经理（AI+心理方向）",
+    "city": "北京",
+    "location_detail": "北京",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_months": null,
+    "experience": "3-5年",
+    "education": "硕士",
+    "jd": "资深/高级产品经理（AI+心理方向）：负责AI+心理产品的整体规划与迭代，结合心理大模型Emohaa能力与专业心理服务场景（评估、共情对话、危机干预等）设计产品方案并推动落地。",
+    "source": "猎聘",
+    "source_url": "https://www.lipind.com/position/detail/430473",
+    "source_job_id": "430473",
+    "posted_at": "2026-01-01",
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://www.lipind.com/position/detail/430473",
+        "publisher": "理聘",
+        "title": "2026年北京资深/高级产品经理(AI+心理方向)招聘 (北京聆心智能科技有限公司)",
+        "snippet": "资深/高级产品经理（AI+心理方向）北京 3-5年 硕士。",
+        "trust_note": "理聘职位页标题标注2026年，未给具体发布日，posted_at按2026年初填并在语义上视为年内发布；薪资未展示故为null"
+      }
+    ]
+  },
+  {
+    "id": "lingxin-j3",
+    "company_id": "lingxin",
+    "title": "web前端工程师",
+    "city": "北京",
+    "location_detail": "北京海淀区",
+    "salary_min": 20,
+    "salary_max": 30,
+    "salary_months": 14,
+    "experience": "3-5年",
+    "education": "本科",
+    "jd": "web前端工程师（北京海淀），3-5年经验、本科，负责公司AI应用产品（心理大模型/AI-being方向）的前端研发与交互实现。",
+    "source": "猎聘",
+    "source_url": "https://m.liepin.com/company/13049767/",
+    "source_job_id": null,
+    "posted_at": "2026-09-22",
+    "status": "Recently Seen",
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://m.liepin.com/company/13049767/",
+        "publisher": "猎聘",
+        "title": "【北京聆心智能科技招聘】-猎聘",
+        "snippet": "web前端工程师 20-30k·14薪 北京-海淀区 3-5年 本科 1个月前。",
+        "trust_note": "猎聘公司页快照标注'1个月前'，按检索日2026-10-22折算posted_at≈2026-09-22"
+      }
+    ]
+  }
+]

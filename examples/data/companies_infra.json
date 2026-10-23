@@ -1,0 +1,314 @@
+[
+  {
+    "company": {
+      "id": "zhipu",
+      "name": "智谱",
+      "aliases": ["智谱AI", "智谱华章", "Zhipu AI"],
+      "english_name": "Zhipu AI",
+      "website": "https://www.zhipuai.cn",
+      "city": "北京",
+      "hq_location": "北京市海淀区（搜狐网络大厦办公点）",
+      "company_type": "public",
+      "tracks": ["Foundation Models", "AI Developer Tools"],
+      "description": "清华系大模型公司，研发 GLM 系列基座大模型及 ChatGLM、Coding Agent 等产品；2026年1月8日在港交所上市，被称为\"全球大模型第一股\"，上市首日市值超570亿港元。",
+      "funding_stage": "已上市（2026-01-08 港交所，股票代码2513）",
+      "team_size_min": 100,
+      "team_size_max": 499,
+      "hiring_signals": ["猎聘公司主页显示10个在招职位，含高级产品经理(ToB Agent方向)、大模型算法工程师、大模型应用后端工程师等多个北京岗位"]
+    },
+    "aliases": ["智谱AI", "智谱华章", "Zhipu AI"],
+    "evidence": [
+      {
+        "source_type": "media",
+        "url": "https://www.stcn.com/article/detail/3580246.html",
+        "publisher": "证券时报",
+        "title": "\"全球大模型第一股\"智谱上市首日市值超570亿港元 2025年收入超1亿美元",
+        "snippet": "1月8日，\"全球大模型第一股\"智谱正式在港交所挂牌上市，发行价定为116.2港元/股，开盘后报120港元/股，盘中一度涨超10%。",
+        "published_at": "2026-01-08",
+        "trust_note": "主流财经媒体报道，证实公司真实存在且已上市"
+      },
+      {
+        "source_type": "job_platform",
+        "url": "https://m.liepin.com/company-jobs/10087865/",
+        "publisher": "猎聘",
+        "title": "智谱·AI 在招职位（公司页）",
+        "snippet": "互联网 100-499人；职位·10；高级产品经理(ToB Agent方向)-北京 25-45k；大模型算法工程师-北京 30-55k；大模型应用后端工程师-北京 25-50k；联系地址：搜狐网络大厦",
+        "published_at": "2026-10-22",
+        "trust_note": "猎聘企业主页（用人单位自主招聘），2026-10-22检索时可见10个在招职位"
+      }
+    ]
+  },
+  {
+    "company": {
+      "id": "moonshot",
+      "name": "月之暗面",
+      "aliases": ["Moonshot AI", "Kimi", "月之暗面科技"],
+      "english_name": "Moonshot AI",
+      "website": "https://www.moonshot.cn",
+      "city": "北京",
+      "hq_location": "北京市海淀区（苏州桥/五道口一带）",
+      "company_type": "startup",
+      "tracks": ["Foundation Models"],
+      "description": "Kimi 大模型与 AI 助手开发商，产品包括 Kimi 智能助手、Kimi 开放平台等；2026年5月完成约20亿美元新融资（美团龙珠领投），投后估值突破200亿美元。",
+      "funding_stage": "D轮（2026-05，约20亿美元新融资，投后估值超200亿美元）",
+      "team_size_min": null,
+      "team_size_max": null,
+      "hiring_signals": ["官方 Moka 社招页在招 AI Product Innovation Explorer（Beijing，2026-08-26发布）；BOSS直聘可见开放平台产品经理（北京 30-60K·16薪）等岗位"]
+    },
+    "aliases": ["Moonshot AI", "Kimi"],
+    "evidence": [
+      {
+        "source_type": "media",
+        "url": "https://www.stcn.com/article/detail/3897538.html",
+        "publisher": "证券时报",
+        "title": "估值超200亿美元，美团龙珠领投月之暗面20亿美元新融资",
+        "snippet": "5月7日，据华峰资本消息，国内头部大模型公司月之暗面（Kimi）近日完成新一轮约20亿美元融资，投后估值突破200亿美元。",
+        "published_at": "2026-05-07",
+        "trust_note": "主流财经媒体报道，证实公司融资与业务真实性"
+      },
+      {
+        "source_type": "official",
+        "url": "https://app.mokahr.com/social-recruitment/moonshot/150836?locale=en-US",
+        "publisher": "月之暗面官方招聘（Moka）",
+        "title": "Kimi 社会招聘",
+        "snippet": "AI Product Innovation Explorer，Full-time | 产品类/Product | Product Team | Beijing | Posted on 2026-08-26",
+        "published_at": "2026-08-26",
+        "trust_note": "公司官方招聘官网（Moka平台），岗位页面可正常打开且状态为招聘中"
+      }
+    ]
+  },
+  {
+    "company": {
+      "id": "baichuan",
+      "name": "百川智能",
+      "aliases": ["百川", "Baichuan Intelligence"],
+      "english_name": "Baichuan Intelligence",
+      "website": "https://www.baichuan-ai.com",
+      "city": "北京",
+      "hq_location": "北京市（海淀区）",
+      "company_type": "startup",
+      "tracks": ["Foundation Models", "AI Applications"],
+      "description": "王小川创立的通用人工智能公司，研发 Baichuan 系列大模型，当前重点布局医疗健康领域 AI Agent/AI 医生产品；A轮融资50亿元人民币（阿里巴巴、腾讯、小米等），以200亿元估值开启B轮。",
+      "funding_stage": "A轮（总融资50亿元人民币，投后估值约200亿元）",
+      "team_size_min": null,
+      "team_size_max": null,
+      "hiring_signals": ["官方飞书招聘页17个职位在招，含 Agent高级产品经理、医疗AI策略产品经理等多个北京社招岗位"]
+    },
+    "aliases": ["百川", "Baichuan"],
+    "evidence": [
+      {
+        "source_type": "media",
+        "url": "https://stcn.com/article/detail/1269131.html",
+        "publisher": "证券时报",
+        "title": "百川智能完成50亿元A轮融资，大模型独角兽排队融资、估值飙升",
+        "snippet": "7月25日，有市场消息称，大模型初创公司百川智能已于近期完成A轮融资……总融资金额达50亿元人民币，并且将以200亿估值开启B轮融资。投资方包括阿里、腾讯、小米等。",
+        "published_at": "2024-07-25",
+        "trust_note": "主流财经媒体报道，证实公司真实存在及融资情况"
+      },
+      {
+        "source_type": "official",
+        "url": "https://cq6qe6bvfr6.jobs.feishu.cn/baichuanzhaopin/",
+        "publisher": "百川智能官方招聘（飞书招聘）",
+        "title": "百川智能 欢迎你的加入",
+        "snippet": "医疗AI策略产品经理 北京 社招 全职；Agent高级产品经理 北京 社招 全职；职位详情页显示\"17 职位在招\"",
+        "published_at": "2026-10-22",
+        "trust_note": "公司官方招聘站，2026-10-22检索时岗位详情页均可正常打开"
+      }
+    ]
+  },
+  {
+    "company": {
+      "id": "modelbest",
+      "name": "面壁智能",
+      "aliases": ["ModelBest", "面壁"],
+      "english_name": "ModelBest",
+      "website": "https://www.modelbest.cn",
+      "city": "北京",
+      "hq_location": "北京市（海淀区）",
+      "company_type": "startup",
+      "tracks": ["Foundation Models"],
+      "description": "清华系端侧大模型公司，代表作 MiniCPM 系列端侧/多模态大模型，推动大模型在汽车智能座舱、办公等场景落地；2025年7月完成数亿人民币E+轮融资。",
+      "funding_stage": "E+轮（2025-07，数亿元人民币）",
+      "team_size_min": null,
+      "team_size_max": null,
+      "hiring_signals": ["官方飞书招聘页在招汽车行业产品经理、产品解决方案经理、大模型项目经理（法律行业）等北京社招岗位"]
+    },
+    "aliases": ["ModelBest", "面壁"],
+    "evidence": [
+      {
+        "source_type": "media",
+        "url": "https://36kr.com/p/3899679726683785",
+        "publisher": "36氪",
+        "title": "从阶跃星辰到银河通用：WAIC 参展企业背后的资本迁徙路线",
+        "snippet": "生数科技7月刚完成5亿美元B+轮融资；面壁智能同月完成数亿人民币E+轮融资；无问芯穹5月完成7亿人民币B轮融资。",
+        "published_at": "2025-07-01",
+        "trust_note": "36氪报道，证实面壁智能2025年7月完成E+轮融资"
+      },
+      {
+        "source_type": "official",
+        "url": "https://modelbest.jobs.feishu.cn/career/position/",
+        "publisher": "面壁智能官方招聘（飞书招聘）",
+        "title": "加入面壁智能",
+        "snippet": "产品解决方案经理 北京 社招 全职 职位ID A129367；汽车行业产品经理 北京 社招 全职；大模型项目经理（法律行业）北京 社招 全职",
+        "published_at": "2026-10-22",
+        "trust_note": "公司官方招聘站，2026-10-22检索时职位列表及详情页可正常打开"
+      }
+    ]
+  },
+  {
+    "company": {
+      "id": "shengshu",
+      "name": "生数科技",
+      "aliases": ["ShengShu", "Vidu", "生数"],
+      "english_name": "ShengShu Technology",
+      "website": "https://www.shengshu-ai.com",
+      "city": "北京",
+      "hq_location": "北京市",
+      "company_type": "startup",
+      "tracks": ["Foundation Models"],
+      "description": "视频生成大模型公司，核心产品为 Vidu 视频生成模型（Vidu S/Q 等），覆盖文生视频、图生视频与实时交互；2025年7月完成5亿美元B+轮融资。",
+      "funding_stage": "B+轮（2025-07，5亿美元）",
+      "team_size_min": null,
+      "team_size_max": null,
+      "hiring_signals": ["官方飞书招聘页在招产品总监-B、Vidu解决方案架构师、模型评测工程师、测试工程师【Vidu S】等北京岗位"]
+    },
+    "aliases": ["ShengShu", "Vidu"],
+    "evidence": [
+      {
+        "source_type": "media",
+        "url": "https://36kr.com/p/3899679726683785",
+        "publisher": "36氪",
+        "title": "从阶跃星辰到银河通用：WAIC 参展企业背后的资本迁徙路线",
+        "snippet": "生数科技7月刚完成5亿美元B+轮融资。",
+        "published_at": "2025-07-01",
+        "trust_note": "36氪报道，证实生数科技2025年7月完成5亿美元B+轮融资"
+      },
+      {
+        "source_type": "official",
+        "url": "https://shengshu.jobs.feishu.cn/index/m/position",
+        "publisher": "生数科技官方招聘（飞书招聘）",
+        "title": "欢迎加入生数科技",
+        "snippet": "模型评测工程师 北京 全职；测试工程师【Vidu S】北京 全职；UI/UX设计【Vidu S】北京 全职；产品总监-B 北京 全职",
+        "published_at": "2026-10-22",
+        "trust_note": "公司官方招聘站，2026-10-22检索时职位列表及详情页可正常打开"
+      }
+    ]
+  },
+  {
+    "company": {
+      "id": "infinigence",
+      "name": "无问芯穹",
+      "aliases": ["Infinigence AI", "无穹"],
+      "english_name": "Infinigence AI",
+      "website": "https://www.infinigence-ai.com",
+      "city": "北京",
+      "hq_location": "北京市（清华系，北京/上海双总部）",
+      "company_type": "startup",
+      "tracks": ["AI Infrastructure"],
+      "description": "AI 基础设施（AI Infra）公司，提供大模型训练/推理一体化平台与智算集群服务；2026年10月完成23亿元C轮融资，累计融资43亿元，刷新国内AI Infra赛道纪录。",
+      "funding_stage": "C轮（2026-10，23亿元，累计43亿元）",
+      "team_size_min": null,
+      "team_size_max": null,
+      "hiring_signals": ["官方飞书招聘页在招 AI Infra 产品经理（大模型训练/推理）、强化学习训练框架研发工程师、大模型研发工程师（芯片设计领域）等北京岗位"]
+    },
+    "aliases": ["Infinigence AI", "无穹"],
+    "evidence": [
+      {
+        "source_type": "media",
+        "url": "https://finance.sina.com.cn/roll/2026-10-12/doc-iniuyhwz5321074.shtml",
+        "publisher": "新浪财经（转证券时报）",
+        "title": "再融23亿元！清华系独角兽，刷新国内AI Infra赛道融资纪录",
+        "snippet": "10月12日……上海清华系独角兽无问芯穹完成23亿元C轮融资，至此累计融资额达43亿元，单轮与累计融资金额均刷新国内AI Infra赛道纪录。",
+        "published_at": "2026-10-12",
+        "trust_note": "主流财经媒体报道（距本次检索仅10天），证实公司融资与赛道"
+      },
+      {
+        "source_type": "official",
+        "url": "https://infinigence.jobs.feishu.cn/infinigence/m",
+        "publisher": "无问芯穹官方招聘（飞书招聘）",
+        "title": "加入无问芯穹",
+        "snippet": "AI Infra 产品经理（大模型训练/推理）北京、上海 社招 全职 职位ID A19343；强化学习训练框架研发工程师 北京、上海 社招 全职",
+        "published_at": "2026-10-22",
+        "trust_note": "公司官方招聘站，2026-10-22检索时职位详情页可正常打开"
+      }
+    ]
+  },
+  {
+    "company": {
+      "id": "siliconflow",
+      "name": "硅基流动",
+      "aliases": ["SiliconFlow", "北京硅基流动科技股份有限公司"],
+      "english_name": "SiliconFlow",
+      "website": "https://siliconflow.cn",
+      "city": "北京",
+      "hq_location": "北京市海淀区中关村东路1号院8号楼D座23层",
+      "company_type": "startup",
+      "tracks": ["AI Infrastructure", "AI Developer Tools"],
+      "description": "成立于2023年8月，一站式大模型云服务平台 SiliconCloud 提供商，自研推理引擎实现大模型高效推理加速，并推出企业级MaaS平台与 BizyAir（ComfyUI云节点插件）；B轮，100-499人。",
+      "funding_stage": "B轮",
+      "team_size_min": 100,
+      "team_size_max": 499,
+      "hiring_signals": ["猎聘公司主页显示13个在招职位，含大模型解决方案工程师、推理引擎研发工程师（LLM与AIGC方向）、AI增长策略运营等北京岗位"]
+    },
+    "aliases": ["SiliconFlow"],
+    "evidence": [
+      {
+        "source_type": "job_platform",
+        "url": "https://m.liepin.com/company/21146791/",
+        "publisher": "猎聘",
+        "title": "硅基流动 公司主页（含工商信息）",
+        "snippet": "人工智能 100-499人 B轮；企业全称：北京硅基流动科技股份有限公司，成立时间2023年08月29日，注册地址：北京市海淀区中关村东路1号院8号楼D座23层2301；职位·13",
+        "published_at": "2026-10-22",
+        "trust_note": "猎聘企业页含天眼查工商信息，证实公司真实存在（存续状态）"
+      },
+      {
+        "source_type": "media",
+        "url": "https://www.jobui.com/company/27031571/jobs/",
+        "publisher": "职友集",
+        "title": "「硅基流动招聘」北京硅基流动科技股份有限公司",
+        "snippet": "硅基流动招聘 北京硅基流动科技股份有限公司最新招聘13个职位，分布在1个地区（北京），招聘硕士2个，招聘类别计算机/网络/技术类最多，占50%，学历本科最多，占77%。",
+        "published_at": "2026-10-22",
+        "trust_note": "第三方招聘聚合页，佐证在招职位均在北京"
+      }
+    ]
+  },
+  {
+    "company": {
+      "id": "aishi",
+      "name": "爱诗科技",
+      "aliases": ["PixVerse", "拍我AI", "Aishi Technology", "AIsphere"],
+      "english_name": "Aishi Technology (PixVerse)",
+      "website": "https://aishiai.com",
+      "city": "北京",
+      "hq_location": "北京市海淀区大恒科技大厦南座1102",
+      "company_type": "startup",
+      "tracks": ["Foundation Models"],
+      "description": "AI视频生成大模型公司，产品 PixVerse（拍我AI），自研视频生成模型，面向C端创作与B端API；创始团队来自字节跳动视觉技术团队等；C轮，100-499人。",
+      "funding_stage": "C轮",
+      "team_size_min": 100,
+      "team_size_max": 499,
+      "hiring_signals": ["官方飞书招聘页24个职位在招（北京/上海），北京岗位含AI解决方案工程师（视频生成与Agent）、模型压缩工程师（AI Infra）、资深安全工程师等"]
+    },
+    "aliases": ["PixVerse", "拍我AI"],
+    "evidence": [
+      {
+        "source_type": "official",
+        "url": "https://aishiai.com/",
+        "publisher": "爱诗科技官网",
+        "title": "爱诗科技AIsphere - PixVerse（拍我AI）",
+        "snippet": "PixVerse（拍我AI）不仅是创意工具，更是创新的基础设施；自研视频生成……加入我们：如果你对计算机视觉、大模型与人工智能领域充满热情，欢迎加入爱诗科技的团队。",
+        "published_at": "2026-10-22",
+        "trust_note": "公司官网，证实公司与产品真实存在"
+      },
+      {
+        "source_type": "job_platform",
+        "url": "https://m.zhipin.com/gongsi/job/846753040df0fa341XJ83NS0FFQ~.html",
+        "publisher": "BOSS直聘",
+        "title": "爱诗科技公司主页与在招职位",
+        "snippet": "北京爱诗科技有限公司，成立日期2023-04-07，经营状态：存续；注册资本5000万元；互联网 C轮 100-499人；工作地址：北京海淀区大恒科技大厦南座1102",
+        "published_at": "2026-10-22",
+        "trust_note": "BOSS直聘企业页含工商信息，证实公司真实存在；该页海外商业化产品经理岗位已标注'职位已关闭'，未收录"
+      }
+    ]
+  }
+]

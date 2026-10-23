@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Testing / tooling caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data — never commit user data or credentials
+*.db
+*.sqlite*
+.env
+.env.*
+!.env.example
+
+# Generated reports in repo root (re-export anytime via `ai-job-radar export`).
+# examples/acceptance_output/ stays tracked as acceptance evidence.
+/report.md
+/report.json
+/jobs.csv
+/*_档案.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

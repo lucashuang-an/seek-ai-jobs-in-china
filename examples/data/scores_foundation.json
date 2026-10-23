@@ -1,0 +1,166 @@
+[
+  {
+    "company_id": "moonshot",
+    "dimensions": [
+      {
+        "dimension": "funding",
+        "score": 9.5,
+        "evidence_summary": "2026年D轮约20亿美元，2026年内累计融资超39亿美元（36氪）；估值从100亿→180亿→200亿→约350亿美元（股改后F轮）；阿里、腾讯、红杉、真格等头部机构参投；冲刺港股IPO（证券时报）",
+        "fact_kind": "verified",
+        "rationale": "融资节奏、金额、估值均有新浪财经/证券时报/36氪等多源交叉验证，近期大额融资与AGI长跑阶段高度匹配，资本市场认可度顶级"
+      },
+      {
+        "dimension": "founders",
+        "score": 9.0,
+        "evidence_summary": "杨植麟：CMU博士（师从Salakhutdinov）、Transformer-XL与XLNet一作、曾供职Google Brain/Meta AI、循环智能联合创始人；张宇韬：清华计算机系、循环智能联创CTO；张予彤：前金沙江创投合伙人、2023年以联创身份加入任总裁；周昕宇、吴育昕背景为推断信息",
+        "fact_kind": "verified",
+        "rationale": "首席科学家级创始人+前明星投资人执掌融资，技术与资本双核配置在国内大模型创业公司中极为突出；两名联创公开信息较少，略扣分"
+      },
+      {
+        "dimension": "team",
+        "score": 8.5,
+        "evidence_summary": "约300人、80%研发、平均年龄28岁左右、无职级无明确OKR、高人效（中国经济网/时代周报/36氪多源）；企查查参保233人（2025年报）",
+        "fact_kind": "verified",
+        "rationale": "精简研发密集型组织，未随巨额融资盲目扩编，符合其技术驱动定位；规模数据多源一致且最新（2026年），可信度高"
+      },
+      {
+        "dimension": "product",
+        "score": 8.0,
+        "evidence_summary": "Kimi智能助手月活峰值约3600万后连续四季度下滑至约834万（QuestMobile）；但K2.5发布后2026年3月ARR突破1亿美元、为AI六小虎首个，海外收入反超国内；K2开源模型以约1/5 Claude定价竞争",
+        "fact_kind": "verified",
+        "rationale": "C端月活下滑与B端/API商业化突破并存，开源+出海战略已有ARR硬指标验证；C端产品动能减弱使其未到顶尖"
+      },
+      {
+        "dimension": "hiring",
+        "score": 6.5,
+        "evidence_summary": "已验证岗位3个，其中1个Verified Open",
+        "fact_kind": "verified",
+        "rationale": "岗位真实性部分可验证，公司处于IPO冲刺期通常有结构性招聘需求；但300人规模团队扩编谨慎，岗位总量有限"
+      }
+    ],
+    "note": "融资、创始人、团队三维证据充分且顶级；产品维度C端承压但商业化里程碑扎实。评分非投资建议。"
+  },
+  {
+    "company_id": "zhipu",
+    "dimensions": [
+      {
+        "dimension": "funding",
+        "score": 9.5,
+        "evidence_summary": "2026年1月8日港交所IPO（02513.HK）募资约49亿港元；上市后7月约40亿美元配售、9月约50亿美元（配售+零息可转债），上市后三轮合计约750亿港元；IPO前国资（中关村科学城、杭州国资、浦东创投）多轮注资",
+        "fact_kind": "verified",
+        "rationale": "已上市+持续大额再融资，融资能力为大模型公司中最强之一；信息来自招股书、年报及主流财经媒体，全部verified"
+      },
+      {
+        "dimension": "founders",
+        "score": 8.0,
+        "evidence_summary": "唐杰：清华计算机系教授、KEG实验室主任、AMiner创始人、GLM架构源于其团队；张鹏：CEO、控股股东之一；刘德兵：董事长、近18年计算技术行业经验；李涓子、许斌、王绍兰为核心创始团队成员",
+        "fact_kind": "verified",
+        "rationale": "清华KEG实验室正统学术血统，技术源头清晰；但公开资料中创始团队产业界明星履历与连续创业记录弱于月之暗面，以学术+工程化见长"
+      },
+      {
+        "dimension": "team",
+        "score": 8.0,
+        "evidence_summary": "招股书披露883名员工（2025），2026年财报披露981名；已上市、稳定增长；2026年5月收购北京红钻科技（不超3.61亿元）",
+        "fact_kind": "verified",
+        "rationale": "千人规模、上市披露口径数据可靠，处于规范化扩张期；相比300人的月之暗面人效定位不同但规模与稳定性有优势"
+      },
+      {
+        "dimension": "product",
+        "score": 8.5,
+        "evidence_summary": "GLM-5发布24小时内获字节、阿里、腾讯等头部大厂官方接入；BigModel平台连接超400万开发者与企业、付费开发者24.2万（2025年报）；云端API收入1.904亿元、同比增292.6%；Coding Plan恢复销售后销量增超15倍；GLM-5.3进入AWS Bedrock",
+        "fact_kind": "verified",
+        "rationale": "B端/开发者生态与开源影响力国内领先，收入与开发者指标均为年报硬数据；产品矩阵覆盖C端、MaaS、开源、Agent、多模态，商业化验证最充分"
+      },
+      {
+        "dimension": "hiring",
+        "score": 6.5,
+        "evidence_summary": "已验证岗位3个，其中1个Verified Open；官网持续招聘算法/研发/运营社招与校招岗位",
+        "fact_kind": "verified",
+        "rationale": "岗位有真实性与官网交叉验证，上市公司981人规模、业务线多，招聘需求持续；但所验证岗位是否全部属于核心AI研发未完全确认"
+      }
+    ],
+    "note": "首家上市大模型公司，融资与商业化证据最硬；创始团队学术色彩浓。评分非投资建议。"
+  },
+  {
+    "company_id": "baichuan",
+    "dimensions": [
+      {
+        "dimension": "funding",
+        "score": 5.0,
+        "evidence_summary": "王小川个人5000万美元启动（2023-04）+3亿美元A1轮（阿里、腾讯、小米、深创投，2023-10）+A轮总融资达50亿元人民币（2024-07，200亿元估值将启B轮）；此后无新融资官宣，B轮未检索到公开披露",
+        "fact_kind": "verified",
+        "rationale": "早期融资额在当时属头部，但距今已超两年无新融资披露，且公司战略收缩，资金弹药与同业（月之暗面、智谱、面壁）近期密集融资形成明显反差"
+      },
+      {
+        "dimension": "founders",
+        "score": 6.0,
+        "evidence_summary": "王小川：清华计算机系、搜狗创始人、带领搜狗登陆纽交所，持股约76.43%（verified）；但联合创始人茹立云、陈炜鹏已全部离开，洪涛、焦可等早期高管亦出走（36氪2026报道）",
+        "fact_kind": "verified",
+        "rationale": "创始人个人光环与资源顶级，但'联创全员出走'且持股高度集中，团队稳定性与治理结构是明确减分项，创始人维度不能只看一人"
+      },
+      {
+        "dimension": "team",
+        "score": 5.0,
+        "evidence_summary": "员工从高峰期约450人压缩至不足200人（王小川向虎嗅证实，2025-08）；管理层级从3.6级降至2.4级，直接向王小川汇报高管不到10人；企查查口径200-299人",
+        "fact_kind": "verified",
+        "rationale": "处于战略收缩期的组织，减员过半、扁平化到极值；对求职者而言组织动荡风险与机会并存，整体组织健康度弱于扩张期同业"
+      },
+      {
+        "dimension": "product",
+        "score": 5.5,
+        "evidence_summary": "早期Baichuan-7B/13B开源模型曾名列前茅（公司官网口径）；2026年全面转向医疗AI：M3开源并宣称HealthBench全球最高综合成绩（超越GPT-5.2）、SCAN-Bench领先；M4与AI家庭医生'百小医'发布；但商业化traction与客户数据缺乏第三方验证",
+        "fact_kind": "inferred",
+        "rationale": "医疗转型方向聚焦且评测成绩亮眼，但多为公司自述口径，无收入/用户等第三方硬指标；通用大模型业务实质上已让位，产品商业化验证不足"
+      },
+      {
+        "dimension": "hiring",
+        "score": 4.0,
+        "evidence_summary": "已验证岗位2个，0个Verified Open",
+        "fact_kind": "verified",
+        "rationale": "岗位真实性无法通过Verified Open确认，叠加公司处于收缩期（<200人）、高管出走背景，岗位质量与稳定性风险偏高；医疗转型若落地或有结构性机会但当前证据有限"
+      }
+    ],
+    "note": "明星创始人+收缩转型期组合：个人牌面强，组织与融资证据偏弱，押注医疗AI的故事待验证。评分非投资建议。"
+  },
+  {
+    "company_id": "modelbest",
+    "dimensions": [
+      {
+        "dimension": "funding",
+        "score": 8.5,
+        "evidence_summary": "天使轮（知乎领投）至D++轮共8轮融资，投资方含华为哈勃、深创投、中国电信投资、中信、茅台基金、国家级基金/央企；2026年上半年累计融资超50亿元、投后估值超200亿元；已启动A股IPO辅导",
+        "fact_kind": "verified",
+        "rationale": "融资节奏密集且投资方含国家队与产业资本，资本结构优质；但各轮金额多为'数亿元'未精确披露，IPO前估值200亿与上市进程信息均有多源验证"
+      },
+      {
+        "dimension": "founders",
+        "score": 8.5,
+        "evidence_summary": "李大海：北大数学硕士、Google中国创始员工、前知乎CTO兼执行董事；刘知远：清华计算机系长聘副教授、KEG成员、悟道·文源骨干；曾国洋：17岁NOI金牌保送清华、22岁训练出中国首个大语言模型CPM-1、OpenBMB主要发起者",
+        "fact_kind": "verified",
+        "rationale": "三人组合覆盖技术中台管理（李）、学术源头（刘）、工程落地（曾），履历均经多源verified且与端侧高效模型定位精准匹配，国内端侧方向最强创始配置之一"
+      },
+      {
+        "dimension": "team",
+        "score": 7.5,
+        "evidence_summary": "人员规模200-299人、参保205人（企查查/天眼查2026）；清华NLP实验室孵化（2022-08成立）；处于扩张与规范化并行期",
+        "fact_kind": "verified",
+        "rationale": "精干团队与端侧高效率定位匹配，IPO辅导期组织趋于规范；公开团队细节（研发占比、组织结构）少于头部两家，略扣分"
+      },
+      {
+        "dimension": "product",
+        "score": 8.0,
+        "evidence_summary": "MiniCPM5-2B以2B参数取得AA-Index 4B以下全球性能第一；完成对瑞芯微、高通、联发科、英特尔等主流芯片平台适配；与三星旗舰机型达成合作（36氪智能涌现独家）；与瑞芯微'芯片+模型'战略合作落地智能座舱",
+        "fact_kind": "verified",
+        "rationale": "端侧赛道差异化定位清晰，开源影响力+真实商业化落地（三星、瑞芯微）均有第三方验证；缺收入规模数据，略低于智谱"
+      },
+      {
+        "dimension": "hiring",
+        "score": null,
+        "evidence_summary": "无已验证岗位数据",
+        "fact_kind": "unknown",
+        "rationale": "未提供任何岗位列表或Verified状态，证据不足，按规则不打分"
+      }
+    ],
+    "note": "端侧大模型差异化龙头，创始人与融资证据扎实；hiring维度因无岗位数据留空。评分非投资建议。"
+  }
+]

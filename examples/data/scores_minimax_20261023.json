@@ -1,0 +1,28 @@
+[
+  {
+    "company_id": "minimax",
+    "note": "研究检索于 2026-10-23；首份上市财报巨亏 18.7 亿美元为重要风险项。评分非投资建议。",
+    "dimensions": [
+      {"dimension": "funding", "score": 9.0,
+       "fact_kind": "verified",
+       "evidence_summary": "2026-01-09 港交所上市（0100.HK，发行价165港元，首日市值破700亿港元）；2025-08 IPO前轮约3.9亿美元（投后超42亿美元，红杉/IDG/基石）；2026-07 配售+可转债约160亿港元",
+       "rationale": "流动性事件已完成且上市后仍能大额配售补充资金，融资节奏、体量与 AGI 竞赛阶段高度匹配；扣分项：首份上市财报亏损18.7亿美元，盈利路径待验证"},
+      {"dimension": "founders", "score": 8.5,
+       "fact_kind": "verified",
+       "evidence_summary": "闫俊杰：创始人/董事长/CEO兼CTO，前商汤科技研究院副院长，85后，2019福布斯中国30 Under 30，上市后持股约25%",
+       "rationale": "技术出身且技术与商业化一把手合一，4年带队完成 IPO 交付能力强；联合创始人及高管团队公开信息较少，团队互补性证据不足，略扣分"},
+      {"dimension": "team", "score": 8.0,
+       "fact_kind": "verified",
+       "evidence_summary": "约385人（2026-01 IPO 口径）完成上市；开放平台收入暴涨与 token 消耗6倍增长显示业务扩张压力",
+       "rationale": "极端精简高人效，模型/产品/商业化关键职能均有收入证据支撑；规模偏小在多线作战下存在带宽风险，扩张与亏损并存需观察组织负载"},
+      {"dimension": "product", "score": 9.0,
+       "fact_kind": "verified",
+       "evidence_summary": "Talkie 付费用户177万/MAU约2005万；海螺AI MAU约565万；开放平台 ARR 8亿美元（2026-08，60天翻番）、企业开发者客户破百万；海外收入占比约73%",
+       "rationale": "C端订阅+B端API双轮商业化均有真实收入证据，多产品矩阵且出海验证充分；开放平台60天 ARR 翻番的可持续性待后续核验，故未给满"},
+      {"dimension": "hiring", "score": 7.0,
+       "fact_kind": "verified",
+       "evidence_summary": "官方招聘页校招/社招/实习多通道开放（2026-10-23 检索）；BOSS直聘约136个在招岗位（搜索快照）；未核验具体 AI 产品经理职位详情",
+       "rationale": "公司级大规模招聘证据明确，但本项目尚未逐条核验其产品岗位的真实性与 JD 质量，证据强度中等"}
+    ]
+  }
+]

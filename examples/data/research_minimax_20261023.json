@@ -1,0 +1,35 @@
+[
+  {
+    "company_id": "minimax",
+    "funding": [
+      {"date": "2026-07", "round": "上市后配售+可转债", "amount": "约160亿港元", "investors": [], "note": "总股本由3.14亿股增至3.49亿股（公开报道）"},
+      {"date": "2026-01-09", "round": "IPO（港交所主板）", "amount": "发行价165港元，首日市值突破700亿港元", "investors": [], "note": "股票代码 0100.HK，「AI六小虎」中最快上市"},
+      {"date": "2025-08-01", "round": "IPO前最后一轮", "amount": "约3.9亿美元", "investors": ["红杉中国", "IDG", "基石资本"], "note": "投后估值超42亿美元"}
+    ],
+    "founders": [
+      {"name": "闫俊杰", "title": "创始人、董事长、CEO 兼 CTO",
+       "career": "曾任商汤科技研究院副院长；「85后」连续创业者，2019年入选福布斯中国 30 Under 30",
+       "relevant_experience": "计算机视觉/大模型技术背景，IPO 前后通过其控制实体持股约25%",
+       "source_fact_kind": "verified"}
+    ],
+    "team": {
+      "size_min": 350, "size_max": 400,
+      "stage_note": "约385人团队用4年完成港交所IPO（2026-01 上市时口径），人效极高",
+      "expansion_signals": ["2026-08 开放平台企业收入暴涨约700%，60天内 ARR 自1.5亿升至8亿美元（转引自 Dealroom 报道）", "M2 系列模型日均 token 消耗量两个月增长6倍，企业开发者客户破百万"],
+      "source_fact_kind": "verified"
+    },
+    "products": [
+      {"name": "Talkie / 星野", "positioning": "AI 陪伴 C 端产品（海外/国内双版本）",
+       "traction": "付费用户自2024年不足50万增至177万；2025-09 MAU 约2005万；收入占比约35%"},
+      {"name": "海螺AI（Hailuo）", "positioning": "视频生成与多模态助手",
+       "traction": "2025-09 MAU 约565万；收入占比约33%"},
+      {"name": "MiniMax 开放平台", "positioning": "M2 系列大模型 API 与企业服务",
+       "traction": "2026-08 ARR 达8亿美元（2026-02 为1.5亿美元）；新注册开发者增长4倍以上；收入占比约29%；整体海外收入占比约73%"}
+    ],
+    "evidence": [
+      {"source_type": "media", "url": "https://stcn.com/article/detail/3582562.html", "publisher": "证券时报", "title": "MiniMax上市！AI最快IPO背后：红杉、IDG、基石资本等成赢家", "published_at": "2026-01-09", "snippet": "2026-01-09 港交所挂牌，发行价165港元，首日市值破700亿港元；红杉中国自A+轮起多轮加持"},
+      {"source_type": "media", "url": "https://www.tmtpost.com/8008738.html", "publisher": "钛媒体", "title": "大模型的另一种活法，被MiniMax跑通了", "published_at": "2026-05-31", "snippet": "Talkie、海螺AI 在海外积累上亿用户；2026-01-09 上市"},
+      {"source_type": "media", "url": "https://www.minimax.cn/careers", "publisher": "MiniMax 官网", "title": "官方招聘页（校招/社招/实习）", "snippet": "多通道招聘开放，检索于 2026-10-23"}
+    ]
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "company_id": "shengshu",
+    "dimensions": [
+      {
+        "dimension": "funding",
+        "score": 9.0,
+        "evidence_summary": "2026-04 B轮近20亿元（阿里云领投，投后估值超20亿美元）；2026-07 B+轮5亿美元（阿里云领投，惠远资本等参与）；此前天使/A/A+轮均到位，2026年3月股改筹备港股IPO",
+        "fact_kind": "verified",
+        "rationale": "一年内累计融资超30亿元+5亿美元，头部机构密集加注，创通用世界模型领域最大单笔融资纪录；融资节奏、体量与公司阶段高度匹配，且已进入IPO通道，属证据充分且表现突出"
+      },
+      {
+        "dimension": "founders",
+        "score": 9.0,
+        "evidence_summary": "朱军：清华计算机系教授、IEEE Fellow、AI研究院副院长，扩散模型国际领军人物；唐家渝：清华硕士、前腾讯优图高级产品经理/瑞莱智慧副总裁；鲍凡：清华博士、Analytic-DPM（ICLR 2022杰出论文）与U-ViT作者；2025-03引入骆怡航（前字节火山引擎AI解决方案负责人）任CEO",
+        "fact_kind": "verified",
+        "rationale": "科学家创始人+工程/产品合伙人+外部职业CEO的四层配置完整，学术权威与商业化能力兼备，是国内AI视频领域最顶尖的创始团队之一"
+      },
+      {
+        "dimension": "team",
+        "score": 7.5,
+        "evidence_summary": "2025年工商年报119人（2024-03超70人、近90%研发、50%+研究生学历）；核心团队来自清华AI研究院及阿里、腾讯、字节；B/B+轮后高速扩张并筹备港股IPO",
+        "fact_kind": "verified",
+        "rationale": "团队规模100-200人对标同类独角兽偏小但研发密度极高、学历结构优秀，且有明确扩张信号；规模绝对值限制了上限"
+      },
+      {
+        "dimension": "product",
+        "score": 9.0,
+        "evidence_summary": "Vidu上线8个月ARR破2000万美元、覆盖200+国家、2025年用户与收入超10倍增长、VBench双榜超Runway/Sora/可灵；Vidu S1支持实时视频通话；Motubrain获WorldArena与RoboTwin 2.0双榜第一（成功率95.8%）；与华策、阅文、万兴、飞书深度合作",
+        "fact_kind": "verified",
+        "rationale": "视频生成产品已有可验证的商业化收入和国际基准领先成绩，且第二曲线（具身智能世界模型）同样拿到权威基准第一，产品力证据链完整"
+      },
+      {
+        "dimension": "hiring",
+        "score": 2.0,
+        "evidence_summary": "已验证3个岗位，0个Verified Open",
+        "fact_kind": "verified",
+        "rationale": "尽管公司处高速扩张期，当前无可验证的在招岗位，求职者缺乏可确认的申请入口；考虑到扩张与IPO信号，未来可能出现机会但现阶段证据不支持高分"
+      }
+    ],
+    "note": "综合最强标的：融资、创始人、产品三维均为国内视频生成/世界模型赛道第一梯队；主要短板是当前无可验证在招岗位"
+  },
+  {
+    "company_id": "aisphere",
+    "dimensions": [
+      {
+        "dimension": "funding",
+        "score": 9.0,
+        "evidence_summary": "2026-03 C轮3亿美元（鼎晖领投，亦庄国投等约20家机构，创中国视频生成领域最大单笔纪录）；2026-07 C+轮1.39亿美元（阿里、Lollapalooza、未来资产、蓝色光标等）；此前蚂蚁、达晨、阿里B轮6000万美元；C轮系列累计近30亿元；2026-08秘交招股书",
+        "fact_kind": "verified",
+        "rationale": "融资体量、机构阵容（鼎晖+阿里+国资+国际资本）均居赛道头部，一年内连续大额融资并冲刺IPO，证据充分且表现突出"
+      },
+      {
+        "dimension": "founders",
+        "score": 7.5,
+        "evidence_summary": "王长虎：中科大博士、前微软亚研主管研究员、字节跳动AI实验室总监/集团视觉技术负责人，参与抖音与TikTok从0到1；谢旭璋：北大光华、前光源资本执行董事，主导多个头部项目融资并购",
+        "fact_kind": "verified",
+        "rationale": "CEO兼具顶级研究院与字节视觉中台一把手经历，技术与商业化履历扎实；但公开披露的创始成员仅2人，团队完整度信息少于可比公司（如生数的4人配置）"
+      },
+      {
+        "dimension": "team",
+        "score": 6.5,
+        "evidence_summary": "2025年工商年报75人；成员来自字节、快手、腾讯、微软研究院等核心技术团队；C/C+轮后扩张期，发布PixVerse R2并开放多个场景体验",
+        "fact_kind": "verified",
+        "rationale": "团队背景优质但绝对规模小（75人），支撑超1亿用户与近30亿元融资的人效压力较大；扩张信号明确，处于补齐阶段"
+      },
+      {
+        "dimension": "product",
+        "score": 9.0,
+        "evidence_summary": "PixVerse全球注册用户超1亿、MAU超1600万、ARR超4000万美元（主要来自会员订阅）；2024-10 V3特效出圈、2026-09发布全球首个具备Scaling能力的实时世界模型R2；入选胡润全球独角兽榜、国家级潜在独角兽",
+        "fact_kind": "verified",
+        "rationale": "C端产品数据（用户量、MAU、ARR）在国产AI视频应用中属第一，且持续迭代至实时世界模型，产品化与商业化证据充分"
+      },
+      {
+        "dimension": "hiring",
+        "score": 2.0,
+        "evidence_summary": "已验证5个岗位，0个Verified Open，1个Listed/Unconfirmed",
+        "fact_kind": "verified",
+        "rationale": "无可验证在招岗位，仅1个未确认列表岗位，岗位真实性与申请确定性低；公司处IPO冲刺与扩张期，理论上有招聘需求但无实证"
+      }
+    ],
+    "note": "产品数据（用户/ARR）为四家中最突出的C端表现；团队规模与创始人披露完整度是相对短板"
+  },
+  {
+    "company_id": "langboat",
+    "dimensions": [
+      {
+        "dimension": "funding",
+        "score": 4.5,
+        "evidence_summary": "2021种子/天使（创新工场系）、2022-02 Pre-A近亿元（联想创投、斯道资本、创新工场）、2023-03 Pre-A+数亿元（中关村科学城领投）；此后超3年无新融资披露",
+        "fact_kind": "verified",
+        "rationale": "历史融资总额（数亿元）与机构质量尚可，但最新一轮停留在2023-03，融资 freshness 明显不足；在大模型赛道资本密集竞争环境下，长期无新融资是实质性减分项"
+      },
+      {
+        "dimension": "founders",
+        "score": 8.5,
+        "evidence_summary": "周明：哈工大博士、清华博士后、前微软亚研副院长、ACL主席、ACL Fellow，领导NLP研究20余年；李京梅：北大学士+美国MBA，前微软/阿里云；曾一杰：清华硕士、前网易高级技术总监、超500人团队管理经验",
+        "fact_kind": "verified",
+        "rationale": "周明是中文NLP领域殿堂级学者，创始团队学术与工程履历均属顶级；该维度单独评价团队质量，不随公司经营表现折损"
+      },
+      {
+        "dimension": "team",
+        "score": 4.0,
+        "evidence_summary": "2025年工商年报仅29人；2023年媒体报道'规模不过百人'，主动走'轻量化'路线；扩张信号仅有资质类（高新技术企业、专精特新）",
+        "fact_kind": "verified",
+        "rationale": "29人的团队规模在大模型公司中明显偏小，且无明确扩张信号；轻量化路线是主动选择但客观上限制了组织厚度与抗风险能力"
+      },
+      {
+        "dimension": "product",
+        "score": 4.0,
+        "evidence_summary": "孟子大模型系列（部分开源）、孟子GPT邀测、LangClaw企业智能体OS及智库/智会/智搭产品体系； traction为null；仅有信通院可信AI评估、CMMI三级、2024大模型企业TOP50等资质类背书",
+        "fact_kind": "verified",
+        "rationale": "产品矩阵覆盖完整但缺乏用户量、收入、标杆客户等任何可验证的商业化牵引数据，2023年后重大产品进展披露有限，只能按'一般或证据有限'打分"
+      },
+      {
+        "dimension": "hiring",
+        "score": 1.0,
+        "evidence_summary": "已验证3个岗位，0个Verified Open",
+        "fact_kind": "verified",
+        "rationale": "无可验证在招岗位，叠加团队规模小、无扩张信号，求职机会窗口最窄"
+      }
+    ],
+    "note": "创始人光环与当前经营状态严重错配：周明履历顶级，但融资断档3年+、团队29人+、产品无traction数据，整体活跃度四家中最低"
+  },
+  {
+    "company_id": "recurrent",
+    "dimensions": [
+      {
+        "dimension": "funding",
+        "score": 4.0,
+        "evidence_summary": "2019 PreA+A轮半年共近千万美元（真格领投、金沙江等）；2021-12 B轮3800万美元（博裕+红杉中国联合领投）；此后超4年无新融资披露",
+        "fact_kind": "verified",
+        "rationale": "B轮机构阵容（博裕、红杉中国）质量不错，但2021年后融资断档近5年，且天眼查口径确认3800万美元为历史最高单笔；在AI大模型资本竞赛中处于明显劣势"
+      },
+      {
+        "dimension": "founders",
+        "score": 5.5,
+        "evidence_summary": "陈麒聪：CMU背景、连续创业者，主导战略经营至今；杨植麟（CMU博士、Transformer-XL/XLNet第一作者）2023-02已离开创办月之暗面，零元放弃循环智能股份；张宇韬：清华、AMiner核心开发者；揭发：前IBM/Cisco/GrowingIO",
+        "fact_kind": "verified",
+        "rationale": "历史上曾拥有杨植麟这样的顶级AI联创，但其2023年出走且引发后续仲裁/股权争议，核心AI能力随之外流；现团队以企业服务背景为主，AI基础研究领导力弱化"
+      },
+      {
+        "dimension": "team",
+        "score": 4.5,
+        "evidence_summary": "2019-09官方称团队50余人，此后无公开更新；2023年起在新加坡、印尼、马来西亚、巴西、泰国、日本设海外公司，北京上海双总部；2025/2026持续与华为联合发布金融方案",
+        "fact_kind": "inferred",
+        "rationale": "团队规模数据停留在2019年，最新规模只能推断；海外布局与华为合作说明组织仍在运转，但无扩张性证据，规模推断不超过200人"
+      },
+      {
+        "dimension": "product",
+        "score": 6.0,
+        "evidence_summary": "会话智能/SalesTech产品矩阵（SalesMate、Sales Insight、Discovery等，AI+软件+硬件+服务）；与华为云两度合作（2020、2024）、2025/2026在HiFS发布金融智能化联合方案；日均处理上亿次对话、40TB中文沟通数据（官网口径，时间较早）",
+        "fact_kind": "verified",
+        "rationale": "产品方向清晰且与华为的合作延续到2025/2026（近期、可验证），说明交付能力仍被头部伙伴认可；但核心traction数据多为2019-2021年旧口径，近期客户与收入数据缺失"
+      },
+      {
+        "dimension": "hiring",
+        "score": 1.5,
+        "evidence_summary": "已验证3个岗位，0个Verified Open",
+        "fact_kind": "verified",
+        "rationale": "无可验证在招岗位；国际化与华为合作或隐含少量需求，但无任何实证岗位，机会确定性极低"
+      }
+    ],
+    "note": "典型'老牌转型'公司：B轮后长期无新融资、顶级AI联创出走，但依托华为生态在金融会话智能赛道维持生存；投资与求职吸引力均偏弱"
+  }
+]
