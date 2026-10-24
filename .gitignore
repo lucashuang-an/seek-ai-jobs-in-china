@@ -24,6 +24,7 @@ htmlcov/
 /report.md
 /report.json
 /jobs.csv
+/demo-output/
 /*_档案.md
 
 # npm wrapper build artifact

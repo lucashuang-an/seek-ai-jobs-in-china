@@ -1,0 +1,34 @@
+name: Suggest a company or source / 推荐公司或信源
+description: Help expand useful, evidence-backed AI job discovery in China.
+title: "[Source] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎补充官方招聘页、融资披露或公开招聘帖。请仅提交公开链接；不要提交 Cookie、令牌、个人联系方式或简历。
+        Share public links only. Do not include credentials, tokens, private contact details or resumes.
+  - type: input
+    id: company
+    attributes:
+      label: Company / 公司或产品名
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Public source URL / 公开来源链接
+      description: Remove session tokens and tracking parameters before submitting.
+    validations:
+      required: true
+  - type: input
+    id: city
+    attributes:
+      label: Actual work city / 岗位实际城市
+      placeholder: 北京 / 上海 / 未知
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What does this source show? / 这条来源能证明什么？
+      description: Mention source date, official vs. personal account, and any uncertainty.
+    validations:
+      required: true
