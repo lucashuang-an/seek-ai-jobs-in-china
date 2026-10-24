@@ -5,8 +5,8 @@
 <h1 align="center">Seek AI Jobs in China</h1>
 
 <p align="center">
-  <strong>Understand the company behind the job.</strong><br>
-  AI job intelligence for China · Company research · Xiaohongshu sources · Agent Skill + CLI
+  <strong>An Agent Skill for finding AI jobs in China.</strong><br>
+  Big tech & startups · Experienced hires, graduate roles & internships
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 
 ---
 
-**A job posting is only the beginning.** Connect AI roles in mainland China with company funding, founders, products and hiring evidence. Get a traceable research report to help decide which opportunities deserve a closer look.
+**Find AI roles at big tech companies and startups in mainland China, from experienced hires to graduate roles and internships.** Connect each opportunity with company funding, founders, products and hiring evidence, then use traceable reports to compare your options.
 
 ~~~text
 “Find AI product roles in Beijing. Research each company's funding, team and
@@ -37,7 +37,7 @@
 |---|---|
 | Who is hiring, and where? | Actual work city, employment type, job description, salary and status |
 | What is the company building? | Funding history, founders, team size and products |
-| What lies beyond job boards? | Career pages, public job listings and Xiaohongshu posts read by your host agent |
+| Where can I discover opportunities? | Company websites, public job listings and optional supplementary sources |
 | Why should I trust a conclusion? | Source URLs, retrieval dates, fact/inference labels, scoring rationale and coverage |
 
 **Company-first · Evidence-based · Local-first.** Store data in your own SQLite database and export Markdown, JSON or CSV.
@@ -112,7 +112,7 @@ Read this repository's SKILL.md and follow its workflow.
 Find AI product manager / agent product roles in Beijing, with actual work
 locations in mainland China. Research each startup's funding, founders,
 team and products. Search official careers pages and public job listings;
-also look for startup recruiting posts on Xiaohongshu.
+separate experienced hires, graduate roles and internships.
 
 Keep source URLs and retrieval times. Use null for unknown facts and label
 inferences separately. Explain which sources you will query, import the
@@ -130,7 +130,7 @@ Other starting points:
 
 ## Xiaohongshu: another source of hiring signals
 
-Public Xiaohongshu posts can include early-team recruiting, internships and personal referrals. This project supplies a workflow and [historical examples](examples/data/xhs_jobs_20261023.json) for incorporating those signals into company research.
+This is an **optional supplementary source** requiring your host agent's browser-use capability and your own signed-in Xiaohongshu browser session. With both available, public posts can provide early-team recruiting, internship and personal-referral signals. See the [historical examples](examples/data/xhs_jobs_20261023.json).
 
 - **Use the user's browser session:** sign in yourself when your host agent reaches a login wall.
 - **Keep source context:** distinguish official accounts from personal referrals and record trust notes.

@@ -1,9 +1,9 @@
 {
-  "description": "AI job intelligence for China: discover companies, research funding & teams, compare evidence-backed opportunities. 中国 AI 求职情报 · 小红书信源 · Agent Skill + CLI",
+  "description": "专为寻找国内 AI 岗位打造的 Agent Skill，覆盖大厂与初创公司、社招／校招／实习，支持公司研究与机会对比。",
   "homepage": "https://github.com/lucashuang-an/seek-ai-jobs-in-china#quickstart",
   "topics": [
     "agent-skills", "ai", "ai-agents", "ai-jobs", "career", "china",
     "cli", "company-research", "hiring-intelligence", "job-search", "llm",
-    "local-first", "python", "social-recruiting", "sqlite", "typer", "xiaohongshu"
+    "local-first", "python", "sqlite", "typer", "internship", "campus-recruitment", "startups"
   ]
 }

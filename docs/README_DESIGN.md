@@ -18,7 +18,7 @@ Star 数为 2026-10-24 GitHub API 读取值，会持续变化。只参考介绍�
 2. 历史报告可直接打开；离线 demo 在专用数据库生成 Markdown / JSON / CSV。
 3. Windows 与 macOS/Linux 分开给出无需激活环境的执行命令。
 4. 把宿主 Agent 联网研究与 CLI 本地处理的职责放到试用路径里。
-5. 小红书作为补充信源介绍，移除无独立依据的“首个”“独占”等宣传语。
+5. 一句话定位突出国内 AI 岗位 Agent Skill，涵盖大厂/初创和社招/校招/实习；小红书仅作为可选补充信源说明，并明确依赖宿主 browser use 与用户登录，不进入 About 或首屏定位。
 6. 增加公开信源建议表单、贡献说明、可调整的中英文分享文案。
 7. About 文案与 topics 保存在 `.github/repository-metadata.json`，便于审阅和重复应用。
 8. CI 实际运行测试、demo 与场景验收；README 状态徽章读取运行结果，不静态宣称 CI 已通过。

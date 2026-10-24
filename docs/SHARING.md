@@ -4,13 +4,13 @@
 
 ## 一句话
 
-找到机会之前，先看懂公司。开源 AI 求职情报工具，把中国 AI 岗位、公司研究和来源证据整理成一份报告。
+专为寻找国内 AI 岗位打造的 Agent Skill，覆盖大厂与初创公司、社招／校招／实习，支持公司研究与机会对比。
 
 ## 中文介绍（可按发布渠道调整）
 
 找 AI 工作，除了搜 JD，我还想知道：这家公司做什么产品、创始团队是谁、融资和招聘信息靠不靠谱。
 
-Seek AI Jobs in China 把这些问题放进一套开源工作流：让你现有的 Agent 搜索官网、招聘页和小红书公开招聘帖，再用本地 CLI 做去重、公司研究、证据驱动评分和 Markdown / JSON / CSV 导出。
+Seek AI Jobs in China 是专为寻找国内 AI 岗位打造的 Agent Skill，覆盖大厂与初创公司、社招／校招／实习。让你现有的 Agent 搜索官网与公开招聘页，再用本地 CLI 做去重、公司研究、证据驱动评分和 Markdown / JSON / CSV 导出。
 
 可以先不接模型，跑一下随仓库提供的离线 demo，看看报告长什么样；也欢迎补充值得研究的公司或公开招聘线索。
 
@@ -18,7 +18,7 @@ https://github.com/lucashuang-an/seek-ai-jobs-in-china
 
 ## English introduction
 
-Understand the company behind the job. Seek AI Jobs in China is an open-source workflow for researching AI opportunities in mainland China: company funding, founders, products and hiring evidence in one local report. Your host agent does the research; the CLI handles structured data, deduplication, scoring and exports. Start with the bundled offline demo, then bring your own agent for fresh research.
+Seek AI Jobs in China is an Agent Skill for finding AI jobs in mainland China, covering big tech companies and startups, experienced hires, graduate roles and internships. Your host agent discovers opportunities and researches companies; the local CLI handles structured data, deduplication, scoring and reports. Start with the bundled offline demo, then use your own agent for fresh research.
 
 https://github.com/lucashuang-an/seek-ai-jobs-in-china
 
