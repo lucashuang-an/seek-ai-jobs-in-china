@@ -1,83 +1,83 @@
-﻿id,company_id,title,city,job_type,salary_min,salary_max,salary_months,experience,education,source,source_url,posted_at,status
-moonshot-intern-campus-channel,moonshot,Kimi 实习生（产品与运营类等方向）,北京,实习,,,,,在校生,Kimi 官方校招页,https://careers.kimi.com/campus,,Recently Seen
-zhipu-intern-hr,zhipu,HR实习生（招聘方向）(A22159),北京,实习,,,,,本科,BOSS直聘,https://www.zhipin.com/gongsi/job/18815b858c0b88250nd72N66Fw~~.html,,Recently Seen
-zhipu-intern-27-plan,zhipu,27届实习生计划（产品/算法/工程等方向）,北京,实习,,,,,本硕博在校生,牛客网（校招批次）,https://www.nowcoder.com/enterprise/244587,,Recently Seen
-bytedance-intern-topseed-llm,bytedance,大语言模型算法实习生-Top Seed 豆包大模型,北京,实习,,,,,2025年9月及以后毕业的博士及本硕在读,BOSS直聘（字节校招官网同步）,https://www.zhipin.com/job_detail/63bc968dbf991f1103d63961EVBT.html,,Recently Seen
-bytedance-intern-platform-dev,bytedance,大模型平台研发实习生-Seed Model,北京,实习,,,,,在校生（3个月以上日常实习）,字节跳动校招官网,https://jobs.bytedance.com/campus/m/position/detail/7628900064472647989,,Recently Seen
-kuaishou-intern-keling-video,kuaishou,可灵AI技术部-视频生成方向算法实习生,北京,实习,,,,,在校生（暑期实习）,内推帖（CSDN）+ BOSS直聘,https://blog.csdn.net/c9Yv2cf9I06K2A9E/article/details/148316972,,Recently Seen
-xhs-intern-agent-algo,xiaohongshu,AI Agent 算法实习生（企业智能）,北京,实习,,,,,本科及以上在读,实习僧,https://www.shixiseng.com/intern/inn_8s2zkxqufl9u,,Closed
-meituan-intern-aigc-ops,meituan,AIGC应用产品运营实习生（住宿AI应用专项）,北京,实习,,,,,在读，每周到岗≥4天、实习4个月以上,实习僧,https://www.shixiseng.com/intern/inn_7pmjkg6gshz4,,Closed
-baichuan-intern-origin,baichuan,源点计划-实习生/应届（大模型/AI Infra/Agent/产品方向）,北京,实习,,,,,顶尖校园人才（应届+实习）,牛客网（校招职位页）,https://www.nowcoder.com/enterprise/267815,,Recently Seen
-modelbest-intern-youth,modelbest,顶尖AI青年技术人才计划（实习起步）,北京,实习,,,,,在校生,知乎（媒体报道）,https://zhuanlan.zhihu.com/p/2075680131142660392,,Recently Seen
-minimax-intern-27-algo,minimax,2027届实习生招募（大模型算法/统一多模态/声音生成）,上海,实习,,,,,2027届在校生,牛客网（内推帖）,https://www.nowcoder.com/feed/main/detail/f0e4778f5a704f8ebbdca105d956507b,,Recently Seen
-xiangsu-intern-llm-pm,xiangsu-intelligent,大模型产品经理实习生（2026届）,北京,实习,,,,,2026届,BOSS直聘,https://www.zhipin.com/job_detail/a99e7283cedef3ec03Rz0tm8FlJV.html,,Recently Seen
-stepfun-campus-pm-voice,stepfun,27届Stepstar-语音大模型产品经理,上海,校招,,,,2027届应届,本科及以上,浙大就业网（校招）,https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwList.zf?dwxxid=JG1452305,,Recently Seen
-stepfun-intern-llmdata,stepfun,Stepstar实习-LLM预训练数据算法工程师,上海,实习,,,,,在校生（2026年9月及以后毕业）,浙大就业网（实习）,https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwList.zf?dwxxid=JG1452305,,Recently Seen
-stepfun-intern-edge-llm,stepfun,Stepstar实习-端侧LLM/VLM算法工程师,上海,实习,,,,,在校生（2026年9月及以后毕业）,浙大就业网（实习）,https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwList.zf?dwxxid=JG1452305,,Recently Seen
-sh-liepin-meituan-2,meituan,AI产品经理（大模型及商业策略算法方向）,上海,社招正职,40,60,15,3-5年,本科,猎聘,https://www.liepin.com/zpaicpjl,,Recently Seen
-sh-liepin-aac-1,aac-optics,AI产品经理,上海,社招正职,26,40,,5-10年,硕士,猎聘,https://www.liepin.com/zpaicpjl,,Recently Seen
-sh-liepin-aiqi-1,aiqi-info,AI产品经理,上海,社招正职,15,25,,2年以上,本科,猎聘,https://www.liepin.com/zpaicpjl,,Recently Seen
-sh-liepin-tensky-1,tensky-care,AI产品经理,上海,社招正职,20,35,15,3-5年,本科,猎聘,https://www.liepin.com/zpaicpjl,,Recently Seen
-sh-liepin-meituan-1,meituan,AI产品经理（消费医疗方向）,上海,社招正职,30,60,15,3-5年,本科,猎聘,https://www.liepin.com/zpaicpjl,,Recently Seen
-sh-liepin-qianxun-1,qianxun-si,AI 产品经理（时空智能方向）,上海,社招正职,,,,2年以上,硕士,猎聘,https://www.liepin.com/zpaicpjl,,Recently Seen
-sh-liepin-samoyed-1,samoyed-cloud,AI产品经理,上海,社招正职,20,40,,经验不限,本科,猎聘,https://www.liepin.com/zpaicpjl,,Recently Seen
-sh-liepin-chunnan-1,chunnan-info,AI产品经理（智慧航运/物流方向）,上海,社招正职,12,18,,3年以上,本科,猎聘,https://www.liepin.com/zpaicpjl,,Recently Seen
-sh-liepin-headhunt-1,undisclosed-ai-companion,AI产品经理（AI陪伴类C端产品）,上海,社招正职,70,100,,5-10年,学历不限,猎聘（猎头）,https://www.liepin.com/a/80069285.shtml,,Verified Open
-moonshot-j1,moonshot,AI Product Innovation Explorer,北京,-,,,,,,官网,https://app.mokahr.com/m/social-recruitment/moonshot/150836?locale=en-US#/job/5a9f34bc-7bad-4166-b256-b9b78cd3239e,2026-08-26,Recently Seen
-moonshot-j2,moonshot,"Vertical Domain Owner, Kimi Agent（垂直领域产品业务负责人）",北京,-,,,,,,官网,https://app.mokahr.com/m/social-recruitment/moonshot/150836,2026-09-02,Recently Seen
-moonshot-j3,moonshot,开放平台产品经理,北京,社招正职,30,60,16,3-5年,本科,BOSS直聘,https://m.zhipin.com/zhaopin/f4684d7346cd136f0nR73Ni4FQ~~/,,Recently Seen
-modelbest-j1,modelbest,大模型应用算法工程师,北京,-,30,55,,,本科及以上,BOSS直聘,https://www.qcc.com/cjoblist/aa794a7a33ef63357d7db38adac06d34,2026-05-28,Recently Seen
-modelbest-j2,modelbest,售前解决方案架构师（工程架构）(A21775),北京,社招正职,,,,3-5年,硕士,BOSS直聘,https://www.zhipin.com/job_detail/f958c48824e9edc50nN429m_EVpU.html,,Recently Seen
-modelbest-j3,modelbest,开发者关系专家(A155843),北京,社招正职,,,,3-5年,学历不限,BOSS直聘,https://www.zhipin.com/job_detail/f2a3504c38ce5d2c0nR-29m6FFJR.html,,Recently Seen
-langboat-j1,langboat,AI产品经理,北京,社招正职,20,30,,3-5年,本科,BOSS直聘,https://www.qcc.com/cjoblist/fc2c96413f9dc107946fbba201c9916e,2025-12-09,Recently Seen
-langboat-j2,langboat,大模型产品经理,北京,社招正职,,,,3年以上,,官网,https://www.langboat.com/jobs,,Recently Seen
-langboat-j3,langboat,NLP工程师,北京,社招正职,,,,3-5年,硕士以上,猎聘,https://www.jobui.com/company/17372486/jobs/,,Recently Seen
-recurrent-j1,recurrent,AI数据分析产品经理,北京,社招正职,20,40,13,5-10年,本科,BOSS直聘,https://www.zhipin.com/job_detail/fd4fb95cf19cabc00ndy0920GVJX.html,,Recently Seen
-recurrent-j2,recurrent,AI定开产品经理,北京,-,,,,,,BOSS直聘,https://m.qcc.com/jobdetail/484fc4af0e666e1fa50a915bb17a8ccf.html,,Recently Seen
-recurrent-j3,recurrent,产品经理,北京,-,,,,,,官网,https://www.rcrai.com/about-us/join-us,,Recently Seen
-shengshu-j1,shengshu,高级产品经理(A220590),北京,社招正职,30,50,,5-10年,本科以上,猎聘,https://m.jobui.com/company/20681973/jobs/,,Recently Seen
-shengshu-j2,shengshu,AI Product Manager(A76406),北京,-,40,60,,,,猎聘,https://www.jobui.com/company/26683783/salary/,,Recently Seen
-shengshu-j3,shengshu,视频生成算法工程师/专家（A246364）,北京,社招正职,60,90,,3-5年,本科以上,猎聘,https://www.jobui.com/company/26683783/jobs/all/beijing/,2026-10-13,Recently Seen
-aisphere-j1,aisphere,海外商业化产品经理,北京,社招正职,,,,3-5年,本科,BOSS直聘,https://m.zhipin.com/job_detail/08d7dada88883ca503R709m8GVFS.html,2026-10-11,Recently Seen
-aisphere-j2,aisphere,AI基础平台产品研发专家,北京,社招正职,,,,5-10年,本科,BOSS直聘,https://www.zhipin.com/job_detail/9f42817c7b7c0ba80nd42dy_FVNQ.html,,Recently Seen
-aisphere-j3,aisphere,音频算法工程师,北京,-,30,50,,,,BOSS直聘,https://m.qcc.com/firm/f566217a1fcfa9067ff61718689528ce.html,,Recently Seen
-deephlang-j1,deephlang,AI Agent产品经理,北京,-,,,,,,官网,https://deeplang.jobs.feishu.cn/index/position,,Recently Seen
-deephlang-j2,deephlang,AI产品运营经理,北京,-,,,,,,官网,https://deeplang.jobs.feishu.cn/index/position,,Recently Seen
-deephlang-j3,deephlang,数据产品经理,北京,社招正职,,,,经验不限,本科,BOSS直聘,https://www.zhipin.com/job_detail/b00697d1366f7c9f1HF_3tW-FFpQ.html,,Recently Seen
-paoding-j1,paoding,国内产品市场经理,北京,社招正职,,,,1-3年,本科,BOSS直聘,https://m.zhipin.com/job_detail/121552119069e52403173t29FFVX.html,,Recently Seen
-paoding-j2,paoding,海外产品市场经理,北京,社招正职,13,15,13,1-3年,本科,BOSS直聘,https://m.qcc.com/firm/0d28e6450d87743bdc32d45ecef1830c.html,2026-01-09,Recently Seen
-paoding-j3,paoding,AI产品经理（热招）,北京,-,,,,,,官网,https://www.paodingai.com/about-us/,,Recently Seen
-laiye-j1,laiye,AI智能体开发工程师（客服智能体方向）,北京,-,20,30,,不限经验,本科以上,猎聘,https://www.jobui.com/company/12645363/jobs/all/beijing/,2026-02-02,Recently Seen
-laiye-j2,laiye,智能体产品建造者,北京,-,,,,,,BOSS直聘,https://m.zhipin.com/job_detail/ade747647353644103x739W4ElRY.html,,Recently Seen
-laiye-j3,laiye,AI产品经理,北京,-,,,,,,BOSS直聘,https://m.qcc.com/jobdetail/97ee105ed03bd88c80d6151d47ce25a5.html,,Recently Seen
-lingxin-j1,lingxin,AI心理产品负责人,北京,-,30,60,16,,,BOSS直聘,https://m.qcc.com/jobdetail/691197e3b5aac5356af904617655cc92.html,,Recently Seen
-lingxin-j2,lingxin,资深/高级产品经理（AI+心理方向）,北京,社招正职,,,,3-5年,硕士,猎聘,https://www.lipind.com/position/detail/430473,2026-01-01,Recently Seen
-lingxin-j3,lingxin,web前端工程师,北京,社招正职,20,30,14,3-5年,本科,猎聘,https://m.liepin.com/company/13049767/,2026-09-22,Recently Seen
-bytedance-j1,bytedance,Agent 安全产品经理 - 豆包app,北京,社招正职,,,,3-5年,本科,BOSS直聘,https://m.zhipin.com/job_detail/8e2a89a209a394c80nF-2920F1BY.html,2026-09-28,Recently Seen
-bytedance-j2,bytedance,豆包AI大模型产品经理(评测方向)-火山方舟MaaS,北京,社招正职,35,60,15,5-10年,本科,猎聘,https://www.liepin.com/job/1983345247.shtml,2026-08-26,Recently Seen
-baidu-j1,baidu,AI增长产品经理,北京,社招正职,25,50,16,2-4年,本科,猎聘,https://m.liepin.com/job/1986237577.shtml,2026-10-21,Recently Seen
-baidu-j2,baidu,AI平台产品经理,北京,社招正职,25,50,16,1-3年,本科,猎聘,https://m.liepin.com/job/1986237571.shtml,2026-10-21,Recently Seen
-baidu-j3,baidu,百度搭子金融行业套件产品经理,北京,社招正职,30,60,16,1-5年,本科,猎聘,https://m.liepin.com/job/1986261221.shtml,2026-10-22,Recently Seen
-tencent-j1,tencent,混元大模型评估与数据策略产品经理-深/北,北京,社招正职,,,,3-5年,本科,BOSS直聘,https://www.zhipin.com/job_detail/fb4a6900895347830nR60tq5FlFX.html,2026-09-02,Recently Seen
-tencent-j2,tencent,腾讯元宝-大模型应用平台产品经理,北京,社招正职,,,,3年以上,本科及以上,官网,https://hr.tencent.com/jobdesc.html?postId=2052733034666573824,,Recently Seen
-meituan-j1,meituan,高级AI产品经理（B端）- BA Agent方向,北京,社招正职,,,,5年以上（其中至少2年B端或AI产品经验；页面元数据标注工作经验2年）,,官网,https://zhaopin.meituan.com/web/position/detail?highlightType=social&jobUnionId=4642181048,2026-10-21,Recently Seen
-meituan-j2,meituan,B端产品经理（到餐事业部，信息采集AI/商家端Agent方向）,北京,社招正职,,,,3年,,官网,https://zhaopin.meituan.com/m/position/detail?highlightType=social&jobUnionId=4278830656,2026-07-22,Recently Seen
-kuaishou-j1,kuaishou,视频模型产品经理（可灵AI专项）,北京,社招正职,30,60,16,3-5年,本科,BOSS直聘,https://m.bosszhipin.com/job_detail/134ae048abdbb3840ndy39S-FlpV.html,,Recently Seen
-zhipu-j1,zhipu,AI Native 技术产品经理,北京,社招正职,30,50,16,经验不限,本科,BOSS直聘,https://m.zhipin.com/job_detail/b5362673f91eaf950ndy3di0ElZW.html,,Recently Seen
-galaxy-general-j1,galaxy-general,产品经理（应用系统）(A42168),北京,-,20,35,,,本科（人工智能、智能硬件、计算机、机器人相关背景优先）,职友集,https://m.jobui.com/company/25365730/salary/j/chanpinjingli/beijing/,,Recently Seen
-galaxy-general-j2,galaxy-general,产品经理实习生-人机交互方向,北京,-,,,,在读（实习）,本科,BOSS直聘,https://www.zhipin.com/job_detail/a1fc03ebcee082830nd709W7ElBV.html,,Recently Seen
-zhipu-j1-bbdad2,zhipu,高级产品经理(ToB Agent方向)-北京,北京,社招正职,25,45,,5-10年,本科,猎聘,https://m.liepin.com/job/1978771943.shtml,2026-07-24,Recently Seen
-zhipu-j2,zhipu,大模型算法工程师-北京,北京,社招正职,30,55,,2-4年,硕士,猎聘,https://m.liepin.com/job/1978771375.shtml,,Recently Seen
-zhipu-j3,zhipu,大模型应用后端工程师-北京,北京,社招正职,25,50,,3-5年,本科,猎聘,https://m.liepin.com/job/1978771275.shtml,,Recently Seen
-baichuan-j1,baichuan,Agent高级产品经理,北京,社招正职,,,,5-10年,,官网,https://cq6qe6bvfr6.jobs.feishu.cn/baichuanzhaopin/m/position/detail/7683791956434979078,,Recently Seen
-baichuan-j2,baichuan,医疗AI策略产品经理,北京,-,,,,,,官网,https://cq6qe6bvfr6.jobs.feishu.cn/baichuanzhaopin/m/position/detail/7579213799371344147,,Recently Seen
-modelbest-infra-j1,modelbest,汽车行业产品经理,北京,社招正职,,,,3-5年,,官网,https://modelbest.jobs.feishu.cn/career/position/7681191575779150121/detail,,Recently Seen
-modelbest-infra-j2,modelbest,大模型项目经理（法律行业）,北京,-,,,,,,官网,https://modelbest.jobs.feishu.cn/career/m/position/7564003397281335590/detail,,Recently Seen
-shengshu-infra-j1,shengshu,产品总监-B,北京,社招正职,,,,5-8年,本科,官网,https://shengshu.jobs.feishu.cn/index/position/detail/7654860445774481674,,Recently Seen
-shengshu-infra-j2,shengshu,Vidu 解决方案架构师,北京,-,,,,,,官网,https://shengshu.jobs.feishu.cn/index/m/position/detail/7641058811939342638,,Recently Seen
-infinigence-j1,infinigence,AI Infra 产品经理（大模型训练/推理）,北京,社招正职,,,,3-5年,硕士,官网,https://infinigence.jobs.feishu.cn/infinigence/position/detail/7610987908732324106,,Recently Seen
-infinigence-j2,infinigence,强化学习训练框架研发工程师,北京,-,,,,,,官网,https://infinigence.jobs.feishu.cn/infinigence/m/position/detail/7512365036183193883,,Recently Seen
-siliconflow-j1,siliconflow,大模型解决方案工程师,北京,社招正职,25,45,15,3-5年,本科,猎聘,https://m.liepin.com/job/1976888907.shtml,2026-07-24,Recently Seen
-siliconflow-j2,siliconflow,推理引擎研发工程师-LLM与AIGC方向,北京,社招正职,40,70,15,经验不限,本科,猎聘,https://m.liepin.com/job/1981279403.shtml,,Recently Seen
-aishi-j1,aishi,AI 解决方案工程师（视频生成与 Agent）,北京,社招正职,,,,3-5年,,官网,https://aisphere.jobs.feishu.cn/join/m/position/detail/7673026438232279306,,Recently Seen
-aishi-j2,aishi,模型压缩工程师（AI Infra）,北京,-,,,,,,官网,https://aisphere.jobs.feishu.cn/join/position/7680107467699439915/detail,,Recently Seen
+﻿title,source_url,city,job_type,status,source,id,company_id,salary_min,salary_max,salary_months,experience,education,posted_at
+Kimi 实习生（产品与运营类等方向）,https://careers.kimi.com/campus,北京,实习,Recently Seen,Kimi 官方校招页,moonshot-intern-campus-channel,moonshot,,,,,在校生,
+HR实习生（招聘方向）(A22159),https://www.zhipin.com/gongsi/job/18815b858c0b88250nd72N66Fw~~.html,北京,实习,Recently Seen,BOSS直聘,zhipu-intern-hr,zhipu,,,,,本科,
+27届实习生计划（产品/算法/工程等方向）,https://www.nowcoder.com/enterprise/244587,北京,实习,Recently Seen,牛客网（校招批次）,zhipu-intern-27-plan,zhipu,,,,,本硕博在校生,
+大语言模型算法实习生-Top Seed 豆包大模型,https://www.zhipin.com/job_detail/63bc968dbf991f1103d63961EVBT.html,北京,实习,Recently Seen,BOSS直聘（字节校招官网同步）,bytedance-intern-topseed-llm,bytedance,,,,,2025年9月及以后毕业的博士及本硕在读,
+大模型平台研发实习生-Seed Model,https://jobs.bytedance.com/campus/m/position/detail/7628900064472647989,北京,实习,Recently Seen,字节跳动校招官网,bytedance-intern-platform-dev,bytedance,,,,,在校生（3个月以上日常实习）,
+可灵AI技术部-视频生成方向算法实习生,https://blog.csdn.net/c9Yv2cf9I06K2A9E/article/details/148316972,北京,实习,Recently Seen,内推帖（CSDN）+ BOSS直聘,kuaishou-intern-keling-video,kuaishou,,,,,在校生（暑期实习）,
+AI Agent 算法实习生（企业智能）,https://www.shixiseng.com/intern/inn_8s2zkxqufl9u,北京,实习,Closed,实习僧,xhs-intern-agent-algo,xiaohongshu,,,,,本科及以上在读,
+AIGC应用产品运营实习生（住宿AI应用专项）,https://www.shixiseng.com/intern/inn_7pmjkg6gshz4,北京,实习,Closed,实习僧,meituan-intern-aigc-ops,meituan,,,,,在读，每周到岗≥4天、实习4个月以上,
+源点计划-实习生/应届（大模型/AI Infra/Agent/产品方向）,https://www.nowcoder.com/enterprise/267815,北京,实习,Recently Seen,牛客网（校招职位页）,baichuan-intern-origin,baichuan,,,,,顶尖校园人才（应届+实习）,
+顶尖AI青年技术人才计划（实习起步）,https://zhuanlan.zhihu.com/p/2075680131142660392,北京,实习,Recently Seen,知乎（媒体报道）,modelbest-intern-youth,modelbest,,,,,在校生,
+2027届实习生招募（大模型算法/统一多模态/声音生成）,https://www.nowcoder.com/feed/main/detail/f0e4778f5a704f8ebbdca105d956507b,上海,实习,Recently Seen,牛客网（内推帖）,minimax-intern-27-algo,minimax,,,,,2027届在校生,
+大模型产品经理实习生（2026届）,https://www.zhipin.com/job_detail/a99e7283cedef3ec03Rz0tm8FlJV.html,北京,实习,Recently Seen,BOSS直聘,xiangsu-intern-llm-pm,xiangsu-intelligent,,,,,2026届,
+27届Stepstar-语音大模型产品经理,https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwList.zf?dwxxid=JG1452305,上海,校招,Recently Seen,浙大就业网（校招）,stepfun-campus-pm-voice,stepfun,,,,2027届应届,本科及以上,
+Stepstar实习-LLM预训练数据算法工程师,https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwList.zf?dwxxid=JG1452305,上海,实习,Recently Seen,浙大就业网（实习）,stepfun-intern-llmdata,stepfun,,,,,在校生（2026年9月及以后毕业）,
+Stepstar实习-端侧LLM/VLM算法工程师,https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwList.zf?dwxxid=JG1452305,上海,实习,Recently Seen,浙大就业网（实习）,stepfun-intern-edge-llm,stepfun,,,,,在校生（2026年9月及以后毕业）,
+AI产品经理（大模型及商业策略算法方向）,https://www.liepin.com/zpaicpjl,上海,社招正职,Recently Seen,猎聘,sh-liepin-meituan-2,meituan,40,60,15,3-5年,本科,
+AI产品经理,https://www.liepin.com/zpaicpjl,上海,社招正职,Recently Seen,猎聘,sh-liepin-aac-1,aac-optics,26,40,,5-10年,硕士,
+AI产品经理,https://www.liepin.com/zpaicpjl,上海,社招正职,Recently Seen,猎聘,sh-liepin-aiqi-1,aiqi-info,15,25,,2年以上,本科,
+AI产品经理,https://www.liepin.com/zpaicpjl,上海,社招正职,Recently Seen,猎聘,sh-liepin-tensky-1,tensky-care,20,35,15,3-5年,本科,
+AI产品经理（消费医疗方向）,https://www.liepin.com/zpaicpjl,上海,社招正职,Recently Seen,猎聘,sh-liepin-meituan-1,meituan,30,60,15,3-5年,本科,
+AI 产品经理（时空智能方向）,https://www.liepin.com/zpaicpjl,上海,社招正职,Recently Seen,猎聘,sh-liepin-qianxun-1,qianxun-si,,,,2年以上,硕士,
+AI产品经理,https://www.liepin.com/zpaicpjl,上海,社招正职,Recently Seen,猎聘,sh-liepin-samoyed-1,samoyed-cloud,20,40,,经验不限,本科,
+AI产品经理（智慧航运/物流方向）,https://www.liepin.com/zpaicpjl,上海,社招正职,Recently Seen,猎聘,sh-liepin-chunnan-1,chunnan-info,12,18,,3年以上,本科,
+AI产品经理（AI陪伴类C端产品）,https://www.liepin.com/a/80069285.shtml,上海,社招正职,Verified Open,猎聘（猎头）,sh-liepin-headhunt-1,undisclosed-ai-companion,70,100,,5-10年,学历不限,
+AI Product Innovation Explorer,https://app.mokahr.com/m/social-recruitment/moonshot/150836?locale=en-US#/job/5a9f34bc-7bad-4166-b256-b9b78cd3239e,北京,-,Recently Seen,官网,moonshot-j1,moonshot,,,,,,2026-08-26
+"Vertical Domain Owner, Kimi Agent（垂直领域产品业务负责人）",https://app.mokahr.com/m/social-recruitment/moonshot/150836,北京,-,Recently Seen,官网,moonshot-j2,moonshot,,,,,,2026-09-02
+开放平台产品经理,https://m.zhipin.com/zhaopin/f4684d7346cd136f0nR73Ni4FQ~~/,北京,社招正职,Recently Seen,BOSS直聘,moonshot-j3,moonshot,30,60,16,3-5年,本科,
+大模型应用算法工程师,https://www.qcc.com/cjoblist/aa794a7a33ef63357d7db38adac06d34,北京,-,Recently Seen,BOSS直聘,modelbest-j1,modelbest,30,55,,,本科及以上,2026-05-28
+售前解决方案架构师（工程架构）(A21775),https://www.zhipin.com/job_detail/f958c48824e9edc50nN429m_EVpU.html,北京,社招正职,Recently Seen,BOSS直聘,modelbest-j2,modelbest,,,,3-5年,硕士,
+开发者关系专家(A155843),https://www.zhipin.com/job_detail/f2a3504c38ce5d2c0nR-29m6FFJR.html,北京,社招正职,Recently Seen,BOSS直聘,modelbest-j3,modelbest,,,,3-5年,学历不限,
+AI产品经理,https://www.qcc.com/cjoblist/fc2c96413f9dc107946fbba201c9916e,北京,社招正职,Recently Seen,BOSS直聘,langboat-j1,langboat,20,30,,3-5年,本科,2025-12-09
+大模型产品经理,https://www.langboat.com/jobs,北京,社招正职,Recently Seen,官网,langboat-j2,langboat,,,,3年以上,,
+NLP工程师,https://www.jobui.com/company/17372486/jobs/,北京,社招正职,Recently Seen,猎聘,langboat-j3,langboat,,,,3-5年,硕士以上,
+AI数据分析产品经理,https://www.zhipin.com/job_detail/fd4fb95cf19cabc00ndy0920GVJX.html,北京,社招正职,Recently Seen,BOSS直聘,recurrent-j1,recurrent,20,40,13,5-10年,本科,
+AI定开产品经理,https://m.qcc.com/jobdetail/484fc4af0e666e1fa50a915bb17a8ccf.html,北京,-,Recently Seen,BOSS直聘,recurrent-j2,recurrent,,,,,,
+产品经理,https://www.rcrai.com/about-us/join-us,北京,-,Recently Seen,官网,recurrent-j3,recurrent,,,,,,
+高级产品经理(A220590),https://m.jobui.com/company/20681973/jobs/,北京,社招正职,Recently Seen,猎聘,shengshu-j1,shengshu,30,50,,5-10年,本科以上,
+AI Product Manager(A76406),https://www.jobui.com/company/26683783/salary/,北京,-,Recently Seen,猎聘,shengshu-j2,shengshu,40,60,,,,
+视频生成算法工程师/专家（A246364）,https://www.jobui.com/company/26683783/jobs/all/beijing/,北京,社招正职,Recently Seen,猎聘,shengshu-j3,shengshu,60,90,,3-5年,本科以上,2026-10-13
+海外商业化产品经理,https://m.zhipin.com/job_detail/08d7dada88883ca503R709m8GVFS.html,北京,社招正职,Recently Seen,BOSS直聘,aisphere-j1,aisphere,,,,3-5年,本科,2026-10-11
+AI基础平台产品研发专家,https://www.zhipin.com/job_detail/9f42817c7b7c0ba80nd42dy_FVNQ.html,北京,社招正职,Recently Seen,BOSS直聘,aisphere-j2,aisphere,,,,5-10年,本科,
+音频算法工程师,https://m.qcc.com/firm/f566217a1fcfa9067ff61718689528ce.html,北京,-,Recently Seen,BOSS直聘,aisphere-j3,aisphere,30,50,,,,
+AI Agent产品经理,https://deeplang.jobs.feishu.cn/index/position,北京,-,Recently Seen,官网,deephlang-j1,deephlang,,,,,,
+AI产品运营经理,https://deeplang.jobs.feishu.cn/index/position,北京,-,Recently Seen,官网,deephlang-j2,deephlang,,,,,,
+数据产品经理,https://www.zhipin.com/job_detail/b00697d1366f7c9f1HF_3tW-FFpQ.html,北京,社招正职,Recently Seen,BOSS直聘,deephlang-j3,deephlang,,,,经验不限,本科,
+国内产品市场经理,https://m.zhipin.com/job_detail/121552119069e52403173t29FFVX.html,北京,社招正职,Recently Seen,BOSS直聘,paoding-j1,paoding,,,,1-3年,本科,
+海外产品市场经理,https://m.qcc.com/firm/0d28e6450d87743bdc32d45ecef1830c.html,北京,社招正职,Recently Seen,BOSS直聘,paoding-j2,paoding,13,15,13,1-3年,本科,2026-01-09
+AI产品经理（热招）,https://www.paodingai.com/about-us/,北京,-,Recently Seen,官网,paoding-j3,paoding,,,,,,
+AI智能体开发工程师（客服智能体方向）,https://www.jobui.com/company/12645363/jobs/all/beijing/,北京,-,Recently Seen,猎聘,laiye-j1,laiye,20,30,,不限经验,本科以上,2026-02-02
+智能体产品建造者,https://m.zhipin.com/job_detail/ade747647353644103x739W4ElRY.html,北京,-,Recently Seen,BOSS直聘,laiye-j2,laiye,,,,,,
+AI产品经理,https://m.qcc.com/jobdetail/97ee105ed03bd88c80d6151d47ce25a5.html,北京,-,Recently Seen,BOSS直聘,laiye-j3,laiye,,,,,,
+AI心理产品负责人,https://m.qcc.com/jobdetail/691197e3b5aac5356af904617655cc92.html,北京,-,Recently Seen,BOSS直聘,lingxin-j1,lingxin,30,60,16,,,
+资深/高级产品经理（AI+心理方向）,https://www.lipind.com/position/detail/430473,北京,社招正职,Recently Seen,猎聘,lingxin-j2,lingxin,,,,3-5年,硕士,2026-01-01
+web前端工程师,https://m.liepin.com/company/13049767/,北京,社招正职,Recently Seen,猎聘,lingxin-j3,lingxin,20,30,14,3-5年,本科,2026-09-22
+Agent 安全产品经理 - 豆包app,https://m.zhipin.com/job_detail/8e2a89a209a394c80nF-2920F1BY.html,北京,社招正职,Recently Seen,BOSS直聘,bytedance-j1,bytedance,,,,3-5年,本科,2026-09-28
+豆包AI大模型产品经理(评测方向)-火山方舟MaaS,https://www.liepin.com/job/1983345247.shtml,北京,社招正职,Recently Seen,猎聘,bytedance-j2,bytedance,35,60,15,5-10年,本科,2026-08-26
+AI增长产品经理,https://m.liepin.com/job/1986237577.shtml,北京,社招正职,Recently Seen,猎聘,baidu-j1,baidu,25,50,16,2-4年,本科,2026-10-21
+AI平台产品经理,https://m.liepin.com/job/1986237571.shtml,北京,社招正职,Recently Seen,猎聘,baidu-j2,baidu,25,50,16,1-3年,本科,2026-10-21
+百度搭子金融行业套件产品经理,https://m.liepin.com/job/1986261221.shtml,北京,社招正职,Recently Seen,猎聘,baidu-j3,baidu,30,60,16,1-5年,本科,2026-10-22
+混元大模型评估与数据策略产品经理-深/北,https://www.zhipin.com/job_detail/fb4a6900895347830nR60tq5FlFX.html,北京,社招正职,Recently Seen,BOSS直聘,tencent-j1,tencent,,,,3-5年,本科,2026-09-02
+腾讯元宝-大模型应用平台产品经理,https://hr.tencent.com/jobdesc.html?postId=2052733034666573824,北京,社招正职,Recently Seen,官网,tencent-j2,tencent,,,,3年以上,本科及以上,
+高级AI产品经理（B端）- BA Agent方向,https://zhaopin.meituan.com/web/position/detail?highlightType=social&jobUnionId=4642181048,北京,社招正职,Recently Seen,官网,meituan-j1,meituan,,,,5年以上（其中至少2年B端或AI产品经验；页面元数据标注工作经验2年）,,2026-10-21
+B端产品经理（到餐事业部，信息采集AI/商家端Agent方向）,https://zhaopin.meituan.com/m/position/detail?highlightType=social&jobUnionId=4278830656,北京,社招正职,Recently Seen,官网,meituan-j2,meituan,,,,3年,,2026-07-22
+视频模型产品经理（可灵AI专项）,https://m.bosszhipin.com/job_detail/134ae048abdbb3840ndy39S-FlpV.html,北京,社招正职,Recently Seen,BOSS直聘,kuaishou-j1,kuaishou,30,60,16,3-5年,本科,
+AI Native 技术产品经理,https://m.zhipin.com/job_detail/b5362673f91eaf950ndy3di0ElZW.html,北京,社招正职,Recently Seen,BOSS直聘,zhipu-j1,zhipu,30,50,16,经验不限,本科,
+产品经理（应用系统）(A42168),https://m.jobui.com/company/25365730/salary/j/chanpinjingli/beijing/,北京,-,Recently Seen,职友集,galaxy-general-j1,galaxy-general,20,35,,,本科（人工智能、智能硬件、计算机、机器人相关背景优先）,
+产品经理实习生-人机交互方向,https://www.zhipin.com/job_detail/a1fc03ebcee082830nd709W7ElBV.html,北京,-,Recently Seen,BOSS直聘,galaxy-general-j2,galaxy-general,,,,在读（实习）,本科,
+高级产品经理(ToB Agent方向)-北京,https://m.liepin.com/job/1978771943.shtml,北京,社招正职,Recently Seen,猎聘,zhipu-j1-bbdad2,zhipu,25,45,,5-10年,本科,2026-07-24
+大模型算法工程师-北京,https://m.liepin.com/job/1978771375.shtml,北京,社招正职,Recently Seen,猎聘,zhipu-j2,zhipu,30,55,,2-4年,硕士,
+大模型应用后端工程师-北京,https://m.liepin.com/job/1978771275.shtml,北京,社招正职,Recently Seen,猎聘,zhipu-j3,zhipu,25,50,,3-5年,本科,
+Agent高级产品经理,https://cq6qe6bvfr6.jobs.feishu.cn/baichuanzhaopin/m/position/detail/7683791956434979078,北京,社招正职,Recently Seen,官网,baichuan-j1,baichuan,,,,5-10年,,
+医疗AI策略产品经理,https://cq6qe6bvfr6.jobs.feishu.cn/baichuanzhaopin/m/position/detail/7579213799371344147,北京,-,Recently Seen,官网,baichuan-j2,baichuan,,,,,,
+汽车行业产品经理,https://modelbest.jobs.feishu.cn/career/position/7681191575779150121/detail,北京,社招正职,Recently Seen,官网,modelbest-infra-j1,modelbest,,,,3-5年,,
+大模型项目经理（法律行业）,https://modelbest.jobs.feishu.cn/career/m/position/7564003397281335590/detail,北京,-,Recently Seen,官网,modelbest-infra-j2,modelbest,,,,,,
+产品总监-B,https://shengshu.jobs.feishu.cn/index/position/detail/7654860445774481674,北京,社招正职,Recently Seen,官网,shengshu-infra-j1,shengshu,,,,5-8年,本科,
+Vidu 解决方案架构师,https://shengshu.jobs.feishu.cn/index/m/position/detail/7641058811939342638,北京,-,Recently Seen,官网,shengshu-infra-j2,shengshu,,,,,,
+AI Infra 产品经理（大模型训练/推理）,https://infinigence.jobs.feishu.cn/infinigence/position/detail/7610987908732324106,北京,社招正职,Recently Seen,官网,infinigence-j1,infinigence,,,,3-5年,硕士,
+强化学习训练框架研发工程师,https://infinigence.jobs.feishu.cn/infinigence/m/position/detail/7512365036183193883,北京,-,Recently Seen,官网,infinigence-j2,infinigence,,,,,,
+大模型解决方案工程师,https://m.liepin.com/job/1976888907.shtml,北京,社招正职,Recently Seen,猎聘,siliconflow-j1,siliconflow,25,45,15,3-5年,本科,2026-07-24
+推理引擎研发工程师-LLM与AIGC方向,https://m.liepin.com/job/1981279403.shtml,北京,社招正职,Recently Seen,猎聘,siliconflow-j2,siliconflow,40,70,15,经验不限,本科,
+AI 解决方案工程师（视频生成与 Agent）,https://aisphere.jobs.feishu.cn/join/m/position/detail/7673026438232279306,北京,社招正职,Recently Seen,官网,aishi-j1,aishi,,,,3-5年,,
+模型压缩工程师（AI Infra）,https://aisphere.jobs.feishu.cn/join/position/7680107467699439915/detail,北京,-,Recently Seen,官网,aishi-j2,aishi,,,,,,

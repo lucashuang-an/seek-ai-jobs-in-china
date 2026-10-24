@@ -7,6 +7,7 @@ import csv
 import sqlite3
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import quote
 
 from .models import (
     JOB_TYPE_LABELS,
@@ -91,9 +92,9 @@ def export_json(conn: sqlite3.Connection, out_path: Path,
 def export_jobs_csv(conn: sqlite3.Connection, out_path: Path,
                     city: str | None = None) -> None:
     jobs = [j for j in repo.list_jobs(conn, city=city) if in_scope(j)]
-    fields = ["id", "company_id", "title", "city", "job_type", "salary_min",
-              "salary_max", "salary_months", "experience", "education", "source",
-              "source_url", "posted_at", "status"]
+    fields = ["title", "source_url", "city", "job_type", "status", "source",
+              "id", "company_id", "salary_min", "salary_max", "salary_months",
+              "experience", "education", "posted_at"]
     with open(out_path, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
@@ -124,6 +125,15 @@ def _weight_display(d) -> str:
     from .models import DEFAULT_WEIGHTS
     w = d.weight if d.weight is not None else DEFAULT_WEIGHTS.get(d.dimension, 0)
     return f"{w:.0%}"
+
+
+def _job_title_link(job: Job) -> str:
+    title = job.title.replace("\\", "\\\\").replace("[", "\\[").replace("]", "\\]")
+    if not job.source_url or not job.source_url.startswith(("https://", "http://")):
+        return title
+    # Encode parentheses/whitespace so source URLs cannot break Markdown.
+    url = quote(job.source_url, safe=":/?#[]@!$&'*+,;=%~.-_")
+    return f"[{title}]({url})"
 
 
 def _company_lines(conn: sqlite3.Connection, c: Company,
@@ -202,7 +212,7 @@ def _company_lines(conn: sqlite3.Connection, c: Company,
     if jobs:
         lines += ["### 在招岗位", ""]
         lines.append(_md_table(
-            [[j.title, j.city, _job_type_label(j), j.salary_min or "?",
+            [[_job_title_link(j), j.city, _job_type_label(j), j.salary_min or "?",
               j.salary_max or "?", j.experience or "-", _display_status(j)]
              for j in jobs],
             ["岗位", "城市", "性质", "薪资下限K", "薪资上限K", "经验", "状态"]))

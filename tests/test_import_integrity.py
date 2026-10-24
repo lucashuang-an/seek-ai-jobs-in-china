@@ -187,7 +187,9 @@ def test_all_exports_filter_actual_job_city(store, tmp_path):
     assert [co["company"]["id"] for co in data] == ["s"]
     assert [e["job"]["id"] for co in data for e in co["jobs"]] == ["bj-job"]
     with (tmp_path / "r.csv").open(encoding="utf-8-sig", newline="") as stream:
-        assert [row["id"] for row in csv.DictReader(stream)] == ["bj-job"]
+        reader = csv.DictReader(stream)
+        assert reader.fieldnames[:2] == ["title", "source_url"]
+        assert [row["id"] for row in reader] == ["bj-job"]
     md = (tmp_path / "r.md").read_text(encoding="utf-8")
     assert "北京岗位" in md and "上海岗位" not in md and "Shanghai HQ" in md
     export_markdown(conn, tmp_path / "single.md", city="北京", company="c")

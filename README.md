@@ -100,7 +100,7 @@ python3 -m venv .venv
 | [完整研究报告](examples/acceptance_output/report.md) | 多家公司总览、公司档案、评分与来源 |
 | [月之暗面公司档案](examples/acceptance_output/moonshot.md) | 一份公司研究报告的结构与证据呈现 |
 | [小红书发现的初创招聘样例](examples/acceptance_output/xhs_omnimind.md) | 公开招聘帖如何落成公司与岗位记录 |
-| [实习岗位表](examples/acceptance_output/intern_jobs_20261023.csv) | 实习筛选结果，下载后可在表格工具打开 |
+| [实习岗位表（含来源链接）](examples/acceptance_output/intern_jobs_20261023.md) | 14 条实习历史记录，点击岗位标题即可打开来源；也可下载完整 CSV |
 
 以上是仓库保留的历史产物，供体验输出格式；岗位、公司信息和评分均需在实际求职前重新核验。
 

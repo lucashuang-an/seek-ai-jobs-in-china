@@ -98,7 +98,7 @@ Open **`demo-output/report.md`**. The demo uses a separate `demo-output/demo.db`
 | [Full research report](examples/acceptance_output/report.md) | Company overview, profiles, scores and sources |
 | [Moonshot AI company profile](examples/acceptance_output/moonshot.md) | How a single-company report is structured |
 | [Startup hiring found on Xiaohongshu](examples/acceptance_output/xhs_omnimind.md) | Public recruiting posts turned into company and job records |
-| [Internship CSV](examples/acceptance_output/intern_jobs_20261023.csv) | A spreadsheet-friendly internship shortlist |
+| [Internships with source links](examples/acceptance_output/intern_jobs_20261023.md) | 14 historical internship records with clickable titles; full CSV also available |
 
 These are historical artifacts, mostly in Chinese. Re-check company facts and job status before using them for a career decision.
 

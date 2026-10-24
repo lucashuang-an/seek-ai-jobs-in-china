@@ -246,6 +246,15 @@ def test_export_includes_job_evidence(tmp_path):
     export_markdown(conn, mp)
     md = mp.read_text(encoding="utf-8")
     assert "#### 岗位来源" in md and "careers.example/j1" in md
+    # A posting URL is still directly reachable when no Evidence record was
+    # provided, and Markdown punctuation in titles/URLs cannot break links.
+    job = repo.get_job(conn, "j1")
+    job.title = "AI[产品]经理"
+    job.source_url = "https://careers.example/job(1)?city=北京"
+    repo.upsert_job(conn, job)
+    export_markdown(conn, mp)
+    md = mp.read_text(encoding="utf-8")
+    assert r"[AI\[产品\]经理](https://careers.example/job%281%29?city=%E5%8C%97%E4%BA%AC)" in md
 
 
 # ---------------------------------------------------------------- #7
