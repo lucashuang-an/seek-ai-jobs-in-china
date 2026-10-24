@@ -2,6 +2,7 @@
 
 import csv
 import json
+import re
 from datetime import datetime
 
 import pytest
@@ -228,9 +229,12 @@ def test_invalid_config_is_a_clear_cli_error(store, tmp_path, text):
     data = tmp_path / "scores.json"
     data.write_text("[]", encoding="utf-8")
     result = CliRunner().invoke(app, [
-        "import-scores", str(data), "--db", str(db), "--weights", str(path)])
+        "import-scores", str(data), "--db", str(db), "--weights", str(path)], color=True)
     assert result.exit_code == 2
-    assert "--weights" in result.output
+    # Rich can color the hyphens separately in CI. Check the message,
+    # independent of terminal styling, while exercising colored output.
+    plain = re.sub(r"\x1b\[[0-9;]*m", "", result.output)
+    assert "--weights" in plain
 
 
 def test_latest_score_retains_time_and_breaks_second_precision_ties(store):
