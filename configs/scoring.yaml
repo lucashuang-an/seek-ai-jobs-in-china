@@ -1,5 +1,5 @@
-"""Scoring rubric config (weights per spec 4.4). Dimension rubric text is in
-scorer.RUBRIC_TEXT; the host agent evaluates dimensions against it."""
+# Scoring rubric config (weights per spec 4.4). Dimension rubric text is in
+# scorer.RUBRIC_TEXT; the host agent evaluates dimensions against it.
 
 weights:
   funding: 0.25

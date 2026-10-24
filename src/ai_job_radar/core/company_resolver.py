@@ -21,6 +21,11 @@ class CompanyResolver:
     def resolve(self, name: str) -> str | None:
         """Return Company ID for an exact alias/normalized match, else None."""
         row = self.conn.execute(
+            "SELECT id FROM companies WHERE id=?", (name,)
+        ).fetchone()
+        if row:
+            return row["id"]
+        row = self.conn.execute(
             "SELECT company_id FROM company_aliases WHERE alias=?", (name,)
         ).fetchone()
         if row:
@@ -30,7 +35,14 @@ class CompanyResolver:
         ).fetchone()
         if row:
             return row["company_id"]
-        return None
+        # Older databases registered only the original spelling. Do not
+        # choose arbitrarily if normalized legacy aliases are ambiguous.
+        matches = {
+            r["company_id"] for r in self.conn.execute(
+                "SELECT alias, company_id FROM company_aliases")
+            if normalize(r["alias"]) == normalize(name)
+        }
+        return next(iter(matches)) if len(matches) == 1 else None
 
     def register_alias(self, alias: str, company_id: str) -> None:
         self.conn.execute(

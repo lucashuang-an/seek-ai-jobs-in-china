@@ -14,8 +14,12 @@ def _norm(text: str | None) -> str:
 
 
 def job_fingerprint(job: Job) -> str:
-    """Strong duplicate signal: same company + similar title + same city."""
-    base = "|".join([job.company_id, _norm(job.title)[:20], job.city])
+    """Stable suffix for distinct postings that reuse an import ID."""
+    base = "|".join([
+        job.company_id, _norm(job.title), job.city,
+        job.job_type.value if job.job_type else "",
+        job.source, job.source_job_id or job.source_url or "",
+    ])
     return hashlib.sha1(base.encode()).hexdigest()[:12]
 
 
@@ -40,14 +44,15 @@ def find_duplicate(job: Job, existing: list[Job], threshold: float = 0.6) -> Job
     for e in existing:
         if e.company_id != job.company_id or e.city != job.city:
             continue
-        # Definite duplicate: same source and same platform job id.
-        if (job.source_job_id and e.source_job_id
-                and job.source == e.source
-                and job.source_job_id == e.source_job_id):
-            return e
         # Intern / campus / full-time postings sharing a title are distinct
         # jobs — job_type conflict blocks the merge entirely.
         if job.job_type and e.job_type and job.job_type != e.job_type:
+            continue
+        # Different IDs on the same platform are separate postings even
+        # when their titles and template descriptions agree.
+        if job.source == e.source and job.source_job_id and e.source_job_id:
+            if job.source_job_id == e.source_job_id:
+                return e
             continue
         if _norm(e.title) == _norm(job.title):
             return e

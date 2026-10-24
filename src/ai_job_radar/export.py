@@ -50,14 +50,24 @@ def _display_status(job: Job) -> str:
 
 # ---------------------------------------------------------------- JSON
 
+def _report_companies(conn: sqlite3.Connection, city: str | None) -> list[Company]:
+    companies = repo.list_companies(conn)
+    if city is None:
+        return companies
+    # City always means the job's actual work location, not company HQ.
+    company_ids = {j.company_id for j in repo.list_jobs(conn, city=city)
+                   if in_scope(j)}
+    return [c for c in companies if c.id in company_ids]
+
+
 def export_json(conn: sqlite3.Connection, out_path: Path,
                 city: str | None = None) -> None:
-    companies = repo.list_companies(conn, city=city)
+    companies = _report_companies(conn, city)
     payload = []
     for c in companies:
         score = repo.get_latest_score(conn, c.id)
         jobs_payload = []
-        for j in repo.list_jobs(conn, company_id=c.id):
+        for j in repo.list_jobs(conn, company_id=c.id, city=city):
             if not in_scope(j):
                 continue
             jobs_payload.append({
@@ -117,9 +127,10 @@ def _weight_display(d) -> str:
 
 
 def _company_lines(conn: sqlite3.Connection, c: Company,
-                   score: CompanyScore | None) -> list[str]:
+                   score: CompanyScore | None,
+                   city: str | None = None) -> list[str]:
     research = build_research_report(conn, c.id, as_models=True)
-    jobs = [j for j in repo.list_jobs(conn, company_id=c.id) if in_scope(j)]
+    jobs = [j for j in repo.list_jobs(conn, company_id=c.id, city=city) if in_scope(j)]
     lines = [f"## {c.name}", ""]
     if c.description:
         lines += [c.description, ""]
@@ -240,7 +251,7 @@ def export_markdown(conn: sqlite3.Connection, out_path: Path,
             raise ValueError(f"company not found: {company}")
         companies = [c]
     else:
-        companies = repo.list_companies(conn, city=city)
+        companies = _report_companies(conn, city)
 
     lines: list[str] = [
         "# AI 公司与岗位研究报告",
@@ -256,7 +267,7 @@ def export_markdown(conn: sqlite3.Connection, out_path: Path,
         rows = []
         for c in companies:
             score = repo.get_latest_score(conn, c.id)
-            n_jobs = len([j for j in repo.list_jobs(conn, company_id=c.id)
+            n_jobs = len([j for j in repo.list_jobs(conn, company_id=c.id, city=city)
                           if in_scope(j)])
             rows.append([
                 c.name, c.city, c.funding_stage or "未知",
@@ -273,6 +284,6 @@ def export_markdown(conn: sqlite3.Connection, out_path: Path,
 
     for c in companies:
         score = repo.get_latest_score(conn, c.id)
-        lines += _company_lines(conn, c, score)
+        lines += _company_lines(conn, c, score, city=city)
 
     out_path.write_text("\n".join(lines), encoding="utf-8")

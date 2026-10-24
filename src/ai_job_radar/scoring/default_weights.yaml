@@ -1,0 +1,7 @@
+# Packaged defaults for wheel/npm installations without the repository config.
+weights:
+  funding: 0.25
+  founders: 0.25
+  team: 0.15
+  product: 0.25
+  hiring: 0.10

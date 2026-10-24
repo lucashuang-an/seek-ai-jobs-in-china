@@ -24,6 +24,11 @@ NOW = lambda: datetime.now().isoformat(timespec="seconds")
 # ---------------------------------------------------------------- companies
 
 def upsert_company(conn: sqlite3.Connection, c: Company) -> None:
+    current = get_company(conn, c.id)
+    if current:
+        # Omitted fields are a patch; explicit null/[] still clears a value.
+        changes = c.model_dump(exclude_unset=True, exclude={"created_at"})
+        c = Company(**(current.model_dump() | changes))
     conn.execute(
         """INSERT INTO companies (id, name, aliases, english_name, website, city,
                hq_location, company_type, tracks, description, funding_stage,
@@ -45,12 +50,11 @@ def upsert_company(conn: sqlite3.Connection, c: Company) -> None:
          jdump(c.hiring_signals), c.created_at.isoformat(timespec="seconds"),
          NOW(), c.last_verified_at.isoformat(timespec="seconds") if c.last_verified_at else None),
     )
+    from ..core.company_resolver import CompanyResolver
+    resolver = CompanyResolver(conn)
     for alias in {c.name, *c.aliases, *( [c.english_name] if c.english_name else [] )}:
         if alias:
-            conn.execute(
-                "INSERT OR IGNORE INTO company_aliases (alias, company_id) VALUES (?,?)",
-                (alias, c.id),
-            )
+            resolver.register_alias(alias, c.id)
 
 
 def get_company(conn: sqlite3.Connection, company_id: str) -> Company | None:
@@ -109,6 +113,8 @@ def upsert_job(conn: sqlite3.Connection, j: Job) -> None:
                salary_min=excluded.salary_min, salary_max=excluded.salary_max,
                salary_months=excluded.salary_months, experience=excluded.experience,
                education=excluded.education, jd=excluded.jd, status=excluded.status,
+               source=excluded.source, source_url=excluded.source_url,
+               source_job_id=excluded.source_job_id, posted_at=excluded.posted_at,
                last_verified_at=excluded.last_verified_at""",
         (j.id, j.company_id, j.title, j.city, j.location_detail,
          j.job_type.value if j.job_type else None,
@@ -184,14 +190,29 @@ def _job_from_row(r: sqlite3.Row) -> Job:
 
 # ---------------------------------------------------------------- research
 
-def add_funding(conn: sqlite3.Connection, f: FundingEvent) -> None:
+def _insert_fact(conn: sqlite3.Connection, table: str, values: dict) -> None:
+    """Ignore exact repeat imports; retain differing facts side by side.
+
+    Table/column names come only from the fixed mappings below. IS compares
+    NULL values too, so undated funding events are also idempotent.
+    """
+    columns = ", ".join(values)
+    placeholders = ", ".join("?" for _ in values)
+    match = " AND ".join(f"{column} IS ?" for column in values)
+    params = tuple(values.values())
     conn.execute(
-        """INSERT INTO funding_events
-           (company_id, date, round, amount, currency, investors, note)
-           VALUES (?,?,?,?,?,?,?)""",
-        (f.company_id, f.date.isoformat() if f.date else None, f.round, f.amount,
-         f.currency, jdump(f.investors), f.note),
+        f"INSERT INTO {table} ({columns}) SELECT {placeholders} "
+        f"WHERE NOT EXISTS (SELECT 1 FROM {table} WHERE {match})",
+        params + params,
     )
+
+
+def add_funding(conn: sqlite3.Connection, f: FundingEvent) -> None:
+    _insert_fact(conn, "funding_events", {
+        "company_id": f.company_id, "date": f.date.isoformat() if f.date else None,
+        "round": f.round, "amount": f.amount, "currency": f.currency,
+        "investors": jdump(sorted(set(f.investors))), "note": f.note,
+    })
 
 
 def list_funding(conn: sqlite3.Connection, company_id: str) -> list[FundingEvent]:
@@ -209,14 +230,13 @@ def list_funding(conn: sqlite3.Connection, company_id: str) -> list[FundingEvent
 
 
 def add_founder(conn: sqlite3.Connection, f: Founder) -> None:
-    conn.execute(
-        """INSERT INTO founders
-           (company_id, name, title, education, career, relevant_experience,
-            previous_startups, source_fact_kind)
-           VALUES (?,?,?,?,?,?,?,?)""",
-        (f.company_id, f.name, f.title, f.education, f.career,
-         f.relevant_experience, f.previous_startups, f.source_fact_kind.value),
-    )
+    _insert_fact(conn, "founders", {
+        "company_id": f.company_id, "name": f.name, "title": f.title,
+        "education": f.education, "career": f.career,
+        "relevant_experience": f.relevant_experience,
+        "previous_startups": f.previous_startups,
+        "source_fact_kind": f.source_fact_kind.value,
+    })
 
 
 def list_founders(conn: sqlite3.Connection, company_id: str) -> list[Founder]:
@@ -234,14 +254,12 @@ def list_founders(conn: sqlite3.Connection, company_id: str) -> list[Founder]:
 
 
 def add_product(conn: sqlite3.Connection, p: Product) -> None:
-    conn.execute(
-        """INSERT INTO products
-           (company_id, name, website, positioning, core_features, target_users,
-            scenarios, traction)
-           VALUES (?,?,?,?,?,?,?,?)""",
-        (p.company_id, p.name, p.website, p.positioning, p.core_features,
-         p.target_users, p.scenarios, p.traction),
-    )
+    _insert_fact(conn, "products", {
+        "company_id": p.company_id, "name": p.name, "website": p.website,
+        "positioning": p.positioning, "core_features": p.core_features,
+        "target_users": p.target_users, "scenarios": p.scenarios,
+        "traction": p.traction,
+    })
 
 
 def list_products(conn: sqlite3.Connection, company_id: str) -> list[Product]:
@@ -341,7 +359,7 @@ def save_score(conn: sqlite3.Connection, s: CompanyScore) -> None:
 def get_latest_score(conn: sqlite3.Connection, company_id: str) -> CompanyScore | None:
     from ..models import FactKind
     r = conn.execute(
-        "SELECT * FROM scores WHERE company_id=? ORDER BY computed_at DESC LIMIT 1",
+        "SELECT * FROM scores WHERE company_id=? ORDER BY computed_at DESC, id DESC LIMIT 1",
         (company_id,),
     ).fetchone()
     if not r:
@@ -353,4 +371,5 @@ def get_latest_score(conn: sqlite3.Connection, company_id: str) -> CompanyScore 
     return CompanyScore(
         company_id=r["company_id"], dimensions=dims, coverage=r["coverage"],
         normalized_total=r["normalized_total"], note=r["note"],
+        computed_at=datetime.fromisoformat(r["computed_at"]),
     )

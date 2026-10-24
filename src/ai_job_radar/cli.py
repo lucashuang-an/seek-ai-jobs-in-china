@@ -23,6 +23,7 @@ from .models import (
     FundingEvent,
     Job,
     Product,
+    SourceType,
     TeamInfo,
     Track,
 )
@@ -79,8 +80,8 @@ def import_companies(
     n = 0
     for item in data:
         raw = dict(item["company"])
-        if raw.get("company_type") not in ("startup", "bigtech_ai_team",
-                                           "foreign_in_china"):
+        if "company_type" in raw and raw["company_type"] not in (
+                "startup", "bigtech_ai_team", "foreign_in_china"):
             raw["company_type"] = "startup"
         company = Company(**raw)
         resolver = CompanyResolver(conn)
@@ -124,7 +125,29 @@ def import_jobs(
             return value + ("-01-01" if len(value) == 4 else "-01")
         return value
 
-    existing = repo.list_jobs(conn)
+    def _add_job_evidence(item, job, target_id):
+        evidence = list(item.get("evidence", []))
+        # A second source must survive a merge even when the import only
+        # provides source/source_url, without an explicit evidence array.
+        if job.source_url and not any(
+                ev.get("url") == job.source_url for ev in evidence):
+            source = job.source.lower()
+            kind = (SourceType.OFFICIAL if source in {"官网", "official"}
+                    else SourceType.COMMUNITY if any(
+                        key in source for key in ("小红书", "xhs", "community"))
+                    else SourceType.JOB_PLATFORM)
+            evidence.append({
+                "source_type": kind, "url": job.source_url,
+                "publisher": job.source,
+                "trust_note": "导入时保留的来源链接，未重新访问页面核验",
+            })
+        for ev in evidence:
+            ev = dict(ev)
+            ev["published_at"] = _norm_evidence_date(ev.get("published_at"))
+            repo.add_evidence(conn, Evidence(
+                entity_type="job", entity_id=target_id, **ev))
+
+    existing = {j.id: j for j in repo.list_jobs(conn)}
     resolver = CompanyResolver(conn)
     n, merged, filtered, pending, rekeyed, orphan = 0, 0, 0, 0, 0, 0
     for item in data:
@@ -150,39 +173,44 @@ def import_jobs(
         elif not in_scope(job):
             filtered += 1
             continue
-        # 同一 ID 已被另一条岗位占用时不得覆盖：派生稳定后缀保留两条记录
-        row = repo.get_job(conn, job.id)
-        if row and (row.title, row.company_id, row.city) != (
-                job.title, job.company_id, job.city):
-            job.id = f"{job.id}-{job_fingerprint(job)[:6]}"
-            rekeyed += 1
-        dup = find_duplicate(job, existing)
+        dup = find_duplicate(job, list(existing.values()))
         if dup:
             merged += 1
             # 合并而非跳过：新证据入库、缺失字段补全、状态变化记录历史
-            for ev in item.get("evidence", []):
-                ev = dict(ev)
-                ev["published_at"] = _norm_evidence_date(ev.get("published_at"))
-                repo.add_evidence(conn, Evidence(entity_type="job",
-                                                 entity_id=dup.id, **ev))
+            _add_job_evidence(item, job, dup.id)
             filled = dup.model_copy()
             for f in ("location_detail", "job_type", "salary_min", "salary_max",
                       "salary_months", "experience", "education", "jd",
-                      "source_url", "source_job_id"):
+                      "posted_at"):
                 if getattr(filled, f) is None and getattr(job, f) is not None:
                     setattr(filled, f, getattr(job, f))
+            # source_job_id is scoped to its publisher. Keep the primary
+            # source tuple consistent; secondary links live in evidence.
+            if not filled.source_url and job.source_url:
+                filled.source = job.source
+                filled.source_url = job.source_url
+                filled.source_job_id = job.source_job_id
+            elif filled.source == job.source and not filled.source_job_id:
+                filled.source_job_id = job.source_job_id
             repo.upsert_job(conn, filled)
             if job.status != dup.status and job.status != JobStatus.RECENTLY_SEEN:
                 repo.update_job_status(conn, dup.id, job.status.value,
                                        "重复导入记录携带状态更新")
+            existing[dup.id] = repo.get_job(conn, dup.id)
             continue
+        # Only decide ID collisions after determining job identity. This
+        # also protects different employment types and platform job IDs.
+        if job.id in existing:
+            base_id = f"{job.id}-{job_fingerprint(job)}"
+            job.id = base_id
+            suffix = 2
+            while job.id in existing:
+                job.id = f"{base_id}-{suffix}"
+                suffix += 1
+            rekeyed += 1
         repo.upsert_job(conn, job)
-        for ev in item.get("evidence", []):
-            ev = dict(ev)
-            ev["published_at"] = _norm_evidence_date(ev.get("published_at"))
-            repo.add_evidence(conn, Evidence(entity_type="job",
-                                             entity_id=job.id, **ev))
-        existing.append(job)
+        _add_job_evidence(item, job, job.id)
+        existing[job.id] = job
         n += 1
     conn.commit()
     notes = []
@@ -232,11 +260,11 @@ def import_research(
             repo.add_funding(conn, FundingEvent(company_id=cid, **f))
         for f in item.get("founders", []):
             f = dict(f)
-            f["source_fact_kind"] = _fact_kind(f.get("source_fact_kind"))
+            f["source_fact_kind"] = _fact_kind(f.get("source_fact_kind", "verified"))
             repo.add_founder(conn, Founder(company_id=cid, **f))
         if item.get("team"):
             team = dict(item["team"])
-            team["source_fact_kind"] = _fact_kind(team.get("source_fact_kind"))
+            team["source_fact_kind"] = _fact_kind(team.get("source_fact_kind", "verified"))
             repo.upsert_team_info(conn, TeamInfo(company_id=cid, **team))
         for p in item.get("products", []):
             repo.add_product(conn, Product(company_id=cid, **p))
@@ -262,13 +290,21 @@ def import_scores(
 ):
     """导入维度评分 JSON（宿主 Agent 依据 Rubric 评估），计算归一化综合分。"""
     conn = _conn(db)
-    weights = load_weights(str(weights_file) if weights_file else None)
+    try:
+        weights = load_weights(str(weights_file) if weights_file else None)
+    except (ValueError, OSError) as exc:
+        raise typer.BadParameter(str(exc), param_hint="--weights") from exc
     data = json.loads(file.read_text(encoding="utf-8"))
     ok = 0
+    resolver = CompanyResolver(conn)
     for item in data:
+        cid = resolver.resolve(item["company_id"]) or item["company_id"]
+        if not repo.get_company(conn, cid):
+            typer.echo(f"跳过评分（公司不存在）: {item['company_id']}", err=True)
+            continue
         try:
             dims = [DimensionScore(**d) for d in item["dimensions"]]
-            score = compute_score(item["company_id"], dims, weights,
+            score = compute_score(cid, dims, weights,
                                   note=item.get("note"))
         except Exception as exc:
             typer.echo(f"跳过 {item.get('company_id')}: {exc}", err=True)
@@ -276,7 +312,7 @@ def import_scores(
         repo.save_score(conn, score)
         conn.commit()
         ok += 1
-        typer.echo(f"{item['company_id']}: 综合分 {score.normalized_total}"
+        typer.echo(f"{cid}: 综合分 {score.normalized_total}"
                    f" 覆盖率 {score.coverage:.0%}")
     typer.echo(f"已导入 {ok}/{len(data)} 份评分", err=True)
 

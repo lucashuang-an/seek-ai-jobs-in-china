@@ -10,14 +10,16 @@ Weights per spec section 4.4. Rules:
 
 from __future__ import annotations
 
+from importlib.resources import files
+import math
+from pathlib import Path
+
 import yaml
 
 from ..models import (
-    DEFAULT_WEIGHTS,
     SCORE_DIMENSIONS,
     CompanyScore,
     DimensionScore,
-    FactKind,
 )
 
 RUBRIC_TEXT = {
@@ -37,14 +39,33 @@ DIMENSION_LABELS = {
 }
 
 
+REPO_WEIGHTS_PATH = Path(__file__).resolve().parents[3] / "configs" / "scoring.yaml"
+
+
+def _validated_weights(weights) -> dict[str, float]:
+    if not isinstance(weights, dict) or set(weights) != set(SCORE_DIMENSIONS):
+        raise ValueError("评分权重配置无效：须提供 funding/founders/team/product/hiring 五个维度")
+    try:
+        result = {dim: float(weights[dim]) for dim in SCORE_DIMENSIONS}
+    except (TypeError, ValueError) as exc:
+        raise ValueError("评分权重配置无效：权重须为有限正数") from exc
+    if any(not math.isfinite(w) or w <= 0 for w in result.values()):
+        raise ValueError("评分权重配置无效：权重须为有限正数")
+    return result
+
+
 def load_weights(path: str | None = None) -> dict[str, float]:
-    if path:
-        with open(path, encoding="utf-8") as f:
+    config = (Path(path) if path is not None else REPO_WEIGHTS_PATH
+              if REPO_WEIGHTS_PATH.is_file() else
+              files("ai_job_radar.scoring").joinpath("default_weights.yaml"))
+    try:
+        with config.open(encoding="utf-8") as f:
             data = yaml.safe_load(f)
-        weights = data.get("weights", {})
-        if weights:
-            return {d: float(weights.get(d, 0)) for d in SCORE_DIMENSIONS}
-    return dict(DEFAULT_WEIGHTS)
+    except yaml.YAMLError as exc:
+        raise ValueError(f"评分配置不是有效的 YAML: {config}") from exc
+    if not isinstance(data, dict):
+        raise ValueError("评分权重配置无效：根节点须为映射")
+    return _validated_weights(data.get("weights"))
 
 
 def compute_score(company_id: str, dimensions: list[DimensionScore],
@@ -56,7 +77,7 @@ def compute_score(company_id: str, dimensions: list[DimensionScore],
     (every dimension must carry a positive weight, else coverage math
     is meaningless).
     """
-    weights = weights or dict(DEFAULT_WEIGHTS)
+    weights = _validated_weights(load_weights() if weights is None else weights)
     seen: set[str] = set()
     for d in dimensions:
         if d.dimension in seen:
@@ -66,9 +87,6 @@ def compute_score(company_id: str, dimensions: list[DimensionScore],
     if unknown:
         raise ValueError(
             f"未知评分维度: {unknown}，有效维度: {SCORE_DIMENSIONS}")
-    bad_w = [dim for dim in SCORE_DIMENSIONS if weights.get(dim, 0) <= 0]
-    if bad_w:
-        raise ValueError(f"评分权重配置无效（须全为正数）: {bad_w}")
     for d in dimensions:
         d.weight = weights.get(d.dimension, 0)
     total_w = sum(weights.values())
