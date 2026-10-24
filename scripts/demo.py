@@ -93,7 +93,7 @@ def main() -> int:
     for name in ("report.md", "report.json", "jobs.csv", "demo.db", "demo-info.json"):
         print(f"  {name}")
     print(f"\nOpen: {report}")
-    print("Next: ask your host agent to research fresh opportunities using SKILL.md")
+    print("Next: ask your agent to research fresh opportunities using SKILL.md")
     return 0
 
 

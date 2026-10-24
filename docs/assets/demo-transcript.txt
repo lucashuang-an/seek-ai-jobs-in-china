@@ -14,4 +14,4 @@ Historical snapshot: 2026-10-23 | No live job verification
   demo-info.json
 
 Open: demo-output/report.md
-Next: ask your host agent to research fresh opportunities using SKILL.md
+Next: ask your agent to research fresh opportunities using SKILL.md

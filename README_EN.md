@@ -6,7 +6,8 @@
 
 <p align="center">
   <strong>An Agent Skill for finding AI jobs in China.</strong><br>
-  Big tech & startups · Experienced hires, graduate roles & internships
+  Big tech & startups · Experienced hires, graduate roles & internships<br>
+  Use with Codex, Trae, Zcode, Workbuddy and other agents.
 </p>
 
 <p align="center">
@@ -104,7 +105,7 @@ These are historical artifacts, mostly in Chinese. Re-check company facts and jo
 <a id="agent"></a>
 ## Try it with your agent
 
-Open this repository in a host agent that can read local files, search the web and browse pages. Try this prompt:
+Use with agents such as Codex, Trae, Zcode or Workbuddy. Your environment should support reading `SKILL.md`, running local commands and searching the web. Try this prompt:
 
 ~~~text
 Read this repository's SKILL.md and follow its workflow.
@@ -126,17 +127,17 @@ Other starting points:
 - **Company research:** “Research Moonshot AI's funding, founders and products. Show the gaps.”
 - **Compare opportunities:** “Compare these three companies' products, teams and hiring evidence, with sources.”
 
-**The host agent discovers, reads and researches. This repository imports, resolves entities, deduplicates, verifies posting pages, calculates scores and exports reports.** CLI `discover` and `jobs` query local data; they do not initiate a web-wide search. Model and browser setup depends on your host environment.
+**The agent discovers, reads and researches. This repository imports, resolves entities, deduplicates, verifies posting pages, calculates scores and exports reports.** CLI `discover` and `jobs` query local data; they do not initiate a web-wide search. Model and browser setup depends on your agent environment.
 
 ## Xiaohongshu: another source of hiring signals
 
-This is an **optional supplementary source** requiring your host agent's browser-use capability and your own signed-in Xiaohongshu browser session. With both available, public posts can provide early-team recruiting, internship and personal-referral signals. See the [historical examples](examples/data/xhs_jobs_20261023.json).
+This is an **optional supplementary source** requiring your agent's browser-use capability and your own signed-in Xiaohongshu browser session. With both available, public posts can provide early-team recruiting, internship and personal-referral signals. See the [historical examples](examples/data/xhs_jobs_20261023.json).
 
-- **Use the user's browser session:** sign in yourself when your host agent reaches a login wall.
+- **Use the user's browser session:** sign in yourself when your agent reaches a login wall.
 - **Keep source context:** distinguish official accounts from personal referrals and record trust notes.
 - **Preserve uncertainty:** blocked anonymous access becomes `Unknown`, rather than evidence that a job has closed.
 
-This is a host-agent workflow, not a standalone Xiaohongshu crawler. See the [source assessment](docs/数据源评估_小红书.md) for capabilities and limits (Chinese).
+This is a agent workflow, not a standalone Xiaohongshu crawler. See the [source assessment](docs/数据源评估_小红书.md) for capabilities and limits (Chinese).
 
 <a id="cli"></a>
 ## CLI: import, filter, verify, export
@@ -190,13 +191,13 @@ Requires Node.js 16+, Python 3.11+ and Git. On first use it creates an isolated 
 
 ## FAQ
 
-**Why is my first search empty?** A fresh install has no personal data. Run `scripts/demo.py` and query with `--db demo-output/demo.db`, or ask your host agent to research and import data.
+**Why is my first search empty?** A fresh install has no personal data. Run `scripts/demo.py` and query with `--db demo-output/demo.db`, or ask your agent to research and import data.
 
 **Why aren't all jobs Verified Open?** A reachable page does not establish available headcount. Statuses distinguish `Verified Open`, `Listed / Unconfirmed`, `Recently Seen`, `Closed` and `Unknown`.
 
 **Which cities are supported?** Beijing, Shanghai, Shenzhen, Hangzhou, Guangzhou, Chengdu, Nanjing, Wuhan and Suzhou. Other cities are currently filtered on import. Global Remote with unknown actual location is retained as pending verification.
 
-**Do I need another account or API key?** The offline demo and local CLI processing need no model key. Fresh research uses your host agent's model and browser capabilities. Sign in through your browser; never import cookies, tokens or private content.
+**Do I need another account or API key?** The offline demo and local CLI processing need no model key. Fresh research uses your agent's model and browser capabilities. Sign in through your browser; never import cookies, tokens or private content.
 
 **Does it apply or contact recruiters?** The current scope is discovery and research. Automated applications, resume generation, recruiter messages and recruiting transactions are outside scope. MCP integration is planned.
 
