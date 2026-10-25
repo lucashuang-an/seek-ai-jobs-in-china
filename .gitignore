@@ -35,3 +35,7 @@ npm/*.tgz
 Thumbs.db
 .idea/
 .vscode/
+
+# 本地分发与营销产物（skill 快照文件夹、投放素材），不入库
+/"SEEK AI JOBS IN CHINA"/
+/marketing/
